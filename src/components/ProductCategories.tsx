@@ -24,6 +24,14 @@ import {
   twoWheelerImages,
 } from '@/data/productImages';
 
+const homepageTwoWheelerImages = twoWheelerImages.map((image, index) =>
+  index === 2
+    ? '/pickup coil/Orado rp182 Ignition Pickup Coil For Bajaj 12v (2).png'
+    : index === 3
+      ? '/cdi unit/Orado rp221 Cdi Unit For Bajaj Chetak 99 Bravo Classic sl (1).png'
+    : image
+);
+
 interface ProductDepartment {
   id: string;
   eyebrow: string;
@@ -44,7 +52,7 @@ const departments: ProductDepartment[] = [
     description:
       'Electrical components for motorcycles and scooters, sourced directly from the ORADO product catalogue.',
     categories: twoWheelerProductCategories,
-    images: twoWheelerImages,
+    images: homepageTwoWheelerImages,
     icon: Bike,
     accent: 'bg-brand-red',
     viewAllHref: '#products-page-2-wheeler',
