@@ -33,13 +33,13 @@ export const chargingCoilProducts: ChargingCoilProduct[] = [
   {
     partNumber: 'RP105',
     name: 'Ignition Charging Coil',
-    vehicle: 'Bajaj M80',
+    vehicle: 'Bajaj M-80',
     image: '/charging%20coil/Orado%20rp105%20Ignition%20Charging%20Coil%20For%20Bajaj%20M80%20(3).png',
   },
   {
     partNumber: 'RP109',
     name: 'Ignition Charging Coil',
-    vehicle: 'Bajaj KB 4S',
+    vehicle: 'Bajaj KB-4S',
     image: '/charging%20coil/Orado%20rp109%20Ignition%20Charging%20Coil%20For%20Bajaj%20Kb%204S%20(6).png',
   },
   {
@@ -63,7 +63,7 @@ export const chargingCoilProducts: ChargingCoilProduct[] = [
   {
     partNumber: 'RP113',
     name: 'Charging Coil',
-    vehicle: 'Bajaj Boxer AT New Model',
+    vehicle: 'Bajaj Boxer AT New Model AR',
     image: '/charging%20coil/RP.113%20Bajaj%20Boxer%20At%20New%20Model%20(4).png',
   },
   {
@@ -81,19 +81,19 @@ export const chargingCoilProducts: ChargingCoilProduct[] = [
   {
     partNumber: 'RP118',
     name: 'Ignition Charging Coil',
-    vehicle: 'LML Vespa Select / Star / NV',
+    vehicle: 'LML Vespa Select-II / Star / NV SPL / NV Express',
     image: '/charging%20coil/Orado%20rp118%20Ignition%20Charging%20Coil%20For%20Lml%20vespa%20select%2011%20star%20nv%20spl%20nv%20express%20(3).png',
   },
   {
     partNumber: 'RP119',
     name: 'Ignition Charging Coil',
-    vehicle: 'Rajdoot Electronic 12V',
+    vehicle: 'Rajdoot Electronic-12V',
     image: '/charging%20coil/Orado%20rp119%20Ignition%20Charging%20Coil%20For%20Rajdoot%20Electronic%2012v%20(11).png',
   },
   {
     partNumber: 'RP120',
     name: 'Ignition Charging Coil',
-    vehicle: 'Hero Honda CD 100',
+    vehicle: 'Hero Honda CD-100',
     image: '/charging%20coil/Orado%20rp120%20Ignition%20Charging%20Coil%20For%20Hero%20Honda%20Cd%20100%20(11).png',
   },
   {
@@ -111,7 +111,7 @@ export const chargingCoilProducts: ChargingCoilProduct[] = [
   {
     partNumber: 'RP123',
     name: 'Charging Coil',
-    vehicle: 'Hero Honda Splendor New / Passion',
+    vehicle: 'Hero Honda Splendor New / Passion / Kinetic Marvel',
     image: '/charging%20coil/ORADO%20RP123%20Charging%20Coil%20For%20Hero%20Hnd%20Splendor%20new%20model%20passion%20kinetic%20marvel%20%20(8).png',
   },
   {
@@ -123,7 +123,7 @@ export const chargingCoilProducts: ChargingCoilProduct[] = [
   {
     partNumber: 'RP126',
     name: 'Ignition Charging Coil',
-    vehicle: 'TVS Suzuki Samurai / Max 100',
+    vehicle: 'TVS Suzuki Samurai / Max-100',
     image: '/charging%20coil/Orado%20rp126%20Ignition%20Charging%20Coil%20For%20Tvs%20Suzuki%20Samurai%20max%20100%20(12).png',
   },
   {
@@ -135,7 +135,7 @@ export const chargingCoilProducts: ChargingCoilProduct[] = [
   {
     partNumber: 'RP131',
     name: 'Ignition Charging Coil',
-    vehicle: 'Yamaha RX 100',
+    vehicle: 'Yamaha RX-100',
     image: '/charging%20coil/Orado%20rp131%20Ignition%20Charging%20Coil%20For%20Yamaha%20Rx%20100%20(3).png',
   },
   {
@@ -147,7 +147,7 @@ export const chargingCoilProducts: ChargingCoilProduct[] = [
   {
     partNumber: 'RP135',
     name: 'Ignition Charging Coil',
-    vehicle: 'V.I.P 240 DX / St Point Type Moped',
+    vehicle: 'V.I.P 240 DX / St (Point Type Moped)',
     image: '/charging%20coil/Orado%20rp135%20Ignition%20Charging%20Coil%20For%20V.i.p%20240%20Dx%20St%20Point%20type%20Moped%20(4).png',
   },
   {
