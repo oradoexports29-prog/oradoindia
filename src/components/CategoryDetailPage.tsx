@@ -16,6 +16,7 @@ import {
 } from '@/data/categoryRegistry';
 
 import { chargingCoilProducts } from '@/data/chargingCoilProducts';
+import { ltCoilProducts } from '@/data/ltCoilProducts';
 import { companyInfo } from '@/data/navigation';
 
 interface CategoryDetailPageProps {
@@ -42,6 +43,8 @@ function CategoryDetailPage({ slug }: CategoryDetailPageProps) {
   }, [category]);
 
   useEffect(() => {
+    if (category?.slug !== '2-wheeler-parts-lt-coils-light') return;
+
     const slider = thumbnailSliderRef.current;
     const selectedThumbnail = slider?.children.item(
       selectedProductIndex
@@ -65,7 +68,7 @@ function CategoryDetailPage({ slug }: CategoryDetailPageProps) {
         slider.scrollLeft += thumbnailBounds.right - sliderBounds.right;
       }
     }
-  }, [selectedProductIndex]);
+  }, [category, selectedProductIndex]);
 
   if (!category) {
     return (
@@ -95,14 +98,24 @@ function CategoryDetailPage({ slug }: CategoryDetailPageProps) {
 
   const isChargingCoilBanner =
     category.slug === '2-wheeler-parts-charging-coil-source';
+  const isLtCoilPage =
+    category.slug === '2-wheeler-parts-lt-coils-light';
 
-  const selectedProduct = chargingCoilProducts[selectedProductIndex];
+  const showcaseProducts = isLtCoilPage
+    ? ltCoilProducts
+    : chargingCoilProducts;
+  const selectedProduct = showcaseProducts[selectedProductIndex];
+  const heroBannerImage = isChargingCoilBanner
+    ? '/orado_charging_coil_hero_banner_cropped.png'
+    : isLtCoilPage
+      ? '/L.T. Coils Product Feature Banner.png'
+      : null;
 
   const whatsappNumber = companyInfo.whatsappNumber.replace(/[^0-9]/g, '');
 
   const selectProduct = (index: number) => {
     setSelectedProductIndex(
-      (index + chargingCoilProducts.length) % chargingCoilProducts.length
+      (index + showcaseProducts.length) % showcaseProducts.length
     );
   };
 
@@ -115,7 +128,7 @@ function CategoryDetailPage({ slug }: CategoryDetailPageProps) {
   };
 
   const productWhatsappMessage = selectedProduct
-    ? `Hello ORADO, I am interested in Charging Coil ${selectedProduct.partNumber} for ${selectedProduct.vehicle}. Please share the price and availability.`
+    ? `Hello ORADO, I am interested in ${isLtCoilPage ? 'L.T. Coil' : 'Charging Coil'} ${selectedProduct.partNumber} for ${selectedProduct.vehicle}. Please share the price and availability.`
     : whatsappMsg;
 
   return (
@@ -149,12 +162,16 @@ function CategoryDetailPage({ slug }: CategoryDetailPageProps) {
       </nav>
 
       {/* 1. CHARGING COIL HERO BANNER */}
-      {isChargingCoilBanner && (
+      {heroBannerImage && (
         <section className="container-max mt-2">
           <div className="overflow-hidden rounded-2xl bg-white shadow-sm">
             <img
-              src="/orado_charging_coil_hero_banner_cropped.png"
-              alt="ORADO 2 Wheeler Charging Coil Source - Key Features"
+              src={heroBannerImage}
+              alt={
+                isLtCoilPage
+                  ? 'ORADO L.T. Coils (Light) Product Feature Banner'
+                  : 'ORADO 2 Wheeler Charging Coil Source - Key Features'
+              }
               className="block h-auto w-full object-contain"
               fetchPriority="high"
             />
@@ -163,19 +180,25 @@ function CategoryDetailPage({ slug }: CategoryDetailPageProps) {
       )}
 
       {/* 2. CHARGING COIL PRODUCT SHOWCASE */}
-      {isChargingCoilBanner ? (
+      {isChargingCoilBanner || isLtCoilPage ? (
         <section className="container-max mt-10">
           <div className="grid grid-cols-1 gap-6 lg:items-stretch lg:grid-cols-[minmax(0,1fr)_100px_minmax(0,0.9fr)]">
 
             {/* MAIN PRODUCT IMAGE */}
             <div className="overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
-              <div className="relative flex aspect-[1.08/1] min-h-0 min-w-0 items-center justify-center overflow-hidden p-5 sm:aspect-square md:p-8">
+              <div
+                className={`relative flex aspect-[1.08/1] items-center justify-center p-5 sm:aspect-square md:p-8 ${
+                  isLtCoilPage ? 'min-h-0 min-w-0 overflow-hidden' : ''
+                }`}
+              >
                 {selectedProduct && (
                   <img
                     key={selectedProduct.image}
                     src={selectedProduct.image}
                     alt={`${selectedProduct.partNumber} ${selectedProduct.name}`}
-                    className="h-full min-h-0 w-full min-w-0 object-contain transition-opacity duration-300"
+                    className={`h-full w-full object-contain transition-opacity duration-300 ${
+                      isLtCoilPage ? 'min-h-0 min-w-0' : ''
+                    }`}
                     fetchPriority="high"
                   />
                 )}
@@ -193,7 +216,7 @@ function CategoryDetailPage({ slug }: CategoryDetailPageProps) {
                   </div>
 
                   <span className="rounded-md bg-yellow-400 px-4 py-2 text-xs font-extrabold text-navy-900">
-                    {selectedProductIndex + 1} / {chargingCoilProducts.length}
+                    {selectedProductIndex + 1} / {showcaseProducts.length}
                   </span>
                 </div>
               </div>
@@ -217,7 +240,7 @@ function CategoryDetailPage({ slug }: CategoryDetailPageProps) {
                   className="flex min-w-0 flex-1 gap-1 overflow-x-auto overscroll-x-contain py-1 sm:gap-2 lg:min-h-0 lg:flex-col lg:overflow-x-hidden lg:overflow-y-auto lg:px-1"
                   style={{ scrollbarWidth: 'thin' }}
                 >
-                  {chargingCoilProducts.map((product, index) => (
+                  {showcaseProducts.map((product, index) => (
                     <button
                       key={product.partNumber}
                       type="button"
@@ -256,10 +279,14 @@ function CategoryDetailPage({ slug }: CategoryDetailPageProps) {
             </div>
 
             {/* PRODUCT DETAILS */}
-            <div className="flex min-h-[48rem] flex-col justify-start rounded-2xl border border-gray-200 bg-white p-6 shadow-sm md:p-9 lg:min-h-[45rem]">
+            <div
+              className={`flex flex-col justify-start rounded-2xl border border-gray-200 bg-white p-6 shadow-sm md:p-9 ${
+                isLtCoilPage ? 'min-h-[48rem] lg:min-h-[45rem]' : ''
+              }`}
+            >
 
               <span className="mb-4 inline-flex w-fit rounded-md bg-yellow-400 px-4 py-2 text-xs font-extrabold uppercase tracking-wide text-navy-900">
-                2 Wheeler Parts
+                {category.family}
               </span>
 
               <p className="text-xs font-bold uppercase tracking-wider text-brand-red">
@@ -267,16 +294,15 @@ function CategoryDetailPage({ slug }: CategoryDetailPageProps) {
               </p>
 
               <h1 className="mt-2 font-display text-3xl font-extrabold leading-tight text-navy-900 md:text-4xl">
-                Charging Coil (Source)
+                {isLtCoilPage ? 'L.T. COILS (LIGHT)' : category.title}
               </h1>
 
               <div className="mt-4 h-1.5 w-24 rounded-full bg-brand-red" />
 
               <p className="mt-6 text-base leading-relaxed text-gray-600">
-                Explore ORADO's range of charging and ignition coils for
-                different two-wheeler applications. Select a product from
-                the image slider to view its part number and vehicle
-                application.
+                {isLtCoilPage
+                  ? "Explore ORADO's range of L.T. coils. Select a product to view its part number and vehicle application."
+                  : "Explore ORADO's range of charging and ignition coils for different two-wheeler applications. Select a product from the image slider to view its part number and vehicle application."}
               </p>
 
               <div className="mt-8 rounded-xl border border-gray-200 bg-gray-50 p-5">
