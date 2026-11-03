@@ -98,7 +98,7 @@ export const ltCoilProducts: LtCoilProduct[] = [
   },
   {
     partNumber: 'RP162',
-    name: 'L.T. Coil',
+    name: 'Ignition L.T. Coil',
     vehicle: 'Hero Hnd SS',
     image: '/lt coil/ORADO RP162 Lt Coil For Hero Hnd ss (2).png',
   },
