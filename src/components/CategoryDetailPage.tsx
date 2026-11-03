@@ -92,7 +92,68 @@ function CategoryDetailPage({ slug }: CategoryDetailPageProps) {
     : whatsappMsg;
 
   return (
-    <main className="min-h-screen bg-gray-50 pb-20">
+    <main
+      data-charging-coil-page={isChargingCoilBanner ? 'true' : undefined}
+      className="min-h-screen bg-gray-50 pb-20"
+    >
+      {isChargingCoilBanner && (
+        <style>{`
+          @media (max-width: 639px) {
+            #root:has(main[data-charging-coil-page="true"]) header > div.sticky > div.border-t > [aria-label="ORADO certifications"] {
+              display: flex;
+              width: 100%;
+              max-width: 100%;
+              gap: 6px;
+              overflow-x: auto;
+              overscroll-behavior-x: contain;
+              scrollbar-width: thin;
+            }
+
+            #root:has(main[data-charging-coil-page="true"]) header > div.sticky > div.border-t > [aria-label="ORADO certifications"] > a {
+              flex: 0 0 136px;
+              flex-direction: row;
+              justify-content: flex-start;
+              gap: 8px;
+              min-height: 56px;
+              padding: 8px;
+              text-align: left;
+            }
+
+            #root:has(main[data-charging-coil-page="true"]) header > div.sticky > div.border-t > [aria-label="ORADO certifications"] > a > span:first-child {
+              width: 24px;
+              height: 24px;
+            }
+
+            #root:has(main[data-charging-coil-page="true"]) header > div.sticky > div.border-t > [aria-label="ORADO certifications"] > a > span:nth-child(2) {
+              width: auto;
+              text-align: left;
+            }
+
+            #root:has(main[data-charging-coil-page="true"]) header > div.sticky > div.border-t > [aria-label="ORADO certifications"] > a > span:nth-child(2) > span:first-child {
+              font-size: 10px;
+              line-height: 1.2;
+              letter-spacing: 0;
+            }
+
+            #root:has(main[data-charging-coil-page="true"]) header > div.sticky > div.border-t > [aria-label="ORADO certifications"] > a > span:nth-child(2) > span:last-child {
+              font-size: 10px;
+              line-height: 1.2;
+            }
+
+            #root:has(main[data-charging-coil-page="true"]) nav[aria-label="Contact shortcuts"] {
+              position: static !important;
+              inset: auto !important;
+              z-index: auto;
+              width: max-content;
+              max-width: calc(100% - 32px);
+              flex-direction: row;
+              justify-content: center;
+              gap: 8px;
+              margin: 16px auto;
+            }
+          }
+        `}</style>
+      )}
 
       {/* BREADCRUMBS */}
       <nav className="container-max py-5">
@@ -138,11 +199,11 @@ function CategoryDetailPage({ slug }: CategoryDetailPageProps) {
       {/* 2. CHARGING COIL PRODUCT SHOWCASE */}
       {isChargingCoilBanner ? (
         <section className="container-max mt-10">
-          <div className="grid grid-cols-1 gap-6 lg:grid-cols-[minmax(0,1fr)_100px_minmax(0,0.9fr)]">
+          <div className="grid grid-cols-1 gap-6 lg:items-stretch lg:grid-cols-[minmax(0,1fr)_100px_minmax(0,0.9fr)]">
 
             {/* MAIN PRODUCT IMAGE */}
             <div className="overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
-              <div className="relative flex aspect-square items-center justify-center p-5 md:p-8">
+              <div className="relative flex aspect-[1.08/1] items-center justify-center p-5 sm:aspect-square md:p-8">
                 {selectedProduct && (
                   <img
                     key={selectedProduct.image}
@@ -173,60 +234,62 @@ function CategoryDetailPage({ slug }: CategoryDetailPageProps) {
             </div>
 
             {/* VERTICAL PRODUCT SLIDER */}
-            <div className="flex flex-row items-center gap-2 lg:h-[526px] lg:min-h-0 lg:flex-col">
+            <div className="relative min-w-0 lg:min-h-0 lg:self-stretch">
+              <div className="flex flex-row items-center gap-2 lg:absolute lg:inset-0 lg:flex-col">
 
-              <button
-                type="button"
-                onClick={moveProductUp}
-                aria-label="Previous product"
-                className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border border-gray-200 bg-white text-navy-900 shadow-sm transition hover:border-brand-red hover:text-brand-red lg:h-10 lg:w-full"
-              >
-                <ChevronUp className="h-5 w-5" />
-              </button>
+                <button
+                  type="button"
+                  onClick={moveProductUp}
+                  aria-label="Previous product"
+                  className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border border-gray-200 bg-white text-navy-900 shadow-sm transition hover:border-brand-red hover:text-brand-red lg:h-10 lg:w-full"
+                >
+                  <ChevronUp className="h-5 w-5" />
+                </button>
 
-              <div
-                className="flex min-w-0 flex-1 gap-2 overflow-x-auto py-1 lg:h-[430px] lg:flex-col lg:overflow-x-hidden lg:overflow-y-auto lg:px-1"
-                style={{ scrollbarWidth: 'thin' }}
-              >
-                {chargingCoilProducts.map((product, index) => (
-                  <button
-                    key={product.partNumber}
-                    type="button"
-                    onClick={() => selectProduct(index)}
-                    aria-label={`Select ${product.partNumber}`}
-                    aria-pressed={selectedProductIndex === index}
-                    className={`relative h-20 w-20 shrink-0 overflow-hidden rounded-xl border-2 bg-white p-1 transition-all md:h-24 md:w-24 lg:h-[92px] lg:w-full ${
-                      selectedProductIndex === index
-                        ? 'border-brand-red ring-2 ring-brand-red/20'
-                        : 'border-gray-200 hover:border-brand-red/50'
-                    }`}
-                  >
-                    <img
-                      src={product.image}
-                      alt={product.partNumber}
-                      loading="lazy"
-                      className="h-full w-full object-contain"
-                    />
+                <div
+                  className="flex min-w-0 flex-1 gap-1 overflow-x-auto overscroll-x-contain py-1 sm:gap-2 lg:min-h-0 lg:flex-col lg:overflow-x-hidden lg:overflow-y-auto lg:px-1"
+                  style={{ scrollbarWidth: 'thin' }}
+                >
+                  {chargingCoilProducts.map((product, index) => (
+                    <button
+                      key={product.partNumber}
+                      type="button"
+                      onClick={() => selectProduct(index)}
+                      aria-label={`Select ${product.partNumber}`}
+                      aria-pressed={selectedProductIndex === index}
+                      className={`relative h-[72px] w-[72px] shrink-0 overflow-hidden rounded-xl border-2 bg-white p-1 transition-all sm:h-20 sm:w-20 md:h-24 md:w-24 lg:h-[92px] lg:w-full ${
+                        selectedProductIndex === index
+                          ? 'border-brand-red ring-2 ring-brand-red/20'
+                          : 'border-gray-200 hover:border-brand-red/50'
+                      }`}
+                    >
+                      <img
+                        src={product.image}
+                        alt={product.partNumber}
+                        loading="lazy"
+                        className="h-full w-full object-contain"
+                      />
 
-                    <span className="absolute bottom-0 left-0 right-0 bg-navy-900/85 py-1 text-center text-[10px] font-bold text-white">
-                      {product.partNumber}
-                    </span>
-                  </button>
-                ))}
+                      <span className="absolute bottom-0 left-0 right-0 bg-navy-900/85 py-1 text-center text-[10px] font-bold text-white">
+                        {product.partNumber}
+                      </span>
+                    </button>
+                  ))}
+                </div>
+
+                <button
+                  type="button"
+                  onClick={moveProductDown}
+                  aria-label="Next product"
+                  className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border border-gray-200 bg-white text-navy-900 shadow-sm transition hover:border-brand-red hover:text-brand-red lg:h-10 lg:w-full"
+                >
+                  <ChevronDown className="h-5 w-5" />
+                </button>
               </div>
-
-              <button
-                type="button"
-                onClick={moveProductDown}
-                aria-label="Next product"
-                className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border border-gray-200 bg-white text-navy-900 shadow-sm transition hover:border-brand-red hover:text-brand-red lg:h-10 lg:w-full"
-              >
-                <ChevronDown className="h-5 w-5" />
-              </button>
             </div>
 
             {/* PRODUCT DETAILS */}
-            <div className="flex flex-col justify-center rounded-2xl border border-gray-200 bg-white p-6 shadow-sm md:p-9">
+            <div className="flex flex-col justify-start rounded-2xl border border-gray-200 bg-white p-6 shadow-sm md:p-9">
 
               <span className="mb-4 inline-flex w-fit rounded-md bg-yellow-400 px-4 py-2 text-xs font-extrabold uppercase tracking-wide text-navy-900">
                 2 Wheeler Parts
