@@ -17,6 +17,7 @@ import {
 
 import { chargingCoilProducts } from '@/data/chargingCoilProducts';
 import { ltCoilProducts } from '@/data/ltCoilProducts';
+import { pickupCoilProducts } from '@/data/pickupCoilProducts';
 import { companyInfo } from '@/data/navigation';
 
 interface CategoryDetailPageProps {
@@ -43,7 +44,10 @@ function CategoryDetailPage({ slug }: CategoryDetailPageProps) {
   }, [category]);
 
   useEffect(() => {
-    if (category?.slug !== '2-wheeler-parts-lt-coils-light') return;
+    if (
+      category?.slug !== '2-wheeler-parts-lt-coils-light' &&
+      category?.slug !== '2-wheeler-parts-pick-up-coil-pulsar'
+    ) return;
 
     const slider = thumbnailSliderRef.current;
     const selectedThumbnail = slider?.children.item(
@@ -100,16 +104,22 @@ function CategoryDetailPage({ slug }: CategoryDetailPageProps) {
     category.slug === '2-wheeler-parts-charging-coil-source';
   const isLtCoilPage =
     category.slug === '2-wheeler-parts-lt-coils-light';
+  const isPickupCoilPage =
+    category.slug === '2-wheeler-parts-pick-up-coil-pulsar';
 
-  const showcaseProducts = isLtCoilPage
-    ? ltCoilProducts
-    : chargingCoilProducts;
+  const showcaseProducts = isPickupCoilPage
+    ? pickupCoilProducts
+    : isLtCoilPage
+      ? ltCoilProducts
+      : chargingCoilProducts;
   const selectedProduct = showcaseProducts[selectedProductIndex];
   const heroBannerImage = isChargingCoilBanner
     ? '/orado_charging_coil_hero_banner_cropped.png'
     : isLtCoilPage
       ? '/L.T. Coils Product Feature Banner.png'
-      : null;
+      : isPickupCoilPage
+        ? '/Pickup Coil 2-Wheeler Parts Banner.png'
+        : null;
 
   const whatsappNumber = companyInfo.whatsappNumber.replace(/[^0-9]/g, '');
 
@@ -128,7 +138,7 @@ function CategoryDetailPage({ slug }: CategoryDetailPageProps) {
   };
 
   const productWhatsappMessage = selectedProduct
-    ? `Hello ORADO, I am interested in ${isLtCoilPage ? 'L.T. Coil' : 'Charging Coil'} ${selectedProduct.partNumber} for ${selectedProduct.vehicle}. Please share the price and availability.`
+    ? `Hello ORADO, I am interested in ${isPickupCoilPage ? 'Pickup Coil' : isLtCoilPage ? 'L.T. Coil' : 'Charging Coil'} ${selectedProduct.partNumber} for ${selectedProduct.vehicle}. Please share the price and availability.`
     : whatsappMsg;
 
   return (
@@ -165,12 +175,12 @@ function CategoryDetailPage({ slug }: CategoryDetailPageProps) {
         </ul>
       </nav>
 
-      {/* 1. CHARGING COIL HERO BANNER */}
+      {/* CATEGORY HERO BANNER */}
       {heroBannerImage && (
         <section className="container-max mt-2">
           <div
             className={`overflow-hidden rounded-2xl ${
-              isLtCoilPage
+              isLtCoilPage || isPickupCoilPage
                 ? 'aspect-[2172/558]'
                 : 'bg-white shadow-sm'
             }`}
@@ -180,10 +190,12 @@ function CategoryDetailPage({ slug }: CategoryDetailPageProps) {
               alt={
                 isLtCoilPage
                   ? 'ORADO L.T. Coils (Light) Product Feature Banner'
-                  : 'ORADO 2 Wheeler Charging Coil Source - Key Features'
+                  : isPickupCoilPage
+                    ? 'ORADO Pickup Coil 2-Wheeler Parts Banner'
+                    : 'ORADO 2 Wheeler Charging Coil Source - Key Features'
               }
               className={`block w-full ${
-                isLtCoilPage
+                isLtCoilPage || isPickupCoilPage
                   ? 'h-full object-cover object-center'
                   : 'h-auto object-contain'
               }`}
@@ -194,7 +206,7 @@ function CategoryDetailPage({ slug }: CategoryDetailPageProps) {
       )}
 
       {/* 2. CHARGING COIL PRODUCT SHOWCASE */}
-      {isChargingCoilBanner || isLtCoilPage ? (
+      {isChargingCoilBanner || isLtCoilPage || isPickupCoilPage ? (
         <section className="container-max mt-10">
           <div className="grid grid-cols-1 gap-6 lg:items-stretch lg:grid-cols-[minmax(0,1fr)_100px_minmax(0,0.9fr)]">
 
@@ -202,7 +214,9 @@ function CategoryDetailPage({ slug }: CategoryDetailPageProps) {
             <div className="overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
               <div
                 className={`relative flex aspect-[1.08/1] items-center justify-center p-5 sm:aspect-square md:p-8 ${
-                  isLtCoilPage ? 'min-h-0 min-w-0 overflow-hidden' : ''
+                    isLtCoilPage || isPickupCoilPage
+                      ? 'min-h-0 min-w-0 overflow-hidden'
+                      : ''
                 }`}
               >
                 {selectedProduct && (
@@ -211,7 +225,9 @@ function CategoryDetailPage({ slug }: CategoryDetailPageProps) {
                     src={selectedProduct.image}
                     alt={`${selectedProduct.partNumber} ${selectedProduct.name}`}
                     className={`h-full w-full object-contain transition-opacity duration-300 ${
-                      isLtCoilPage ? 'min-h-0 min-w-0' : ''
+                      isLtCoilPage || isPickupCoilPage
+                        ? 'min-h-0 min-w-0'
+                        : ''
                     }`}
                     fetchPriority="high"
                   />
@@ -295,7 +311,9 @@ function CategoryDetailPage({ slug }: CategoryDetailPageProps) {
             {/* PRODUCT DETAILS */}
             <div
               className={`flex flex-col justify-start rounded-2xl border border-gray-200 bg-white p-6 shadow-sm md:p-9 ${
-                isLtCoilPage ? 'min-h-[48rem] lg:min-h-[719px]' : ''
+                isLtCoilPage || isPickupCoilPage
+                  ? 'min-h-[48rem] lg:min-h-[719px]'
+                  : ''
               }`}
             >
 
@@ -316,7 +334,9 @@ function CategoryDetailPage({ slug }: CategoryDetailPageProps) {
               <p className="mt-6 text-base leading-relaxed text-gray-600">
                 {isLtCoilPage
                   ? "Explore ORADO's range of L.T. coils. Select a product to view its part number and vehicle application."
-                  : "Explore ORADO's range of charging and ignition coils for different two-wheeler applications. Select a product from the image slider to view its part number and vehicle application."}
+                  : isPickupCoilPage
+                    ? "Explore ORADO's range of pickup coils. Select a product to view its part number and vehicle application."
+                    : "Explore ORADO's range of charging and ignition coils for different two-wheeler applications. Select a product from the image slider to view its part number and vehicle application."}
               </p>
 
               <div className="mt-8 rounded-xl border border-gray-200 bg-gray-50 p-5">
