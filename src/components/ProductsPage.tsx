@@ -143,14 +143,12 @@ function ProductsPage() {
     setSelectedFamily(family);
     setSelectedCategory(category);
     window.location.hash = 'products-page';
-    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const selectFamily = (familyKey: FamilyKey) => {
     setSelectedFamily(familyKey);
     setSelectedCategory('');
     window.location.hash = 'products-page';
-    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (
@@ -191,7 +189,7 @@ function ProductsPage() {
                 <div className="p-6 text-center">
                   <h3 className="font-display text-xl font-extrabold text-navy-900">{family.title}</h3>
                   <p className="mt-2 text-sm text-gray-500 line-clamp-2">{family.description}</p>
-                  <button className="mt-6 inline-flex items-center justify-center gap-2 rounded-full bg-navy-900 px-6 py-2.5 text-xs font-bold uppercase tracking-wider text-white transition-all hover:bg-brand-red group-hover:gap-3">
+                  <button type="button" className="mt-6 inline-flex items-center justify-center gap-2 rounded-full bg-navy-900 px-6 py-2.5 text-xs font-bold uppercase tracking-wider text-white transition-all hover:bg-brand-red group-hover:gap-3">
                     Explore Categories <ArrowRight className="h-4 w-4" />
                   </button>
                 </div>

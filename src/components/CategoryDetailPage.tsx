@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import {
   ArrowLeft,
   MessageCircle,
@@ -28,6 +28,7 @@ function CategoryDetailPage({ slug }: CategoryDetailPageProps) {
   const [whatsappMsg, setWhatsappMsg] = useState('');
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [selectedProductIndex, setSelectedProductIndex] = useState(0);
+  const thumbnailSliderRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (!category) return;
@@ -39,6 +40,32 @@ function CategoryDetailPage({ slug }: CategoryDetailPageProps) {
     setSelectedImage(category.image || null);
     setSelectedProductIndex(0);
   }, [category]);
+
+  useEffect(() => {
+    const slider = thumbnailSliderRef.current;
+    const selectedThumbnail = slider?.children.item(
+      selectedProductIndex
+    ) as HTMLElement | null;
+
+    if (!slider || !selectedThumbnail) return;
+
+    const sliderBounds = slider.getBoundingClientRect();
+    const thumbnailBounds = selectedThumbnail.getBoundingClientRect();
+
+    if (slider.scrollHeight > slider.clientHeight) {
+      if (thumbnailBounds.top < sliderBounds.top) {
+        slider.scrollTop -= sliderBounds.top - thumbnailBounds.top;
+      } else if (thumbnailBounds.bottom > sliderBounds.bottom) {
+        slider.scrollTop += thumbnailBounds.bottom - sliderBounds.bottom;
+      }
+    } else if (slider.scrollWidth > slider.clientWidth) {
+      if (thumbnailBounds.left < sliderBounds.left) {
+        slider.scrollLeft -= sliderBounds.left - thumbnailBounds.left;
+      } else if (thumbnailBounds.right > sliderBounds.right) {
+        slider.scrollLeft += thumbnailBounds.right - sliderBounds.right;
+      }
+    }
+  }, [selectedProductIndex]);
 
   if (!category) {
     return (
@@ -92,68 +119,7 @@ function CategoryDetailPage({ slug }: CategoryDetailPageProps) {
     : whatsappMsg;
 
   return (
-    <main
-      data-charging-coil-page={isChargingCoilBanner ? 'true' : undefined}
-      className="min-h-screen bg-gray-50 pb-20"
-    >
-      {isChargingCoilBanner && (
-        <style>{`
-          @media (max-width: 639px) {
-            #root:has(main[data-charging-coil-page="true"]) header > div.sticky > div.border-t > [aria-label="ORADO certifications"] {
-              display: flex;
-              width: 100%;
-              max-width: 100%;
-              gap: 6px;
-              overflow-x: auto;
-              overscroll-behavior-x: contain;
-              scrollbar-width: thin;
-            }
-
-            #root:has(main[data-charging-coil-page="true"]) header > div.sticky > div.border-t > [aria-label="ORADO certifications"] > a {
-              flex: 0 0 136px;
-              flex-direction: row;
-              justify-content: flex-start;
-              gap: 8px;
-              min-height: 56px;
-              padding: 8px;
-              text-align: left;
-            }
-
-            #root:has(main[data-charging-coil-page="true"]) header > div.sticky > div.border-t > [aria-label="ORADO certifications"] > a > span:first-child {
-              width: 24px;
-              height: 24px;
-            }
-
-            #root:has(main[data-charging-coil-page="true"]) header > div.sticky > div.border-t > [aria-label="ORADO certifications"] > a > span:nth-child(2) {
-              width: auto;
-              text-align: left;
-            }
-
-            #root:has(main[data-charging-coil-page="true"]) header > div.sticky > div.border-t > [aria-label="ORADO certifications"] > a > span:nth-child(2) > span:first-child {
-              font-size: 10px;
-              line-height: 1.2;
-              letter-spacing: 0;
-            }
-
-            #root:has(main[data-charging-coil-page="true"]) header > div.sticky > div.border-t > [aria-label="ORADO certifications"] > a > span:nth-child(2) > span:last-child {
-              font-size: 10px;
-              line-height: 1.2;
-            }
-
-            #root:has(main[data-charging-coil-page="true"]) nav[aria-label="Contact shortcuts"] {
-              position: static !important;
-              inset: auto !important;
-              z-index: auto;
-              width: max-content;
-              max-width: calc(100% - 32px);
-              flex-direction: row;
-              justify-content: center;
-              gap: 8px;
-              margin: 16px auto;
-            }
-          }
-        `}</style>
-      )}
+    <main className="min-h-screen bg-gray-50 pb-20">
 
       {/* BREADCRUMBS */}
       <nav className="container-max py-5">
@@ -203,13 +169,13 @@ function CategoryDetailPage({ slug }: CategoryDetailPageProps) {
 
             {/* MAIN PRODUCT IMAGE */}
             <div className="overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
-              <div className="relative flex aspect-[1.08/1] items-center justify-center p-5 sm:aspect-square md:p-8">
+              <div className="relative flex aspect-[1.08/1] min-h-0 min-w-0 items-center justify-center overflow-hidden p-5 sm:aspect-square md:p-8">
                 {selectedProduct && (
                   <img
                     key={selectedProduct.image}
                     src={selectedProduct.image}
                     alt={`${selectedProduct.partNumber} ${selectedProduct.name}`}
-                    className="h-full w-full object-contain transition-opacity duration-300"
+                    className="h-full min-h-0 w-full min-w-0 object-contain transition-opacity duration-300"
                     fetchPriority="high"
                   />
                 )}
@@ -247,6 +213,7 @@ function CategoryDetailPage({ slug }: CategoryDetailPageProps) {
                 </button>
 
                 <div
+                  ref={thumbnailSliderRef}
                   className="flex min-w-0 flex-1 gap-1 overflow-x-auto overscroll-x-contain py-1 sm:gap-2 lg:min-h-0 lg:flex-col lg:overflow-x-hidden lg:overflow-y-auto lg:px-1"
                   style={{ scrollbarWidth: 'thin' }}
                 >
@@ -289,7 +256,7 @@ function CategoryDetailPage({ slug }: CategoryDetailPageProps) {
             </div>
 
             {/* PRODUCT DETAILS */}
-            <div className="flex flex-col justify-start rounded-2xl border border-gray-200 bg-white p-6 shadow-sm md:p-9">
+            <div className="flex min-h-[48rem] flex-col justify-start rounded-2xl border border-gray-200 bg-white p-6 shadow-sm md:p-9 lg:min-h-[45rem]">
 
               <span className="mb-4 inline-flex w-fit rounded-md bg-yellow-400 px-4 py-2 text-xs font-extrabold uppercase tracking-wide text-navy-900">
                 2 Wheeler Parts

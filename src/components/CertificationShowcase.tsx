@@ -41,7 +41,7 @@ export default function CertificationShowcase({
       aria-label="ORADO certifications"
       className={
         mobile
-          ? 'grid w-full min-w-0 grid-cols-3 items-stretch gap-1.5'
+          ? 'grid w-full min-w-0 grid-cols-2 items-stretch gap-2'
           : 'flex items-center justify-center gap-3'
       }
     >
@@ -56,13 +56,13 @@ export default function CertificationShowcase({
             title={`View ${cert.label}`}
             className={`group flex min-w-0 items-center gap-2 rounded-md border border-gray-200 px-3 py-1.5 transition-colors hover:border-brand-red/40 hover:bg-brand-red/5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-red ${
               mobile
-                ? 'flex-col justify-center gap-1 px-1 py-2 text-center'
+                ? `justify-start gap-2 px-2 py-2 text-left ${cert.id === 'zed' ? 'col-span-2 w-[calc(50%_-_0.25rem)] justify-self-center' : ''}`
                 : ''
             }`}
           >
             <span
               className={`flex shrink-0 items-center justify-center rounded-md bg-navy-50 text-navy-700 transition-colors group-hover:bg-brand-red/10 group-hover:text-brand-red ${
-                mobile ? 'h-6 w-6' : 'h-8 w-8'
+                mobile ? 'h-7 w-7' : 'h-8 w-8'
               }`}
             >
               <Icon
@@ -74,14 +74,14 @@ export default function CertificationShowcase({
             <span
               className={
                 mobile
-                  ? 'w-full min-w-0 text-center'
+                  ? 'min-w-0 flex-1 text-left'
                   : 'whitespace-nowrap text-left'
               }
             >
               <span
                 className={`block font-bold uppercase text-navy-900 ${
                   mobile
-                    ? 'break-words text-[8px] leading-tight tracking-tight'
+                    ? 'break-words text-[11px] leading-tight tracking-wide'
                     : 'whitespace-nowrap text-[11px] tracking-wide'
                 }`}
               >
@@ -90,7 +90,7 @@ export default function CertificationShowcase({
 
               <span
                 className={`mt-0.5 block font-medium text-gray-500 ${
-                  mobile ? 'text-[7px] leading-tight' : 'text-[9px]'
+                  mobile ? 'text-[10px] leading-tight' : 'text-[9px]'
                 }`}
               >
                 {cert.description}
