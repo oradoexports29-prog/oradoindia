@@ -1,5 +1,5 @@
 
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useLayoutEffect, useState } from 'react';
 
 import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
@@ -341,6 +341,12 @@ function App() {
 
   const isCategoryPage = hash.startsWith('#category/');
 
+  useLayoutEffect(() => {
+    if (isCategoryPage) {
+      window.scrollTo({ top: 0, behavior: 'instant' });
+    }
+  }, [hash, isCategoryPage]);
+
   const isQualityPage =
     hash === '#quality' || hash.startsWith('#quality-');
 
@@ -372,7 +378,10 @@ function App() {
         setQualitySection('main');
       }
 
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      window.scrollTo({
+        top: 0,
+        behavior: newHash.startsWith('#category/') ? 'instant' : 'smooth',
+      });
     };
 
     window.addEventListener('hashchange', handleHashChange);
