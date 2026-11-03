@@ -135,7 +135,11 @@ function CategoryDetailPage({ slug }: CategoryDetailPageProps) {
     <main className="min-h-screen bg-gray-50 pb-20">
 
       {/* BREADCRUMBS */}
-      <nav className="container-max py-5">
+      <nav
+        className={`container-max py-5 ${
+          isLtCoilPage ? 'max-[639px]:min-h-20' : ''
+        }`}
+      >
         <ul className="flex flex-wrap items-center gap-2 text-xs font-medium text-gray-400">
           <li>
             <a href="#home" className="hover:text-brand-red">
@@ -164,7 +168,13 @@ function CategoryDetailPage({ slug }: CategoryDetailPageProps) {
       {/* 1. CHARGING COIL HERO BANNER */}
       {heroBannerImage && (
         <section className="container-max mt-2">
-          <div className="overflow-hidden rounded-2xl bg-white shadow-sm">
+          <div
+            className={`overflow-hidden rounded-2xl ${
+              isLtCoilPage
+                ? 'aspect-[2172/558]'
+                : 'bg-white shadow-sm'
+            }`}
+          >
             <img
               src={heroBannerImage}
               alt={
@@ -172,7 +182,11 @@ function CategoryDetailPage({ slug }: CategoryDetailPageProps) {
                   ? 'ORADO L.T. Coils (Light) Product Feature Banner'
                   : 'ORADO 2 Wheeler Charging Coil Source - Key Features'
               }
-              className="block h-auto w-full object-contain"
+              className={`block w-full ${
+                isLtCoilPage
+                  ? 'h-full object-cover object-center'
+                  : 'h-auto object-contain'
+              }`}
               fetchPriority="high"
             />
           </div>
@@ -281,7 +295,7 @@ function CategoryDetailPage({ slug }: CategoryDetailPageProps) {
             {/* PRODUCT DETAILS */}
             <div
               className={`flex flex-col justify-start rounded-2xl border border-gray-200 bg-white p-6 shadow-sm md:p-9 ${
-                isLtCoilPage ? 'min-h-[48rem] lg:min-h-[45rem]' : ''
+                isLtCoilPage ? 'min-h-[48rem] lg:min-h-[719px]' : ''
               }`}
             >
 
