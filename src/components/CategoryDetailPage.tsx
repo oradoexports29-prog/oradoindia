@@ -275,7 +275,7 @@ const heroBannerImage = isChargingCoilBanner
 
 const heroBannerSrcSet =
   heroBannerImage && !isAcRegulatorPage
-    ? `${heroBannerImage.replace('-1600.webp', '-800.webp')} 800w, ${heroBannerImage} 1600w`
+    ? `${encodeImagePath(heroBannerImage.replace('-1600.webp', '-800.webp'))} 800w, ${encodeImagePath(heroBannerImage)} 1600w`
     : undefined;
 
 
@@ -490,7 +490,12 @@ const heroBannerSrcSet =
 
                     src={selectedProduct.image || FALLBACK_PRODUCT_IMAGE}
 
-                    srcSet={`${(selectedProduct.image || FALLBACK_PRODUCT_IMAGE).replace(/\.webp$/, '.640.webp')} 640w, ${selectedProduct.image || FALLBACK_PRODUCT_IMAGE} 1600w`}
+                    srcSet={[
+  `${encodeImagePath(
+    (selectedProduct.image || FALLBACK_PRODUCT_IMAGE).replace(/\.webp$/, '.640.webp')
+  )} 640w`,
+  `${encodeImagePath(selectedProduct.image || FALLBACK_PRODUCT_IMAGE)} 1600w`,
+].join(', ')}
 
                     sizes="(max-width: 1023px) calc(100vw - 32px), 480px"
 
@@ -1151,5 +1156,20 @@ const heroBannerSrcSet =
 }
 
 
+const encodeImagePath = (path: string): string => {
+  if (/^https?:\/\//i.test(path)) {
+    return path;
+  }
 
+  return path
+    .split('/')
+    .map((segment) => {
+      try {
+        return encodeURIComponent(decodeURIComponent(segment));
+      } catch {
+        return encodeURIComponent(segment);
+      }
+    })
+    .join('/');
+};
 export default CategoryDetailPage;

@@ -293,7 +293,7 @@ export default function AboutUsPage() {
           <div className="overflow-hidden rounded-2xl shadow-lg">
             <img
               src={qualityImage}
-              srcSet="/Stator Coil Quality Inspectionaboutus.png.800.webp 800w, /Stator Coil Quality Inspectionaboutus.png.webp 1400w"
+              srcSet="/Stator%20Coil%20Quality%20Inspectionaboutus.png.800.webp 800w, /Stator%20Coil%20Quality%20Inspectionaboutus.png.webp 1400w"
               sizes="(max-width: 1023px) 100vw, 50vw"
               width={1400}
               height={788}

@@ -78,7 +78,7 @@ export default function HeroSection() {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
                 src={heroImage}
-                srcSet="/home image1.png.640.webp 640w, /home image1.png.webp 1280w"
+                srcSet="/home%20image1.png.640.webp 640w, /home%20image1.png.webp 1600w"
                 sizes="(max-width: 1023px) 100vw, 50vw"
                 width={1280}
                 height={853}
