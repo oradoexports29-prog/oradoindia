@@ -1,4 +1,6 @@
 
+import { twoWheelerProductCategories } from '@/data/navigation';
+
 import {
   ArrowRight,
   Award,
@@ -44,7 +46,6 @@ const productExpertise = [
   [
     'Electronic Flashers',
     '/electronic%20flasher/RP%20255SD%20%20Electronic%20Flasher%20for%20Honda%20Activa%2012v%20Dc%20Oe%20Type%20Two%20Wheelers%20S%20Cooter%20Parts%20%20(5).png',
-
   ],
   [
     'HT Ignition Coils',
@@ -71,6 +72,21 @@ const productExpertise = [
     null,
   ],
 ] as const;
+
+// Match About Us product cards to their actual category names.
+const categoryHrefByName: Record<string, string> = {
+  'Charging Coils (Source)': 'Charging Coil (Source)',
+  'L.T. Coils (Lighting Coils)': 'L.T. Coils (Light)',
+  'Pickup Coils': 'Pick Up Coil (Pulsar)',
+  'CDI Units': 'C.D.I. Unit',
+  'A.C. Regulators': 'A.C. Regulator',
+  'Electronic Flashers': 'Electronic Flasher',
+  'Regulator Rectifiers': 'Regulator Rectifier',
+  'Stator Coil Plates and Assemblies': 'Coil Plate Assembly',
+  'HT Ignition Coils': 'H.T. Coils',
+  'Ignition Switches': 'Ignition Switch Cum Steering Lock / Ignition Switch',
+  'Starter Relays': 'Self Relay',
+};
 
 const benefits = [
   {
@@ -114,7 +130,7 @@ const heroImage = '/aboutusorado.png.webp';
 const storyImage = '/automotivemanufacturingjourneyinfographicaboutus.png.webp';
 const qualityImage = '/Stator Coil Quality Inspectionaboutus.png.webp';
 
-function SectionLabel({ children }: { children: string }) {
+function SectionLabel({ children }: { children: React.ReactNode }) {
   return (
     <span className="inline-flex rounded-full bg-brand-yellow px-4 py-1.5 text-xs font-extrabold uppercase tracking-[0.16em] text-navy-900 shadow-sm">
       {children}
@@ -260,42 +276,50 @@ export default function AboutUsPage() {
           </div>
 
           <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
-            {productExpertise.map(([name, image]) => (
-              <a
-                key={name}
-                href="#products"
-                className="group overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-all hover:-translate-y-0.5 hover:border-brand-red/40 hover:shadow-md"
-              >
-                <div className="relative flex aspect-[5/3] items-center justify-center overflow-hidden bg-gray-100">
-                  {image ? (
-                    <img
-                      src={image}
-                      alt={name}
-                      width={700}
-                      height={420}
-                      className="h-full w-full object-contain p-3 transition-transform duration-500 group-hover:scale-105"
-                      loading="lazy"
-                    />
-                  ) : (
-                    <div className="flex h-full w-full flex-col items-center justify-center gap-2 bg-gradient-to-br from-gray-50 to-gray-200 px-3 text-center">
-                      <span className="text-3xl font-extrabold tracking-wider text-navy-900/20">
-                        ORADO
-                      </span>
-                      <span className="text-[10px] font-semibold uppercase tracking-widest text-gray-500">
-                        Product range
-                      </span>
-                    </div>
-                  )}
-                </div>
+            {productExpertise.map(([name, image]) => {
+              const categoryName = categoryHrefByName[name];
 
-                <div className="flex min-h-[58px] items-center justify-between gap-2 px-3 py-2.5">
-                  <span className="text-xs font-bold leading-snug text-navy-800 group-hover:text-brand-red">
-                    {name}
-                  </span>
-                  <ArrowRight className="h-3.5 w-3.5 shrink-0 text-gray-300 group-hover:text-brand-red" />
-                </div>
-              </a>
-            ))}
+              const category = twoWheelerProductCategories.find(
+                (item) => item.label === categoryName
+              );
+
+              return (
+                <a
+                  key={name}
+                  href={category?.href || '#products-page-2-wheeler'}
+                  className="group overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-all hover:-translate-y-0.5 hover:border-brand-red/40 hover:shadow-md"
+                >
+                  <div className="relative flex aspect-[5/3] items-center justify-center overflow-hidden bg-gray-100">
+                    {image ? (
+                      <img
+                        src={image}
+                        alt={name}
+                        width={700}
+                        height={420}
+                        className="h-full w-full object-contain p-3 transition-transform duration-500 group-hover:scale-105"
+                        loading="lazy"
+                      />
+                    ) : (
+                      <div className="flex h-full w-full flex-col items-center justify-center gap-2 bg-gradient-to-br from-gray-50 to-gray-200 px-3 text-center">
+                        <span className="text-3xl font-extrabold tracking-wider text-navy-900/20">
+                          ORADO
+                        </span>
+                        <span className="text-[10px] font-semibold uppercase tracking-widest text-gray-500">
+                          Product range
+                        </span>
+                      </div>
+                    )}
+                  </div>
+
+                  <div className="flex min-h-[58px] items-center justify-between gap-2 px-3 py-2.5">
+                    <span className="text-xs font-bold leading-snug text-navy-800 group-hover:text-brand-red">
+                      {name}
+                    </span>
+                    <ArrowRight className="h-3.5 w-3.5 shrink-0 text-gray-300 group-hover:text-brand-red" />
+                  </div>
+                </a>
+              );
+            })}
           </div>
         </div>
       </section>
