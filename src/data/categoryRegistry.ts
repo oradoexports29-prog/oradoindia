@@ -82,7 +82,6 @@ const buildRegistry = () => {
 
   families.forEach((family) => {
     family.categories.forEach((cat, idx) => {
-      // Family and category now use the exact same slug format as navigation.ts
       const familySlug = slugify(family.name);
       const categorySlug = slugify(cat);
       const slug = `${familySlug}-${categorySlug}`;
