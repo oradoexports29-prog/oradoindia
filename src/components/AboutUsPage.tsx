@@ -31,7 +31,7 @@ const productExpertise = [
   ],
   [
     'CDI Units',
-    null,
+    '/cdi%20unit/Orado%20rp221%20Cdi%20Unit%20For%20Bajaj%20Chetak%2099%20Bravo%20Classic%20sl%20(1).png.thumb.webp',
   ],
   [
     'Regulator Rectifiers',
@@ -43,7 +43,8 @@ const productExpertise = [
   ],
   [
     'Electronic Flashers',
-    null,
+    '/electronic%20flasher/RP%20255SD%20%20Electronic%20Flasher%20for%20Honda%20Activa%2012v%20Dc%20Oe%20Type%20Two%20Wheelers%20S%20Cooter%20Parts%20%20(5).png',
+
   ],
   [
     'HT Ignition Coils',
