@@ -89,7 +89,13 @@ const ltCoilProductFiles: LtCoilProduct[] = [
     partNumber: 'RP159',
     name: 'Ignition L.T. Coil',
     vehicle: 'Bajaj Caliber Upgrade',
-    image: '/lt coil/orado RP159  Ignition LT Coil Fit for Bajaj Caliber Upgrade Motorcycle Two Wheeler Spare Part (13).png',
+    image: '/lt coil/orado RP159  Ignition LT Coil Fit for Bajaj Caliber Upgrade Motorcycle Two Wheeler Spare Part (10).png',
+  },
+    {
+    partNumber: 'ORP.159JS',
+    name: 'L.T. Coil',
+    vehicle: 'Bajaj CT-100',
+    image: '/lt coil/ORP.159JS Bajaj Ct 100.png',
   },
   {
     partNumber: 'RP161',
@@ -139,12 +145,7 @@ const ltCoilProductFiles: LtCoilProduct[] = [
     vehicle: 'Kinetic Honda Boss Marvel',
     image: '/lt coil/RP169  Ignition LT Coil Fit for Kinetic Honda Boss Marvel Scooter Two Wheeler Parts (1).png',
   },
-  {
-    partNumber: 'ORP.159JS',
-    name: 'L.T. Coil',
-    vehicle: 'Bajaj CT-100',
-    image: '/lt coil/ORP.159JS Bajaj Ct 100.png',
-  },
+
   {
     partNumber: 'ORP170',
     name: 'Ignition L.T. Coil No. 1',
