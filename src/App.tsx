@@ -1,5 +1,5 @@
 
-import { useCallback, useEffect, useLayoutEffect, useState } from 'react';
+import { lazy, Suspense, useCallback, useEffect, useLayoutEffect, useState } from 'react';
 
 import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
@@ -7,17 +7,18 @@ import VehicleCompatibility from '@/components/VehicleCompatibility';
 import ProductCategories from '@/components/ProductCategories';
 import CompanyIntroduction from '@/components/CompanyIntroduction';
 import WhyChooseOrado from '@/components/WhyChooseOrado';
-import AboutUsPage from '@/components/AboutUsPage';
-import ProductsPage from '@/components/ProductsPage';
-import CategoryDetailPage from '@/components/CategoryDetailPage';
-import QualityPage from '@/components/QualityPage';
-import CertificatePage from '@/components/CertificatePage';
-import ContactPage from '@/components/ContactPage';
 import Footer from '@/components/Footer';
 import FloatingContactToolbar from '@/components/FloatingContactToolbar';
 import Logo from '@/components/Logo';
 
 import useOradoAnimations from '@/hooks/useOradoAnimations';
+
+const AboutUsPage = lazy(() => import('@/components/AboutUsPage'));
+const ProductsPage = lazy(() => import('@/components/ProductsPage'));
+const CategoryDetailPage = lazy(() => import('@/components/CategoryDetailPage'));
+const QualityPage = lazy(() => import('@/components/QualityPage'));
+const CertificatePage = lazy(() => import('@/components/CertificatePage'));
+const ContactPage = lazy(() => import('@/components/ContactPage'));
 
 const CATALOGUE_URL = 'https://heyzine.com/flip-book/96371319fe.html';
 
@@ -398,36 +399,38 @@ function App() {
     <div className="min-h-screen bg-white">
       <Header />
 
-      {isCataloguePage ? (
-        <CataloguePage />
-      ) : isAboutPage ? (
-        <AboutUsPage />
-      ) : isCategoryPage ? (
-        <CategoryDetailPage slug={getCategorySlug()} />
-      ) : isProductsPage ? (
-        <ProductsPage />
-      ) : isQualityPage ? (
-        <QualityPage
-          activeSection={qualitySection}
-          setActiveSection={(section) => {
-            setQualitySection(section);
-            window.location.hash =
-              section === 'main' ? '#quality' : `#quality-${section}`;
-          }}
-        />
-      ) : isCertificatePage ? (
-        <CertificatePage />
-      ) : isContactPage ? (
-        <ContactPage />
-      ) : (
-        <main>
-          <HeroSection />
-          <VehicleCompatibility />
-          <ProductCategories />
-          <CompanyIntroduction />
-          <WhyChooseOrado />
-        </main>
-      )}
+      <Suspense fallback={null}>
+        {isCataloguePage ? (
+          <CataloguePage />
+        ) : isAboutPage ? (
+          <AboutUsPage />
+        ) : isCategoryPage ? (
+          <CategoryDetailPage slug={getCategorySlug()} />
+        ) : isProductsPage ? (
+          <ProductsPage />
+        ) : isQualityPage ? (
+          <QualityPage
+            activeSection={qualitySection}
+            setActiveSection={(section) => {
+              setQualitySection(section);
+              window.location.hash =
+                section === 'main' ? '#quality' : `#quality-${section}`;
+            }}
+          />
+        ) : isCertificatePage ? (
+          <CertificatePage />
+        ) : isContactPage ? (
+          <ContactPage />
+        ) : (
+          <main>
+            <HeroSection />
+            <VehicleCompatibility />
+            <ProductCategories />
+            <CompanyIntroduction />
+            <WhyChooseOrado />
+          </main>
+        )}
+      </Suspense>
 
       <Footer />
       <FloatingContactToolbar />

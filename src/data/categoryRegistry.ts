@@ -19,6 +19,28 @@ const slugify = (text: string) =>
     .replace(/[^a-z0-9 ]/g, '')
     .replace(/\s+/g, '-');
 
+const normalizeLegacySlug = (text: string) =>
+  text
+    .trim()
+    .toLowerCase()
+    .replace(/&/g, 'and')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .replace(/-+/g, '-');
+
+const legacyCategoryAliases: Record<string, string> = {
+  'charging-coil': '2-wheeler-parts-charging-coil-source',
+  'charging-coil-source': '2-wheeler-parts-charging-coil-source',
+  'lt-coil': '2-wheeler-parts-lt-coils-light',
+  'lt-coils': '2-wheeler-parts-lt-coils-light',
+  'lt-coils-light': '2-wheeler-parts-lt-coils-light',
+  'pickup-coil': '2-wheeler-parts-pick-up-coil-pulsar',
+  'pick-up-coil': '2-wheeler-parts-pick-up-coil-pulsar',
+  'pick-up-coil-pulsar': '2-wheeler-parts-pick-up-coil-pulsar',
+  'cdi-unit': '2-wheeler-parts-cdi-unit',
+  cdi: '2-wheeler-parts-cdi-unit',
+};
+
 export const categoryRegistry: Record<string, CategoryData> = {};
 
 const buildRegistry = () => {
@@ -78,8 +100,25 @@ const buildRegistry = () => {
 
 buildRegistry();
 
-export const getCategoryBySlug = (slug: string) =>
-  categoryRegistry[slug];
+export const getCategoryBySlug = (slug: string) => {
+  const sanitized = typeof slug === 'string' ? slug.trim() : '';
+
+  if (!sanitized) return undefined;
+
+  if (categoryRegistry[sanitized]) {
+    return categoryRegistry[sanitized];
+  }
+
+  const normalized = normalizeLegacySlug(sanitized);
+  const directFallback = categoryRegistry[normalized];
+
+  if (directFallback) {
+    return directFallback;
+  }
+
+  const aliasSlug = legacyCategoryAliases[normalized];
+  return aliasSlug ? categoryRegistry[aliasSlug] : undefined;
+};
 
 export const getAllCategories = () =>
   Object.values(categoryRegistry);

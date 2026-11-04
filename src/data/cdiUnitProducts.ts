@@ -3,6 +3,7 @@ export interface CdiUnitProduct {
   name: string;
   vehicle: string;
   image: string;
+  thumbnail?: string;
 }
 
 interface CdiUnitProductFile extends Omit<CdiUnitProduct, 'image'> {
@@ -88,6 +89,7 @@ const cdiUnitProductFiles: CdiUnitProductFile[] = [
 export const cdiUnitProducts: CdiUnitProduct[] = cdiUnitProductFiles.map(
   ({ fileName, ...product }) => ({
     ...product,
-    image: `/cdi unit/${fileName}`,
+    image: `/cdi unit/${fileName}.webp`,
+    thumbnail: `/cdi unit/${fileName}.thumb.webp`,
   })
 );

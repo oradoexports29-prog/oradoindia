@@ -103,12 +103,16 @@ export default function CategoryCarousel({
                     <a
                       key={`${slideIndex}-${catIndex}`}
                       href={category.href}
+                      tabIndex={slideIndex === current ? undefined : -1}
                       className="group/card overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-brand-red/40 hover:shadow-md"
                     >
                       <div className="relative aspect-[5/3] overflow-hidden bg-gray-100">
                         <img
                           src={images[imageIndex]}
                           alt={category.label}
+                          width={720}
+                          height={432}
+                          sizes="(max-width: 640px) 45vw, (max-width: 1024px) 30vw, 16vw"
                           className="h-full w-full object-cover transition-transform duration-500 group-hover/card:scale-110"
                           loading="lazy"
                         />

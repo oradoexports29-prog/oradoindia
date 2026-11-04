@@ -1,7 +1,7 @@
 
 import { ArrowRight, CheckCircle2 } from 'lucide-react';
 
-const aboutImage = '/aboutorado1.png';
+const aboutImage = '/aboutorado1.png.webp';
 
 const highlights = [
   'Indian manufacturer and exporter of automotive electrical parts',
@@ -21,6 +21,10 @@ export default function CompanyIntroduction() {
             <div className="rounded-2xl overflow-hidden shadow-xl">
               <img
                 src={aboutImage}
+                srcSet="/aboutorado1.png.640.webp 640w, /aboutorado1.png.webp 1280w"
+                sizes="(max-width: 1023px) 100vw, 50vw"
+                width={1280}
+                height={853}
                 alt="ORADO automotive electrical parts manufacturing"
                 className="w-full h-[400px] object-cover"
                 loading="lazy"

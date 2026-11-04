@@ -25,11 +25,15 @@ import {
 } from '@/data/productImages';
 
 const homepageTwoWheelerImages = twoWheelerImages.map((image, index) =>
-  index === 2
-    ? '/pickup coil/Orado rp182 Ignition Pickup Coil For Bajaj 12v (2).png'
-    : index === 3
-      ? '/cdi unit/Orado rp221 Cdi Unit For Bajaj Chetak 99 Bravo Classic sl (1).png'
-    : image
+  index === 0
+    ? '/chargingcoil.png.webp'
+    : index === 1
+      ? '/ltcoil.png.webp'
+      : index === 2
+        ? '/pickup coil/Orado rp182 Ignition Pickup Coil For Bajaj 12v (2).png.thumb.webp'
+        : index === 3
+          ? '/cdi unit/Orado rp221 Cdi Unit For Bajaj Chetak 99 Bravo Classic sl (1).png.thumb.webp'
+          : image
 );
 
 interface ProductDepartment {

@@ -3,9 +3,10 @@ export interface LtCoilProduct {
   name: string;
   vehicle: string;
   image: string;
+  thumbnail?: string;
 }
 
-export const ltCoilProducts: LtCoilProduct[] = [
+const ltCoilProductFiles: LtCoilProduct[] = [
   {
     partNumber: 'RP141',
     name: 'Ignition L.T. Coil Set of Two',
@@ -193,3 +194,11 @@ export const ltCoilProducts: LtCoilProduct[] = [
     image: '/lt coil/RP178  Ignition L.T Coil Fit For Hero Panther Moped Two Wheeler Spare Parts (1).png',
   },
 ];
+
+export const ltCoilProducts: LtCoilProduct[] = ltCoilProductFiles.map(
+  (product) => ({
+    ...product,
+    image: `${product.image}.webp`,
+    thumbnail: `${product.image}.thumb.webp`,
+  })
+);

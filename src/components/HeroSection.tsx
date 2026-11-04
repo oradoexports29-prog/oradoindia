@@ -1,7 +1,7 @@
 import { ArrowRight, FileText, Zap, ShieldCheck, Truck } from 'lucide-react';
 
-const heroImage = '/home image1.png';
-const heroImageSecondary = '/home image2.png';
+const heroImage = '/home image1.png.webp';
+const heroImageSecondary = '/home image2.png.webp';
 
 export default function HeroSection() {
   return (
@@ -78,9 +78,14 @@ export default function HeroSection() {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
                 src={heroImage}
+                srcSet="/home image1.png.640.webp 640w, /home image1.png.webp 1280w"
+                sizes="(max-width: 1023px) 100vw, 50vw"
+                width={1280}
+                height={853}
                 alt="Motorcycle engine electrical components"
                 className="w-full h-[420px] object-cover"
                 loading="eager"
+                {...{ fetchpriority: 'high' }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy-900/60 to-transparent" />
             </div>
@@ -88,8 +93,11 @@ export default function HeroSection() {
             <div className="absolute -bottom-6 -left-6 w-48 rounded-xl overflow-hidden shadow-2xl border-4 border-navy-900">
               <img
                 src={heroImageSecondary}
+                width={640}
+                height={480}
                 alt="Motorcycle electrical parts detail"
                 className="w-full h-32 object-cover"
+                loading="lazy"
               />
             </div>
             {/* Floating badge */}

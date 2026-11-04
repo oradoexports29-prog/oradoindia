@@ -67,9 +67,9 @@ const storyHighlights = [
   'A focus on reliability, compatibility, and relationships',
 ];
 
-const heroImage = '/aboutusorado.png';
-const storyImage = '/automotivemanufacturingjourneyinfographicaboutus.png';
-const qualityImage ='/Stator Coil Quality Inspectionaboutus.png';
+const heroImage = '/aboutusorado.png.webp';
+const storyImage = '/automotivemanufacturingjourneyinfographicaboutus.png.webp';
+const qualityImage = '/Stator Coil Quality Inspectionaboutus.png.webp';
 
 function SectionLabel({ children }: { children: string }) {
   return (
@@ -88,8 +88,13 @@ export default function AboutUsPage() {
 
         <img
           src={heroImage}
+          srcSet="/aboutusorado.png.800.webp 800w, /aboutusorado.png.webp 1600w"
+          sizes="100vw"
+          width={1600}
+          height={900}
           alt="Automotive mechanic working on electrical vehicle components"
           className="absolute inset-0 h-full w-full object-cover opacity-35"
+          {...{ fetchpriority: 'high' }}
         />
 
         <div className="container-max relative flex min-h-[440px] items-center py-14 md:min-h-[500px] md:py-16 lg:min-h-[540px] lg:py-20">
@@ -171,6 +176,10 @@ export default function AboutUsPage() {
           <div className="relative overflow-hidden rounded-2xl shadow-xl">
             <img
               src={storyImage}
+              srcSet="/automotivemanufacturingjourneyinfographicaboutus.png.800.webp 800w, /automotivemanufacturingjourneyinfographicaboutus.png.webp 1536w"
+              sizes="(max-width: 1023px) 100vw, 50vw"
+              width={1536}
+              height={1024}
               alt="Mechanic inspecting automotive electrical components"
               className="h-[360px] w-full object-cover md:h-[440px]"
               loading="lazy"
@@ -218,6 +227,8 @@ export default function AboutUsPage() {
                   <img
                     src={image}
                     alt={name}
+                    width={700}
+                    height={420}
                     className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                     loading="lazy"
                   />
@@ -282,6 +293,10 @@ export default function AboutUsPage() {
           <div className="overflow-hidden rounded-2xl shadow-lg">
             <img
               src={qualityImage}
+              srcSet="/Stator Coil Quality Inspectionaboutus.png.800.webp 800w, /Stator Coil Quality Inspectionaboutus.png.webp 1400w"
+              sizes="(max-width: 1023px) 100vw, 50vw"
+              width={1400}
+              height={788}
               alt="Automotive workshop workbench with tools and maintenance products"
               className="h-[320px] w-full object-cover md:h-[380px]"
               loading="lazy"

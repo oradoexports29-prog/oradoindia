@@ -3,9 +3,10 @@ export interface ChargingCoilProduct {
   name: string;
   vehicle: string;
   image: string;
+  thumbnail?: string;
 }
 
-export const chargingCoilProducts: ChargingCoilProduct[] = [
+const chargingCoilProductFiles: ChargingCoilProduct[] = [
   {
     partNumber: 'RP101',
     name: 'Ignition Charging Coil',
@@ -169,3 +170,10 @@ export const chargingCoilProducts: ChargingCoilProduct[] = [
     image: '/charging%20coil/Orado%20rp140%20Ignition%20Charging%20Coil%20For%20Bullet%20Electra%20AVL%20Thunder%20(4).png',
   },
 ];
+
+export const chargingCoilProducts: ChargingCoilProduct[] =
+  chargingCoilProductFiles.map((product) => ({
+    ...product,
+    image: `${product.image}.webp`,
+    thumbnail: `${product.image}.thumb.webp`,
+  }));

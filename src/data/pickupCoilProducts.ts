@@ -3,6 +3,7 @@ export interface PickupCoilProduct {
   name: string;
   vehicle: string;
   image: string;
+  thumbnail?: string;
 }
 
 interface PickupCoilProductFile {
@@ -29,7 +30,6 @@ const pickupCoilProductFiles: PickupCoilProductFile[] = [
   { partNumber: 'RP193', name: 'Ignition Pickup Coil', vehicle: 'Bajaj Caliber Boxer Ct Ar', fileName: 'Orado rp193 Ignition Pickup Coil For Bajaj Caliber Boxer Ct Ar (2).png' },
   { partNumber: 'RP193MW', name: 'Ignition Pickup Coil', vehicle: 'Bajaj Boxer At', fileName: 'Orado rp193mw Ignition Pickup Coil For Bajaj Boxer At (2).png' },
   { partNumber: 'RP193RM', name: 'Ignition Pickup Coil', vehicle: 'Bajaj Wind 125', fileName: 'Orado rp193rm Ignition Pickup Coil For Bajaj Wind 125 (10).png' },
-  { partNumber: 'RP194', name: 'Ignition Pickup Coil', vehicle: 'Bajaj Pulsar 150 180 dtsi discover es ks Pulsar ug1 Pulsar ug2', fileName: 'Orado rp194 Ignition Pickup Coil For Bajaj Pulsar 150 180 dtsi discover es ks Pulsar ug1 Pulsar ug2 (5).png' },
   { partNumber: 'RP194JW', name: 'Ignition Pickup Coil', vehicle: 'Bajaj Caliber Croma', fileName: 'Orado rp194jw Ignition Pickup Coil For Bajaj Caliber Croma (2).png' },
   { partNumber: 'RP194KW', name: 'Ignition Pickup Coil', vehicle: 'Bajaj Caliber Upgrade', fileName: 'Orado rp194kw Ignition Pickup Coil For Bajaj Caliber Upgrade (2).png' },
   { partNumber: 'RP194SJ', name: 'Ignition Pickup Coil', vehicle: 'Bajaj Ct 100 Platina', fileName: 'Orado rp194sj Ignition Pickup Coil For Bajaj Ct 100 Platina (2).png' },
@@ -40,7 +40,6 @@ const pickupCoilProductFiles: PickupCoilProductFile[] = [
   { partNumber: 'RP198', name: 'Ignition Pick up Coil', vehicle: 'Hero Splendor Nxg', fileName: 'Orado rp198 Ignition Pick up Coil For Hero Splendor Nxg (7).png' },
   { partNumber: 'RP198DB', name: 'Ignition Pickup Coil', vehicle: 'Hero Splendor om', fileName: 'Orado rp198db Ignition Pickup Coil For Hero Splendor om (4).jpg' },
   { partNumber: 'RP198DR', name: 'Ignition Pickup Coil', vehicle: 'Hero Splendor nm spl plus', fileName: 'Orado rp198dr Ignition Pickup Coil For Hero Splendor nm spl plus (2).png' },
-  { partNumber: 'RP198RA', name: 'Ignition Pickup Coil', vehicle: 'Hero Pleasure Maestro Edge 110 125 bs3 bs4 Hero Duet bs4 10', fileName: 'Orado rp198ra Ignition Pickup Coil For Hero Pleasure Maestro Edge 110 125 bs3 bs4 Hero Duet bs4 10 (9).png' },
   { partNumber: 'RP198RO', name: 'Ignition Pickup Coil', vehicle: 'Hero Cbz Xt Achiever Hunk', fileName: 'Orado rp198ro Ignition Pickup Coil For Hero Cbz Xt Achiever Hunk (2).png' },
   { partNumber: 'RP199', name: 'Ignition Pick up Coil', vehicle: 'Hero Ambition', fileName: 'Orado rp199 Ignition Pick up Coil For Hero Ambition (2).png' },
   { partNumber: 'RP199AX', name: 'Ignition Pickup Coil', vehicle: 'Hero Cd Dawn nm', fileName: 'Orado rp199ax Ignition Pickup Coil For Hero Cd Dawn nm (1).png' },
@@ -102,5 +101,6 @@ const pickupCoilProductFiles: PickupCoilProductFile[] = [
 export const pickupCoilProducts: PickupCoilProduct[] =
   pickupCoilProductFiles.map(({ fileName, ...product }) => ({
     ...product,
-    image: `/pickup coil/${fileName}`,
+    image: `/pickup coil/${fileName}.webp`,
+    thumbnail: `/pickup coil/${fileName}.thumb.webp`,
   }));
