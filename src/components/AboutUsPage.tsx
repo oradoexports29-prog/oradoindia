@@ -41,11 +41,11 @@ const productExpertise = [
   ],
   [
     'A.C. Regulators',
-    '/ac%20regulator/rp246%20AC%20Regulator%20For%20Lml%20Select%20nv%20Spl%20express%205%20trendy%20%20(5).png',
+    '/ac%20regulator/rp246%20AC%20Regulator%20For%20Lml%20Select%20nv%20Spl%20express%205%20trendy%20%20(5).webp',
   ],
   [
     'Electronic Flashers',
-    '/electronic%20flasher/RP%20255SD%20%20Electronic%20Flasher%20for%20Honda%20Activa%2012v%20Dc%20Oe%20Type%20Two%20Wheelers%20S%20Cooter%20Parts%20%20(5).png',
+    '/electronic%20flasher/RP%20255SD%20%20Electronic%20Flasher%20for%20Honda%20Activa%2012v%20Dc%20Oe%20Type%20Two%20Wheelers%20S%20Cooter%20Parts%20%20(5).webp',
   ],
   [
     'HT Ignition Coils',
