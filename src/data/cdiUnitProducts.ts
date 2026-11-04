@@ -1,3 +1,4 @@
+
 export interface CdiUnitProduct {
   partNumber: string;
   name: string;
@@ -11,6 +12,7 @@ interface CdiUnitProductFile extends Omit<CdiUnitProduct, 'image'> {
 }
 
 const cdiUnitProductFiles: CdiUnitProductFile[] = [
+  { partNumber: 'RP220', name: 'CDI Unit', vehicle: 'Bajaj Chetak 12V 5 Pin Scooter Two Wheeler Spare Parts', fileName: 'ORP220  CDI Unit For   Bajaj Chetak 12V 5 Pin Scooter Two Wheeler Spare Parts (2).png' },
   { partNumber: 'RP221', name: 'CDI Unit', vehicle: 'Bajaj Chetak 99 Bravo Classic sl', fileName: 'Orado rp221 Cdi Unit For Bajaj Chetak 99 Bravo Classic sl (1).png' },
   { partNumber: 'RP222', name: 'CDI Unit', vehicle: 'Bajaj bravo self start Bajaj chetak sl', fileName: 'Orado rp222 Cdi Unit For Bajaj bravo self start Bajaj chetak sl (1).png' },
   { partNumber: 'RP222F', name: 'CDI Unit', vehicle: 'Bajaj pulsar 150 180 dtsi with out digital meter', fileName: 'Orado rp222f Cdi Unit For B ajaj pulsar 150 180 dtsi with out digital meter (10).png' },
@@ -65,6 +67,7 @@ const cdiUnitProductFiles: CdiUnitProductFile[] = [
   { partNumber: 'RP240', name: 'CDI Unit', vehicle: 'Hero Gizmo', fileName: 'Orado rp240 Cdi Unit For Hero Gizmo (9).png' },
   { partNumber: 'RP241', name: 'CDI Unit', vehicle: 'Hero puch', fileName: 'Orado rp241 Cdi Unit For Hero puch (1).png' },
   { partNumber: 'RP242', name: 'CDI Unit', vehicle: 'Honda Eterno', fileName: 'Orado rp242 Cdi Unit For Honda Eterno (2).png' },
+  { partNumber: 'RP242AH', name: 'CDI Unit Fit', vehicle: 'Honda Unicorn Digital 4+2 Pin Bike Two Wheelers Spare Part', fileName: 'RP242AH CDI Unit Fit for Honda Unicorn Digital 4+2 Pin Bike Two Wheelers Spare Part (1).png' },
   { partNumber: 'RP242AS', name: 'CDI Unit', vehicle: 'Honda shine cb shine 4+2 pins', fileName: 'Orado rp242as Cdi Unit For Honda shine cb shine 4+2 pins (9).png' },
   { partNumber: 'RP243', name: 'CDI Unit', vehicle: 'Honda Activa 10 pin nm', fileName: 'Orado rp243 Cdi Unit For Honda Activa 10 pin nm (3).png' },
   { partNumber: 'RP244', name: 'CDI Unit', vehicle: 'Hnd Activa 9 pin om', fileName: 'Orado rp244 Cdi Unit For Hnd Activa 9 pin om (3).png' },
@@ -73,17 +76,15 @@ const cdiUnitProductFiles: CdiUnitProductFile[] = [
   { partNumber: 'RP244MT', name: 'CDI Unit', vehicle: 'Honda Dream Neo Het Dream Yuga het 3+2 pins', fileName: 'Orado rp244mt Cdi Unit For Honda Dream Neo Het Dream Yuga het 3+2 pins (2).png' },
   { partNumber: 'RP244RW', name: 'CDI Unit', vehicle: 'Hnd Activa 10 pin het 110cc', fileName: 'Orado rp244rw Cdi Unit For Hnd Activa 10 pin het 110cc (5).png' },
   { partNumber: 'RP244WL', name: 'CDI Unit', vehicle: 'Honda Activa 7 pin Het 5g Bs4 2018', fileName: 'Orado rp244wl Cdi Unit For Honda Activa 7 pin Het 5g Bs4 2018 (1).png' },
+  { partNumber: 'RP244Z', name: 'CDI Unit', vehicle: 'Honda Activa het 125 10 pin', fileName: 'Oradp rp244z Cdi Unit For Honda Activa het 125 10 pin (3).png' },
   { partNumber: 'RP245', name: 'CDI Unit', vehicle: 'Yamaha Crux libero yd 110 6 pins', fileName: 'Orado rp245 Cdi Unit For Yamaha Crux libero yd 110 6 pins (2).png' },
   { partNumber: 'RP245RM', name: 'CDI Unit', vehicle: 'Yamaha Ybx 7 wire', fileName: 'Orado rp245rm Cdi Unit For Yamaha Ybx 7 wire (4).png' },
   { partNumber: 'RP245RZ', name: 'CDI Unit', vehicle: 'Yamaha Ybx 8 wire', fileName: 'Orado rp245rz Cdi Unit For Yamaha Ybx 8 wire (6).png' },
   { partNumber: 'RP245WM', name: 'CDI Unit', vehicle: 'Yamaha Szr with rpm meter', fileName: 'Orado rp245wm Cdi Unit For Yamaha Szr with rpm meter (5).png' },
   { partNumber: 'RP245WO', name: 'CDI Unit', vehicle: 'Yamaha Fz 16 Fzs Fazer n m 8+4 pin', fileName: 'Orado rp245wo Cdi Unit For Yamaha Fz 16 Fzs Fazer n m 8+4 pin (1).png' },
+  { partNumber: 'RP245WW', name: 'CDI Unit', vehicle: 'Yamaha Crux R Enticer Self Start 6 Pin Two Wheeler Bike Spare Parts', fileName: 'RP245WW CDI Unit for Yamaha Crux R Enticer Self Start 6 Pin Two Wheeler Bike Spare Parts (1).png' },
   { partNumber: 'RP245XO', name: 'CDI Unit', vehicle: 'Yamaha Rx 100', fileName: 'Orado rp245xo Cdi Unit For Yamaha Rx 100 (6).png' },
   { partNumber: 'RP245XP', name: 'CDI Unit', vehicle: 'Yamaha Rxg 12v', fileName: 'Orado rp245xp Cdi Unit For Yamaha Rxg 12v (8).png' },
-  { partNumber: 'RP244Z', name: 'CDI Unit', vehicle: 'Honda Activa het 125 10 pin', fileName: 'Oradp rp244z Cdi Unit For Honda Activa het 125 10 pin (3).png' },
-  { partNumber: 'ORP220', name: 'CDI Unit', vehicle: 'Bajaj Chetak 12V 5 Pin Scooter Two Wheeler Spare Parts', fileName: 'ORP220  CDI Unit For   Bajaj Chetak 12V 5 Pin Scooter Two Wheeler Spare Parts (2).png' },
-  { partNumber: 'RP242AH', name: 'CDI Unit Fit', vehicle: 'Honda Unicorn Digital 4+2 Pin Bike Two Wheelers Spare Part', fileName: 'RP242AH CDI Unit Fit for Honda Unicorn Digital 4+2 Pin Bike Two Wheelers Spare Part (1).png' },
-  { partNumber: 'RP245WW', name: 'CDI Unit', vehicle: 'Yamaha Crux R Enticer Self Start 6 Pin Two Wheeler Bike Spare Parts', fileName: 'RP245WW CDI Unit for Yamaha Crux R Enticer Self Start 6 Pin Two Wheeler Bike Spare Parts (1).png' },
 ];
 
 export const cdiUnitProducts: CdiUnitProduct[] = cdiUnitProductFiles.map(

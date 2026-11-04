@@ -13,20 +13,62 @@ import {
 } from 'lucide-react';
 
 const productExpertise = [
-  ['Charging Coils (Source)', 'https://images.pexels.com/photos/10030500/pexels-photo-10030500.jpeg?auto=compress&cs=tinysrgb&w=700'],
-  ['L.T. Coils (Lighting Coils)', 'https://images.pexels.com/photos/5111316/pexels-photo-5111316.jpeg?auto=compress&cs=tinysrgb&w=700'],
-  ['Pickup Coils', 'https://images.pexels.com/photos/12000095/pexels-photo-12000095.jpeg?auto=compress&cs=tinysrgb&w=700'],
-  ['Stator Coil Plates and Assemblies', 'https://images.pexels.com/photos/29222062/pexels-photo-29222062.jpeg?auto=compress&cs=tinysrgb&w=700'],
-  ['CDI Units', 'https://images.pexels.com/photos/11890949/pexels-photo-11890949.jpeg?auto=compress&cs=tinysrgb&w=700'],
-  ['Regulator Rectifiers', 'https://images.pexels.com/photos/31292505/pexels-photo-31292505.jpeg?auto=compress&cs=tinysrgb&w=700'],
-  ['A.C. Regulators', 'https://images.pexels.com/photos/13377801/pexels-photo-13377801.jpeg?auto=compress&cs=tinysrgb&w=700'],
-  ['Electronic Flashers', 'https://images.pexels.com/photos/5111318/pexels-photo-5111318.jpeg?auto=compress&cs=tinysrgb&w=700'],
-  ['HT Ignition Coils', 'https://images.pexels.com/photos/3855231/pexels-photo-3855231.jpeg?auto=compress&cs=tinysrgb&w=700'],
-  ['Ignition Switches', 'https://images.pexels.com/photos/37773385/pexels-photo-37773385.jpeg?auto=compress&cs=tinysrgb&w=700'],
-  ['Starter Relays', 'https://images.pexels.com/photos/7541344/pexels-photo-7541344.jpeg?auto=compress&cs=tinysrgb&w=700'],
-  ['Carbon Brushes and Holder Assemblies', 'https://images.pexels.com/photos/11890955/pexels-photo-11890955.jpeg?auto=compress&cs=tinysrgb&w=700'],
-  ['Automotive Bulbs', 'https://images.pexels.com/photos/8373457/pexels-photo-8373457.jpeg?auto=compress&cs=tinysrgb&w=700'],
-  ['Horns and Other Electrical Components', 'https://images.pexels.com/photos/12000096/pexels-photo-12000096.jpeg?auto=compress&cs=tinysrgb&w=700'],
+  [
+    'Charging Coils (Source)',
+    '/charging%20coil/Orado%20rp101%20Ignition%20Charging%20Coil%20For%20Bajaj%2012%20Volt%20Green%20Coil%20(16).png.webp',
+  ],
+  [
+    'L.T. Coils (Lighting Coils)',
+    '/lt%20coil/orado%20RP159%20%20Ignition%20LT%20Coil%20Fit%20for%20Bajaj%20Caliber%20Upgrade%20Motorcycle%20Two%20Wheeler%20Spare%20Part%20(10).png.webp',
+  ],
+  [
+    'Pickup Coils',
+    '/pickup%20coil/ORP214%20%20Pick%20Up%20Coil%20For%20TVS%20Star%20City%20Centra%20Star%20DLX%20Bike%20Spare%20Parts%20(7).png.webp',
+  ],
+  [
+    'Stator Coil Plates and Assemblies',
+    null,
+  ],
+  [
+    'CDI Units',
+    null,
+  ],
+  [
+    'Regulator Rectifiers',
+    null,
+  ],
+  [
+    'A.C. Regulators',
+    '/ac%20regulator/rp246%20AC%20Regulator%20For%20Lml%20Select%20nv%20Spl%20express%205%20trendy%20%20(5).png',
+  ],
+  [
+    'Electronic Flashers',
+    null,
+  ],
+  [
+    'HT Ignition Coils',
+    null,
+  ],
+  [
+    'Ignition Switches',
+    null,
+  ],
+  [
+    'Starter Relays',
+    null,
+  ],
+  [
+    'Carbon Brushes and Holder Assemblies',
+    null,
+  ],
+  [
+    'Automotive Bulbs',
+    null,
+  ],
+  [
+    'Horns and Other Electrical Components',
+    null,
+  ],
 ] as const;
 
 const benefits = [
@@ -82,7 +124,7 @@ function SectionLabel({ children }: { children: string }) {
 export default function AboutUsPage() {
   return (
     <main>
-      {/* Hero: top and bottom padding aligned with the Home page */}
+      {/* Hero */}
       <section className="relative overflow-hidden bg-navy-900 text-white">
         <div className="absolute inset-0 bg-gradient-to-r from-navy-950/95 via-navy-900/85 to-navy-900/45" />
 
@@ -223,15 +265,26 @@ export default function AboutUsPage() {
                 href="#products"
                 className="group overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-all hover:-translate-y-0.5 hover:border-brand-red/40 hover:shadow-md"
               >
-                <div className="aspect-[5/3] overflow-hidden bg-gray-100">
-                  <img
-                    src={image}
-                    alt={name}
-                    width={700}
-                    height={420}
-                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    loading="lazy"
-                  />
+                <div className="relative flex aspect-[5/3] items-center justify-center overflow-hidden bg-gray-100">
+                  {image ? (
+                    <img
+                      src={image}
+                      alt={name}
+                      width={700}
+                      height={420}
+                      className="h-full w-full object-contain p-3 transition-transform duration-500 group-hover:scale-105"
+                      loading="lazy"
+                    />
+                  ) : (
+                    <div className="flex h-full w-full flex-col items-center justify-center gap-2 bg-gradient-to-br from-gray-50 to-gray-200 px-3 text-center">
+                      <span className="text-3xl font-extrabold tracking-wider text-navy-900/20">
+                        ORADO
+                      </span>
+                      <span className="text-[10px] font-semibold uppercase tracking-widest text-gray-500">
+                        Product range
+                      </span>
+                    </div>
+                  )}
                 </div>
 
                 <div className="flex min-h-[58px] items-center justify-between gap-2 px-3 py-2.5">
