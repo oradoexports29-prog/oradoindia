@@ -1,0 +1,107 @@
+
+export interface PickupCoilProduct {
+  partNumber: string;
+  name: string;
+  vehicle: string;
+  image: string;
+  thumbnail?: string;
+}
+
+interface PickupCoilProductFile {
+  partNumber: string;
+  name: string;
+  vehicle: string;
+  fileName: string;
+}
+
+const pickupCoilProductFiles: PickupCoilProductFile[] = [
+  { partNumber: 'RP182', name: 'Ignition Pickup Coil', vehicle: 'Bajaj 12v', fileName: 'Orado rp182 Ignition Pickup Coil For Bajaj 12v (2).png' },
+  { partNumber: 'RP183', name: 'Ignition Pickup Coil', vehicle: 'Bajaj 99 Red', fileName: 'Orado rp183 Ignition Pickup Coil For Bajaj 99 Red (2).png' },
+  { partNumber: 'RP184', name: 'Pick Up Coil', vehicle: 'Bajaj M80 Balck', fileName: 'RP184 Bajaj M80 Balck (9).png' },
+  { partNumber: 'RP184SH', name: 'Ignition Pickup Coil', vehicle: 'Bajaj 12V Tedey Hole Wali', fileName: 'Orado rp184sh Ignition Pickup Coil For Bajaj 12V Tedey Hole Wali (4).png' },
+  { partNumber: 'RP186', name: 'Ignition Pickup Coil', vehicle: 'Bajaj Bravo', fileName: 'Orado rp186 Ignition Pickup Coil For Bajaj Bravo (2).png' },
+  { partNumber: 'RP.188', name: 'Pick Up Coil', vehicle: 'Bajaj 99 3w Rear Engine', fileName: 'ORP.188 Bajaj 99 3w Rear Engine (8) (white).png' },
+  { partNumber: 'RP191DD', name: 'Ignition Pickup Coil', vehicle: 'Bajaj Pulsar 150', fileName: 'Orado rp191dd Ignition Pickup Coil For Bajaj Pulsar 150 (2).png' },
+  { partNumber: 'RP191RG', name: 'Ignition Pickup Coil', vehicle: 'Bajaj Discover 135cc Dtsi', fileName: 'Orado rp191rg Ignition Pickup Coil  For Bajaj Discover 135cc Dtsi (9).png' },
+  { partNumber: 'RP191RO', name: 'Ignition Pickup Coil', vehicle: 'Bajaj Discover 100cc 125 150cc', fileName: 'Orado rp191ro Ignition Pickup Coil For Bajaj Discover 100cc 125 150cc (2).png' },
+  { partNumber: 'RP192', name: 'Ignition Pickup Coil', vehicle: 'Bajaj Kb 4s', fileName: 'Orado rp192 Ignition Pickup Coil For Bajaj Kb 4s (1).png' },
+  { partNumber: 'RP192AA', name: 'Ignition Pickup Coil', vehicle: 'Bajaj Pulsar 135cc', fileName: 'Orado rp192aa Ignition Pickup Coil For Bajaj Pulsar 135cc (2).png' },
+  { partNumber: 'RP192BB', name: 'Ignition Pickup Coil', vehicle: 'Bajaj Pulsar 180 Dts-I Ug3', fileName: 'Orado rp192bb Ignition Pickup Coil For Bajaj Pulsar 180 Dts-I Ug3 (2).png' },
+  { partNumber: 'RP192CE', name: 'Ignition Pickup Coil', vehicle: 'Bajaj Pulsar 200cc', fileName: 'Orado rp192ce Ignition Pickup Coil For Bajaj Pulsar 200cc  (4).png' },
+  { partNumber: 'RP192RU', name: 'Ignition Pickup Coil', vehicle: 'Bajaj Pulsar 180 Dtsi ug4', fileName: 'Orado rp192ru Ignition Pickup Coil For Bajaj Pulsar 180 Dtsi ug4 (2).png' },
+  { partNumber: 'RP192RX', name: 'Ignition Pickup Coil', vehicle: 'Bajaj Xcd 125 135 Boxer bm 100 bm 150 Bajaj Ct 110', fileName: 'Orado rp192rx Ignition Pickup Coil For Bajaj Xcd 125 135 Boxer bm 100 bm 150 Bajaj Ct 110 (2).png' },
+  { partNumber: 'RP193', name: 'Ignition Pickup Coil', vehicle: 'Bajaj Caliber Boxer Ct Ar', fileName: 'Orado rp193 Ignition Pickup Coil For Bajaj Caliber Boxer Ct Ar (2).png' },
+  { partNumber: 'RP193MW', name: 'Ignition Pickup Coil', vehicle: 'Bajaj Boxer At', fileName: 'Orado rp193mw Ignition Pickup Coil For Bajaj Boxer At (2).png' },
+  { partNumber: 'RP193RM', name: 'Ignition Pickup Coil', vehicle: 'Bajaj Wind 125', fileName: 'Orado rp193rm Ignition Pickup Coil For Bajaj Wind 125 (10).png' },
+  { partNumber: 'RP194JW', name: 'Ignition Pickup Coil', vehicle: 'Bajaj Caliber Croma', fileName: 'Orado rp194jw Ignition Pickup Coil For Bajaj Caliber Croma (2).png' },
+  { partNumber: 'RP194KW', name: 'Ignition Pickup Coil', vehicle: 'Bajaj Caliber Upgrade', fileName: 'Orado rp194kw Ignition Pickup Coil For Bajaj Caliber Upgrade (2).png' },
+  { partNumber: 'RP194SJ', name: 'Ignition Pickup Coil', vehicle: 'Bajaj Ct 100 Platina', fileName: 'Orado rp194sj Ignition Pickup Coil For Bajaj Ct 100 Platina (2).png' },
+  { partNumber: 'RP195', name: 'Pick Up Coil', vehicle: 'LML Vespa', fileName: 'RP195  Pick Up Coil For LML Vespa Scooter Two Wheeler Spare Parts Scooter Parts (1).png' },
+  { partNumber: 'RP196', name: 'Ignition Pick up Coil', vehicle: 'Lml Vespa Star', fileName: 'Orado rp196 Ignition Pick up Coil For Lml Vespa Star (2).png' },
+  { partNumber: 'RP196LP', name: 'Ignition Pickup Coil', vehicle: 'Lml Vespa 4s latest blue', fileName: 'Orado rp196lp Ignition Pickup Coil For Lml Vespa 4s latest blue (1).png' },
+  { partNumber: 'RP197', name: 'Ignition Pickup Coil', vehicle: 'Lml Energy Fx Freedom', fileName: 'Orado rp197 Ignition Pickup Coil For Lml Energy Fx Freedom (2).png' },
+  { partNumber: 'RP197ZX', name: 'Ignition Pickup Coil', vehicle: 'Lml Freedom Crd Prima', fileName: 'Orado rp197zx Ignition Pickup Coil For Lml Freedom Crd Prima (7).png' },
+  { partNumber: 'RP198', name: 'Ignition Pick up Coil', vehicle: 'Hero Splendor Nxg', fileName: 'Orado rp198 Ignition Pick up Coil For Hero Splendor Nxg (7).png' },
+  { partNumber: 'RP198DB', name: 'Ignition Pickup Coil', vehicle: 'Hero Splendor om', fileName: 'Orado rp198db Ignition Pickup Coil For Hero Splendor om (4).jpg' },
+  { partNumber: 'RP198DR', name: 'Ignition Pickup Coil', vehicle: 'Hero Splendor nm spl plus', fileName: 'Orado rp198dr Ignition Pickup Coil For Hero Splendor nm spl plus (2).png' },
+  { partNumber: 'RP198RO', name: 'Ignition Pickup Coil', vehicle: 'Hero Cbz Xt Achiever Hunk', fileName: 'Orado rp198ro Ignition Pickup Coil For Hero Cbz Xt Achiever Hunk (2).png' },
+  { partNumber: 'RP199', name: 'Ignition Pick up Coil', vehicle: 'Hero Ambition', fileName: 'Orado rp199 Ignition Pick up Coil For Hero Ambition (2).png' },
+  { partNumber: 'RP199AX', name: 'Ignition Pickup Coil', vehicle: 'Hero Cd Dawn nm', fileName: 'Orado rp199ax Ignition Pickup Coil For Hero Cd Dawn nm (1).png' },
+  { partNumber: 'RP200', name: 'Ignition Pickup Coil', vehicle: 'Hero Honda Cbz om', fileName: 'Orado rp200 Ignition Pickup Coil For Hero Honda Cbz om (2).png' },
+  { partNumber: 'RP201', name: 'Ignition Pickup Coil', vehicle: 'Hero Honda Old Model', fileName: 'Orado rp201 Ignition Pickup Coil For Hero Honda Old Model (6).png' },
+  { partNumber: 'RP202', name: 'Ignition Pickup Coil', vehicle: 'Hero Honda Cd 100', fileName: 'Orado rp202 Ignition Pickup Coil For Hero Honda Cd 100 (2).png' },
+  { partNumber: 'RP203', name: 'Ignition Pickup Coil', vehicle: 'Hero Honda ss kinetic boss nova challenger', fileName: 'Orado rp203 Ignition Pickup Coil For Hero Honda ss kinetic boss nova challenger .png' },
+  { partNumber: 'RP204', name: 'Ignition Pickup Coil', vehicle: 'Hero Honda Splendor nxg', fileName: 'Orado rp204 Ignition Pickup Coil For Hero Honda Splendor nxg (1).png' },
+  { partNumber: 'RP204BN', name: 'Ignition Pickup Coil', vehicle: 'Hero Cd Dawn Hf Dawn Hf Dlx Eco Passion Pro', fileName: 'Orado rp204bn Ignition Pickup Coil For Hero Cd Dawn Hf Dawn Hf Dlx Eco Passion Pro (12).png' },
+  { partNumber: 'RP205', name: 'Ignition Pickup Coil', vehicle: 'Hero Splendor Plus Passion', fileName: 'Orado rp205 Ignition Pickup Coil For Hero Splendor Plus Passion (2).png' },
+  { partNumber: 'RP.205JL', name: 'Pick Up Coil', vehicle: 'Hero Super Splendor Bs3 Bs4 Glamour', fileName: 'RP.205Jl Hero Super Splendor Bs3 Bs4 Glamour (8).png' },
+  { partNumber: 'RP205RX', name: 'Ignition Pickup Coil', vehicle: 'Hero Super Splendor Glamour nm 12 pole nm', fileName: 'Orado rp205rx Ignition Pickup Coil For Hero Super Splendor Glamour nm 12 pole nm (2).png' },
+  { partNumber: 'RP206', name: 'Ignition Pickup Coil', vehicle: 'Hero Maestro', fileName: 'Orado rp206 Ignition Pickup Coil For Hero Maestro (11).png' },
+  { partNumber: 'RP206AD', name: 'Ignition Pickup Coil', vehicle: 'Hero Honda Splendor Pro', fileName: 'Orado rp206ad Ignition Pickup Coil For Hero Honda Splendor Pro (2).png' },
+  { partNumber: 'RP206EA', name: 'Pick Up Coil', vehicle: 'Hero Honda Splendor Pro Passion Pro', fileName: 'rp206ea Pick Up Coil For Hero Honda Splendor Pro Passion Pro Two Wheeler spare parts (4).jpg' },
+  { partNumber: 'RP207', name: 'Pick Up Coil', vehicle: 'Kinetic Honda Marvel Yamaha Rxz', fileName: 'RP207 Kinetic Honda Marvel Yamaha Rxz (9).png' },
+  { partNumber: 'RP208', name: 'Ignition Pickup Coil', vehicle: 'Honda Activa o m', fileName: 'Orado rp208 Ignition Pickup Coil For Honda Activa o m (2).png' },
+  { partNumber: 'RP208OD', name: 'Pick Up Coil', vehicle: 'Honda CBF Stunner', fileName: 'ORP 208OD  Pick Up Coil For Honda CBF Stunner Bike Two Wheeler Spare Parts .png' },
+  { partNumber: 'RP208OJ', name: 'Pick Up Coil', vehicle: 'Honda Dazzler', fileName: 'orp208oj  Pick Up Coil For Honda Dazzler Bike Two Wheeler Spare Parts (1).png' },
+  { partNumber: 'RP208OM', name: 'Pick Up Coil', vehicle: 'Honda Twister Dream Yuga CB Shine 125', fileName: 'ORP208OM  Pick Up Coil For Honda Twister Dream Yuga CB Shine 125 Bike Spare Parts (2).png' },
+  { partNumber: 'RP.208OP', name: 'Pick Up Coil', vehicle: 'Honda Activa HET 2013 3G 4G', fileName: 'ORP.208OP  Pick Up Coil For Honda Activa HET 2013 3G 4G Scooter Spare Parts (3).png' },
+  { partNumber: 'RP209', name: 'Pick Up Coil', vehicle: 'Honda Eterno', fileName: 'ORP209  Pick Up Coil For Honda Eterno Scooter Two Wheeler Spare Parts (1).png' },
+  { partNumber: 'RP209AU', name: 'Pick Up Coil', vehicle: 'Honda Activa NM Dio 110cc', fileName: 'ORP209AU  Pick Up Coil For Honda Activa NM Dio 110cc Scooter Spare Parts (1).png' },
+  { partNumber: 'RP210', name: 'Pick Up Coil', vehicle: 'Honda Unicorn', fileName: 'ORP210  Pick Up Coil For Honda Unicorn Bike Two Wheeler Spare Parts (10).png' },
+  { partNumber: 'RP210AB', name: 'Pick Up Coil', vehicle: 'Honda Shine', fileName: 'ORP210AB  Pick Up Coil For Honda Shine Bike Two Wheeler Spare Parts (7).png' },
+  { partNumber: 'RP210ER', name: 'Pick Up Coil', vehicle: 'Honda Activa 125cc BS3 BS4', fileName: 'ORP210ER  Pick Up Coil For Honda Activa 125cc BS3 BS4 Scooter Spare Parts (1).png' },
+  { partNumber: 'RP211', name: 'Pick Up Coil', vehicle: 'Honda Shine NM Unicorn NM CBZ XT 12 Pole', fileName: 'rp211 orado  Pick Up Coil For Honda Shine NM Unicorn NM CBZ XT 12 Pole Spare Parts (5).jpg' },
+  { partNumber: 'RP212', name: 'Pick Up Coil', vehicle: 'Yamaha Crux Old Libero Alba', fileName: 'ORP212  Pick Up Coil For Yamaha Crux Old Libero Alba Bike Two Wheeler Spare Parts (2).jpg' },
+  { partNumber: 'RP213', name: 'Pick Up Coil', vehicle: 'Yamaha Crux NM Gladiator', fileName: 'Orado rp213 Pick Up Coil For Yamaha Crux NM Gladiator Bike Two Wheeler Spare Parts (7).jpg' },
+  { partNumber: 'RP213PR', name: 'Pick Up Coil', vehicle: 'Yamaha YBR 125 SS 125', fileName: 'rp213pr orado  Pick Up Coil For Yamaha YBR 125 SS 125 Bike Two Wheeler Spare Parts (1).jpg' },
+  { partNumber: 'RP213RD', name: 'Pickup Coil', vehicle: 'Ymh Ybr 110', fileName: 'rp213rd Pickup Coil For Ymh Ybr 110  (2).png' },
+  { partNumber: 'RP213ZP', name: 'Pick Up Coil', vehicle: 'Yamaha Fazer FZ16 FZ-S', fileName: 'Orado rp213zp  Pick Up Coil For Yamaha Fazer FZ16 FZ-S Bike Two Wheeler Spare Parts (5).jpg' },
+  { partNumber: 'RP214', name: 'Pick Up Coil', vehicle: 'TVS Star City Centra Star DLX', fileName: 'ORP214  Pick Up Coil For TVS Star City Centra Star DLX Bike Spare Parts (7).png' },
+  { partNumber: 'RP214AB', name: 'Pick Up Coil', vehicle: 'TVS Apache RTR 160 RTR 180', fileName: 'ORP214AB  Pick Up Coil For TVS Apache RTR 160 RTR 180 Bike Two Wheeler Spare Parts.png' },
+  { partNumber: 'RP214AD', name: 'Pick Up Coil', vehicle: 'TVS Apache', fileName: 'ORP214AD Pick Up Coil For TVS Apache Bike Two Wheeler Spare Parts (1).png' },
+  { partNumber: 'RP214CK', name: 'Ignition Pickup Coil', vehicle: 'Tvs Phoenix Star City Plus', fileName: 'Orado rp214ck Ignition Pickup Coil For Tvs Phoenix Star City Plus (1).png' },
+  { partNumber: 'RP214DD', name: 'Pick Up Coil', vehicle: 'TVS Star City Self Start', fileName: 'ORP214DD  Pick Up Coil For TVS Star City Self Start Bike Two Wheeler Spare Parts (1).png' },
+  { partNumber: 'RP214DL', name: 'Pick Up Coil', vehicle: 'TVS Scooty Pep', fileName: 'ORP214DL  Pick Up Coil For TVS Scooty Pep Scooter Two Wheeler Spare Part (1).png' },
+  { partNumber: 'RP214DM', name: 'Pick Up Coil', vehicle: 'TVS Flame Jive', fileName: 'ORP214DM  Pick Up Coil For TVS Flame Jive Bike Two Wheeler Spare Parts (1).png' },
+  { partNumber: 'RP215', name: 'Ignition Pickup Coil', vehicle: 'Tvs Fiero', fileName: 'Orado rp215 Ignition Pickup Coil For Tvs Fiero (7).png' },
+  { partNumber: 'RP215MD', name: 'Pick Up Coil', vehicle: 'TVS Fiero F2', fileName: 'ORP215MD  Pick Up Coil For TVS Fiero F2 Bike Two Wheeler Spare Parts (10).png' },
+  { partNumber: 'RP215MK', name: 'Pick Up Coil', vehicle: 'TVS Star City 110cc', fileName: 'ORP215MK  Pick Up Coil For TVS Star City 110cc Bike Two Wheeler Spare Parts (1).png' },
+  { partNumber: 'RP216', name: 'Pick Up Coil', vehicle: 'TVS Victor GX Scooty Pep Wego Sleek', fileName: 'ORP216   Pick Up Coil For TVS Victor GX Scooty Pep Wego Sleek Spare Parts (1).png' },
+  { partNumber: 'RP216AB', name: 'Pickup Coil', vehicle: 'Suzuki Access 8 Pole', fileName: 'rp216ab Pickup Coil For Suzuki Access 8 Pole  (8).png' },
+  { partNumber: 'RP216MS', name: 'Ignition Pickup Coil', vehicle: 'Tvs Victor Gl Gx Scooty pep', fileName: 'rp216ms Ignition Pickup Coil For Tvs Victor Gl Gx Scooty pep (2).png' },
+  { partNumber: 'RP216MT', name: 'Pick Up Coil', vehicle: 'Suzuki Access 125 12 Pole', fileName: 'RP216MT Suzuki Access 125 12 Pole (1).png' },
+  { partNumber: 'RP216NZ', name: 'Pick Up Coil', vehicle: 'Suzuki Zeus', fileName: 'Orado rp216nz  Pick Up Coil For Suzuki Zeus Bike Two Wheeler Spare Parts (6).jpg' },
+  { partNumber: 'RP216SR', name: 'Pick Up Coil', vehicle: 'TVS XL Super 100 Moped', fileName: 'Orado rp216sr  Pick Up Coil For TVS XL Super 100 Moped Two Wheeler Spare Parts.png' },
+  { partNumber: 'RP217', name: 'Pick Up Coil', vehicle: 'Hero Puch TVS Scooty XL Super', fileName: 'ORP217  Pick Up Coil For Hero Puch TVS Scooty XL Super Two Wheeler Spare Parts (1).png' },
+  { partNumber: 'RP218', name: 'Ignition Pickup Coil', vehicle: 'Hero Gizmo Panther', fileName: 'Orado rp218 Ignition Pickup Coil For Hero Gizmo Panther (2).png' },
+  { partNumber: 'RP219', name: 'Pick Up Coil', vehicle: 'Mahindra Centuro', fileName: 'ORP219  Pick Up Coil For Mahindra Centuro Bike Two Wheeler Spare Parts (1).png' },
+  { partNumber: 'RP219CM', name: 'Pick Up Coil', vehicle: 'Mahindra Gusto', fileName: 'ORP219CM Pick Up Coil For Mahindra Gusto Scooter Two Wheeler Spare Parts (1).png' },
+  { partNumber: 'RP219D', name: 'Ignition Pickup Coil', vehicle: 'Mahindra Duro Flyte', fileName: 'Orado rp219d Ignition Pickup Coil For Mahindra Duro Flyte (1).png' },
+];
+
+export const pickupCoilProducts: PickupCoilProduct[] =
+  pickupCoilProductFiles.map(({ fileName, ...product }) => ({
+    ...product,
+    image: `/pickup coil/${fileName}.webp`,
+    thumbnail: `/pickup coil/${fileName}.thumb.webp`,
+  }));
