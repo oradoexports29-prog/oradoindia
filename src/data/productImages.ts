@@ -17,17 +17,17 @@ export const twoWheelerImages = [
   // 06 - Electronic Flasher
   '/electronic%20flasher/RP%20255SD%20%20Electronic%20Flasher%20for%20Honda%20Activa%2012v%20Dc%20Oe%20Type%20Two%20Wheelers%20S%20Cooter%20Parts%20%20(5).webp',
 
-  // 07 - Regulator Rectifier
-  'https://images.pexels.com/photos/12174029/pexels-photo-12174029.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+  // 07 - Regulator Rectifier (ORADO RP256)
+  '/regulator%20rectifier/RP256%20Lml%20Vespa%20Select%20Self%20Start%20Select%20II%205%20Pin%20(6).png',
 
-  // 08 - Rectifier
-  'https://images.pexels.com/photos/37773385/pexels-photo-37773385.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+  // 08 - Rectifier (ORADO RP277)
+  '/rectifier/RP277%20Regulator%20Rectifier%20For%20Hero%20Honda%20Cd%20100%20Dawn%20Kinetic%20Honda%20(3).png',
 
-  // 09 - Coil Plate Assembly
-  'https://images.pexels.com/photos/14014350/pexels-photo-14014350.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+  // 09 - Coil Plate Assembly (ORADO RP284)
+  '/coil%20plate%20assembly/Orado%20rp284%20Stator%20Coil%20Plate%20Assembly%20For%20Bajaj%20chetak%2012v%20electronic%20(2).png',
 
-  // 10 - H.T. Coils
-  'https://images.pexels.com/photos/4846387/pexels-photo-4846387.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+  // 10 - H.T. Coils (ORADO RP316)
+  '/ht%20coil/RP316%20Bajaj%20Chetak%2012%20Volt%20(6).png',
 
   // 11 - Igniters (Actual ORADO RP358 Product)
   '/igniters/rp358%20Ignition%20coil%20Igniters%20For%20Lml%20%20V%20espa%2012V%20%20(4).png',
@@ -40,6 +40,9 @@ export const twoWheelerImages = [
 
   // 14 - Combination Switch (LH Only) - Actual ORADO RP455 Product
   '/combination%20switch/RP455%20Hero%20Honda%20Cd%20100%20(1).png',
+
+  // 15 - Self Relay (Actual ORADO RP489 Product)
+  '/self%20relay/RP489%20Bajaj%20platina%20ug4%20ct100.png',
   'https://images.pexels.com/photos/5111318/pexels-photo-5111318.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   'https://images.pexels.com/photos/8373457/pexels-photo-8373457.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   'https://images.pexels.com/photos/12000096/pexels-photo-12000096.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
