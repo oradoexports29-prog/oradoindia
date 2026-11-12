@@ -55,6 +55,7 @@ import { htCoilProducts } from '@/data/htCoilProducts';
 import { igniterProducts } from '@/data/igniterProducts';
 
 import { batteryWireProducts } from '@/data/batteryWireProducts';
+import { coilPlateProducts } from '@/data/coilPlateProducts';
 
 import ChargingCoil from './ChargingCoil';
 
@@ -77,6 +78,8 @@ interface ProductCard {
   name: string;
 
   vehicle: string;
+
+  description?: string;
 
   image: string;
 
@@ -103,31 +106,18 @@ const FALLBACK_IMAGE = '/logo.png';
    ========================================================= */
 
 function encodeImagePath(path: string): string {
-
   if (!path) return FALLBACK_IMAGE;
-
   if (/^https?:\/\//i.test(path)) return path;
-
   return path
-
     .split('/')
-
     .map((segment) => {
-
       try {
-
         return encodeURIComponent(decodeURIComponent(segment));
-
       } catch {
-
         return encodeURIComponent(segment);
-
       }
-
     })
-
     .join('/');
-
 }
 
 /* =========================================================
@@ -179,6 +169,8 @@ function getCategoryImage(
   const slug = category.slug;
 
   const imageMap: Record<string, string> = {
+    '2-wheeler-parts-coil-plate-assembly':
+      coilPlateProducts[0]?.image || FALLBACK_IMAGE,
 
     '2-wheeler-parts-lt-coils-light':
 
@@ -295,6 +287,8 @@ function CategoryDetailPage({
     slug === '2-wheeler-parts-combination-switch-lh-only';
 
   const isSelfRelay = slug === '2-wheeler-parts-self-relay';
+  const isCoilPlateAssembly =
+    slug === '2-wheeler-parts-coil-plate-assembly';
 
   const [activeProduct, setActiveProduct] = useState(0);
 
@@ -332,7 +326,9 @@ function CategoryDetailPage({
 
   /* Product heading */
 
-  const productType = isSelfRelay
+  const productType = isCoilPlateAssembly
+    ? 'Coil Plate Assembly'
+    : isSelfRelay
 
     ? 'Self Relay'
 
@@ -384,7 +380,9 @@ function CategoryDetailPage({
 
   /* Product source */
 
-  const productSource: ProductCard[] = isSelfRelay
+  const productSource: ProductCard[] = isCoilPlateAssembly
+    ? (coilPlateProducts as ProductCard[])
+    : isSelfRelay
 
     ? (selfRelayProducts as ProductCard[])
 
@@ -460,8 +458,6 @@ function CategoryDetailPage({
 
   });
 
-
-
   const moveProduct = (direction: -1 | 1) => {
 
     setActiveProduct((current) =>
@@ -471,8 +467,6 @@ function CategoryDetailPage({
     );
 
   };
-
-
 
   const scrollReferenceStrip = (direction: -1 | 1) => {
 
@@ -489,8 +483,6 @@ function CategoryDetailPage({
     });
 
   };
-
-
 
   // When the main product changes, bring its matching thumbnail into view.
 
@@ -1231,6 +1223,17 @@ function CategoryDetailPage({
                 </p>
 
               </div>
+
+              {currentProduct?.description?.trim() && (
+                <div className="mt-4 rounded-xl border border-slate-200 bg-white p-4">
+                  <p className="text-xs font-bold uppercase tracking-wider text-slate-400">
+                    Product Description
+                  </p>
+                  <p className="mt-2 text-sm font-semibold leading-relaxed text-[#102747]">
+                    {currentProduct.description}
+                  </p>
+                </div>
+              )}
 
               {/* VEHICLE */}
 

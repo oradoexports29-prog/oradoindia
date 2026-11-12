@@ -479,45 +479,36 @@ export default function BatteryWire() {
 
 
 
-              <div className="mt-6 grid gap-3 sm:grid-cols-2">
-
+              <div className="mt-6 space-y-3">
                 <div className="rounded-xl bg-slate-50 p-4">
-
                   <p className="text-[10px] font-bold uppercase tracking-widest text-slate-400">
-
-                    Part number
-
+                    Part Number
                   </p>
-
                   <p className="mt-2 text-lg font-extrabold text-[#102747]">
-
                     {currentProduct.partNumber}
-
                   </p>
-
                 </div>
 
-
+                {Boolean((currentProduct as typeof currentProduct & { description?: string }).description?.trim()) && (
+                  <div className="rounded-xl border border-slate-200 bg-white p-4">
+                    <p className="text-[10px] font-extrabold uppercase tracking-widest text-slate-400">
+                      Product Description
+                    </p>
+                    <p className="mt-2 text-sm leading-6 text-[#102747]">
+                      {(currentProduct as typeof currentProduct & { description?: string }).description}
+                    </p>
+                  </div>
+                )}
 
                 <div className="rounded-xl bg-slate-50 p-4">
-
                   <p className="text-[10px] font-bold uppercase tracking-widest text-slate-400">
-
-                    Vehicle compatibility
-
+                    Vehicle Compatibility
                   </p>
-
                   <p className="mt-2 text-sm font-bold text-[#102747]">
-
                     {currentProduct.vehicle}
-
                   </p>
-
                 </div>
-
               </div>
-
-
 
               <p className="mt-6 text-sm leading-7 text-slate-500">
 
