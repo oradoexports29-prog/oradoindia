@@ -1,6 +1,7 @@
 
 export interface HtCoilProduct {
   partNumber: string;
+  referenceNumber?: string;
   name: string;
   vehicle: string;
   description: string;
@@ -41,6 +42,7 @@ export const htCoilProducts: HtCoilProduct[] = [
     name: 'H.T. Coil',
     vehicle: 'Bajaj Boxer CT / Hero Maestro / Honda Activa / Aviator',
     description: 'Bajaj Boxer CT / Hero Maestro / Honda Activa / Aviator',
+    referenceNumber: 'DF111040/30510KWP901',
     image: '/ht coil/RP323 Bajaj Boxer Ct Hero Maestro Honda Activa Aviator (3).jpg',
   },
   {
@@ -48,6 +50,7 @@ export const htCoilProducts: HtCoilProduct[] = [
     name: 'H.T. Coil',
     vehicle: 'Bajaj Discover 100 / Discover 135 / Pulsar 150 DTS-i / Platina 100',
     description: 'Bajaj Discover 100 / Discover 135 / Pulsar 150 DTS-i / Platina 100',
+    referenceNumber: 'DS111036/JZ351213/DS111035',
     image: '/ht coil/RP328 Bajaj Discover 100 Dis 135 Pulsar 150 dtsi Platina 100 (2).png',
   },
   {
@@ -55,6 +58,7 @@ export const htCoilProducts: HtCoilProduct[] = [
     name: 'H.T. Coil',
     vehicle: 'Bajaj Pulsar 135 / Pulsar 135 LS / XCD 125 / Discover 125 / Avenger 180',
     description: 'Bajaj Pulsar 135 / Pulsar 135 LS / XCD 125 / Discover 125 / Avenger 180',
+    referenceNumber: 'JE351203',
     image: '/ht coil/RP329  Bajaj Pulsar 135 Pulsar 135 ls Bajaj Xcd 125 Discover 125 Avenger 180 Avenger 180 (2).png',
   },
   {
@@ -90,6 +94,7 @@ export const htCoilProducts: HtCoilProduct[] = [
     name: 'H.T. Coil',
     vehicle: 'Hero Honda Splendor / Passion / CBZ / CD Deluxe / CD Dawn',
     description: 'Hero Honda Splendor / Passion / CBZ / CD Deluxe / CD Dawn',
+    referenceNumber: '30500-KCC-710S',
     image: '/ht coil/RP337 Hero Honda Splendor Passion Cbz Cd Dlx Cd Dawn (1).png',
   },
   {
@@ -97,6 +102,7 @@ export const htCoilProducts: HtCoilProduct[] = [
     name: 'H.T. Coil',
     vehicle: 'Honda Activa 100 / Activa 100 CM2 / Aviator 100 / F3 / F5 / F9',
     description: 'Honda Activa 100 / Activa 100 CM2 / Aviator 100 / F3 / F5 / F9',
+    referenceNumber: '30510-KPL-901',
     image: '/ht coil/RP340 Honda Activa 100 cm2 100  cms Aviator 100F3 F 5 F9 (1).png',
   },
   {
@@ -104,6 +110,7 @@ export const htCoilProducts: HtCoilProduct[] = [
     name: 'H.T. Coil',
     vehicle: 'Honda Activa i / Activa 125 HET / Aviator / Dream Yuga',
     description: 'Honda Activa i / Activa 125 HET / Aviator / Dream Yuga',
+    referenceNumber: '30500K32901/30500KWPD00/30500KVTD00',
     image: '/ht coil/RP340A Honda Activa i Activa 125 Het Aviator Dream Yuga (12).png',
   },
   {
@@ -118,6 +125,7 @@ export const htCoilProducts: HtCoilProduct[] = [
     name: 'Yamaha H.T. Coil',
     vehicle: 'Yamaha Crux / Crux R / Libero',
     description: 'Yamaha Crux / Crux R / Libero',
+    referenceNumber: 'SKA-112310-00',
     image: '/ht coil/RP343KK Yamaha Crux Crux R Libero (2).png',
   },
   {
@@ -139,6 +147,7 @@ export const htCoilProducts: HtCoilProduct[] = [
     name: 'TVS H.T. Coil',
     vehicle: 'TVS Apache RTR 150 / 160 / 180 / TVS Flame 125',
     description: 'TVS Apache RTR 150 / 160 / 180 / TVS Flame 125',
+    referenceNumber: 'N9060180',
     image: '/ht coil/RP347SP Tvs Apache rtr 160 180 150 Tvs flame 125 (2).png',
   },
   {
@@ -146,6 +155,7 @@ export const htCoilProducts: HtCoilProduct[] = [
     name: 'TVS H.T. Coil',
     vehicle: 'TVS Victor GL / GX / Scooty Pep Plus',
     description: 'TVS Victor GL / GX / Scooty Pep Plus',
+    referenceNumber: 'K3060160',
     image: '/ht coil/RP348 Tvs Victor gl gx scooty pep plus (1).png',
   },
   {

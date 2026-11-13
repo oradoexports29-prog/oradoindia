@@ -33,6 +33,7 @@ import {
 
 
 import { regulatorRectifierProducts } from '@/data/RegulatorRectifier';
+import { catalogueProductsByCategory } from '@/data/catalogueProducts';
 
 
 
@@ -157,7 +158,21 @@ export default function RegulatorRectifier() {
 
 
 
-  const products = regulatorRectifierProducts;
+  const sourceProducts = regulatorRectifierProducts;
+  const catalogueProducts = catalogueProductsByCategory['2-wheeler-parts-regulator-rectifier'] || [];
+  const products = catalogueProducts.map((catalogueProduct) => {
+    const sourceProduct = sourceProducts.find((item) =>
+      item.partNumber === catalogueProduct.partNumber &&
+      item.vehicle.trim().toLowerCase() === catalogueProduct.vehicle.trim().toLowerCase()
+    ) || sourceProducts.find((item) => item.partNumber === catalogueProduct.partNumber);
+
+    return {
+      ...catalogueProduct,
+      name: sourceProduct?.name || catalogueProduct.name,
+      image: sourceProduct?.image || catalogueProduct.image,
+      thumbnail: sourceProduct?.thumbnail || sourceProduct?.image || catalogueProduct.thumbnail || catalogueProduct.image,
+    };
+  });
 
 
 
@@ -165,7 +180,7 @@ export default function RegulatorRectifier() {
 
   const filteredProducts = products.map((product, index) => ({ product, index })).filter(({ product }) =>
 
-    `${product.partNumber} ${product.name} ${product.vehicle}`.toLowerCase().replace(/[^a-z0-9]/g, '').includes(productSearch.toLowerCase().replace(/[^a-z0-9]/g, ''))
+    `${product.partNumber} ${product.referenceNumber || ''} ${product.name} ${product.vehicle} ${product.description || ''}`.toLowerCase().replace(/[^a-z0-9]/g, '').includes(productSearch.toLowerCase().replace(/[^a-z0-9]/g, ''))
 
   );
 

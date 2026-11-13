@@ -11,6 +11,7 @@ import {
 
 
 import { batteryWireProducts } from '@/data/batteryWireProducts';
+import { catalogueProductsByCategory } from '@/data/catalogueProducts';
 
 import {
 
@@ -108,7 +109,21 @@ export default function BatteryWire() {
 
   const category = getCategoryBySlug(CATEGORY_SLUG);
 
-  const products = batteryWireProducts;
+  const sourceProducts = batteryWireProducts;
+  const catalogueProducts = catalogueProductsByCategory['2-wheeler-parts-battery-wire'] || [];
+  const products = catalogueProducts.map((catalogueProduct) => {
+    const sourceProduct = sourceProducts.find((item) =>
+      item.partNumber === catalogueProduct.partNumber &&
+      item.vehicle.trim().toLowerCase() === catalogueProduct.vehicle.trim().toLowerCase()
+    ) || sourceProducts.find((item) => item.partNumber === catalogueProduct.partNumber);
+
+    return {
+      ...catalogueProduct,
+      name: sourceProduct?.name || catalogueProduct.name,
+      image: sourceProduct?.image || catalogueProduct.image,
+      thumbnail: sourceProduct?.thumbnail || sourceProduct?.image || catalogueProduct.thumbnail || catalogueProduct.image,
+    };
+  });
 
   const currentProduct = products[activeProduct];
 

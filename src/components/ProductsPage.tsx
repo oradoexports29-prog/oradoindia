@@ -11,13 +11,8 @@ import {
   threeWheelerImages,
   twoWheelerImages,
 } from '@/data/productImages';
-import { chargingCoilProducts } from '@/data/chargingCoilProducts';
-import { ltCoilProducts } from '@/data/ltCoilProducts';
-import { pickupCoilProducts } from '@/data/pickupCoilProducts';
-import { cdiUnitProducts } from '@/data/cdiUnitProducts';
-import { acRegulatorProducts } from '@/data/acRegulatorProducts';
-import { electronicFlasherProducts } from '@/data/electronicFlasherProducts';
-import { regulatorRectifierProducts } from '@/data/RegulatorRectifier';
+import { catalogueProductsByCategory } from '@/data/catalogueProducts';
+import { getCategoryBySlug } from '@/data/categoryRegistry';
 
 interface ProductFamily {
   key: Exclude<FamilyKey, 'all'>;
@@ -39,8 +34,10 @@ interface CatalogueItem {
 
 interface ProductRecord {
   partNumber: string;
+  referenceNumber?: string;
   name: string;
   vehicle: string;
+  description: string;
   image: string;
   family: Exclude<FamilyKey, 'all'>;
   familyTitle: string;
@@ -85,7 +82,7 @@ const families: ProductFamily[] = [
 ];
 
 const slugify = (value: string) => value.toLowerCase()
-  .replace(/&/g, 'and').replace(/[^a-z0-9 ]/g, '').trim().replace(/\s+/g, '-');
+  .replace(/[^a-z0-9 ]/g, '').replace(/\s+/g, '-').trim();
 const normalize = (value: string) => value.toLowerCase().replace(/[^a-z0-9]/g, '');
 
 function familyFromHash(hash: string): FamilyKey {
@@ -108,15 +105,20 @@ function orderedItems(family: ProductFamily): CatalogueItem[] {
     .map(({ category, index }) => ({ category, image: family.images[index], family }));
 }
 
-const productRecords: ProductRecord[] = [
-  ...chargingCoilProducts.map((product) => ({ ...product, family: 'two-wheeler' as const, familyTitle: '2 Wheeler Parts', category: 'Charging Coil (Source)', categorySlug: '2-wheeler-parts-charging-coil-source' })),
-  ...ltCoilProducts.map((product) => ({ ...product, family: 'two-wheeler' as const, familyTitle: '2 Wheeler Parts', category: 'L.T. Coils (Light)', categorySlug: '2-wheeler-parts-lt-coils-light' })),
-  ...pickupCoilProducts.map((product) => ({ ...product, family: 'two-wheeler' as const, familyTitle: '2 Wheeler Parts', category: 'Pick Up Coil (Pulsar)', categorySlug: '2-wheeler-parts-pick-up-coil-pulsar' })),
-  ...cdiUnitProducts.map((product) => ({ ...product, family: 'two-wheeler' as const, familyTitle: '2 Wheeler Parts', category: 'C.D.I. Unit', categorySlug: '2-wheeler-parts-cdi-unit' })),
-  ...acRegulatorProducts.map((product) => ({ ...product, family: 'two-wheeler' as const, familyTitle: '2 Wheeler Parts', category: 'A.C. Regulator', categorySlug: '2-wheeler-parts-ac-regulator' })),
-  ...electronicFlasherProducts.map((product) => ({ ...product, family: 'two-wheeler' as const, familyTitle: '2 Wheeler Parts', category: 'Electronic Flasher', categorySlug: '2-wheeler-parts-electronic-flasher' })),
-  ...regulatorRectifierProducts.map((product) => ({ ...product, family: 'two-wheeler' as const, familyTitle: '2 Wheeler Parts', category: 'Regulator Rectifier', categorySlug: '2-wheeler-parts-regulator-rectifier' })),
-];
+const productRecords: ProductRecord[] = Object.entries(catalogueProductsByCategory)
+  .flatMap(([categorySlug, products]) => {
+    const categoryData = getCategoryBySlug(categorySlug);
+    if (!categoryData) return [];
+    const family: Exclude<FamilyKey, 'all'> =
+      categoryData.family === '3 Wheeler Parts' ? 'three-wheeler' : 'two-wheeler';
+    return products.map((product) => ({
+      ...product,
+      family,
+      familyTitle: categoryData.family,
+      category: categoryData.title,
+      categorySlug,
+    }));
+  });
 
 function ProductCategoryCard({ item }: { item: CatalogueItem }) {
   const slug = `${slugify(item.family.title)}-${slugify(item.category.label)}`;
@@ -152,7 +154,7 @@ function ProductsPage() {
   const visibleProducts = useMemo(() => productRecords.filter((product) => {
     const matchesFamily = selectedFamily === 'all' || product.family === selectedFamily;
     const matchesCategory = !selectedCategory || product.category === selectedCategory;
-    const searchableText = `${product.partNumber} ${product.name} ${product.vehicle} ${product.category} ${product.familyTitle}`;
+    const searchableText = `${product.partNumber} ${product.referenceNumber || ''} ${product.name} ${product.description} ${product.vehicle} ${product.category} ${product.familyTitle}`;
     return matchesFamily && matchesCategory && matchesSearch(searchableText);
   }), [query, selectedFamily, selectedCategory]);
 
@@ -197,7 +199,7 @@ function ProductsPage() {
 
       {showSearchResults ? (
         <section className="container-max py-10">
-          {visibleProducts.length > 0 && <div className="mb-12"><div className="mb-5 flex items-end justify-between gap-3"><div><p className="text-[10px] font-bold uppercase tracking-[0.18em] text-brand-red">Product matches</p><h2 className="mt-1 font-display text-2xl font-extrabold text-navy-900">Matching ORADO Products</h2></div><span className="text-xs font-bold text-gray-400">{visibleProducts.length} found</span></div><div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">{visibleProducts.map((product) => <article key={`${product.categorySlug}-${product.partNumber}`} className="overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg"><div className="flex aspect-square items-center justify-center bg-white p-4"><img src={product.image} alt={`${product.partNumber} ${product.name} for ${product.vehicle}`} className="h-full w-full object-contain" loading="lazy" /></div><div className="border-t border-gray-100 p-3 sm:p-4"><p className="text-[10px] font-bold uppercase tracking-wide text-brand-red">{product.partNumber}</p><h3 className="mt-1 text-sm font-extrabold text-navy-900">{product.name}</h3><p className="mt-2 text-[9px] font-extrabold uppercase tracking-wider text-gray-400">Vehicle Compatibility</p><p className="mt-0.5 min-h-[36px] text-xs leading-5 text-gray-600">{product.vehicle}</p><p className="mt-2 text-[10px] font-bold uppercase tracking-wide text-gray-400">{product.category}</p><a href={`#category/${product.categorySlug}`} className="mt-3 inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-red hover:text-brand-red-dark">View category <ArrowRight className="h-3.5 w-3.5" /></a></div></article>)}</div></div>}
+          {visibleProducts.length > 0 && <div className="mb-12"><div className="mb-5 flex items-end justify-between gap-3"><div><p className="text-[10px] font-bold uppercase tracking-[0.18em] text-brand-red">Product matches</p><h2 className="mt-1 font-display text-2xl font-extrabold text-navy-900">Matching ORADO Products</h2></div><span className="text-xs font-bold text-gray-400">{visibleProducts.length} found</span></div><div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">{visibleProducts.map((product, index) => <article key={`${product.categorySlug}-${product.partNumber}-${index}`} className="overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg"><div className="flex aspect-square items-center justify-center bg-white p-4"><img src={product.image} alt={`${product.partNumber} ${product.name} for ${product.vehicle}`} className="h-full w-full object-contain" loading="lazy" /></div><div className="border-t border-gray-100 p-3 sm:p-4"><p className="text-[10px] font-bold uppercase tracking-wide text-brand-red">{product.partNumber}</p><h3 className="mt-1 text-sm font-extrabold text-navy-900">{product.name}</h3><p className="mt-2 text-[9px] font-extrabold uppercase tracking-wider text-gray-400">Product Description</p><p className="mt-0.5 min-h-[36px] text-xs leading-5 text-gray-600">{product.description}</p>{product.referenceNumber && <><p className="mt-2 text-[9px] font-extrabold uppercase tracking-wider text-blue-600">Reference Number</p><p className="mt-0.5 text-xs font-semibold text-navy-900">{product.referenceNumber}</p></>}<p className="mt-2 text-[10px] font-bold uppercase tracking-wide text-gray-400">{product.category}</p><a href={`#category/${product.categorySlug}`} className="mt-3 inline-flex items-center gap-1 text-xs font-bold uppercase text-brand-red hover:text-brand-red-dark">View category <ArrowRight className="h-3.5 w-3.5" /></a></div></article>)}</div></div>}
           {visibleItems.length > 0 && <div><div className="mb-5"><p className="text-[10px] font-bold uppercase tracking-[0.18em] text-brand-red">Category matches</p><h2 className="mt-1 font-display text-2xl font-extrabold text-navy-900">Browse Categories</h2></div><div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">{visibleItems.map((item) => <ProductCategoryCard key={`${item.family.key}-${item.category.label}`} item={item} />)}</div></div>}
           {visibleProducts.length === 0 && visibleItems.length === 0 && <div className="rounded-xl border border-dashed border-gray-300 bg-white px-6 py-14 text-center"><Search className="mx-auto h-8 w-8 text-gray-300" /><h2 className="mt-3 font-bold text-navy-900">No matching products or categories found</h2><p className="mt-2 text-sm text-gray-500">Try another RP number, vehicle model or product keyword.</p></div>}
         </section>

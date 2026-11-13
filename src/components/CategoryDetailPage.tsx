@@ -32,38 +32,23 @@ import {
 
 } from '@/data/categoryRegistry';
 
-import { ltCoilProducts } from '@/data/ltCoilProducts';
 
-import { pickupCoilProducts } from '@/data/pickupCoilProducts';
 
-import { cdiUnitProducts } from '@/data/cdiUnitProducts';
 
-import { acRegulatorProducts } from '@/data/acRegulatorProducts';
 
-import { electronicFlasherProducts } from '@/data/electronicFlasherProducts';
 
-import { rectifierProducts } from '@/data/rectifierProducts';
 
-import { ignitionSwitchProducts } from '@/data/ignitionSwitchProducts';
 
-import { combinationSwitchProducts } from '@/data/combinationSwitchProducts';
 
-import { selfRelayProducts } from '@/data/selfRelayProducts';
 
-import { htCoilProducts } from '@/data/htCoilProducts';
 
-import { igniterProducts } from '@/data/igniterProducts';
 
-import { batteryWireProducts } from '@/data/batteryWireProducts';
-import { coilPlateProducts } from '@/data/coilPlateProducts';
 
-import ChargingCoil from './ChargingCoil';
 
-import BatteryWire from './BatteryWire';
 
-import RegulatorRectifier from './RegulatorRectifier';
 
 import { companyInfo } from '@/data/navigation';
+import { catalogueProductsByCategory } from '@/data/catalogueProducts';
 
 interface CategoryDetailPageProps {
 
@@ -75,25 +60,23 @@ interface ProductCard {
 
   partNumber: string;
 
+  referenceNumber?: string;
+
   name: string;
 
   vehicle: string;
 
   description?: string;
 
+  voltage?: string;
+
+  baseShellDiaMm?: string;
+
   image: string;
 
   thumbnail?: string;
 
 }
-
-const CHARGING_COIL_SLUG =
-
-  '2-wheeler-parts-charging-coil-source';
-
-const REGULATOR_RECTIFIER_SLUG =
-
-  '2-wheeler-parts-regulator-rectifier';
 
 const FALLBACK_IMAGE = '/logo.png';
 
@@ -168,57 +151,7 @@ function getCategoryImage(
 
   const slug = category.slug;
 
-  const imageMap: Record<string, string> = {
-    '2-wheeler-parts-coil-plate-assembly':
-      coilPlateProducts[0]?.image || FALLBACK_IMAGE,
-
-    '2-wheeler-parts-lt-coils-light':
-
-      ltCoilProducts[0]?.image || FALLBACK_IMAGE,
-
-    '2-wheeler-parts-pick-up-coil-pulsar':
-
-      pickupCoilProducts[0]?.image || FALLBACK_IMAGE,
-
-    '2-wheeler-parts-cdi-unit':
-
-      cdiUnitProducts[0]?.image || FALLBACK_IMAGE,
-
-    '2-wheeler-parts-ac-regulator':
-
-      acRegulatorProducts[0]?.image || FALLBACK_IMAGE,
-
-    '2-wheeler-parts-electronic-flasher':
-
-      electronicFlasherProducts[0]?.image || FALLBACK_IMAGE,
-
-    '2-wheeler-parts-rectifier':
-
-      rectifierProducts[0]?.image || FALLBACK_IMAGE,
-
-    '2-wheeler-parts-ht-coils':
-
-      htCoilProducts[0]?.image || FALLBACK_IMAGE,
-
-    '2-wheeler-parts-igniters':
-
-      igniterProducts[0]?.image || FALLBACK_IMAGE,
-
-    '2-wheeler-parts-ignition-switch-cum-steering-lock-ignition-switch':
-
-      ignitionSwitchProducts[0]?.image || FALLBACK_IMAGE,
-
-    '2-wheeler-parts-combination-switch-lh-only':
-
-      combinationSwitchProducts[0]?.image || FALLBACK_IMAGE,
-
-    '2-wheeler-parts-battery-wire':
-
-      batteryWireProducts[0]?.image || FALLBACK_IMAGE,
-
-  };
-
-  return imageMap[slug] || category.image || FALLBACK_IMAGE;
+  return catalogueProductsByCategory[slug]?.[0]?.image || category.image || FALLBACK_IMAGE;
 
 }
 
@@ -235,12 +168,6 @@ function CategoryDetailPage({
 }: CategoryDetailPageProps) {
 
   const category = getCategoryBySlug(slug);
-
-  const isChargingCoil = slug === CHARGING_COIL_SLUG;
-
-  const isRectifierDedicated =
-
-    slug === REGULATOR_RECTIFIER_SLUG;
 
   const isLtCoil =
 
@@ -380,57 +307,8 @@ function CategoryDetailPage({
 
   /* Product source */
 
-  const productSource: ProductCard[] = isCoilPlateAssembly
-    ? (coilPlateProducts as ProductCard[])
-    : isSelfRelay
-
-    ? (selfRelayProducts as ProductCard[])
-
-    : isCombinationSwitch
-
-    ? (combinationSwitchProducts as ProductCard[])
-
-    : isIgnitionSwitch
-
-    ? (ignitionSwitchProducts as ProductCard[])
-
-    : isBatteryWire
-
-    ? batteryWireProducts
-
-    : isIgniter
-
-    ? igniterProducts
-
-    : isHtCoil
-
-      ? htCoilProducts
-
-      : isRectifier
-
-        ? rectifierProducts
-
-        : isFlasher
-
-          ? (electronicFlasherProducts as ProductCard[])
-
-          : isAcRegulator
-
-            ? (acRegulatorProducts as ProductCard[])
-
-            : isCdi
-
-              ? (cdiUnitProducts as ProductCard[])
-
-              : isPickupCoil
-
-                ? (pickupCoilProducts as ProductCard[])
-
-                : isLtCoil
-
-                  ? (ltCoilProducts as ProductCard[])
-
-                  : [];
+  const productSource: ProductCard[] =
+    (catalogueProductsByCategory[slug] as ProductCard[] | undefined) || [];
 
   const products = productSource;
 
@@ -448,7 +326,7 @@ function CategoryDetailPage({
 
     const content =
 
-      `${product.partNumber} ${product.name} ${product.vehicle}`
+      `${product.partNumber} ${product.referenceNumber || ''} ${product.name} ${product.vehicle} ${product.description || ''}`
 
         .toLowerCase()
 
@@ -516,7 +394,7 @@ function CategoryDetailPage({
 
   const productMessage = currentProduct
 
-    ? `Hello ORADO, I am interested in ${productType} ${currentProduct.partNumber} for ${currentProduct.vehicle}. Please share the price, product details and availability.`
+    ? `Hello ORADO, I am interested in ${productType} ${currentProduct.partNumber}${currentProduct.referenceNumber ? ` (Reference: ${currentProduct.referenceNumber})` : ''} - ${currentProduct.description || currentProduct.vehicle}. Please share the price and availability.`
 
     : generalMessage;
 
@@ -533,80 +411,20 @@ function CategoryDetailPage({
   )}`;
 
   /* Hero banner */
-
+  const firstCatalogueImage = catalogueProductsByCategory[slug]?.[0]?.image;
   const heroImage = isSelfRelay
-
     ? '/Self Relay Key Features Banner.png'
-
-    : isCombinationSwitch
-
-    ? '/Combination-Switch-Key-Features-Banner.png'
-
-    : isIgnitionSwitch
-
-    ? ignitionSwitchProducts[0]?.image
-
-    : isBatteryWire
-
-    ? batteryWireProducts[0]?.image
-
-    : isIgniter
-
-    ? igniterProducts[0]?.image
-
-    : isHtCoil
-
-      ? htCoilProducts[0]?.image
-
-      : isRectifier
-
-        ? rectifierProducts[0]?.image
-
-        : isLtCoil
-
-          ? '/L.T. Coils Product Feature Banner.png-1600.webp'
-
-          : isPickupCoil
-
-            ? '/Pickup Coil 2-Wheeler Parts Banner.png-1600.webp'
-
-            : isCdi
-
-              ? '/ORADO C.D.I. Unit Features.png-1600.webp'
-
-              : isAcRegulator
-
-                ? '/A.C. Regulator Product Banner.png'
-
-                : isFlasher
-
-                  ? '/Electronic Flasher Key Features.png'
-
-                  : category?.image || '';
-
-  /* =====================================================
-
-     DEDICATED CATEGORY ROUTING
-
-     ===================================================== */
-
-  if (isBatteryWire) {
-
-    return <BatteryWire />;
-
-  }
-
-  if (isChargingCoil) {
-
-    return <ChargingCoil />;
-
-  }
-
-  if (isRectifierDedicated) {
-
-    return <RegulatorRectifier />;
-
-  }
+    : isLtCoil
+      ? '/L.T. Coils Product Feature Banner.png-1600.webp'
+      : isPickupCoil
+        ? '/Pickup Coil 2-Wheeler Parts Banner.png-1600.webp'
+        : isCdi
+          ? '/ORADO C.D.I. Unit Features.png-1600.webp'
+          : isAcRegulator
+            ? '/A.C. Regulator Product Banner.png'
+            : isFlasher
+              ? '/Electronic Flasher Key Features.png'
+              : firstCatalogueImage || category?.image || '';
 
   /* =====================================================
 
@@ -1134,6 +952,16 @@ function CategoryDetailPage({
 
                     </h3>
 
+              {currentProduct?.referenceNumber && (
+
+                      <p className="mt-1 text-xs font-semibold leading-5 text-blue-700">
+
+                        Ref: {currentProduct.referenceNumber}
+
+                      </p>
+
+                    )}
+
                   </div>
 
                   <span className="rounded-lg bg-yellow-400 px-4 py-2 text-xs font-extrabold text-[#102747]">
@@ -1224,8 +1052,50 @@ function CategoryDetailPage({
 
               </div>
 
-              {currentProduct?.description?.trim() && (
-                <div className="mt-4 rounded-xl border border-slate-200 bg-white p-4">
+              {currentProduct?.referenceNumber && (
+
+                <div className="mt-4 rounded-xl border border-blue-200 bg-blue-50 p-5">
+
+                  <p className="text-xs font-bold uppercase tracking-wider text-blue-600">
+
+                    Reference Number
+
+                  </p>
+
+                  <p className="mt-2 break-words text-lg font-bold leading-relaxed text-[#102747]">
+
+                    {currentProduct.referenceNumber}
+
+                  </p>
+
+                </div>
+
+              )}
+
+              {currentProduct?.voltage && (
+                <div className="mt-4 rounded-xl border border-slate-200 bg-slate-50 p-5">
+                  <p className="text-xs font-bold uppercase tracking-wider text-slate-400">
+                    Voltage
+                  </p>
+                  <p className="mt-2 text-lg font-bold text-[#102747]">
+                    {currentProduct.voltage}
+                  </p>
+                </div>
+              )}
+
+              {currentProduct?.baseShellDiaMm && (
+                <div className="mt-4 rounded-xl border border-slate-200 bg-slate-50 p-5">
+                  <p className="text-xs font-bold uppercase tracking-wider text-slate-400">
+                    Base Shell Dia mm
+                  </p>
+                  <p className="mt-2 text-lg font-bold text-[#102747]">
+                    {currentProduct.baseShellDiaMm}
+                  </p>
+                </div>
+              )}
+
+              {currentProduct?.description && (
+                <div className="mt-4 rounded-xl border border-slate-200 bg-white p-5">
                   <p className="text-xs font-bold uppercase tracking-wider text-slate-400">
                     Product Description
                   </p>
@@ -1234,24 +1104,6 @@ function CategoryDetailPage({
                   </p>
                 </div>
               )}
-
-              {/* VEHICLE */}
-
-              <div className="mt-4 rounded-xl border border-slate-200 bg-slate-50 p-5">
-
-                <p className="text-xs font-bold uppercase tracking-wider text-slate-400">
-
-                  Vehicle Compatibility
-
-                </p>
-
-                <p className="mt-2 text-base font-bold leading-relaxed text-[#102747]">
-
-                  {currentProduct?.vehicle || 'Please select a product'}
-
-                </p>
-
-              </div>
 
               {/* ENQUIRY BUTTONS */}
 
@@ -1335,7 +1187,7 @@ function CategoryDetailPage({
 
                     }}
 
-                    placeholder="Search RP number or vehicle model..."
+                    placeholder="Search RP number, reference number or product description..."
 
                     className="w-full rounded-lg border border-slate-200 bg-white py-3 pl-10 pr-4 text-sm outline-none transition focus:border-red-500 focus:ring-2 focus:ring-red-100"
 
@@ -1415,7 +1267,7 @@ function CategoryDetailPage({
 
                     <button
 
-                      key={`${product.partNumber}-${product.image}`}
+                      key={`${product.partNumber}-${product.image}-${originalIndex}`}
 
                       data-product-index={originalIndex}
 
@@ -1461,17 +1313,26 @@ function CategoryDetailPage({
 
                       </p>
 
-                      <p className="mt-1 text-[9px] font-semibold uppercase tracking-wide text-slate-400">
+                      {product.referenceNumber && (
 
-                        Vehicle Compatibility
+                        <p className="mt-1 line-clamp-2 break-words text-[8px] font-semibold leading-3 text-blue-700">
 
-                      </p>
+                          Ref: {product.referenceNumber}
 
-                      <p className="line-clamp-2 text-[10px] leading-4 text-slate-500">
+                        </p>
 
-                        {product.vehicle}
+                      )}
 
-                      </p>
+                      {product.description && (
+                        <>
+                          <p className="mt-1 text-[9px] font-semibold uppercase tracking-wide text-slate-400">
+                            Product Description
+                          </p>
+                          <p className="line-clamp-2 text-[10px] leading-4 text-slate-500">
+                            {product.description}
+                          </p>
+                        </>
+                      )}
 
                     </button>
 

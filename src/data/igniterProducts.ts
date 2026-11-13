@@ -1,6 +1,7 @@
 
 export interface IgniterProduct {
   partNumber: string;
+  referenceNumber?: string;
   name: string;
   vehicle: string;
   description: string;
@@ -57,6 +58,7 @@ const igniterProductFiles: IgniterProductFile[] = [
     name: 'Ignition Coil Igniter',
     vehicle: 'TVS Star City KS / ES / Star Sport 7 Wire',
     description: 'TVS Star City KS / ES / Star Sport 7 Wire',
+    referenceNumber: 'N8060320',
     fileName: 'RP363ZK Tvs Star City ks es Star sport 7 wire (1).png',
   },
   {
@@ -71,6 +73,7 @@ const igniterProductFiles: IgniterProductFile[] = [
     name: 'Ignition Coil Igniter',
     vehicle: 'TVS Jupiter / TVS Wego Combined IDI, After April 2017 BS4',
     description: 'TVS Jupiter / TVS Wego Combined IDI, After April 2017 BS4',
+    referenceNumber: 'K6060440',
     fileName: 'RP365CB  Tvs Jupiter Tvs wego combined idi ignition coil after apr 2017 bs4 (6).jpg',
   },
   {
@@ -78,6 +81,7 @@ const igniterProductFiles: IgniterProductFile[] = [
     name: 'Ignition Coil Igniter',
     vehicle: 'TVS Jupiter / TVS Wego',
     description: 'TVS Jupiter / TVS Wego',
+    referenceNumber: 'K6060260',
     fileName: 'RP365cz Ignition coil Igniters For Tvs Jupiter Tvs Wego (5).jpg',
   },
   {
@@ -85,6 +89,7 @@ const igniterProductFiles: IgniterProductFile[] = [
     name: 'Ignition Coil Igniter',
     vehicle: 'TVS Super XL HD',
     description: 'TVS Super XL HD',
+    referenceNumber: 'P060150',
     fileName: 'RP365D M Tvs Super xl hd (1).png',
   },
   {
@@ -92,6 +97,7 @@ const igniterProductFiles: IgniterProductFile[] = [
     name: 'Ignition Coil Igniter',
     vehicle: 'TVS Super XL 100 BS3 / BS4',
     description: 'TVS Super XL 100 BS3 / BS4',
+    referenceNumber: 'P6060020',
     fileName: 'RP365K Tvs Super xl 100 bs3 bs4 (2).png',
   },
 ];

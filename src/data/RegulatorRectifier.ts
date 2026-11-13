@@ -1,6 +1,7 @@
 
 export interface RegulatorRectifierProduct {
   partNumber: string;
+  referenceNumber?: string;
   name: string;
   vehicle: string;
   description: string;
@@ -109,9 +110,49 @@ const productFiles = [
     'RP276VS  Regulator Rectifier for Yamaha Sz R 4 Pin Coupler Two Wheelers Parts (2).jpg'],
 ] as const;
 
+const regulatorRectifierReferenceNumbers: Record<string, string> = {
+  "RP258": "31600GBL870",
+  "RP258DD": "31600KTC900/31600-KWF-841/31600-KSP-861",
+  "RP259": "31600-KPL-901",
+  "RP259HH": "31600KWP-D01/31600-KWP-E01/31600-KWPG01",
+  "RP259X": "31600KVT941/31600KZN901",
+  "RP259P": "31600-KTP-890S",
+  "RP260": "31201045",
+  "RP260AS": "DD201157",
+  "RP261": "DJ2010-16",
+  "RP263": "DU201062",
+  "RP263GD": "JN402000",
+  "RP264": "JB402001/JW402001",
+  "RP265": "DS201003",
+  "RP266": "DJ2011-02",
+  "RP269": "DJ201202",
+  "RP260KK": "JN402000/PF402000",
+  "RP269TT": "JZ402000",
+  "RP269C": "JF402000",
+  "RP272": "R1060070",
+  "RP272MX": "N9060670",
+  "RP272DP": "P6060030",
+  "RP274": "N3060120/7060020",
+  "RP275": "N3060020",
+  "RP275MH": "IL.2.30.8200",
+  "RP275UK": "K3060590",
+  "RP275US": "N9060290",
+  "RP275UE": "N3163500",
+  "RP275EU": "R4060030",
+  "RP275EX": "K2060120",
+  "RP275EZ": "N4060060",
+  "RP276": "5KS-H1960000080",
+  "RP276VS": "54B-00",
+  "RP276OP": "IL2.30.0300",
+  "RP276GM": "1SU-H-1960-00/902004",
+};
+
 export const regulatorRectifierProducts: RegulatorRectifierProduct[] =
   productFiles.map(([partNumber, vehicle, filename]) => ({
     partNumber,
+    ...(regulatorRectifierReferenceNumbers[partNumber]
+      ? { referenceNumber: regulatorRectifierReferenceNumbers[partNumber] }
+      : {}),
     name: 'Regulator Rectifier',
     vehicle,
     description: vehicle,

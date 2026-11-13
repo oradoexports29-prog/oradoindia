@@ -32,23 +32,20 @@ import {
  */
 
 const homepageTwoWheelerImageOverrides: Record<number, string> = {
-  // First category group - actual ORADO product images
   0: '/chargingcoil.png.webp',
   1: '/ltcoil.png.webp',
   2: '/pickup%20coil/Orado%20rp191dd%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Pulsar%20150%20(2).png.webp',
   3: '/cdi%20unit/RP221%20Cdi%20Unit%20For%20Bajaj%20Chetak%2099%20Bravo%20Classic%20sl%20.png',
   4: '/ac%20regulator/rp246%20AC%20Regulator%20For%20Lml%20Select%20nv%20Spl%20express%205%20trendy%20%20(5).webp',
   5: '/electronic%20flasher/RP%20255SD%20%20Electronic%20Flasher%20for%20Honda%20Activa%2012v%20Dc%20Oe%20Type%20Two%20Wheelers%20S%20Cooter%20Parts%20%20(5).webp',
-
-  // Second category group - actual ORADO products
   6: '/regulator%20rectifier/RP256%20Lml%20Vespa%20Select%20Self%20Start%20Select%20II%205%20Pin%20(6).png',
   7: '/rectifier/RP277%20Regulator%20Rectifier%20For%20Hero%20Honda%20Cd%20100%20Dawn%20Kinetic%20Honda%20(3).png',
-  8: '/coil%20plate%20assembly/Orado%20rp284%20Stator%20Coil%20Plate%20Assembly%20For%20Bajaj%20chetak%2012v%20electronic%20(2).png',
-  9: '/ht%20coil/RP316%20Bajaj%20Chetak%2012%20Volt%20(6).png',
-  10: '/igniters/rp358%20Ignition%20coil%20Igniters%20For%20Lml%20%20V%20espa%2012V%20%20(4).png',
-  11: '/battery-wire/RP379-negative.png',
-  12: '/Ignition%20Switch%20Cum%20Steering%20Lock/RP384%20Ignition%20switch%20Lock%20For%20Hero%20Hnd%20Splendor%20Passion%20(3).png',
-  13: '/combination%20switch/RP455%20Hero%20Honda%20Cd%20100%20(1).png',
+  8: 'https://placehold.co/900x900/FFFFFF/102747.png?text=ORADO+Coil+Plate+Sensor',
+  9: '/coil%20plate%20assembly/Orado%20rp284%20Stator%20Coil%20Plate%20Assembly%20For%20Bajaj%20chetak%2012v%20electronic%20(2).png',
+  10: '/ht%20coil/RP316%20Bajaj%20Chetak%2012%20Volt%20(6).png',
+  11: '/igniters/rp358%20Ignition%20coil%20Igniters%20For%20Lml%20%20V%20espa%2012V%20%20(4).png',
+  12: '/battery-wire/RP379-negative.png',
+  13: '/Ignition%20Switch%20Cum%20Steering%20Lock/RP384%20Ignition%20switch%20Lock%20For%20Hero%20Hnd%20Splendor%20Passion%20(3).png',
   14: '/self%20relay/RP489%20Bajaj%20platina%20ug4%20ct100.png',
 };
 

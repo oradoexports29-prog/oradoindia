@@ -1,5 +1,6 @@
 export interface CoilPlateProduct {
   partNumber: string;
+  referenceNumber?: string;
   name: string;
   vehicle: string;
   description: string;
@@ -76,6 +77,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Honda active new dio pleasure maestro",
     description: "Honda active new dio pleasure maestro",
+    referenceNumber: '31120KWP901',
     image: "/coil plate assembly/Orado rp291 Stator Coil Plate Assembly For Honda active new dio pleasure maestro (1).png",
   },
   {
@@ -83,6 +85,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Honda aviator n m",
     description: "Honda aviator n m",
+    referenceNumber: '31120KVT941',
     image: "/coil plate assembly/Orado rp291ab Stator Coil Plate Assembly For Honda aviator n m (3).jpg",
   },
   {
@@ -97,6 +100,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Honda twister dream yuga 12 pole",
     description: "Honda twister dream yuga 12 pole",
+    referenceNumber: '31120KWS901',
     image: "/coil plate assembly/Orado rp291bk Stator Coil Plate Assembly For Honda twister dream yuga 12 pole (3).png",
   },
   {
@@ -104,6 +108,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Honda unicorn dazzler 12 pole cbf 150 mb bs4",
     description: "Honda unicorn dazzler 12 pole cbf 150 mb bs4",
+    referenceNumber: '31120-KSP-B01',
     image: "/coil plate assembly/Orado rp291bo Stator Coil Plate Assembly For Honda unicorn dazzler 12 pole cbf 150 mb bs4 (3).jpg",
   },
   {
@@ -111,6 +116,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Honda activa het 2013 model 12 pole 3g 1 model",
     description: "Honda activa het 2013 model 12 pole 3g 1 model",
+    referenceNumber: '31120KWPD01',
     image: "/coil plate assembly/Orado rp291bz Stator Coil Plate Assembly For Honda activa het 2013 model 12 pole 3g 1 model  (4).png",
   },
   {
@@ -118,6 +124,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Honda activa active 125cc 12 pole",
     description: "Honda activa active 125cc 12 pole",
+    referenceNumber: '31120K24901',
     image: "/coil plate assembly/Orado rp291mm Stator Coil Plate Assembly For Honda activa active 125cc 12 pole (3).jpg",
   },
   {
@@ -125,6 +132,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Honda activa unicorn honda cbf 125 8 pole",
     description: "Honda activa unicorn honda cbf 125 8 pole",
+    referenceNumber: '31120KTC901',
     image: "/coil plate assembly/Orado rp292 Stator Coil Plate Assembly For Honda activa unicorn honda cbf 125 8 pole (3).jpg",
   },
   {
@@ -132,6 +140,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Honda activa neo passion x pro bs3 bs4 12 pole",
     description: "Honda activa neo passion x pro bs3 bs4 12 pole",
+    referenceNumber: '31120KZAW01S/31120K14901',
     image: "/coil plate assembly/Orado rp292ps Stator Coil Plate Assembly For Honda activa neo passion x pro bs3 bs4 12 pole (4).jpg",
   },
   {
@@ -139,6 +148,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Hnd Shine Hnd Stunner 125 8 pole",
     description: "Hnd Shine Hnd Stunner 125 8 pole",
+    referenceNumber: '31120KTE911',
     image: "/coil plate assembly/Orado rp292rw Stator Coil Plate Assembly For Hnd Shine Hnd Stunner 125 8 pole (7).png",
   },
   {
@@ -146,6 +156,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Honda unicorn 160cc 12 pole",
     description: "Honda unicorn 160cc 12 pole",
+    referenceNumber: '31120K38901',
     image: "/coil plate assembly/Orado rp292sk Stator Coil Plate Assembly For Honda unicorn 160cc 12 pole (3).jpg",
   },
   {
@@ -153,6 +164,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Hnd Cb Shine 125 bs4 12 pole",
     description: "Hnd Cb Shine 125 bs4 12 pole",
+    referenceNumber: '31120KTED01',
     image: "/coil plate assembly/Orado rp292ww Stator Coil Plate Assembly For Hnd Cb Shine 125 bs4 12 pole (8).png",
   },
   {
@@ -181,6 +193,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Tvs star city ks centra ks tvs sport ks",
     description: "Tvs star city ks centra ks tvs sport ks",
+    referenceNumber: 'N8060130',
     image: "/coil plate assembly/Orado rp296 Stator Coil Plate Assembly For Tvs star city ks centra ks tvs sport ks (6).png",
   },
   {
@@ -188,6 +201,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Tvs star city self start star sport",
     description: "Tvs star city self start star sport",
+    referenceNumber: 'N8060380',
     image: "/coil plate assembly/Orado rp297 Stator Coil Plate Assembly For Tvs star city self start star sport (5).png",
   },
   {
@@ -230,6 +244,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Tvs xl super 100",
     description: "Tvs xl super 100",
+    referenceNumber: 'P6320050',
     image: "/coil plate assembly/Orado rp300up Stator Coil Plate Assembly For Tvs xl super 100 (2).jpg",
   },
   {
@@ -244,6 +259,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Bajaj Pulsar 150 8 pole",
     description: "Bajaj Pulsar 150 8 pole",
+    referenceNumber: 'DJ111005',
     image: "/coil plate assembly/Orado rp301 Stator Coil Plate Assembly For Bajaj Pulsar 150 8 pole (1).png",
   },
   {
@@ -293,6 +309,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Bajaj Pulsar 150 180 es digital meter Discover 135 dtsi es 8 pole",
     description: "Bajaj Pulsar 150 180 es digital meter Discover 135 dtsi es 8 pole",
+    referenceNumber: 'DJ111049',
     image: "/coil plate assembly/Orado rp302 Stator Coil Plate Assembly For Bajaj Pulsar 150 180 es digital meter Discover 135 dtsi es 8 pole (3).jpg",
   },
   {
@@ -307,6 +324,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Bajaj Discover 100m 125m 150s 150f 125t 12 pole",
     description: "Bajaj Discover 100m 125m 150s 150f 125t 12 pole",
+    referenceNumber: 'JE351005',
     image: "/coil plate assembly/Orado rp302am Stator Coil Plate Assembly For Bajaj Discover 100m 125m 150s 150f 125t 12 pole (3).jpg",
   },
   {
@@ -314,6 +332,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Bajaj pulsar 150 180 ug4 ug5 pulsar 180 dtsi ug2 ug3 8 pole",
     description: "Bajaj pulsar 150 180 ug4 ug5 pulsar 180 dtsi ug2 ug3 8 pole",
+    referenceNumber: 'DH111081',
     image: "/coil plate assembly/Orado rp302ay Stator Coil Plate Assembly For Bajaj pulsar 150 180 ug4 ug5 pulsar 180 dtsi ug2 ug3 8 pole (1).png",
   },
   {
@@ -335,6 +354,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Bajaj pulsar 220cc avenger 12 pole",
     description: "Bajaj pulsar 220cc avenger 12 pole",
+    referenceNumber: 'DK111029',
     image: "/coil plate assembly/Orado rp302co Stator Coil Plate Assembly For Bajaj pulsar 220cc avenger 12 pole (4).jpg",
   },
   {
@@ -342,6 +362,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Bajaj pulsar 135cc dis 100 125 st 150 kks platina 125 dts i ks 8 pole",
     description: "Bajaj pulsar 135cc dis 100 125 st 150 kks platina 125 dts i ks 8 pole",
+    referenceNumber: 'JP351007',
     image: "/coil plate assembly/Orado rp302dw Stator Coil Plate Assembly For Bajaj pulsar 135cc dis 100 125 st 150 kks platina 125 dts i ks 8 pole (12).png",
   },
   {
@@ -349,6 +370,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Bajaj Pulsar 150 ug5 bs4 DK84 12 pole",
     description: "Bajaj Pulsar 150 ug5 bs4 DK84 12 pole",
+    referenceNumber: 'DK84',
     image: "/coil plate assembly/Orado rp302fd Stator Coil Plate Assembly For Bajaj Pulsar 150 ug5 bs4 DK84 12 pole (1).png",
   },
   {
@@ -363,6 +385,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Bajaj Platina 125 es 8 pole",
     description: "Bajaj Platina 125 es 8 pole",
+    referenceNumber: 'JK01',
     image: "/coil plate assembly/Orado rp303bl Stator Coil Plate Assembly For Bajaj Platina 125 es 8 pole (5).png",
   },
   {
@@ -370,6 +393,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Bajaj Vikrant V 15 bs4 12 pole",
     description: "Bajaj Vikrant V 15 bs4 12 pole",
+    referenceNumber: 'JH351005',
     image: "/coil plate assembly/Orado rp303bx Stator Coil Plate Assembly For Bajaj Vikrant V 15 bs4 12 pole (6).jpg",
   },
   {
@@ -377,6 +401,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Bajaj xcd 125 ks es 8 pole",
     description: "Bajaj xcd 125 ks es 8 pole",
+    referenceNumber: 'JA351012',
     image: "/coil plate assembly/Orado rp303db Stator Coil Plate Assembly For Bajaj xcd 125 ks es 8 pole (1).png",
   },
   {
@@ -384,6 +409,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Bajaj ct 100 ks bs3 platina 100 ks bs3 b ajaj ct 100 ks",
     description: "Bajaj ct 100 ks bs3 platina 100 ks bs3 b ajaj ct 100 ks",
+    referenceNumber: 'DF111020',
     image: "/coil plate assembly/Orado rp303dj Stator Coil Plate Assembly For Bajaj ct 100 ks bs3 platina 100 ks bs3 b ajaj ct 100 ks (2).png",
   },
   {
@@ -391,6 +417,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Boxer bm 150 bs3 bs4 Bajaj ct 100 110 es bs4 Platina 100 es bs4 discover 100 4 gear 8 pole",
     description: "Boxer bm 150 bs3 bs4 Bajaj ct 100 110 es bs4 Platina 100 es bs4 discover 100 4 gear 8 pole",
+    referenceNumber: 'PF351004',
     image: "/coil plate assembly/Orado rp303hw Stator Coil Plate Assembly For Boxer bm 150 bs3 bs4 Bajaj ct 100 110 es bs4 Platina 100 es bs4 discover 100 4 gear 8 pole (6).png",
   },
   {
@@ -398,6 +425,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Bajaj Platina 100 es pf24 12 pole platina ks bs4 100",
     description: "Bajaj Platina 100 es pf24 12 pole platina ks bs4 100",
+    referenceNumber: 'PF351024',
     image: "/coil plate assembly/Orado rp303zm Stator Coil Plate Assembly For Bajaj Platina 100 es pf24 12 pole platina ks bs4 100 (3).jpg",
   },
   {
@@ -405,6 +433,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Bajaj Platina ks pf33 12 pole",
     description: "Bajaj Platina ks pf33 12 pole",
+    referenceNumber: 'PF33',
     image: "/coil plate assembly/Orado rp303zs Stator Coil Plate Assembly For Bajaj Platina ks pf33 12 pole (5).jpg",
   },
   {
@@ -440,6 +469,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Hero Honda cbz xt xtreme achiever hunk 8 pole",
     description: "Hero Honda cbz xt xtreme achiever hunk 8 pole",
+    referenceNumber: '31120KSP911S',
     image: "/coil plate assembly/Orado rp306kk Stator Coil Plate Assembly For Hero Honda cbz xt xtreme achiever hunk 8 pole (3).jpg",
   },
   {
@@ -447,6 +477,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Hero Impulse Hunk xtreme 12 pole",
     description: "Hero Impulse Hunk xtreme 12 pole",
+    referenceNumber: '31120KSPB01S',
     image: "/coil plate assembly/Orado rp306kx Stator Coil Plate Assembly For Hero Impulse Hunk xtreme 12 pole (5).jpg",
   },
   {
@@ -454,6 +485,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Hero Honda Pleasure",
     description: "Hero Honda Pleasure",
+    referenceNumber: '31120KTP890S',
     image: "/coil plate assembly/Orado rp306mk Stator Coil Plate Assembly For Hero Honda Pleasure (3).jpg",
   },
   {
@@ -468,6 +500,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Hero Honda splendor pro 8 pole",
     description: "Hero Honda splendor pro 8 pole",
+    referenceNumber: '31120KWH961S',
     image: "/coil plate assembly/Orado rp307ah Stator Coil Plate Assembly For Hero Honda splendor pro 8 pole (6).png",
   },
   {
@@ -482,6 +515,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Hero Honda nxg o m 8 pole",
     description: "Hero Honda nxg o m 8 pole",
+    referenceNumber: '31120KVH910S',
     image: "/coil plate assembly/Orado rp307xo Stator Coil Plate Assembly For Hero Honda nxg o m 8 pole (3).jpg",
   },
   {
@@ -538,6 +572,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Hero Edge Duet bs4 12 pole",
     description: "Hero Edge Duet bs4 12 pole",
+    referenceNumber: '31120AAW000S',
     image: "/coil plate assembly/Orado rp312mz Stator Coil Plate Assembly For Hero Edge Duet bs4 12 pole (3).jpg",
   },
   {
@@ -566,6 +601,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Suzuki zeus 8 pole",
     description: "Suzuki zeus 8 pole",
+    referenceNumber: '32101-28G10-000',
     image: "/coil plate assembly/Orado rp313dk Stator Coil Plate Assembly For Suzuki zeus 8 pole (2).png",
   },
   {
@@ -573,6 +609,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Bullet Electra",
     description: "Bullet Electra",
+    referenceNumber: '500960',
     image: "/coil plate assembly/Orado rp313ds Stator Coil Plate Assembly For Bullet Electra (7).png",
   },
   {
@@ -587,6 +624,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Suzuki Heat 8 pole",
     description: "Suzuki Heat 8 pole",
+    referenceNumber: '32101-28G00-000',
     image: "/coil plate assembly/Orado rp313jh Stator Coil Plate Assembly For Suzuki Heat 8 pole (2).png",
   },
   {
@@ -594,6 +632,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Suzuki Access 125 12 pole",
     description: "Suzuki Access 125 12 pole",
+    referenceNumber: '32101-33GA2-000',
     image: "/coil plate assembly/Orado rp313jj Stator Coil Plate Assembly For Suzuki Access 125 12 pole (4).png",
   },
   {
@@ -601,6 +640,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Yamaha Fz 12 pole",
     description: "Yamaha Fz 12 pole",
+    referenceNumber: '21C-H1410-00',
     image: "/coil plate assembly/Orado rp313kl Stator Coil Plate Assembly For Yamaha Fz 12 pole (1).png",
   },
   {
@@ -608,6 +648,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Yamaha Ybr 110cc 12 pole (1) -",
     description: "Yamaha Ybr 110cc 12 pole (1) -",
+    referenceNumber: '5TS-H1410-00',
     image: "/coil plate assembly/Orado rp313kp Stator Coil Plate Assembly For Yamaha Ybr 110cc 12 pole (1) - Copy.png",
   },
   {
@@ -622,6 +663,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Yamaha Fz 16 Fz s 12 pole",
     description: "Yamaha Fz 16 Fz s 12 pole",
+    referenceNumber: '2GS-H1410-00',
     image: "/coil plate assembly/Orado rp313po Stator Coil Plate Assembly For Yamaha Fz 16 Fz s 12 pole (3).jpg",
   },
   {
@@ -629,6 +671,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Yamaha Ybr 125cc 12 pole",
     description: "Yamaha Ybr 125cc 12 pole",
+    referenceNumber: '2GS-H1410-00',
     image: "/coil plate assembly/Orado rp313ps Stator Coil Plate Assembly For Yamaha Ybr 125cc 12 pole (26).png",
   },
   {
@@ -636,6 +679,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Yamaha ss 125cc 12 pole",
     description: "Yamaha ss 125cc 12 pole",
+    referenceNumber: '35B-H1410-00',
     image: "/coil plate assembly/Orado rp313sk Stator Coil Plate Assembly For Yamaha ss 125cc 12 pole (4).jpg",
   },
   {
@@ -650,6 +694,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Yamaha Crux 8 pole o m",
     description: "Yamaha Crux 8 pole o m",
+    referenceNumber: '5KA-H1410-01',
     image: "/coil plate assembly/Orado rp313zu Stator Coil Plate Assembly For Yamaha Crux 8 pole o m (4).png",
   },
   {
@@ -657,6 +702,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Yamaha Crux 12 pole nm libero",
     description: "Yamaha Crux 12 pole nm libero",
+    referenceNumber: '5KA-H1410-01',
     image: "/coil plate assembly/Orado rp313zz Stator Coil Plate Assembly For Yamaha Crux 12 pole nm libero (6).png",
   },
   {
@@ -678,6 +724,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Tvs Apache 7 Pole",
     description: "Tvs Apache 7 Pole",
+    referenceNumber: 'N9060300',
     image: "/coil plate assembly/ORP.299 Tvs Apache 7 Pole (1).png",
   },
   {
@@ -720,6 +767,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Copper Coil Stator Assembly with Cable Harness",
     description: "Copper Coil Stator Assembly with Cable Harness",
+    referenceNumber: '31120KPL901',
     image: "/coil plate assembly/rp289 Copper Coil Stator Assembly with Cable Harness copy.png",
   },
   {
@@ -734,6 +782,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Tvs Victor nm 12 Pole",
     description: "Tvs Victor nm 12 Pole",
+    referenceNumber: 'N3322080',
     image: "/coil plate assembly/rp298xl orado Tvs Victor nm 12 Pole (8).png",
   },
   {
@@ -741,6 +790,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Tvs rtr 160cc 150 8 pole",
     description: "Tvs rtr 160cc 150 8 pole",
+    referenceNumber: 'N9322450',
     image: "/coil plate assembly/RP300 Tvs rtr 160cc 150 8 pole copy (1).png",
   },
   {
@@ -769,6 +819,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Tvs streak wego pep plus 8",
     description: "Tvs streak wego pep plus 8",
+    referenceNumber: 'K3321520',
     image: "/coil plate assembly/RP300ZK Tvs streak wego pep plus 8 copy (1).png",
   },
   {
@@ -783,6 +834,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Scooty pep plus bs4 tvs jupitor tvs n torq 125 bs4 tvs zest 110 bs4 12 pole",
     description: "Scooty pep plus bs4 tvs jupitor tvs n torq 125 bs4 tvs zest 110 bs4 12 pole",
+    referenceNumber: 'K3322190',
     image: "/coil plate assembly/RP300ZN Scooty pep plus bs4 tvs jupitor tvs n torq 125 bs4 tvs zest 110 bs4 12 pole copy.jpg",
   },
   {
@@ -797,6 +849,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "",
     description: "",
+    referenceNumber: 'JE25',
     image: "/coil plate assembly/rp302xt orado (3).jpg",
   },
   {
@@ -804,6 +857,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Copper Coil Stator and Wiring Harness",
     description: "Copper Coil Stator and Wiring Harness",
+    referenceNumber: '31120KWA931S',
     image: "/coil plate assembly/RP307DH Copper Coil Stator and Wiring Harness copy.png",
   },
   {
@@ -811,6 +865,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Electrical Motorcycle Stator Assembly (1)",
     description: "Electrical Motorcycle Stator Assembly (1)",
+    referenceNumber: '31120KST941S',
     image: "/coil plate assembly/RP312DW Electrical Motorcycle Stator Assembly (1) copy.png",
   },
   {
@@ -818,6 +873,7 @@ const coilPlateProductFiles: CoilPlateProduct[] = [
     name: 'Stator Coil Plate Assembly',
     vehicle: "Copper Stator Assembly with Wiring Harness (2)",
     description: "Copper Stator Assembly with Wiring Harness (2)",
+    referenceNumber: '32101-28G00-000',
     image: "/coil plate assembly/RP313JB Copper Stator Assembly with Wiring Harness (2) copy.png",
   },
   {

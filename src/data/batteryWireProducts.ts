@@ -1,5 +1,6 @@
 export interface BatteryWireProduct {
   partNumber: string;
+  referenceNumber?: string;
   name: string;
   vehicle: string;
   description: string;
@@ -9,10 +10,11 @@ export interface BatteryWireProduct {
 // Image paths match the short filenames inside public/battery-wire.
 export const batteryWireProducts: BatteryWireProduct[] = [
   {
-    partNumber: 'RP379',
+    partNumber: 'RP379G',
     name: 'Battery Wire - Negative OE',
     vehicle: 'Bajaj Pulsar 150 / 180 DTS-i ES UG3',
     description: 'Bajaj Pulsar 150 / 180 DTS-i ES UG3',
+    referenceNumber: 'DJ201021',
     image: '/battery-wire/RP379-negative.png',
   },
   {
@@ -20,6 +22,7 @@ export const batteryWireProducts: BatteryWireProduct[] = [
     name: 'Battery Wire - Positive OE Type',
     vehicle: 'Bajaj Pulsar 150 / 180 DTS-i ES UG3',
     description: 'Bajaj Pulsar 150 / 180 DTS-i ES UG3',
+    referenceNumber: 'DJ201020',
     image: '/battery-wire/RP379-positive.png',
   },
   {
@@ -34,6 +37,7 @@ export const batteryWireProducts: BatteryWireProduct[] = [
     name: 'Battery Wire - Digital Meter Negative OE Type',
     vehicle: 'Bajaj Pulsar 150 / 180 DTS-i ES UG3',
     description: 'Bajaj Pulsar 150 / 180 DTS-i ES UG3',
+    referenceNumber: 'JA402202',
     image: '/battery-wire/RP379S-negative.png',
   },
   {
@@ -48,6 +52,7 @@ export const batteryWireProducts: BatteryWireProduct[] = [
     name: 'Battery Wire - Negative',
     vehicle: 'Bajaj Discover DTS-i ES 150cc',
     description: 'Bajaj Discover DTS-i ES 150cc',
+    referenceNumber: 'JZ402202',
     image: '/battery-wire/RP382D-negative.png',
   },
   {
@@ -69,6 +74,7 @@ export const batteryWireProducts: BatteryWireProduct[] = [
     name: 'Battery Wire - To Relay Positive',
     vehicle: 'Bajaj Discover DTS-i ES 125cc / 135cc Disc Brake',
     description: 'Bajaj Discover DTS-i ES 125cc / 135cc Disc Brake',
+    referenceNumber: 'DS201022',
     image: '/battery-wire/RP383A-relay.png',
   },
   {

@@ -13,6 +13,7 @@ import {
 
 
 import { chargingCoilProducts } from '@/data/chargingCoilProducts';
+import { catalogueProductsByCategory } from '@/data/catalogueProducts';
 
 import {
 
@@ -117,13 +118,27 @@ export default function ChargingCoil() {
 
   const category = getCategoryBySlug(CATEGORY_SLUG);
 
-  const products = chargingCoilProducts;
+  const sourceProducts = chargingCoilProducts;
+  const catalogueProducts = catalogueProductsByCategory['2-wheeler-parts-charging-coil-source'] || [];
+  const products = catalogueProducts.map((catalogueProduct) => {
+    const sourceProduct = sourceProducts.find((item) =>
+      item.partNumber === catalogueProduct.partNumber &&
+      item.vehicle.trim().toLowerCase() === catalogueProduct.vehicle.trim().toLowerCase()
+    ) || sourceProducts.find((item) => item.partNumber === catalogueProduct.partNumber);
+
+    return {
+      ...catalogueProduct,
+      name: sourceProduct?.name || catalogueProduct.name,
+      image: sourceProduct?.image || catalogueProduct.image,
+      thumbnail: sourceProduct?.thumbnail || sourceProduct?.image || catalogueProduct.thumbnail || catalogueProduct.image,
+    };
+  });
 
   const currentProduct = products[activeProduct];
 
   const filteredProducts = products.map((product, index) => ({ product, index })).filter(({ product }) =>
 
-    `${product.partNumber} ${product.name} ${product.vehicle}`.toLowerCase().replace(/[^a-z0-9]/g, '').includes(productSearch.toLowerCase().replace(/[^a-z0-9]/g, ''))
+    `${product.partNumber} ${product.referenceNumber || ''} ${product.name} ${product.vehicle} ${product.description || ''}`.toLowerCase().replace(/[^a-z0-9]/g, '').includes(productSearch.toLowerCase().replace(/[^a-z0-9]/g, ''))
 
   );
 
