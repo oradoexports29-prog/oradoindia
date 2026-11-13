@@ -34,7 +34,7 @@ interface CatalogueItem {
 
 interface ProductRecord {
   partNumber: string;
-  referenceNumber?: string;
+  referenceNumber?: string | null;
   name: string;
   vehicle: string;
   description: string;

@@ -60,7 +60,7 @@ interface ProductCard {
 
   partNumber: string;
 
-  referenceNumber?: string;
+  referenceNumber?: string | null;
 
   name: string;
 
@@ -362,22 +362,30 @@ function CategoryDetailPage({
 
   };
 
-  // When the main product changes, bring its matching thumbnail into view.
-
+  // Keep the selected thumbnail visible without scrolling the whole page.
+  // scrollIntoView() can unexpectedly move the document vertically.
   useEffect(() => {
-
     const strip = referenceStripRef.current;
-
     if (!strip) return;
 
     const selected = strip.querySelector<HTMLElement>(
-
       `[data-product-index="${activeProduct}"]`
-
     );
+    if (!selected) return;
 
-    selected?.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'nearest' });
+    const selectedLeft = selected.offsetLeft - strip.offsetLeft;
+    const selectedRight = selectedLeft + selected.offsetWidth;
+    const visibleLeft = strip.scrollLeft;
+    const visibleRight = visibleLeft + strip.clientWidth;
 
+    if (selectedLeft < visibleLeft) {
+      strip.scrollTo({ left: selectedLeft - 12, behavior: 'smooth' });
+    } else if (selectedRight > visibleRight) {
+      strip.scrollTo({
+        left: selectedRight - strip.clientWidth + 12,
+        behavior: 'smooth',
+      });
+    }
   }, [activeProduct, productSearch, slug]);
 
   /* WhatsApp */
@@ -982,7 +990,7 @@ function CategoryDetailPage({
 
             {/* PRODUCT DETAILS */}
 
-            <div className="flex flex-col rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
+            <div className="flex min-h-[720px] flex-col rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8 lg:min-h-[760px]">
 
               <span className="mb-4 inline-flex w-fit rounded-md bg-yellow-400 px-4 py-2 text-xs font-extrabold uppercase tracking-wide text-[#102747]">
 
@@ -1107,7 +1115,7 @@ function CategoryDetailPage({
 
               {/* ENQUIRY BUTTONS */}
 
-              <div className="mt-6 flex flex-col gap-3">
+              <div className="mt-auto flex flex-col gap-3 pt-6">
 
                 <a
 

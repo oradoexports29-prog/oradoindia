@@ -4,7 +4,7 @@
 
 export interface CatalogueProduct {
   partNumber: string;
-  referenceNumber?: string;
+  referenceNumber?: string | null;
   name: string;
   vehicle: string;
   description: string;
