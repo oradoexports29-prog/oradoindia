@@ -9,7 +9,7 @@ export interface CatalogueProduct {
   vehicle: string;
   description: string;
   voltage?: string;
-  baseShellDiaMm?: string;
+  baseShellDiamm?: string;
   image: string;
   thumbnail?: string;
 }
@@ -119,8 +119,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP116",
       "referenceNumber": null,
       "name": "Charging Coil (Source)",
-      "vehicle": "BAJAJ CT –100/PLATINA",
-      "description": "BAJAJ CT –100/PLATINA",
+      "vehicle": "BAJAJ CT - 100/PLATINA",
+      "description": "BAJAJ CT - 100/PLATINA",
       "image": "/charging coil/ORADO RP116 Charging Coil For Bajaj ct 100 platina (1).png",
       "thumbnail": "/charging coil/ORADO RP116 Charging Coil For Bajaj ct 100 platina (1).png"
     },
@@ -148,8 +148,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Charging Coil (Source)",
       "vehicle": "VESPA 4S N/M",
       "description": "VESPA 4S N/M",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP118KJ+VESPA+4S+N+M",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP118KJ+VESPA+4S+N+M"
+      "image": "/charging coil/RP118KJ Black Coil Component with Woven Wire Leads.png",
+      "thumbnail": "/charging coil/RP118KJ Black Coil Component with Woven Wire Leads.png"
     },
     {
       "partNumber": "RP119",
@@ -456,8 +456,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "L.T. Coils (Light)",
       "vehicle": "BAJAJ CT-100",
       "description": "BAJAJ CT-100",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP159JS+BAJAJ+CT+100",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP159JS+BAJAJ+CT+100"
+      "image": "/lt coil/RP159JS Bajaj Ct 100 .png",
+      "thumbnail": "/lt coil/RP159JS Bajaj Ct 100 .png"
     },
     {
       "partNumber": "RP160",
@@ -678,6 +678,15 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "thumbnail": "/pickup%20coil/RP186%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Bravo%20.png"
     },
     {
+      "partNumber": "RP188",
+      "referenceNumber": null,
+      "name": "Pick Up Coil (Pulsar)",
+      "vehicle": "BAJAJ 99 (WHITE) 3W REAR ENGINE",
+      "description": "BAJAJ 99 (WHITE) 3W REAR ENGINE",
+      "image": "/pickup coil/RP188 Bajaj 99 3w Rear Engine .png",
+      "thumbnail": "/pickup coil/RP188 Bajaj 99 3w Rear Engine .png"
+    },
+    {
       "partNumber": "RP189",
       "referenceNumber": null,
       "name": "Pick Up Coil (Pulsar)",
@@ -699,8 +708,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP191RO",
       "referenceNumber": null,
       "name": "Pick Up Coil (Pulsar)",
-      "vehicle": "BAJAJ DICOVER 100CC / 125 / 150CC",
-      "description": "BAJAJ DICOVER 100CC / 125 / 150CC",
+      "vehicle": "BAJAJ DISCOVER 100CC / 125 / 150CC",
+      "description": "BAJAJ DISCOVER 100CC / 125 / 150CC",
       "image": "/pickup%20coil/RP191RO%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Discover%20100cc%20125%20150cc%20.png",
       "thumbnail": "/pickup%20coil/RP191RO%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Discover%20100cc%20125%20150cc%20.png"
     },
@@ -708,8 +717,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP191RG",
       "referenceNumber": null,
       "name": "Pick Up Coil (Pulsar)",
-      "vehicle": "BAJAJ DISCOVER 135CC DTS-I",
-      "description": "BAJAJ DISCOVER 135CC DTS-I",
+      "vehicle": "BAJAJ DISCOVER 135CC DTSI",
+      "description": "BAJAJ DISCOVER 135CC DTSI",
       "image": "/pickup%20coil/RP191RG%20Ignition%20Pickup%20Coil%20%20For%20Bajaj%20Discover%20135cc%20Dtsi%20.png",
       "thumbnail": "/pickup%20coil/RP191RG%20Ignition%20Pickup%20Coil%20%20For%20Bajaj%20Discover%20135cc%20Dtsi%20.png"
     },
@@ -818,8 +827,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "BAJAJ PULSAR 150 / 180DTSI / DISCOVER ES/KS / PULSAR UG1 / PULSAR UG2",
       "description": "BAJAJ PULSAR 150 / 180DTSI / DISCOVER ES/KS / PULSAR UG1 / PULSAR UG2",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP194+BAJAJ+PULSAR+150+180DTSI+DISCOVER+ES+KS+PULSAR+UG1+PULS",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP194+BAJAJ+PULSAR+150+180DTSI+DISCOVER+ES+KS+PULSAR+UG1+PULS"
+      "image": "/pickup coil/RP194 Ignition Pickup Coil For Bajaj Pulsar 150 180 dtsi discover es ks Pulsar ug1 Pulsar ug2 (1).png",
+      "thumbnail": "/pickup coil/RP194 Ignition Pickup Coil For Bajaj Pulsar 150 180 dtsi discover es ks Pulsar ug1 Pulsar ug2 (1).png"
     },
     {
       "partNumber": "RP194JW",
@@ -908,8 +917,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "HERO PLEASURE / MAESTRO / MAESTRO EDGE 110 / 125 BS3 & BS4 / HERO DUET BS4",
       "description": "HERO PLEASURE / MAESTRO / MAESTRO EDGE 110 / 125 BS3 & BS4 / HERO DUET BS4",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP198RA+HERO+PLEASURE+MAESTRO+MAESTRO+EDGE+110+125+BS3+BS4+HERO",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP198RA+HERO+PLEASURE+MAESTRO+MAESTRO+EDGE+110+125+BS3+BS4+HERO"
+      "image": "/pickup coil/RP198RA Ignition Pickup Coil For Hero Pleasure Maestro Edge 110 125 bs3 bs4 Hero Duet bs4 10 .png",
+      "thumbnail": "/pickup coil/RP198RA Ignition Pickup Coil For Hero Pleasure Maestro Edge 110 125 bs3 bs4 Hero Duet bs4 10 .png"
     },
     {
       "partNumber": "RP198RO",
@@ -1025,8 +1034,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "HERO SUPER SPLENDOR / BS3 & BS4 / HERO GLAMOUR / BS3 & BS4",
       "description": "HERO SUPER SPLENDOR / BS3 & BS4 / HERO GLAMOUR / BS3 & BS4",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP205JL+HERO+SUPER+SPLENDOR+BS3+BS4+HERO+GLAMOUR+BS3+BS4",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP205JL+HERO+SUPER+SPLENDOR+BS3+BS4+HERO+GLAMOUR+BS3+BS4"
+      "image": "/pickup coil/RP205Jl Hero Super Splendor Bs3 Bs4 Glamour .png",
+      "thumbnail": "/pickup coil/RP205Jl Hero Super Splendor Bs3 Bs4 Glamour .png"
     },
     {
       "partNumber": "RP206",
@@ -1050,8 +1059,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP206EA",
       "referenceNumber": null,
       "name": "Pick Up Coil (Pulsar)",
-      "vehicle": "HERO HONDA PASION PRO / SPLANDOR PRO",
-      "description": "HERO HONDA PASION PRO / SPLANDOR PRO",
+      "vehicle": "HERO HONDA PASSION PRO / SPLENDOR PRO",
+      "description": "HERO HONDA PASSION PRO / SPLENDOR PRO",
       "image": "/pickup%20coil/RP206EA%20Pick%20Up%20Coil%20For%20Hero%20Honda%20Splendor%20Pro%20Passion%20Pro%20Two%20Wheeler%20spare%20parts%20.jpg",
       "thumbnail": "/pickup%20coil/RP206EA%20Pick%20Up%20Coil%20For%20Hero%20Honda%20Splendor%20Pro%20Passion%20Pro%20Two%20Wheeler%20spare%20parts%20.jpg"
     },
@@ -1088,8 +1097,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "HONDA ACTIVA HET 2013 / 3G / ACTIVA i / ACTIVA 4G",
       "description": "HONDA ACTIVA HET 2013 / 3G / ACTIVA i / ACTIVA 4G",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP208OP+HONDA+ACTIVA+HET+2013+3G+ACTIVA+i+ACTIVA+4G",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP208OP+HONDA+ACTIVA+HET+2013+3G+ACTIVA+i+ACTIVA+4G"
+      "image": "/pickup coil/RP208OP  Pick Up Coil For Honda Activa HET 2013 3G 4G Scooter Spare Parts .png",
+      "thumbnail": "/pickup coil/RP208OP  Pick Up Coil For Honda Activa HET 2013 3G 4G Scooter Spare Parts .png"
     },
     {
       "partNumber": "RP208OM",
@@ -1106,8 +1115,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "HONDA DAZZLER",
       "description": "HONDA DAZZLER",
-      "image": "/pickup%20coil/RP208OJ%20%20Pick%20Up%20Coil%20For%20Honda%20Dazzler%20Bike%20.png",
-      "thumbnail": "/pickup%20coil/RP208OJ%20%20Pick%20Up%20Coil%20For%20Honda%20Dazzler%20Bike%20.png"
+      "image": "/pickup coil/RP208OJ  Pick Up Coil For Honda Dazzler Bike .png",
+      "thumbnail": "/pickup coil/RP208OJ  Pick Up Coil For Honda Dazzler Bike .png"
     },
     {
       "partNumber": "RP208OD",
@@ -1320,8 +1329,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP216",
       "referenceNumber": null,
       "name": "Pick Up Coil (Pulsar)",
-      "vehicle": "TVS VICTOR/GL/GX / SCOOTY PEP /TVS WEGO / SLEEK /JUPITOR /",
-      "description": "TVS VICTOR/GL/GX / SCOOTY PEP /TVS WEGO / SLEEK /JUPITOR /",
+      "vehicle": "TVS VICTOR/GL/GX / SCOOTY PEP /TVS WEGO / SLEEK /JUPITER ",
+      "description": "TVS VICTOR/GL/GX / SCOOTY PEP /TVS WEGO / SLEEK /JUPITER ",
       "image": "/pickup%20coil/RP216%20%20%20Pick%20Up%20Coil%20For%20TVS%20Victor%20GX%20Scooty%20Pep%20Wego%20Sleek%20Spare%20Parts%20.png",
       "thumbnail": "/pickup%20coil/RP216%20%20%20Pick%20Up%20Coil%20For%20TVS%20Victor%20GX%20Scooty%20Pep%20Wego%20Sleek%20Spare%20Parts%20.png"
     },
@@ -1491,7 +1500,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP222F",
-      "referenceNumber": "DH111011/1 9/DJ111008/DS111003",
+      "referenceNumber": "DH111011/19/DJ111008/DS111003",
       "name": "C.D.I. Unit",
       "vehicle": "BAJAJ PULSAR -150 DTSI / 180 DTSI / DIS 125 DTSI O/M (WITHOUT DIGITAL METER) /180(UG1)",
       "description": "BAJAJ PULSAR -150 DTSI / 180 DTSI / DIS 125 DTSI O/M (WITHOUT DIGITAL METER) /180(UG1)",
@@ -1566,7 +1575,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "referenceNumber": "JE351232",
       "name": "C.D.I. Unit",
       "vehicle": "BAJAJ PULSAR150AS / PULSAR 150NS (12-PIN COUPLER)",
-      "description": "BAJAJ PULSAR150AS / PULSAR 150NS (12-PIN COUPLER)",
+      "description": "BAJAJ PULSAR 150 AS / PULSAR 150 NS (12-PIN COUPLER)",
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP222UM+BAJAJ+PULSAR150AS+PULSAR+150NS+12+PIN+COUPLER",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP222UM+BAJAJ+PULSAR150AS+PULSAR+150NS+12+PIN+COUPLER"
     },
@@ -1575,7 +1584,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "referenceNumber": "JE351257",
       "name": "C.D.I. Unit",
       "vehicle": "BAJAJ PULSAR NS125 BS4",
-      "description": "BAJAJ PULSAR NS125 BS4",
+      "description": "BAJAJ PULSAR NS 125 BS4",
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP222CN+BAJAJ+PULSAR+NS125+BS4",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP222CN+BAJAJ+PULSAR+NS125+BS4"
     },
@@ -1689,10 +1698,10 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP222FR",
-      "referenceNumber": "DH111019/DJ111008/D S111003",
+      "referenceNumber": "DH111019/DJ111008/DS111003",
       "name": "C.D.I. Unit",
-      "vehicle": "BAJAJ PULSAR DTSI-150/180 / DISCOVER 125DTS-I O/M W/O DIGITAL METER",
-      "description": "BAJAJ PULSAR DTSI-150/180 / DISCOVER 125DTS-I O/M W/O DIGITAL METER",
+      "vehicle": "BAJAJ PULSAR DTSI-150/180 / DISCOVER 125DTSI O/M W/O DIGITAL METER",
+      "description": "BAJAJ PULSAR DTSI-150/180 / DISCOVER 125DTSI O/M W/O DIGITAL METER",
       "image": "/cdi unit/RP222FR CDI Unit For Bajaj Pulsar Discover 125 150 180 DTSI OM Digital Meter Parts .jpg",
       "thumbnail": "/cdi unit/RP222FR CDI Unit For Bajaj Pulsar Discover 125 150 180 DTSI OM Digital Meter Parts .jpg"
     },
@@ -1887,7 +1896,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP227AG",
-      "referenceNumber": "DF111017/D Z111002/DX 111001",
+      "referenceNumber": "DF111017/DZ111002/DX111001",
       "name": "C.D.I. Unit",
       "vehicle": "BAJAJ CT-100 / PLATINA-100CC / CALIBER-115 / DISCOVER-112",
       "description": "BAJAJ CT-100 / PLATINA-100CC / CALIBER-115 / DISCOVER-112",
@@ -1959,7 +1968,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP227PK",
-      "referenceNumber": "TCCI- ENFD-1499",
+      "referenceNumber": "TCCI-ENFD-1499",
       "name": "C.D.I. Unit",
       "vehicle": "ROYAL ENFIELD 350CC SINGLE PHASE",
       "description": "ROYAL ENFIELD 350CC SINGLE PHASE",
@@ -1968,7 +1977,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP227JK",
-      "referenceNumber": "TCCI- ENFD1467",
+      "referenceNumber": "TCCI-ENFD1467",
       "name": "C.D.I. Unit",
       "vehicle": "ROYAL ENFIELD 350CC THREE PHASE (BLACK BOX)",
       "description": "ROYAL ENFIELD 350CC THREE PHASE (BLACK BOX)",
@@ -1977,7 +1986,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP227PW",
-      "referenceNumber": "TCCI- ENFD-5938",
+      "referenceNumber": "TCCI-ENFD-5938",
       "name": "C.D.I. Unit",
       "vehicle": "ROYAL ENFIELD 350CC (BLUE BOX)",
       "description": "ROYAL ENFIELD 350CC (BLUE BOX)",
@@ -1986,10 +1995,10 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP227PX",
-      "referenceNumber": "TCCI- ENFD-5707",
+      "referenceNumber": "TCCI-ENFD-5707",
       "name": "C.D.I. Unit",
-      "vehicle": "ROYLE ENFIELD 350CC THUNDER BIRD (GREEN BOX)",
-      "description": "ROYLE ENFIELD 350CC THUNDER BIRD (GREEN BOX)",
+      "vehicle": "ROYAL ENFIELD 350CC THUNDER BIRD (GREEN BOX)",
+      "description": "ROYAL ENFIELD 350CC THUNDER BIRD (GREEN BOX)",
       "image": "/cdi unit/RP227PX Cdi Unit For Royal Enf 350cc Thunder Bird Green box .png",
       "thumbnail": "/cdi unit/RP227PX Cdi Unit For Royal Enf 350cc Thunder Bird Green box .png"
     },
@@ -2114,8 +2123,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP236SS",
       "referenceNumber": "K6060360",
       "name": "C.D.I. Unit",
-      "vehicle": "TVS JUPITOR",
-      "description": "TVS JUPITOR",
+      "vehicle": "TVS JUPITER",
+      "description": "TVS JUPITER",
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP236SS+TVS+JUPITOR",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP236SS+TVS+JUPITOR"
     },
@@ -2204,14 +2213,14 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP236Z",
       "referenceNumber": "K6060360",
       "name": "C.D.I. Unit",
-      "vehicle": "TVS JUPITOR",
-      "description": "TVS JUPITOR",
+      "vehicle": "TVS JUPITER",
+      "description": "TVS JUPITER",
       "image": "/cdi unit/RP236Z Cdi Unit For Tvs Jupiter .png",
       "thumbnail": "/cdi unit/RP236Z Cdi Unit For Tvs Jupiter .png"
     },
     {
       "partNumber": "RP236X",
-      "referenceNumber": "32900- 23J00-000",
+      "referenceNumber": "32900-23J00-000",
       "name": "C.D.I. Unit",
       "vehicle": "SUZUKI HAYATE",
       "description": "SUZUKI HAYATE",
@@ -2220,7 +2229,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP236AV",
-      "referenceNumber": "32900- 33G50-000/32900- 33G51-000",
+      "referenceNumber": "32900-33G50-000/32900-33G51-000",
       "name": "C.D.I. Unit",
       "vehicle": "SUZUKI ACCESS-125",
       "description": "SUZUKI ACCESS-125",
@@ -2229,7 +2238,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP236LM",
-      "referenceNumber": "32900- 33G00-000",
+      "referenceNumber": "32900-33G00-000",
       "name": "C.D.I. Unit",
       "vehicle": "SUZUKI ACCESS-125",
       "description": "SUZUKI ACCESS-125",
@@ -2238,7 +2247,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP236LX",
-      "referenceNumber": "32900- 08K01-000",
+      "referenceNumber": "32900-08K01-000",
       "name": "C.D.I. Unit",
       "vehicle": "SUZUKI ACCESS-125 NEW TCI",
       "description": "SUZUKI ACCESS-125 NEW TCI",
@@ -2256,7 +2265,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP236BW",
-      "referenceNumber": "32900- 28G00",
+      "referenceNumber": "32900-28G00",
       "name": "C.D.I. Unit",
       "vehicle": "SUZUKI ZEUS / HEAT",
       "description": "SUZUKI ZEUS / HEAT",
@@ -2310,7 +2319,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP238",
-      "referenceNumber": "30410-GB6- 920",
+      "referenceNumber": "30410-GB6-920",
       "name": "C.D.I. Unit",
       "vehicle": "HERO HONDA CD-100 /SS / KINETIC CHALLENGER",
       "description": "HERO HONDA CD-100 /SS / KINETIC CHALLENGER",
@@ -2319,7 +2328,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP238AA",
-      "referenceNumber": "30410KRC9 00",
+      "referenceNumber": "30410KRC900",
       "name": "C.D.I. Unit",
       "vehicle": "HERO HONDA AMBITION (DIGITAL)",
       "description": "HERO HONDA AMBITION (DIGITAL)",
@@ -2328,7 +2337,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP238AI",
-      "referenceNumber": "30410KTN9 01",
+      "referenceNumber": "30410KTN901",
       "name": "C.D.I. Unit",
       "vehicle": "HERO HUNK / HONDA UNICORN / CBZ X-TREME / ACHIEVER / CBF-150",
       "description": "HERO HUNK / HONDA UNICORN / CBZ X-TREME / ACHIEVER / CBF-150",
@@ -2337,7 +2346,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP238AX",
-      "referenceNumber": "30410KWF8 41S",
+      "referenceNumber": "30410KWF841S",
       "name": "C.D.I. Unit",
       "vehicle": "HERO IGNITOR WITH RPM METER",
       "description": "HERO IGNITOR WITH RPM METER",
@@ -2346,7 +2355,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP238XA",
-      "referenceNumber": "30410-KZJ- 9010",
+      "referenceNumber": "30410-KZJ-9010",
       "name": "C.D.I. Unit",
       "vehicle": "HERO IMPULSE",
       "description": "HERO IMPULSE",
@@ -2355,7 +2364,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP238JX",
-      "referenceNumber": "30410KFM9 00",
+      "referenceNumber": "30410KFM900",
       "name": "C.D.I. Unit",
       "vehicle": "HERO HONDA CBZ",
       "description": "HERO HONDA CBZ",
@@ -2364,7 +2373,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP238DD",
-      "referenceNumber": "30410-KTC- 900",
+      "referenceNumber": "30410-KTC-900",
       "name": "C.D.I. Unit",
       "vehicle": "HERO GLAMOUR/HERO SUPER SPLENDOR 6-PIN SOCKET",
       "description": "HERO GLAMOUR/HERO SUPER SPLENDOR 6-PIN SOCKET",
@@ -2373,7 +2382,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP238BD",
-      "referenceNumber": "30410AANC 01S",
+      "referenceNumber": "30410AANC01S",
       "name": "C.D.I. Unit",
       "vehicle": "HERO GLAMOUR BS4 (4-PIN SOCKET)",
       "description": "HERO GLAMOUR BS4 (4-PIN SOCKET)",
@@ -2382,7 +2391,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP238EG",
-      "referenceNumber": "30410KWH9 61S/30410KWA9 31S",
+      "referenceNumber": "30410KWH961S/30410KWA931S",
       "name": "C.D.I. Unit",
       "vehicle": "HERO SPLENDOR PRO (2010 TO 2012 MODEL)PASSION PRO(2008 TO 2012 MODEL) HF DAWN(2012M)HF DELUXE (2012M)/CD DELUXE(2010M)CD DAWN (2010M)/SPLENDOR NXG(2010 TO 2012M) / PASSION PRO TR",
       "description": "HERO SPLENDOR PRO (2010 TO 2012 MODEL)PASSION PRO(2008 TO 2012 MODEL) HF DAWN(2012M)HF DELUXE (2012M)/CD DELUXE(2010M)CD DAWN (2010M)/SPLENDOR NXG(2010 TO 2012M) / PASSION PRO TR",
@@ -2418,7 +2427,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP239EM",
-      "referenceNumber": "DENSO3040 0-AAB- A010",
+      "referenceNumber": "DENSO30400-AAB-A010",
       "name": "C.D.I. Unit",
       "vehicle": "HERO X-TREME 200R 8-PIN",
       "description": "HERO X-TREME 200R 8-PIN",
@@ -2427,7 +2436,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP239EC",
-      "referenceNumber": "30400- KZAA- W010-M1",
+      "referenceNumber": "30400-KZAA-W010-M1",
       "name": "C.D.I. Unit",
       "vehicle": "HERO PASSION X-PRO TCI",
       "description": "HERO PASSION X-PRO TCI",
@@ -2438,14 +2447,14 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP239BC",
       "referenceNumber": null,
       "name": "C.D.I. Unit",
-      "vehicle": "HERO CD –DAWN / CD DELUXE ( O / M )",
-      "description": "HERO CD –DAWN / CD DELUXE ( O / M )",
+      "vehicle": "HERO CD - DAWN / CD DELUXE ( O / M )",
+      "description": "HERO CD - DAWN / CD DELUXE ( O / M )",
       "image": "/cdi unit/RP239BC Cdi Unit For Hero cd dawn cd deluxe om .png",
       "thumbnail": "/cdi unit/RP239BC Cdi Unit For Hero cd dawn cd deluxe om .png"
     },
     {
       "partNumber": "RP239CZ",
-      "referenceNumber": "30410-KST- 941S",
+      "referenceNumber": "30410-KST-941S",
       "name": "C.D.I. Unit",
       "vehicle": "HERO CD-DELUXE NEW DC / NXG / ECO DELUX",
       "description": "HERO CD-DELUXE NEW DC / NXG / ECO DELUX",
@@ -2463,7 +2472,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP240G",
-      "referenceNumber": "30410AAW0 01S",
+      "referenceNumber": "30410AAW001S",
       "name": "C.D.I. Unit",
       "vehicle": "HERO MAESTRO EDGE WITH IMMOBILIZER",
       "description": "HERO MAESTRO EDGE WITH IMMOBILIZER",
@@ -2472,7 +2481,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP240X",
-      "referenceNumber": "30410AAY0 01S",
+      "referenceNumber": "30410AAY001S",
       "name": "C.D.I. Unit",
       "vehicle": "HERO DUET / MAESTRO EDGE WITHOUT IMMOBILIZER",
       "description": "HERO DUET / MAESTRO EDGE WITHOUT IMMOBILIZER",
@@ -2499,7 +2508,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP242AH",
-      "referenceNumber": "30410-KSP- 911",
+      "referenceNumber": "30410-KSP-911",
       "name": "C.D.I. Unit",
       "vehicle": "HONDA UNICORN (DIGITAL)",
       "description": "HONDA UNICORN (DIGITAL)",
@@ -2508,7 +2517,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP242AU",
-      "referenceNumber": "30400-KSP- B010",
+      "referenceNumber": "30400-KSP-B010",
       "name": "C.D.I. Unit",
       "vehicle": "HONDA CB UNICORN DAZZLER",
       "description": "HONDA CB UNICORN DAZZLER",
@@ -2517,7 +2526,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP242AJ",
-      "referenceNumber": "30400K21A 9010",
+      "referenceNumber": "30400K21A9010",
       "name": "C.D.I. Unit",
       "vehicle": "HONDA CB TRIGGER",
       "description": "HONDA CB TRIGGER",
@@ -2526,7 +2535,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP242AV",
-      "referenceNumber": "30410K1490 1",
+      "referenceNumber": "30410K14901",
       "name": "C.D.I. Unit",
       "vehicle": "HONDA DREAM YUGA",
       "description": "HONDA DREAM YUGA",
@@ -2535,7 +2544,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP242AS",
-      "referenceNumber": "30410KTE9 11/30410KT EA01",
+      "referenceNumber": "30410KTE911/30410KTEA01",
       "name": "C.D.I. Unit",
       "vehicle": "HONDA SHINE / CB SHINE",
       "description": "HONDA SHINE / CB SHINE",
@@ -2544,7 +2553,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP242AG",
-      "referenceNumber": "30410-K38- 901",
+      "referenceNumber": "30410-K38-901",
       "name": "C.D.I. Unit",
       "vehicle": "HONDA CB HORNET 160R HET BS4 / UNICORN-160R",
       "description": "HONDA CB HORNET 160R HET BS4 / UNICORN-160R",
@@ -2571,7 +2580,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP244CF",
-      "referenceNumber": "30410-KPL- 902",
+      "referenceNumber": "30410-KPL-902",
       "name": "C.D.I. Unit",
       "vehicle": "HONDA ACTIVA 10-PIN (100CC) HERO PLEASURE /DIO AVIATOR",
       "description": "HONDA ACTIVA 10-PIN (100CC) HERO PLEASURE /DIO AVIATOR",
@@ -2580,7 +2589,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP244RW",
-      "referenceNumber": "30410 KWPD01",
+      "referenceNumber": "30410KWPD01",
       "name": "C.D.I. Unit",
       "vehicle": "HONDA ACTIVA 10-PIN HET 110CC",
       "description": "HONDA ACTIVA 10-PIN HET 110CC",
@@ -2589,7 +2598,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP244WL",
-      "referenceNumber": "30410KWP H01",
+      "referenceNumber": "30410KWPH01",
       "name": "C.D.I. Unit",
       "vehicle": "HONDA ACTIVA 7-PIN HET 5G BS4 (2018)",
       "description": "HONDA ACTIVA 7-PIN HET 5G BS4 (2018)",
@@ -2598,7 +2607,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP244MR",
-      "referenceNumber": "30410-KWP- 901",
+      "referenceNumber": "30410-KWP-901",
       "name": "C.D.I. Unit",
       "vehicle": "HONDA ACTIVA 110CC 10-PIN / MAESTRO O/M / DIO HET",
       "description": "HONDA ACTIVA 110CC 10-PIN / MAESTRO O/M / DIO HET",
@@ -2607,7 +2616,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP244DR",
-      "referenceNumber": "30410- KWPE-01",
+      "referenceNumber": "30410-KWPE-01",
       "name": "C.D.I. Unit",
       "vehicle": "HONDA ACTIVA HET 3G 7- PIN",
       "description": "HONDA ACTIVA HET 3G 7- PIN",
@@ -2616,7 +2625,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP244L",
-      "referenceNumber": "30410KWS9 01",
+      "referenceNumber": "30410KWS901",
       "name": "C.D.I. Unit",
       "vehicle": "HONDA TWISTER / CB-110",
       "description": "HONDA TWISTER / CB-110",
@@ -2625,7 +2634,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP244MT",
-      "referenceNumber": "30410K2390 1",
+      "referenceNumber": "30410K23901",
       "name": "C.D.I. Unit",
       "vehicle": "HONDA DREAM NEO (HET) DREAM YUGA (HET)",
       "description": "HONDA DREAM NEO (HET) DREAM YUGA (HET)",
@@ -2634,7 +2643,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP244Z",
-      "referenceNumber": "30410K2490 1",
+      "referenceNumber": "30410K24901",
       "name": "C.D.I. Unit",
       "vehicle": "HONDA ACTIVA HET 125- 10 PIN",
       "description": "HONDA ACTIVA HET 125- 10 PIN",
@@ -2643,7 +2652,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP244YK",
-      "referenceNumber": "30410K2492 1",
+      "referenceNumber": "30410K24921",
       "name": "C.D.I. Unit",
       "vehicle": "HONDA ACTIVA HET 125- 8 PIN",
       "description": "HONDA ACTIVA HET 125- 8 PIN",
@@ -2652,7 +2661,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP244YA",
-      "referenceNumber": "30410- K86A-D010- M1(DENSO)",
+      "referenceNumber": "30410-K86A-D010-M1(DENSO)",
       "name": "C.D.I. Unit",
       "vehicle": "HONDA GRAZIA",
       "description": "HONDA GRAZIA",
@@ -2661,7 +2670,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP244ZB",
-      "referenceNumber": "30410-KWF- 841",
+      "referenceNumber": "30410-KWF-841",
       "name": "C.D.I. Unit",
       "vehicle": "HONDA STUNNER CBF (LONG BODY WITH RPM)",
       "description": "HONDA STUNNER CBF (LONG BODY WITH RPM)",
@@ -2670,7 +2679,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP245",
-      "referenceNumber": "5TS-H-5540- 11",
+      "referenceNumber": "5TS-H-5540-11",
       "name": "C.D.I. Unit",
       "vehicle": "YAMAHA CRUX / LIBERO / YD-110",
       "description": "YAMAHA CRUX / LIBERO / YD-110",
@@ -2688,7 +2697,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP245W",
-      "referenceNumber": "5YY-H5540- 00",
+      "referenceNumber": "5YY-H5540-00",
       "name": "C.D.I. Unit",
       "vehicle": "YAMAHA FAZER O/M",
       "description": "YAMAHA FAZER O/M",
@@ -2697,7 +2706,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP245MX",
-      "referenceNumber": "5YY-H5540- 10",
+      "referenceNumber": "5YY-H5540-10",
       "name": "C.D.I. Unit",
       "vehicle": "YAMAHA GLADIATOR SELF START / YBR-125",
       "description": "YAMAHA GLADIATOR SELF START / YBR-125",
@@ -2724,7 +2733,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP245WO",
-      "referenceNumber": "21C-H5540- 00",
+      "referenceNumber": "21C-H5540-00",
       "name": "C.D.I. Unit",
       "vehicle": "YAMAHA FZ-16 / FZ-S /FAZER N/M 8+4-PIN",
       "description": "YAMAHA FZ-16 / FZ-S /FAZER N/M 8+4-PIN",
@@ -2733,7 +2742,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP245WM",
-      "referenceNumber": "54B-H5540- 10/21CH554010",
+      "referenceNumber": "54B-H5540-10/21CH554010",
       "name": "C.D.I. Unit",
       "vehicle": "YAMAHA SZ-R WITH RPM METER",
       "description": "YAMAHA SZ-R WITH RPM METER",
@@ -2742,7 +2751,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP245WD",
-      "referenceNumber": "54B-H5540- 01(54B-01)",
+      "referenceNumber": "54B-H5540-01(54B-01)",
       "name": "C.D.I. Unit",
       "vehicle": "YAMAHA SZ-R WITHOUT RPM METER",
       "description": "YAMAHA SZ-R WITHOUT RPM METER",
@@ -2829,8 +2838,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP251",
       "referenceNumber": null,
       "name": "Electronic Flasher",
-      "vehicle": "BAJAJ CLASSIC – SL / CHETAK 99 BRAVO / BOXER AT",
-      "description": "BAJAJ CLASSIC – SL / CHETAK 99 BRAVO / BOXER AT",
+      "vehicle": "BAJAJ CLASSIC - SL / CHETAK 99 BRAVO / BOXER AT",
+      "description": "BAJAJ CLASSIC - SL / CHETAK 99 BRAVO / BOXER AT",
       "image": "/electronic%20flasher/RP251%20%20Electronic%20Flasher%20for%20Bajaj%20Chetak%2099%20Bravo%20Boxer%20AT%20Scooter%20Parts%20(1).png",
       "thumbnail": "/electronic%20flasher/RP251%20%20Electronic%20Flasher%20for%20Bajaj%20Chetak%2099%20Bravo%20Boxer%20AT%20Scooter%20Parts%20(1).png"
     },
@@ -2840,8 +2849,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Electronic Flasher",
       "vehicle": "VESPA XE / 150 CC O/M (PIN TYPE)",
       "description": "VESPA XE / 150 CC O/M (PIN TYPE)",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP252+VESPA+XE+150+CC+O+M+PIN+TYPE",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP252+VESPA+XE+150+CC+O+M+PIN+TYPE"
+      "image": "/electronic flasher/RP252  Electronic Flasher for Vespa XE 150cc OM Pin Type Two Wheeler Spare Pats (1).png",
+      "thumbnail": "/electronic flasher/RP252  Electronic Flasher for Vespa XE 150cc OM Pin Type Two Wheeler Spare Pats (1).png"
     },
     {
       "partNumber": "RP253",
@@ -2849,8 +2858,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Electronic Flasher",
       "vehicle": "VESPA T-5 / SELECT (COUPLER TYPE)",
       "description": "VESPA T-5 / SELECT (COUPLER TYPE)",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP253+VESPA+T+5+SELECT+COUPLER+TYPE",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP253+VESPA+T+5+SELECT+COUPLER+TYPE"
+      "image": "/electronic flasher/RP253  Electronic Flasher for Vespa T 5 Select Coupler Type Two Wheelers Scooter Parts (1).png",
+      "thumbnail": "/electronic flasher/RP253  Electronic Flasher for Vespa T 5 Select Coupler Type Two Wheelers Scooter Parts (1).png"
     },
     {
       "partNumber": "RP253GH",
@@ -2903,8 +2912,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Electronic Flasher",
       "vehicle": "HONDA ACTIVA 12-V DC (OE TYPE)",
       "description": "HONDA ACTIVA 12-V DC (OE TYPE)",
-      "image": "/electronic%20flasher/RP%20255SD%20%20Electronic%20Flasher%20for%20Honda%20Activa%2012v%20Dc%20Oe%20Type%20Two%20Wheelers%20S%20Cooter%20Parts%20%20(5).png",
-      "thumbnail": "/electronic%20flasher/RP%20255SD%20%20Electronic%20Flasher%20for%20Honda%20Activa%2012v%20Dc%20Oe%20Type%20Two%20Wheelers%20S%20Cooter%20Parts%20%20(5).png"
+      "image": "/electronic%20flasher/RP255SD  Electronic Flasher for Honda Activa 12v Dc Oe Type Two Wheelers S Cooter Parts.webp",
+      "thumbnail": "/electronic%20flasher/RP255SD  Electronic Flasher for Honda Activa 12v Dc Oe Type Two Wheelers S Cooter Parts.webp"
     }
   ],
   "2-wheeler-parts-regulator-rectifier": [
@@ -2914,8 +2923,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "LML VESPA SELECT SELF START / SELECT II ( 5 PIN)",
       "description": "LML VESPA SELECT SELF START / SELECT II ( 5 PIN)",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP256+LML+VESPA+SELECT+SELF+START+SELECT+II+5+PIN",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP256+LML+VESPA+SELECT+SELF+START+SELECT+II+5+PIN"
+      "image": "/regulator rectifier/RP256 Lml Vespa Select Self Start Select II 5 Pin.png",
+      "thumbnail": "/regulator rectifier/RP256 Lml Vespa Select Self Start Select II 5 Pin.png"
     },
     {
       "partNumber": "RP256AX",
@@ -2923,57 +2932,57 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "LML FREEDOM",
       "description": "LML FREEDOM",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP256AX+LML+FREEDOM",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP256AX+LML+FREEDOM"
+      "image": "/regulator rectifier/RP256AX Regulator Rectifier for LML Freedom Two Wheeler Bike Spare Parts.png",
+      "thumbnail": "/regulator rectifier/RP256AX Regulator Rectifier for LML Freedom Two Wheeler Bike Spare Parts.png"
     },
     {
       "partNumber": "RP257",
-      "referenceNumber": "31600-GWO- 004",
+      "referenceNumber": "31600-GWO-004",
       "name": "Regulator Rectifier",
       "vehicle": "HERO HONDA CD-100 / CD DAWN / KINETIC HONDA",
       "description": "HERO HONDA CD-100 / CD DAWN / KINETIC HONDA",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP257+HERO+HONDA+CD+100+CD+DAWN+KINETIC+HONDA",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP257+HERO+HONDA+CD+100+CD+DAWN+KINETIC+HONDA"
+      "image": "/regulator rectifier/RP257 Regulator Rectifier for Hero Honda Cd 100 Cd Dawn Kinetic Two Wheeler Spare Part.png",
+      "thumbnail": "/regulator rectifier/RP257 Regulator Rectifier for Hero Honda Cd 100 Cd Dawn Kinetic Two Wheeler Spare Part.png"
     },
     {
       "partNumber": "RP258",
-      "referenceNumber": "31600GBL870 LS",
+      "referenceNumber": "31600GBL870LS",
       "name": "Regulator Rectifier",
       "vehicle": "HERO HONDA SPLENDOR / PASSION/ CBZ/CD DLX",
       "description": "HERO HONDA SPLENDOR / PASSION/ CBZ/CD DLX",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP258+HERO+HONDA+SPLENDOR+PASSION+CBZ+CD+DLX",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP258+HERO+HONDA+SPLENDOR+PASSION+CBZ+CD+DLX"
+      "image": "/regulator rectifier/RP258 Regulator Rectifier for Hero Honda Splendor Passion CBZ CD Two Wheeler Parts.png",
+      "thumbnail": "/regulator rectifier/RP258 Regulator Rectifier for Hero Honda Splendor Passion CBZ CD Two Wheeler Parts.png"
     },
     {
       "partNumber": "RP258DD",
-      "referenceNumber": "31600KTC900/31600-KWF- 841/31600- KSP- 861/31600- KWA831/316 00KVE900/31 600-KTRA01",
+      "referenceNumber": "31600KTC900/31600-KWF-841/31600-KSP-861/31600-KWA831/31600KVE900/31600-KTRA01",
       "name": "Regulator Rectifier",
       "vehicle": "HERO HONDA SUPER SPLENDOR / GLAMOUR/PASSION PRO/PASSION PRO TR/SPL NXG/HF DLX/HF DAWN/CD DLX/CD DAWN/SPL I SMART/SPL PRO/IMPULSE/PASSION X-PRO/HUNK/ XTM SPORTS BS4/HF DLX BS4/SPL PRO BS4/HUNK BS4/HF DAWN BS4/MAHINDRA CENTURO",
       "description": "HERO HONDA SUPER SPLENDOR / GLAMOUR/PASSION PRO/PASSION PRO TR/SPL NXG/HF DLX/HF DAWN/CD DLX/CD DAWN/SPL I SMART/SPL PRO/IMPULSE/PASSION X-PRO/HUNK/ XTM SPORTS BS4/HF DLX BS4/SPL PRO BS4/HUNK BS4/HF DAWN BS4/MAHINDRA CENTURO",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP258DD+HERO+HONDA+SUPER+SPLENDOR+GLAMOUR+PASSION+PRO+PASSION+P",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP258DD+HERO+HONDA+SUPER+SPLENDOR+GLAMOUR+PASSION+PRO+PASSION+P"
+      "image": "/regulator rectifier/RP258DD Regulator Rectifier for Hero Honda Super Splendor Glamour Two Wheelers Parts.png",
+      "thumbnail": "/regulator rectifier/RP258DD Regulator Rectifier for Hero Honda Super Splendor Glamour Two Wheelers Parts.png"
     },
     {
       "partNumber": "RP259",
-      "referenceNumber": "31600-KPL- 901",
+      "referenceNumber": "31600-KPL-901",
       "name": "Regulator Rectifier",
       "vehicle": "HONDA ACTIVA 100 O/M",
       "description": "HONDA ACTIVA 100 O/M",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP259+HONDA+ACTIVA+100+O+M",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP259+HONDA+ACTIVA+100+O+M"
+      "image": "/regulator rectifier/RP259  Regulator Rectifier for Honda Activa 100 Om Two Wheelers Scooter Spare Parts.png",
+      "thumbnail": "/regulator rectifier/RP259  Regulator Rectifier for Honda Activa 100 Om Two Wheelers Scooter Spare Parts.png"
     },
     {
       "partNumber": "RP259HH",
-      "referenceNumber": "31600KWP- D01/31600- KWP- E01/31600- KWPG01",
+      "referenceNumber": "31600KWP-D01/31600-KWP-E01/31600-KWPG01",
       "name": "Regulator Rectifier",
       "vehicle": "HONDA ACTIVA HET-110 / AVIATOR / ACTIVA I 110 / ACTIVA- 125 /ACTIVA 3G -110 / ACTIVA 4G-110",
       "description": "HONDA ACTIVA HET-110 / AVIATOR / ACTIVA I 110 / ACTIVA- 125 /ACTIVA 3G -110 / ACTIVA 4G-110",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP259HH+HONDA+ACTIVA+HET+110+AVIATOR+ACTIVA+I+110+ACTIVA+125+AC",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP259HH+HONDA+ACTIVA+HET+110+AVIATOR+ACTIVA+I+110+ACTIVA+125+AC"
+      "image": "/regulator rectifier/RP259HH  Regulator Rectifier for Honda Activa Het 110 Aviator 125 3g Two Wheelers Parts.png",
+      "thumbnail": "/regulator rectifier/RP259HH  Regulator Rectifier for Honda Activa Het 110 Aviator 125 3g Two Wheelers Parts.png"
     },
     {
       "partNumber": "RP259X",
-      "referenceNumber": "31600KVT94 1/31600KZN90 1",
+      "referenceNumber": "31600KVT941/31600KZN901",
       "name": "Regulator Rectifier",
       "vehicle": "HONDA ACTIVA-110 / MAESTRO / AVIATOR",
       "description": "HONDA ACTIVA-110 / MAESTRO / AVIATOR",
@@ -2982,12 +2991,12 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP259P",
-      "referenceNumber": "31600-KTP- 890S",
+      "referenceNumber": "31600-KTP-890S",
       "name": "Regulator Rectifier",
       "vehicle": "HERO PLEASURE",
       "description": "HERO PLEASURE",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP259P+HERO+PLEASURE",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP259P+HERO+PLEASURE"
+      "image": "/regulator rectifier/RP259P Regulator Rectifier for Hero Pleasure Two Wheelers Bike Spare Parts.png",
+      "thumbnail": "/regulator rectifier/RP259P Regulator Rectifier for Hero Pleasure Two Wheelers Bike Spare Parts.png"
     },
     {
       "partNumber": "RP260",
@@ -2995,8 +3004,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "BAJAJ KB-4S",
       "description": "BAJAJ KB-4S",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP260+BAJAJ+KB+4S",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP260+BAJAJ+KB+4S"
+      "image": "/regulator rectifier/RP260 Regulator rectifier for Bajaj kb 4s Two wheelers Bike Spare parts.png",
+      "thumbnail": "/regulator rectifier/RP260 Regulator rectifier for Bajaj kb 4s Two wheelers Bike Spare parts.png"
     },
     {
       "partNumber": "RP260AD",
@@ -3004,8 +3013,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "BAJAJ BOXER-AT",
       "description": "BAJAJ BOXER-AT",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP260AD+BAJAJ+BOXER+AT",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP260AD+BAJAJ+BOXER+AT"
+      "image": "/regulator rectifier/RP260AD Bajaj Boxer at.png",
+      "thumbnail": "/regulator rectifier/RP260AD Bajaj Boxer at.png"
     },
     {
       "partNumber": "RP260AS",
@@ -3013,8 +3022,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "BAJAJ CALIBER 115 CC 4+1 WIRE",
       "description": "BAJAJ CALIBER 115 CC 4+1 WIRE",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP260AS+BAJAJ+CALIBER+115+CC+4+1+WIRE",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP260AS+BAJAJ+CALIBER+115+CC+4+1+WIRE"
+      "image": "/regulator rectifier/RP260AS Regulator Rectifier for Bajaj Caliber 115cc Two Wheelers Parts.png",
+      "thumbnail": "/regulator rectifier/RP260AS Regulator Rectifier for Bajaj Caliber 115cc Two Wheelers Parts.png"
     },
     {
       "partNumber": "RP261",
@@ -3022,8 +3031,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "BAJAJ PULSAR 180ES / PULSAR-150 ES",
       "description": "BAJAJ PULSAR 180ES / PULSAR-150 ES",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP261+BAJAJ+PULSAR+180ES+PULSAR+150+ES",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP261+BAJAJ+PULSAR+180ES+PULSAR+150+ES"
+      "image": "/regulator rectifier/RP261 Regulator Rectifier for Bajaj Pulsar 180es Pulsar 150 Es Two Wheelers Parts.png",
+      "thumbnail": "/regulator rectifier/RP261 Regulator Rectifier for Bajaj Pulsar 180es Pulsar 150 Es Two Wheelers Parts.png"
     },
     {
       "partNumber": "RP263",
@@ -3031,8 +3040,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "BAJAJ CT-100 /DISCOVER 112/ PLATINA / DISCOVER-112 / CT- 100 BS4",
       "description": "BAJAJ CT-100 /DISCOVER 112/ PLATINA / DISCOVER-112 / CT- 100 BS4",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP263+BAJAJ+CT+100+DISCOVER+112+PLATINA+DISCOVER+112+CT+100+B",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP263+BAJAJ+CT+100+DISCOVER+112+PLATINA+DISCOVER+112+CT+100+B"
+      "image": "/regulator rectifier/RP263 Regulator Rectifier for Bajaj Ct 100 Discover 112 Platina Bs4 Two Wheelers Parts.png",
+      "thumbnail": "/regulator rectifier/RP263 Regulator Rectifier for Bajaj Ct 100 Discover 112 Platina Bs4 Two Wheelers Parts.png"
     },
     {
       "partNumber": "RP263AN",
@@ -3049,26 +3058,26 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "BAJAJ PLATINA 125 / DISCOVER 100CC / DISCOVER 150",
       "description": "BAJAJ PLATINA 125 / DISCOVER 100CC / DISCOVER 150",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP263GD+BAJAJ+PLATINA+125+DISCOVER+100CC+DISCOVER+150",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP263GD+BAJAJ+PLATINA+125+DISCOVER+100CC+DISCOVER+150"
+      "image": "/regulator rectifier/RP263GD Regulator Rectifier for Bajaj Platina 125 Discover 100cc 150 Two Wheelers Parts.png",
+      "thumbnail": "/regulator rectifier/RP263GD Regulator Rectifier for Bajaj Platina 125 Discover 100cc 150 Two Wheelers Parts.png"
     },
     {
       "partNumber": "RP264",
-      "referenceNumber": "JB402001/JW 402001",
+      "referenceNumber": "JB402001/JW402001",
       "name": "Regulator Rectifier",
       "vehicle": "BAJAJ XCD 125 / 135 / PULSAR 135 / PULSAR-125 NS / PULSAR- 135 LS BS4 / DISCOVER-110 BS4",
       "description": "BAJAJ XCD 125 / 135 / PULSAR 135 / PULSAR-125 NS / PULSAR- 135 LS BS4 / DISCOVER-110 BS4",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP264+BAJAJ+XCD+125+135+PULSAR+135+PULSAR+125+NS+PULSAR+135+L",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP264+BAJAJ+XCD+125+135+PULSAR+135+PULSAR+125+NS+PULSAR+135+L"
+      "image": "/regulator rectifier/RP264 orado Regulator Rectifier for Bajaj Xcd 125 Pulsar 135 Discover 110 Two Wheelers Parts.jpg",
+      "thumbnail": "/regulator rectifier/RP264 orado Regulator Rectifier for Bajaj Xcd 125 Pulsar 135 Discover 110 Two Wheelers Parts.jpg"
     },
     {
       "partNumber": "RP265",
       "referenceNumber": "DS201003",
       "name": "Regulator Rectifier",
-      "vehicle": "BAJAJ DISCOVER DTS-I 125 / DISCOVER 135 ES",
-      "description": "BAJAJ DISCOVER DTS-I 125 / DISCOVER 135 ES",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP265+BAJAJ+DISCOVER+DTS+I+125+DISCOVER+135+ES",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP265+BAJAJ+DISCOVER+DTS+I+125+DISCOVER+135+ES"
+      "vehicle": "BAJAJ DISCOVER DTSI 125 / DISCOVER 135 ES",
+      "description": "BAJAJ DISCOVER DTSI 125 / DISCOVER 135 ES",
+      "image": "/regulator rectifier/RP265  Regulator Rectifier for Bajaj Discover Dts I 125 Discover 135 Two Wheelers Parts.png",
+      "thumbnail": "/regulator rectifier/RP265  Regulator Rectifier for Bajaj Discover Dts I 125 Discover 135 Two Wheelers Parts.png"
     },
     {
       "partNumber": "RP266",
@@ -3076,17 +3085,17 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "BAJAJ PULSAR 180 / 150 (DTSI) GREEN",
       "description": "BAJAJ PULSAR 180 / 150 (DTSI) GREEN",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP266+BAJAJ+PULSAR+180+150+DTSI+GREEN",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP266+BAJAJ+PULSAR+180+150+DTSI+GREEN"
+      "image": "/regulator rectifier/RP266 Regulator Rectifier for Bajaj Pulsar 180 150 Dtsi Green Two Wheelers Parts.png",
+      "thumbnail": "/regulator rectifier/RP266 Regulator Rectifier for Bajaj Pulsar 180 150 Dtsi Green Two Wheelers Parts.png"
     },
     {
       "partNumber": "RP269",
-      "referenceNumber": "DJ201202/",
+      "referenceNumber": "DJ201202",
       "name": "Regulator Rectifier",
       "vehicle": "BAJAJ PULSAR 150/180/UG4/220(CDI MODEL)GREY WITH CAPACITOR",
       "description": "BAJAJ PULSAR 150/180/UG4/220(CDI MODEL)GREY WITH CAPACITOR",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP269+BAJAJ+PULSAR+150+180+UG4+220+CDI+MODEL+GREY+WITH+CAPACI",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP269+BAJAJ+PULSAR+150+180+UG4+220+CDI+MODEL+GREY+WITH+CAPACI"
+      "image": "/regulator rectifier/RP269 Bajaj Pulsar 150 180  Ug4 220.png",
+      "thumbnail": "/regulator rectifier/RP269 Bajaj Pulsar 150 180  Ug4 220.png"
     },
     {
       "partNumber": "RP260KK",
@@ -3094,8 +3103,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "BAJAJ DISCOVER-100 4-GEAR / PLATINA-100 ES / BOXER BM- 100 / CT-100 / BM-150",
       "description": "BAJAJ DISCOVER-100 4-GEAR / PLATINA-100 ES / BOXER BM- 100 / CT-100 / BM-150",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP260KK+BAJAJ+DISCOVER+100+4+GEAR+PLATINA+100+ES+BOXER+BM+100+C",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP260KK+BAJAJ+DISCOVER+100+4+GEAR+PLATINA+100+ES+BOXER+BM+100+C"
+      "image": "/regulator rectifier/rp260kk Bajaj Discover 100 4 Gear Platina 100 Es Boxer Bm 100 Ct 100.png",
+      "thumbnail": "/regulator rectifier/rp260kk Bajaj Discover 100 4 Gear Platina 100 Es Boxer Bm 100 Ct 100.png"
     },
     {
       "partNumber": "RP269TT",
@@ -3103,8 +3112,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "BAJAJ DISCOVER 125 ST(2012 MODEL ONWARDS)DISCOVER 100M/DISCOVER 100T/DISCOVER 125 T/DISCOVER 150 S(2014 MODEL)DISCOVER 150 F(2014 MODEL)",
       "description": "BAJAJ DISCOVER 125 ST(2012 MODEL ONWARDS)DISCOVER 100M/DISCOVER 100T/DISCOVER 125 T/DISCOVER 150 S(2014 MODEL)DISCOVER 150 F(2014 MODEL)",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP269TT+BAJAJ+DISCOVER+125+ST+2012+MODEL+ONWARDS+DISCOVER+100M+",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP269TT+BAJAJ+DISCOVER+125+ST+2012+MODEL+ONWARDS+DISCOVER+100M+"
+      "image": "/regulator rectifier/RP269TT Regulator Rectifier for Bajaj Discover 125 St 2012 Model Two Wheelers Parts.png",
+      "thumbnail": "/regulator rectifier/RP269TT Regulator Rectifier for Bajaj Discover 125 St 2012 Model Two Wheelers Parts.png"
     },
     {
       "partNumber": "RP269C",
@@ -3112,8 +3121,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "BAJAJ DISCOVER 100M(2014 MODEL)",
       "description": "BAJAJ DISCOVER 100M(2014 MODEL)",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP269C+BAJAJ+DISCOVER+100M+2014+MODEL",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP269C+BAJAJ+DISCOVER+100M+2014+MODEL"
+      "image": "/regulator rectifier/RP269C orado Regulator Rectifier for Bajaj Discover 100m 2014 Model Two Wheelers Bike Parts.jpg",
+      "thumbnail": "/regulator rectifier/RP269C orado Regulator Rectifier for Bajaj Discover 100m 2014 Model Two Wheelers Bike Parts.jpg"
     },
     {
       "partNumber": "RP270",
@@ -3121,8 +3130,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "BAJAJ WIND 125CC",
       "description": "BAJAJ WIND 125CC",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP270+BAJAJ+WIND+125CC",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP270+BAJAJ+WIND+125CC"
+      "image": "/regulator rectifier/RP270 Regulator Rectifier for Bajaj Wind 125cc Two Wheelers Bike Spare Parts.png",
+      "thumbnail": "/regulator rectifier/RP270 Regulator Rectifier for Bajaj Wind 125cc Two Wheelers Bike Spare Parts.png"
     },
     {
       "partNumber": "RP272",
@@ -3130,8 +3139,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "TVS APACHE/RTR / STAR CITY ES",
       "description": "TVS APACHE/RTR / STAR CITY ES",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP272+TVS+APACHE+RTR+STAR+CITY+ES",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP272+TVS+APACHE+RTR+STAR+CITY+ES"
+      "image": "/regulator rectifier/RP272 Regulator Rectifier for Tvs Apache Rtr Star City Es Two Wheelers Parts.png",
+      "thumbnail": "/regulator rectifier/RP272 Regulator Rectifier for Tvs Apache Rtr Star City Es Two Wheelers Parts.png"
     },
     {
       "partNumber": "RP272MX",
@@ -3157,8 +3166,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "TVS SUZUKI SAMURAI 5-PIN",
       "description": "TVS SUZUKI SAMURAI 5-PIN",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP273+TVS+SUZUKI+SAMURAI+5+PIN",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP273+TVS+SUZUKI+SAMURAI+5+PIN"
+      "image": "/regulator rectifier/RP273 Regulator Rectifier for Tvs Suzuki Samurai 5 Pin Two Wheelers Bike Spare Parts.png",
+      "thumbnail": "/regulator rectifier/RP273 Regulator Rectifier for Tvs Suzuki Samurai 5 Pin Two Wheelers Bike Spare Parts.png"
     },
     {
       "partNumber": "RP274",
@@ -3166,8 +3175,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "TVS VICTOR GL /GX/ GLX / FIERO / F2 /TVS SPORT/TVS STAR SPORT/CENTRA /SCOOTY PEP / PEP PLUS (5 WIRE )",
       "description": "TVS VICTOR GL /GX/ GLX / FIERO / F2 /TVS SPORT/TVS STAR SPORT/CENTRA /SCOOTY PEP / PEP PLUS (5 WIRE )",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP274+TVS+VICTOR+GL+GX+GLX+FIERO+F2+TVS+SPORT+TVS+STAR+SPORT+",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP274+TVS+VICTOR+GL+GX+GLX+FIERO+F2+TVS+SPORT+TVS+STAR+SPORT+"
+      "image": "/regulator rectifier/RP274  Regulator Rectifier for TVS Victor GL GX Fiero Sports Two Wheeler Spare Parts.png",
+      "thumbnail": "/regulator rectifier/RP274  Regulator Rectifier for TVS Victor GL GX Fiero Sports Two Wheeler Spare Parts.png"
     },
     {
       "partNumber": "RP275",
@@ -3175,15 +3184,15 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "TVS VICTOR / STAR /STAR CITY ( 4 WIRE )",
       "description": "TVS VICTOR / STAR /STAR CITY ( 4 WIRE )",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP275+TVS+VICTOR+STAR+STAR+CITY+4+WIRE",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP275+TVS+VICTOR+STAR+STAR+CITY+4+WIRE"
+      "image": "/regulator rectifier/RP275  Regulator Rectifier for Tvs Victor Star City 4 Wire Two Wheelers Bike Parts.png",
+      "thumbnail": "/regulator rectifier/RP275  Regulator Rectifier for Tvs Victor Star City 4 Wire Two Wheelers Bike Parts.png"
     },
     {
       "partNumber": "RP275UK",
       "referenceNumber": "K3060590",
       "name": "Regulator Rectifier",
-      "vehicle": "TVS SCOOTY PEP PLUS/TVS STREEK / TVS WEGO / TVS ZEST / TVS JUPITOR",
-      "description": "TVS SCOOTY PEP PLUS/TVS STREEK / TVS WEGO / TVS ZEST / TVS JUPITOR",
+      "vehicle": "TVS SCOOTY PEP PLUS/TVS STREAK / TVS WEGO / TVS ZEST / TVS JUPITER",
+      "description": "TVS SCOOTY PEP PLUS/TVS STREAK / TVS WEGO / TVS ZEST / TVS JUPITER",
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP275UK+TVS+SCOOTY+PEP+PLUS+TVS+STREEK+TVS+WEGO+TVS+ZEST+TVS+JU",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP275UK+TVS+SCOOTY+PEP+PLUS+TVS+STREEK+TVS+WEGO+TVS+ZEST+TVS+JU"
     },
@@ -3191,8 +3200,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP275US",
       "referenceNumber": "N9060290",
       "name": "Regulator Rectifier",
-      "vehicle": "TVS STAR CITY ES / TVS JUPITOR BS3",
-      "description": "TVS STAR CITY ES / TVS JUPITOR BS3",
+      "vehicle": "TVS STAR CITY ES / TVS JUPITER BS3",
+      "description": "TVS STAR CITY ES / TVS JUPITER BS3",
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP275US+TVS+STAR+CITY+ES+TVS+JUPITOR+BS3",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP275US+TVS+STAR+CITY+ES+TVS+JUPITOR+BS3"
     },
@@ -3209,8 +3218,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP275EU",
       "referenceNumber": "R4060030",
       "name": "Regulator Rectifier",
-      "vehicle": "TVS JUPITOR BS4 / NTORQ",
-      "description": "TVS JUPITOR BS4 / NTORQ",
+      "vehicle": "TVS JUPITER BS4 / NTORQ",
+      "description": "TVS JUPITER BS4 / NTORQ",
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP275EU+TVS+JUPITOR+BS4+NTORQ",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP275EU+TVS+JUPITOR+BS4+NTORQ"
     },
@@ -3238,17 +3247,17 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "SUZUKI ACCESS-125",
       "description": "SUZUKI ACCESS-125",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP275MH+SUZUKI+ACCESS+125",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP275MH+SUZUKI+ACCESS+125"
+      "image": "/regulator rectifier/RP275MH Regulator Rectifier for Suzuki Access 125 Two Wheelers Scooter Spare Parts.png",
+      "thumbnail": "/regulator rectifier/RP275MH Regulator Rectifier for Suzuki Access 125 Two Wheelers Scooter Spare Parts.png"
     },
     {
       "partNumber": "RP276",
-      "referenceNumber": "5KS- H1960000080",
+      "referenceNumber": "5KS-H1960000080",
       "name": "Regulator Rectifier",
       "vehicle": "YAMAHA CRUX / RXG / YBX",
       "description": "YAMAHA CRUX / RXG / YBX",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP276+YAMAHA+CRUX+RXG+YBX",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP276+YAMAHA+CRUX+RXG+YBX"
+      "image": "/regulator rectifier/RP276  Regulator Rectifier for Yamaha Crux RXG YBX Two Wheeler Bike Spare Parts.png",
+      "thumbnail": "/regulator rectifier/RP276  Regulator Rectifier for Yamaha Crux RXG YBX Two Wheeler Bike Spare Parts.png"
     },
     {
       "partNumber": "RP276VS",
@@ -3256,8 +3265,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "YAMAHA SZ-R 4-PIN COUPLER",
       "description": "YAMAHA SZ-R 4-PIN COUPLER",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP276VS+YAMAHA+SZ+R+4+PIN+COUPLER",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP276VS+YAMAHA+SZ+R+4+PIN+COUPLER"
+      "image": "/regulator rectifier/RP276VS  Regulator Rectifier for Yamaha Sz R 4 Pin Coupler Two Wheelers Parts.jpg",
+      "thumbnail": "/regulator rectifier/RP276VS  Regulator Rectifier for Yamaha Sz R 4 Pin Coupler Two Wheelers Parts.jpg"
     },
     {
       "partNumber": "RP276OP",
@@ -3265,8 +3274,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "YAMAHA RXG-12.8V",
       "description": "YAMAHA RXG-12.8V",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP276OP+YAMAHA+RXG+12+8V",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP276OP+YAMAHA+RXG+12+8V"
+      "image": "/regulator rectifier/RP276OP Regulator Rectifier for Yamaha Rxg 12.8V Two Wheelers Bike Spare Parts.png",
+      "thumbnail": "/regulator rectifier/RP276OP Regulator Rectifier for Yamaha Rxg 12.8V Two Wheelers Bike Spare Parts.png"
     },
     {
       "partNumber": "RP276MO",
@@ -3274,8 +3283,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "YAMAHA RX-100 6.4V",
       "description": "YAMAHA RX-100 6.4V",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP276MO+YAMAHA+RX+100+6+4V",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP276MO+YAMAHA+RX+100+6+4V"
+      "image": "/regulator rectifier/RP276MO Regulator Rectifier for Yamaha Rx100 6.4V Two Wheelers Bike Spare Parts.png",
+      "thumbnail": "/regulator rectifier/RP276MO Regulator Rectifier for Yamaha Rx100 6.4V Two Wheelers Bike Spare Parts.png"
     },
     {
       "partNumber": "RP276AN",
@@ -3283,17 +3292,17 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "YAMAHA RX-100 12.8V",
       "description": "YAMAHA RX-100 12.8V",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP276AN+YAMAHA+RX+100+12+8V",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP276AN+YAMAHA+RX+100+12+8V"
+      "image": "/regulator rectifier/RP276MO Regulator Rectifier for Yamaha Rx100 6.4V Two Wheelers Bike Spare Parts.png",
+      "thumbnail": "/regulator rectifier/RP276MO Regulator Rectifier for Yamaha Rx100 6.4V Two Wheelers Bike Spare Parts.png"
     },
     {
       "partNumber": "RP276GM",
-      "referenceNumber": "1SU-H-1960- 00/902004",
+      "referenceNumber": "1SU-H-1960-00/902004",
       "name": "Regulator Rectifier",
       "vehicle": "YAMAHA FZ (5-PIN COUPLER)",
       "description": "YAMAHA FZ (5-PIN COUPLER)",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP276GM+YAMAHA+FZ+5+PIN+COUPLER",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP276GM+YAMAHA+FZ+5+PIN+COUPLER"
+      "image": "/regulator rectifier/RP276GM orado Two wheelers parts Regulator rectifier for Yamaha fz 5 pin coupler.jpg",
+      "thumbnail": "/regulator rectifier/RP276GM orado Two wheelers parts Regulator rectifier for Yamaha fz 5 pin coupler.jpg"
     }
   ],
   "2-wheeler-parts-rectifier": [
@@ -3465,7 +3474,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP291",
-      "referenceNumber": "31120KWP90 1",
+      "referenceNumber": "31120KWP901",
       "name": "Coil Plate Assembly",
       "vehicle": "HONDA ACTIVA NEW (DIO) / PLEASURE / MAESTRO",
       "description": "HONDA ACTIVA NEW (DIO) / PLEASURE / MAESTRO",
@@ -3478,8 +3487,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HONDA ACTIVA ( LATEST ) DIO 110 CC",
       "description": "HONDA ACTIVA ( LATEST ) DIO 110 CC",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP291AN+HONDA+ACTIVA+LATEST+DIO+110+CC",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP291AN+HONDA+ACTIVA+LATEST+DIO+110+CC"
+      "image": "/coil plate assembly/RP291AN Stator Coil Plate Assembly For Honda active latest dio 110cc.png",
+      "thumbnail": "/coil plate assembly/RP291AN Stator Coil Plate Assembly For Honda active latest dio 110cc.png"
     },
     {
       "partNumber": "RP291MM",
@@ -3501,7 +3510,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP291AB",
-      "referenceNumber": "31120KVT94 1",
+      "referenceNumber": "31120KVT941",
       "name": "Coil Plate Assembly",
       "vehicle": "HONDA AVIATOR N/M",
       "description": "HONDA AVIATOR N/M",
@@ -3510,7 +3519,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP291BZ",
-      "referenceNumber": "31120KWPD0 1",
+      "referenceNumber": "31120KWPD01",
       "name": "Coil Plate Assembly",
       "vehicle": "HONDA ACTIVA HET 2013 MODEL (12 POLE) / 3G / I MODEL/ 4G/ 5G",
       "description": "HONDA ACTIVA HET 2013 MODEL (12 POLE) / 3G / I MODEL/ 4G/ 5G",
@@ -3519,7 +3528,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP291BK",
-      "referenceNumber": "31120KWS90 1",
+      "referenceNumber": "31120KWS901",
       "name": "Coil Plate Assembly",
       "vehicle": "HONDA TWISTER / DREAM YUGA (12 POLE)",
       "description": "HONDA TWISTER / DREAM YUGA (12 POLE)",
@@ -3528,7 +3537,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP291BO",
-      "referenceNumber": "31120-KSP- B01",
+      "referenceNumber": "31120-KSP-B01",
       "name": "Coil Plate Assembly",
       "vehicle": "HONDA UNICORN DAZZLER (12 P0LE) / CBF 150MB BS4",
       "description": "HONDA UNICORN DAZZLER (12 P0LE) / CBF 150MB BS4",
@@ -3546,7 +3555,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP292",
-      "referenceNumber": "31120KTC901 S",
+      "referenceNumber": "31120KTC901S",
       "name": "Coil Plate Assembly",
       "vehicle": "HONDA UNICORN / HONDA CBF-125 (8 POLE)",
       "description": "HONDA UNICORN / HONDA CBF-125 (8 POLE)",
@@ -3555,7 +3564,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP292WW",
-      "referenceNumber": "31120KTED0 1",
+      "referenceNumber": "31120KTED01",
       "name": "Coil Plate Assembly",
       "vehicle": "HONDA CB SHINE-125 BS4 (12 POLE)",
       "description": "HONDA CB SHINE-125 BS4 (12 POLE)",
@@ -3582,7 +3591,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP292PS",
-      "referenceNumber": "31120KZAW0 1S/31120K14901",
+      "referenceNumber": "31120KZAW01S/31120K14901",
       "name": "Coil Plate Assembly",
       "vehicle": "HONDA NEO / PASSION X-PRO BS3 BS4 (12 POLE)",
       "description": "HONDA NEO / PASSION X-PRO BS3 BS4 (12 POLE)",
@@ -3638,8 +3647,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP297DZ",
       "referenceNumber": null,
       "name": "Coil Plate Assembly",
-      "vehicle": "TVS STAR CITY 110CC (7 POLL)",
-      "description": "TVS STAR CITY 110CC (7 POLL)",
+      "vehicle": "TVS STAR CITY 110CC (7 POLE)",
+      "description": "TVS STAR CITY 110CC (7 POLE)",
       "image": "/coil plate assembly/Orado rp297dz Stator Coil Plate Assembly For Tvs star city 110cc 7 pole (8).png",
       "thumbnail": "/coil plate assembly/Orado rp297dz Stator Coil Plate Assembly For Tvs star city 110cc 7 pole (8).png"
     },
@@ -3665,8 +3674,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP297PG",
       "referenceNumber": null,
       "name": "Coil Plate Assembly",
-      "vehicle": "TVS JUPITOR BS6 (12 POLE)",
-      "description": "TVS JUPITOR BS6 (12 POLE)",
+      "vehicle": "TVS JUPITER BS6 (12 POLE)",
+      "description": "TVS JUPITER BS6 (12 POLE)",
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP297PG+TVS+JUPITOR+BS6+12+POLE",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP297PG+TVS+JUPITOR+BS6+12+POLE"
     },
@@ -3737,10 +3746,10 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP299",
       "referenceNumber": "N9060300",
       "name": "Coil Plate Assembly",
-      "vehicle": "TVS APACHE (7 POLL)",
-      "description": "TVS APACHE (7 POLL)",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP299+TVS+APACHE+7+POLL",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP299+TVS+APACHE+7+POLL"
+      "vehicle": "TVS APACHE (7 POLE)",
+      "description": "TVS APACHE (7 POLE)",
+      "image": "/coil plate assembly/RP299 Tvs Apache 7 Pole.png",
+      "thumbnail": "/coil plate assembly/RP299 Tvs Apache 7 Pole.png"
     },
     {
       "partNumber": "RP300",
@@ -3773,8 +3782,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP300ZN",
       "referenceNumber": "K3322190",
       "name": "Coil Plate Assembly",
-      "vehicle": "SCOOTY PEP PLUS BS4 / TVS JUPITOR / TVS NTORQ 125 BS4 / TVS ZEST 110 BS4 (12 POLE)",
-      "description": "SCOOTY PEP PLUS BS4 / TVS JUPITOR / TVS NTORQ 125 BS4 / TVS ZEST 110 BS4 (12 POLE)",
+      "vehicle": "SCOOTY PEP PLUS BS4 / TVS JUPITER / TVS NTORQ 125 BS4 / TVS ZEST 110 BS4 (12 POLE)",
+      "description": "SCOOTY PEP PLUS BS4 / TVS JUPITER / TVS NTORQ 125 BS4 / TVS ZEST 110 BS4 (12 POLE)",
       "image": "/coil plate assembly/RP300ZN Scooty pep plus bs4 tvs jupitor tvs n torq 125 bs4 tvs zest 110 bs4 12 pole copy.jpg",
       "thumbnail": "/coil plate assembly/RP300ZN Scooty pep plus bs4 tvs jupitor tvs n torq 125 bs4 tvs zest 110 bs4 12 pole copy.jpg"
     },
@@ -3791,8 +3800,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP300ZM",
       "referenceNumber": null,
       "name": "Coil Plate Assembly",
-      "vehicle": "TVS JUPITOR (7 POLE)",
-      "description": "TVS JUPITOR (7 POLE)",
+      "vehicle": "TVS JUPITER (7 POLE)",
+      "description": "TVS JUPITER (7 POLE)",
       "image": "/coil plate assembly/RP300ZM Copper Coil Stator Assembly Flat Lay copy.png",
       "thumbnail": "/coil plate assembly/RP300ZM Copper Coil Stator Assembly Flat Lay copy.png"
     },
@@ -3800,8 +3809,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP300DS",
       "referenceNumber": "K320",
       "name": "Coil Plate Assembly",
-      "vehicle": "TVS JUPITOR / WEGO (12 POLE)",
-      "description": "TVS JUPITOR / WEGO (12 POLE)",
+      "vehicle": "TVS JUPITER / WEGO (12 POLE)",
+      "description": "TVS JUPITER / WEGO (12 POLE)",
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP300DS+TVS+JUPITOR+WEGO+12+POLE",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP300DS+TVS+JUPITOR+WEGO+12+POLE"
     },
@@ -3818,8 +3827,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP300AO",
       "referenceNumber": "N4320790",
       "name": "Coil Plate Assembly",
-      "vehicle": "TVS FLAME / ZIVE (8 POLE)",
-      "description": "TVS FLAME / ZIVE (8 POLE)",
+      "vehicle": "TVS FLAME / JIVE (8 POLE)",
+      "description": "TVS FLAME / JIVE (8 POLE)",
       "image": "/coil plate assembly/RP300AO Electrical Stator and Wiring Harness (1) copy.png",
       "thumbnail": "/coil plate assembly/RP300AO Electrical Stator and Wiring Harness (1) copy.png"
     },
@@ -3836,8 +3845,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP300ZP",
       "referenceNumber": null,
       "name": "Coil Plate Assembly",
-      "vehicle": "TVS FIERO (7 POLL)",
-      "description": "TVS FIERO (7 POLL)",
+      "vehicle": "TVS FIERO (7 POLE)",
+      "description": "TVS FIERO (7 POLE)",
       "image": "/coil plate assembly/Orado rp300zp Stator Coil Plate Assembly For Tvs fiero 7 pole (5).png",
       "thumbnail": "/coil plate assembly/Orado rp300zp Stator Coil Plate Assembly For Tvs fiero 7 pole (5).png"
     },
@@ -3847,8 +3856,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "TVS SUZUKI MAX-100 / SUZUKI SAMURAI",
       "description": "TVS SUZUKI MAX-100 / SUZUKI SAMURAI",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP300ZZ+TVS+SUZUKI+MAX+100+SUZUKI+SAMURAI",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP300ZZ+TVS+SUZUKI+MAX+100+SUZUKI+SAMURAI"
+      "image": "/coil plate assembly/RP300ZZ Tvs Suzuki Max 100 Samurai.jpg",
+      "thumbnail": "/coil plate assembly/RP300ZZ Tvs Suzuki Max 100 Samurai.jpg"
     },
     {
       "partNumber": "RP300UP",
@@ -3989,8 +3998,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP302AM",
       "referenceNumber": "JE351005",
       "name": "Coil Plate Assembly",
-      "vehicle": "BAJAJ DISCOVER – 100M / 125M / 150S / 150F / 125 T (12 POLE)",
-      "description": "BAJAJ DISCOVER – 100M / 125M / 150S / 150F / 125 T (12 POLE)",
+      "vehicle": "BAJAJ DISCOVER - 100M / 125M / 150S / 150F / 125 T (12 POLE)",
+      "description": "BAJAJ DISCOVER - 100M / 125M / 150S / 150F / 125 T (12 POLE)",
       "image": "/coil plate assembly/Orado rp302am Stator Coil Plate Assembly For Bajaj Discover 100m 125m 150s 150f 125t 12 pole (3).jpg",
       "thumbnail": "/coil plate assembly/Orado rp302am Stator Coil Plate Assembly For Bajaj Discover 100m 125m 150s 150f 125t 12 pole (3).jpg"
     },
@@ -4000,12 +4009,12 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ DISCOVER 100T / DISCOVER 4G / BOXER BM-100 / PLATINA-100 ES BS4 (8 POLE)",
       "description": "BAJAJ DISCOVER 100T / DISCOVER 4G / BOXER BM-100 / PLATINA-100 ES BS4 (8 POLE)",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP302PF+BAJAJ+DISCOVER+100T+DISCOVER+4G+BOXER+BM+100+PLATINA+10",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP302PF+BAJAJ+DISCOVER+100T+DISCOVER+4G+BOXER+BM+100+PLATINA+10"
+      "image": "/coil plate assembly/RP302PF  Bajaj Discover 100t Boxer Bm 100 Platina 100 Es 8 Pole.png",
+      "thumbnail": "/coil plate assembly/RP302PF  Bajaj Discover 100t Boxer Bm 100 Platina 100 Es 8 Pole.png"
     },
     {
       "partNumber": "RP302AW",
-      "referenceNumber": "DS 111015",
+      "referenceNumber": "DS111015",
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ DISCOVER-125 KS (8 POLE)",
       "description": "BAJAJ DISCOVER-125 KS (8 POLE)",
@@ -4014,7 +4023,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP302AI",
-      "referenceNumber": "MGCP- DSVR-DS16",
+      "referenceNumber": "MGCP-DSVR-DS16",
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ DISCOVER-125 ES (8 POLE)",
       "description": "BAJAJ DISCOVER-125 ES (8 POLE)",
@@ -4034,8 +4043,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP302AY",
       "referenceNumber": "DH111081",
       "name": "Coil Plate Assembly",
-      "vehicle": "BAJAJ PULSAR 150 / 180 UG4 / UG5 / PULSAR 180 DTS-i UG2 / UG3 (8 POLE)",
-      "description": "BAJAJ PULSAR 150 / 180 UG4 / UG5 / PULSAR 180 DTS-i UG2 / UG3 (8 POLE)",
+      "vehicle": "BAJAJ PULSAR 150 / 180 UG4 / UG5 / PULSAR 180 DTSI UG2 / UG3 (8 POLE)",
+      "description": "BAJAJ PULSAR 150 / 180 UG4 / UG5 / PULSAR 180 DTSI UG2 / UG3 (8 POLE)",
       "image": "/coil plate assembly/Orado rp302ay Stator Coil Plate Assembly For Bajaj pulsar 150 180 ug4 ug5 pulsar 180 dtsi ug2 ug3 8 pole (1).png",
       "thumbnail": "/coil plate assembly/Orado rp302ay Stator Coil Plate Assembly For Bajaj pulsar 150 180 ug4 ug5 pulsar 180 dtsi ug2 ug3 8 pole (1).png"
     },
@@ -4077,7 +4086,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP302XT",
-      "referenceNumber": "JE 25",
+      "referenceNumber": "JE25",
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ PULSAR-160 NS (12 POLE)",
       "description": "BAJAJ PULSAR-160 NS (12 POLE)",
@@ -4095,7 +4104,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP302FD",
-      "referenceNumber": "DK 84",
+      "referenceNumber": "DK84",
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ PULSAR -150 UG5 BS4 (DK84) 12 POLE",
       "description": "BAJAJ PULSAR -150 UG5 BS4 (DK84) 12 POLE",
@@ -4158,7 +4167,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP303ZS",
-      "referenceNumber": "PF 33",
+      "referenceNumber": "PF33",
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ PLATINA KS PF33 (12 POLE)",
       "description": "BAJAJ PLATINA KS PF33 (12 POLE)",
@@ -4257,7 +4266,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP306MK",
-      "referenceNumber": "31120KTP890 S",
+      "referenceNumber": "31120KTP890S",
       "name": "Coil Plate Assembly",
       "vehicle": "HERO HONDA PLEASURE",
       "description": "HERO HONDA PLEASURE",
@@ -4266,7 +4275,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP306KK",
-      "referenceNumber": "31120KSP911 S",
+      "referenceNumber": "31120KSP911S",
       "name": "Coil Plate Assembly",
       "vehicle": "HERO HONDA CBZ XT / X-TREME / ACHIEVER / HUNK (8 POLE)",
       "description": "HERO HONDA CBZ XT / X-TREME / ACHIEVER / HUNK (8 POLE)",
@@ -4275,7 +4284,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP306KX",
-      "referenceNumber": "31120KSPB01 S",
+      "referenceNumber": "31120KSPB01S",
       "name": "Coil Plate Assembly",
       "vehicle": "HERO IMPULSE / HUNK / X-TREME (12 POLE)",
       "description": "HERO IMPULSE / HUNK / X-TREME (12 POLE)",
@@ -4284,7 +4293,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP306KZ",
-      "referenceNumber": "31120KTE911 S",
+      "referenceNumber": "31120KTE911S",
       "name": "Coil Plate Assembly",
       "vehicle": "HERO IGNITOR (8 POLE)",
       "description": "HERO IGNITOR (8 POLE)",
@@ -4293,12 +4302,12 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP306PP",
-      "referenceNumber": "31120-KTRA- 01S",
+      "referenceNumber": "31120-KTRA-01S",
       "name": "Coil Plate Assembly",
       "vehicle": "HERO HONDA SUPER SPLENDOR N/M / GLAMOUR N/M, (12 POLE)",
       "description": "HERO HONDA SUPER SPLENDOR N/M / GLAMOUR N/M, (12 POLE)",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP306PP+HERO+HONDA+SUPER+SPLENDOR+N+M+GLAMOUR+N+M+12+POLE",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP306PP+HERO+HONDA+SUPER+SPLENDOR+N+M+GLAMOUR+N+M+12+POLE"
+      "image": "/coil plate assembly/RP306PP  Hero Honda Super Splendor Glamour New Model 12 pole.png",
+      "thumbnail": "/coil plate assembly/RP306PP  Hero Honda Super Splendor Glamour New Model 12 pole.png"
     },
     {
       "partNumber": "RP307",
@@ -4320,7 +4329,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP307XO",
-      "referenceNumber": "31120KVH91 0S",
+      "referenceNumber": "31120KVH910S",
       "name": "Coil Plate Assembly",
       "vehicle": "HERO HONDA NXG O/M (8 POLE)",
       "description": "HERO HONDA NXG O/M (8 POLE)",
@@ -4329,7 +4338,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP307AH",
-      "referenceNumber": "31120KWH96 1S",
+      "referenceNumber": "31120KWH961S",
       "name": "Coil Plate Assembly",
       "vehicle": "HERO HONDA SPLENDOR PRO (8 POLE)",
       "description": "HERO HONDA SPLENDOR PRO (8 POLE)",
@@ -4338,7 +4347,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP307DH",
-      "referenceNumber": "31120KWA93 1S",
+      "referenceNumber": "31120KWA931S",
       "name": "Coil Plate Assembly",
       "vehicle": "HERO PASSION PRO / HF DLX /HF DAWN / HF DLX ECO / PASSION PRO TR / SPL NXG N/M (8 POLE)",
       "description": "HERO PASSION PRO / HF DLX /HF DAWN / HF DLX ECO / PASSION PRO TR / SPL NXG N/M (8 POLE)",
@@ -4356,7 +4365,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP307NP",
-      "referenceNumber": "31120AAN41 1S",
+      "referenceNumber": "31120AAN411S",
       "name": "Coil Plate Assembly",
       "vehicle": "HERO SUPER SPLENDOR BS4 / HERO GLAMOUR BS4 (12 POLE)",
       "description": "HERO SUPER SPLENDOR BS4 / HERO GLAMOUR BS4 (12 POLE)",
@@ -4365,7 +4374,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP307AS",
-      "referenceNumber": "31120AAF010 99S",
+      "referenceNumber": "31120AAF01099S",
       "name": "Coil Plate Assembly",
       "vehicle": "HERO SPL i SMART ES / KS (LEFT CRANK CASE) (8 POLE)",
       "description": "HERO SPL i SMART ES / KS (LEFT CRANK CASE) (8 POLE)",
@@ -4374,7 +4383,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP307AZ",
-      "referenceNumber": "31120AAT00 1S",
+      "referenceNumber": "31120AAT001S",
       "name": "Coil Plate Assembly",
       "vehicle": "HERO SPLENDOR i SMART BS4 (8 POLE)",
       "description": "HERO SPLENDOR i SMART BS4 (8 POLE)",
@@ -4383,7 +4392,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP307DX",
-      "referenceNumber": "31120AAC20 1S",
+      "referenceNumber": "31120AAC201S",
       "name": "Coil Plate Assembly",
       "vehicle": "HERO SPLENDOR PLUS BS4 / HERO HF DLX BS4 / PASSION PRO BS4 (8 POLE)",
       "description": "HERO SPLENDOR PLUS BS4 / HERO HF DLX BS4 / PASSION PRO BS4 (8 POLE)",
@@ -4446,7 +4455,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP312DW",
-      "referenceNumber": "31120KST941 S",
+      "referenceNumber": "31120KST941S",
       "name": "Coil Plate Assembly",
       "vehicle": "HERO HONDA CD- DAWN N/M ( 8 POLE)",
       "description": "HERO HONDA CD- DAWN N/M ( 8 POLE)",
@@ -4464,7 +4473,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP312MZ",
-      "referenceNumber": "31120AAW00 0S",
+      "referenceNumber": "31120AAW000S",
       "name": "Coil Plate Assembly",
       "vehicle": "HERO EDGE / DUET BS4 (12 POLE)",
       "description": "HERO EDGE / DUET BS4 (12 POLE)",
@@ -4504,12 +4513,12 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BULLET ENFIELD (3 WIRE)",
       "description": "BULLET ENFIELD (3 WIRE)",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP313JS+BULLET+ENFIELD+3+WIRE",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP313JS+BULLET+ENFIELD+3+WIRE"
+      "image": "/coil plate assembly/RP313JS Bullet enfield 3 wire.jpg",
+      "thumbnail": "/coil plate assembly/RP313JS Bullet enfield 3 wire.jpg"
     },
     {
       "partNumber": "RP313KP",
-      "referenceNumber": "5TS-H1410- 00",
+      "referenceNumber": "5TS-H1410-00",
       "name": "Coil Plate Assembly",
       "vehicle": "YAMAHA YBR 110CC (12 POLE)",
       "description": "YAMAHA YBR 110CC (12 POLE)",
@@ -4518,7 +4527,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP313KL",
-      "referenceNumber": "21C-H1410- 00",
+      "referenceNumber": "21C-H1410-00",
       "name": "Coil Plate Assembly",
       "vehicle": "YAMAHA FZ (12 POLE)",
       "description": "YAMAHA FZ (12 POLE)",
@@ -4527,7 +4536,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP313PO",
-      "referenceNumber": "2GS-H1410- 00",
+      "referenceNumber": "2GS-H1410-00",
       "name": "Coil Plate Assembly",
       "vehicle": "YAMAHA FZ-16 / FZ-S (12 POLE)",
       "description": "YAMAHA FZ-16 / FZ-S (12 POLE)",
@@ -4536,7 +4545,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP313PS",
-      "referenceNumber": "2GS-H1410- 00",
+      "referenceNumber": "2GS-H1410-00",
       "name": "Coil Plate Assembly",
       "vehicle": "YAMAHA YBR-125CC (12 POLE)",
       "description": "YAMAHA YBR-125CC (12 POLE)",
@@ -4545,7 +4554,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP313SK",
-      "referenceNumber": "35B-H1410- 00",
+      "referenceNumber": "35B-H1410-00",
       "name": "Coil Plate Assembly",
       "vehicle": "YAMAHA SS-125CC (12 POLE)",
       "description": "YAMAHA SS-125CC (12 POLE)",
@@ -4554,7 +4563,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP313ZZ",
-      "referenceNumber": "5KA-H1410- 01",
+      "referenceNumber": "5KA-H1410-01",
       "name": "Coil Plate Assembly",
       "vehicle": "YAMAHA CRUX ( 12 POLE ) N/M / LIBERO",
       "description": "YAMAHA CRUX ( 12 POLE ) N/M / LIBERO",
@@ -4563,7 +4572,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP313ZU",
-      "referenceNumber": "5KA-H1410- 01",
+      "referenceNumber": "5KA-H1410-01",
       "name": "Coil Plate Assembly",
       "vehicle": "YAMAHA CRUX (8 POLE) O/M",
       "description": "YAMAHA CRUX (8 POLE) O/M",
@@ -4626,7 +4635,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP313JJ",
-      "referenceNumber": "32101- 33GA2-000",
+      "referenceNumber": "32101-33GA2-000",
       "name": "Coil Plate Assembly",
       "vehicle": "SUZUKI ACCESS-125 (12POLE)",
       "description": "SUZUKI ACCESS-125 (12POLE)",
@@ -4644,7 +4653,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP313JH",
-      "referenceNumber": "32101-28G00- 000",
+      "referenceNumber": "32101-28G00-000",
       "name": "Coil Plate Assembly",
       "vehicle": "SUZUKI HEAT (8 POLE)",
       "description": "SUZUKI HEAT (8 POLE)",
@@ -4653,7 +4662,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP313JX",
-      "referenceNumber": "32101-30H00- 000",
+      "referenceNumber": "32101-30H00-000",
       "name": "Coil Plate Assembly",
       "vehicle": "SUZUKI GS-150 R (8 POLE)",
       "description": "SUZUKI GS-150 R (8 POLE)",
@@ -4662,16 +4671,16 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP313JS",
-      "referenceNumber": "32101-28G70- 000",
+      "referenceNumber": "32101-28G70-000",
       "name": "Coil Plate Assembly",
       "vehicle": "SUZUKI SLING SHOT (8 POLE)",
       "description": "SUZUKI SLING SHOT (8 POLE)",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP313JS+SUZUKI+SLING+SHOT+8+POLE",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP313JS+SUZUKI+SLING+SHOT+8+POLE"
+      "image": "/coil plate assembly/RP313JS Bullet enfield 3 wire.jpg",
+      "thumbnail": "/coil plate assembly/RP313JS Bullet enfield 3 wire.jpg"
     },
     {
       "partNumber": "RP313DK",
-      "referenceNumber": "32101-28G10- 000",
+      "referenceNumber": "32101-28G10-000",
       "name": "Coil Plate Assembly",
       "vehicle": "SUZUKI ZEUS (8 POLE)",
       "description": "SUZUKI ZEUS (8 POLE)",
@@ -4684,8 +4693,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "MAHINDRA DURO",
       "description": "MAHINDRA DURO",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP314NC+MAHINDRA+DURO",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP314NC+MAHINDRA+DURO"
+      "image": "/coil plate assembly/RP313NC Stator Coil Plate Assembly For Mahindra Duro.png",
+      "thumbnail": "/coil plate assembly/RP313NC Stator Coil Plate Assembly For Mahindra Duro.png"
     },
     {
       "partNumber": "RP314NO",
@@ -4722,8 +4731,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "H.T. Coils",
       "vehicle": "BAJAJ CHETAK 6V",
       "description": "BAJAJ CHETAK 6V",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP315+BAJAJ+CHETAK+6V",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP315+BAJAJ+CHETAK+6V"
+      "image": "ht coil/RP315.jpg",
+      "thumbnail": "/ht coil/RP315.jpg"
     },
     {
       "partNumber": "RP316",
@@ -4772,7 +4781,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP323",
-      "referenceNumber": "DF111040/30510KWP90 1",
+      "referenceNumber": "DF111040/30510KWP901",
       "name": "H.T. Coils",
       "vehicle": "BAJAJ BOXER CT / HERO MAESTRO / HONDA ACTIVA / AVIATOR",
       "description": "BAJAJ BOXER CT / HERO MAESTRO / HONDA ACTIVA / AVIATOR",
@@ -4846,19 +4855,19 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP335",
       "referenceNumber": null,
       "name": "H.T. Coils",
-      "vehicle": "HERO HONDA CD-100 / SS / KINETIC CHALLANGER",
-      "description": "HERO HONDA CD-100 / SS / KINETIC CHALLANGER",
+      "vehicle": "HERO HONDA CD-100 / SS / KINETIC CHALLENGER",
+      "description": "HERO HONDA CD-100 / SS / KINETIC CHALLENGER",
       "image": "/ht coil/RP335 Hero Honda cd 100 ss kinetic challanger   (4).png",
       "thumbnail": "/ht coil/RP335 Hero Honda cd 100 ss kinetic challanger   (4).png"
     },
     {
       "partNumber": "RP336",
-      "referenceNumber": "30500-KTR- A01/33410- 33G60-000",
+      "referenceNumber": "30500-KTR-A01/33410-33G60-000",
       "name": "H.T. Coils",
       "vehicle": "HERO SUPER SPLENDOR / GLAMOUR / SUZUKI ACCESS- 125 ES / SWISH",
       "description": "HERO SUPER SPLENDOR / GLAMOUR / SUZUKI ACCESS- 125 ES / SWISH",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP336+HERO+SUPER+SPLENDOR+GLAMOUR+SUZUKI+ACCESS+125+ES+SWISH",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP336+HERO+SUPER+SPLENDOR+GLAMOUR+SUZUKI+ACCESS+125+ES+SWISH"
+      "image": "/ht coil/RP336 vHero Super Splendor Glamour Suzuki Access 125  es.png",
+      "thumbnail": "/ht coil/RP336 vHero Super Splendor Glamour Suzuki Access 125  es.png"
     },
     {
       "partNumber": "RP336KO",
@@ -4871,7 +4880,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP336GN",
-      "referenceNumber": "30500-KST- 9405",
+      "referenceNumber": "30500-KST-9405",
       "name": "H.T. Coils",
       "vehicle": "HERO SPLENDOR PRO / NXG / HUNK/CD DAWN/HF DLX/HF DAWN/DLX ECO/PASSION PRO TR/SPLENDOR i smart",
       "description": "HERO SPLENDOR PRO / NXG / HUNK/CD DAWN/HF DLX/HF DAWN/DLX ECO/PASSION PRO TR/SPLENDOR i smart",
@@ -4880,7 +4889,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP337",
-      "referenceNumber": "30500-KCC- 710S",
+      "referenceNumber": "30500-KCC-710S",
       "name": "H.T. Coils",
       "vehicle": "HERO HONDA SPLENDOR / PASSION / CBZ / CD DLX / CD DAWN",
       "description": "HERO HONDA SPLENDOR / PASSION / CBZ / CD DLX / CD DAWN",
@@ -4889,7 +4898,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP337PK",
-      "referenceNumber": "30500KZA W01S/ZMR3051K RY971S",
+      "referenceNumber": "30500KZAW01S/ZMR3051KRY971S",
       "name": "H.T. Coils",
       "vehicle": "HERO PASSION X-PRO-100 (2013 M) / KARIZMA ZMR",
       "description": "HERO PASSION X-PRO-100 (2013 M) / KARIZMA ZMR",
@@ -4898,7 +4907,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP337RZ",
-      "referenceNumber": "30500AABH 61S",
+      "referenceNumber": "30500AABH61S",
       "name": "H.T. Coils",
       "vehicle": "HERO CBZ X-TREME / HERO IGNITOR-125",
       "description": "HERO CBZ X-TREME / HERO IGNITOR-125",
@@ -4907,7 +4916,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP338",
-      "referenceNumber": "30500AAKH 71",
+      "referenceNumber": "30500AAKH71",
       "name": "H.T. Coils",
       "vehicle": "HERO HUNK / IMPULSE",
       "description": "HERO HUNK / IMPULSE",
@@ -4925,7 +4934,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP339",
-      "referenceNumber": "30500- KSP0910",
+      "referenceNumber": "30500-KSP0910",
       "name": "H.T. Coils",
       "vehicle": "HONDA UNICORN / SHINE/CB UNICORN/DAZZLER 150 (M5&M6 MODEL) KSPR",
       "description": "HONDA UNICORN / SHINE/CB UNICORN/DAZZLER 150 (M5&M6 MODEL) KSPR",
@@ -4943,7 +4952,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP340",
-      "referenceNumber": "30510-KPL- 901",
+      "referenceNumber": "30510-KPL-901",
       "name": "H.T. Coils",
       "vehicle": "HONDA ACTIVA 100CM2 / 100 CMS /110-B / AVIATOR 100F3 / 100 F5 /100 F9 /100 G /100 C / 100 D",
       "description": "HONDA ACTIVA 100CM2 / 100 CMS /110-B / AVIATOR 100F3 / 100 F5 /100 F9 /100 G /100 C / 100 D",
@@ -4952,7 +4961,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP340A",
-      "referenceNumber": "30500K3290 1/30500KWP D00/30500 KVTD00",
+      "referenceNumber": "30500K32901/30500KWPD00/30500KVTD00",
       "name": "H.T. Coils",
       "vehicle": "HONDA ACTIVA i / ACTIVA 125 / HET / ACTIVA 110 D / AVIATOR 110 GD / 110 FD / DREAM YUGA O/M / NEO 14A",
       "description": "HONDA ACTIVA i / ACTIVA 125 / HET / ACTIVA 110 D / AVIATOR 110 GD / 110 FD / DREAM YUGA O/M / NEO 14A",
@@ -4997,7 +5006,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP343KK",
-      "referenceNumber": "SKA- 112310-00",
+      "referenceNumber": "SKA-112310-00",
       "name": "H.T. Coils",
       "vehicle": "YAMAHA CRUX / CRUX-R / LIBERO",
       "description": "YAMAHA CRUX / CRUX-R / LIBERO",
@@ -5062,8 +5071,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP347RU",
       "referenceNumber": "N9060030",
       "name": "H.T. Coils",
-      "vehicle": "TVS VICOR GLX",
-      "description": "TVS VICOR GLX",
+      "vehicle": "TVS VICTOR GLX",
+      "description": "TVS VICTOR GLX",
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP347RU+TVS+VICOR+GLX",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP347RU+TVS+VICOR+GLX"
     },
@@ -5262,8 +5271,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP365CZ",
       "referenceNumber": "K6060260",
       "name": "Igniters",
-      "vehicle": "TVS JUPITOR / TVS WEGO WITH EXTRA WIRE (AFTER MAY 2016) BS3 7-WIRE",
-      "description": "TVS JUPITOR / TVS WEGO WITH EXTRA WIRE (AFTER MAY 2016) BS3 7-WIRE",
+      "vehicle": "TVS JUPITER / TVS WEGO WITH EXTRA WIRE (AFTER MAY 2016) BS3 7-WIRE",
+      "description": "TVS JUPITER / TVS WEGO WITH EXTRA WIRE (AFTER MAY 2016) BS3 7-WIRE",
       "image": "/igniters/RP365cz Ignition coil Igniters For Tvs Jupiter Tvs Wego (5).jpg",
       "thumbnail": "/igniters/RP365cz Ignition coil Igniters For Tvs Jupiter Tvs Wego (5).jpg"
     },
@@ -5271,8 +5280,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP365CB",
       "referenceNumber": "K6060440",
       "name": "Igniters",
-      "vehicle": "TVS JUPITOR / TVS WEGO (COMBINED IDI & IGNITION COIL) AFTER APR 2017 BS4 8-PIN",
-      "description": "TVS JUPITOR / TVS WEGO (COMBINED IDI & IGNITION COIL) AFTER APR 2017 BS4 8-PIN",
+      "vehicle": "TVS JUPITER / TVS WEGO (COMBINED IDI & IGNITION COIL) AFTER APR 2017 BS4 8-PIN",
+      "description": "TVS JUPITER / TVS WEGO (COMBINED IDI & IGNITION COIL) AFTER APR 2017 BS4 8-PIN",
       "image": "/igniters/RP365CB  Tvs Jupiter Tvs wego combined idi ignition coil after apr 2017 bs4 (6).jpg",
       "thumbnail": "/igniters/RP365CB  Tvs Jupiter Tvs wego combined idi ignition coil after apr 2017 bs4 (6).jpg"
     },
@@ -5300,8 +5309,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP379G",
       "referenceNumber": "DJ201021",
       "name": "Battery Wire",
-      "vehicle": "BAJAJ PULSAR 150/180 DTSI ES (UG-3 MODEL) (NEGTIVE) OE TYPE",
-      "description": "BAJAJ PULSAR 150/180 DTSI ES (UG-3 MODEL) (NEGTIVE) OE TYPE",
+      "vehicle": "BAJAJ PULSAR 150/180 DTSI ES (UG-3 MODEL) (NEGATIVE) OE TYPE",
+      "description": "BAJAJ PULSAR 150/180 DTSI ES (UG-3 MODEL) (NEGATIVE) OE TYPE",
       "image": "/battery-wire/RP379-negative.png",
       "thumbnail": "/battery-wire/RP379-negative.png"
     },
@@ -5309,8 +5318,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP379F",
       "referenceNumber": null,
       "name": "Battery Wire",
-      "vehicle": "TO RELAY BAJAJ PULSAR 150/180 DTSI ES UG-3(DIGITAL MEATER (2008 M) / 150/180 DTSI ES UG-4 (POSITIVE)",
-      "description": "TO RELAY BAJAJ PULSAR 150/180 DTSI ES UG-3(DIGITAL MEATER (2008 M) / 150/180 DTSI ES UG-4 (POSITIVE)",
+      "vehicle": "TO RELAY BAJAJ PULSAR 150/180 DTSI ES UG-3(DIGITAL METER (2008 M) / 150/180 DTSI ES UG-4 (POSITIVE)",
+      "description": "TO RELAY BAJAJ PULSAR 150/180 DTSI ES UG-3(DIGITAL METER (2008 M) / 150/180 DTSI ES UG-4 (POSITIVE)",
       "image": "/battery-wire/RP379F-relay.png",
       "thumbnail": "/battery-wire/RP379F-relay.png"
     },
@@ -5318,8 +5327,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP379S",
       "referenceNumber": "JA402202",
       "name": "Battery Wire",
-      "vehicle": "BAJAJ PULSAR 150 / 180 DTSI ES UG-3 DIGITAL MEATER (NEGTIVE) OE TYPE",
-      "description": "BAJAJ PULSAR 150 / 180 DTSI ES UG-3 DIGITAL MEATER (NEGTIVE) OE TYPE",
+      "vehicle": "BAJAJ PULSAR 150 / 180 DTSI ES UG-3 DIGITAL METER (NEGATIVE) OE TYPE",
+      "description": "BAJAJ PULSAR 150 / 180 DTSI ES UG-3 DIGITAL METER (NEGATIVE) OE TYPE",
       "image": "/battery-wire/RP379S-negative.png",
       "thumbnail": "/battery-wire/RP379S-negative.png"
     },
@@ -5327,8 +5336,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP380",
       "referenceNumber": null,
       "name": "Battery Wire",
-      "vehicle": "TO RELAY BAJAJ PULSAR 150 DTSI ES UG-3 DIGITAL MEATER / 180/150 DTS-i ES UG-3 / 200CC DTSI ES 2008 / XCD-125 DTSI ES (STARTER RELAY PIN TYPE) POSITIVE",
-      "description": "TO RELAY BAJAJ PULSAR 150 DTSI ES UG-3 DIGITAL MEATER / 180/150 DTS-i ES UG-3 / 200CC DTSI ES 2008 / XCD-125 DTSI ES (STARTER RELAY PIN TYPE) POSITIVE",
+      "vehicle": "TO RELAY BAJAJ PULSAR 150 DTSI ES UG-3 DIGITAL METER / 180/150 DTSI ES UG-3 / 200CC DTSI ES 2008 / XCD-125 DTSI ES (STARTER RELAY PIN TYPE) POSITIVE",
+      "description": "TO RELAY BAJAJ PULSAR 150 DTSI ES UG-3 DIGITAL METER / 180/150 DTSI ES UG-3 / 200CC DTSI ES 2008 / XCD-125 DTSI ES (STARTER RELAY PIN TYPE) POSITIVE",
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP380+TO+RELAY+BAJAJ+PULSAR+150+DTSI+ES+UG+3+DIGITAL+MEATER+1",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP380+TO+RELAY+BAJAJ+PULSAR+150+DTSI+ES+UG+3+DIGITAL+MEATER+1"
     },
@@ -5336,8 +5345,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP381",
       "referenceNumber": null,
       "name": "Battery Wire",
-      "vehicle": "TO RELAY BAJAJ PULSAR DTSI LS 135CC ES (DIGITAL MEATER 2010-2011 M) POSITIVE",
-      "description": "TO RELAY BAJAJ PULSAR DTSI LS 135CC ES (DIGITAL MEATER 2010-2011 M) POSITIVE",
+      "vehicle": "TO RELAY BAJAJ PULSAR DTSI LS 135CC ES (DIGITAL METER 2010-2011 M) POSITIVE",
+      "description": "TO RELAY BAJAJ PULSAR DTSI LS 135CC ES (DIGITAL METER 2010-2011 M) POSITIVE",
       "image": "/battery-wire/RP381-relay.png",
       "thumbnail": "/battery-wire/RP381-relay.png"
     },
@@ -5354,8 +5363,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP382D",
       "referenceNumber": "JZ402202",
       "name": "Battery Wire",
-      "vehicle": "BAJAJ DISCOVER DTSI ES 150CC (NEGTIVE)",
-      "description": "BAJAJ DISCOVER DTSI ES 150CC (NEGTIVE)",
+      "vehicle": "BAJAJ DISCOVER DTSI ES 150CC (NEGATIVE)",
+      "description": "BAJAJ DISCOVER DTSI ES 150CC (NEGATIVE)",
       "image": "/battery-wire/RP382D-negative.png",
       "thumbnail": "/battery-wire/RP382D-negative.png"
     },
@@ -5363,8 +5372,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP383",
       "referenceNumber": null,
       "name": "Battery Wire",
-      "vehicle": "HERO HONDA SUPER SPLENDOR/GLAMOUR (NEGTIVE)",
-      "description": "HERO HONDA SUPER SPLENDOR/GLAMOUR (NEGTIVE)",
+      "vehicle": "HERO HONDA SUPER SPLENDOR/GLAMOUR (NEGATIVE)",
+      "description": "HERO HONDA SUPER SPLENDOR/GLAMOUR (NEGATIVE)",
       "image": "/battery-wire/RP383-shine.png",
       "thumbnail": "/battery-wire/RP383-shine.png"
     },
@@ -5372,8 +5381,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP383A",
       "referenceNumber": "DS201022",
       "name": "Battery Wire",
-      "vehicle": "TO RELAY BAJAJ DISCOVER DTSI ES 135CC / 135CC DISC BREAK / DTSI 125CC ES (POSITIVE)",
-      "description": "TO RELAY BAJAJ DISCOVER DTSI ES 135CC / 135CC DISC BREAK / DTSI 125CC ES (POSITIVE)",
+      "vehicle": "TO RELAY BAJAJ DISCOVER DTSI ES 135CC / 135CC DISC BRAKE / DTSI 125CC ES (POSITIVE)",
+      "description": "TO RELAY BAJAJ DISCOVER DTSI ES 135CC / 135CC DISC BRAKE / DTSI 125CC ES (POSITIVE)",
       "image": "/battery-wire/RP383A-relay.png",
       "thumbnail": "/battery-wire/RP383A-relay.png"
     },
@@ -5381,10 +5390,10 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP383Z",
       "referenceNumber": "DS201023",
       "name": "Battery Wire",
-      "vehicle": "BAJAJ DISCOVER DTSI 135CC ES /DTS-i 135CC ES DISC BREAK / DTSI 125CC ES (NEGATIVE)",
-      "description": "BAJAJ DISCOVER DTSI 135CC ES /DTS-i 135CC ES DISC BREAK / DTSI 125CC ES (NEGATIVE)",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP383Z+BAJAJ+DISCOVER+DTSI+135CC+ES+DTS+i+135CC+ES+DISC+BREAK+",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP383Z+BAJAJ+DISCOVER+DTSI+135CC+ES+DTS+i+135CC+ES+DISC+BREAK+"
+      "vehicle": "BAJAJ DISCOVER DTSI 135CC ES /DTSI 135CC ES DISC BRAKE / DTSI 125CC ES (NEGATIVE)",
+      "description": "BAJAJ DISCOVER DTSI 135CC ES /DTSI 135CC ES DISC BRAKE / DTSI 125CC ES (NEGATIVE)",
+      "image": "/battery-wire/RP383Z Bajaj Discover dts i 135cc es disc break positive.png",
+      "thumbnail": "/battery-wire/RP383Z Bajaj Discover dts i 135cc es disc break positive.png"
     },
     {
       "partNumber": "RP383K",
@@ -5437,8 +5446,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Battery Wire",
       "vehicle": "HONDA SHINE 125CC ES / UNICORN (POSITIVE)",
       "description": "HONDA SHINE 125CC ES / UNICORN (POSITIVE)",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP383P+HONDA+SHINE+125CC+ES+UNICORN+POSITIVE",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP383P+HONDA+SHINE+125CC+ES+UNICORN+POSITIVE"
+      "image": "/battery-wire/RP383P Honda Shine 125cc es unicorn positive.png",
+      "thumbnail": "/battery-wire/RP383P Honda Shine 125cc es unicorn positive.png"
     },
     {
       "partNumber": "RP383TN",
@@ -5451,7 +5460,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP383TP",
-      "referenceNumber": "5YY- H52115-00",
+      "referenceNumber": "5YY-H52115-00",
       "name": "Battery Wire",
       "vehicle": "YAMAHA GLADIATOR 5 GEAR ES / FAZER ES (POSITIVE)",
       "description": "YAMAHA GLADIATOR 5 GEAR ES / FAZER ES (POSITIVE)",
@@ -5460,7 +5469,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP383LM",
-      "referenceNumber": "5US- H52115-00",
+      "referenceNumber": "5US-H52115-00",
       "name": "Battery Wire",
       "vehicle": "YAMAHA GLADIATOR 5 GEAR ES (NEGATIVE)",
       "description": "YAMAHA GLADIATOR 5 GEAR ES (NEGATIVE)",
@@ -5469,7 +5478,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP383MP",
-      "referenceNumber": "21C-H2115- 00",
+      "referenceNumber": "21C-H2115-00",
       "name": "Battery Wire",
       "vehicle": "YAMAHA FZ (POSITIVE)",
       "description": "YAMAHA FZ (POSITIVE)",
@@ -5478,7 +5487,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP383KM",
-      "referenceNumber": "21C-H2116- 10",
+      "referenceNumber": "21C-H2116-10",
       "name": "Battery Wire",
       "vehicle": "YAMAHA FZ (NEGATIVE)",
       "description": "YAMAHA FZ (NEGATIVE)",
@@ -5523,7 +5532,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP383RL",
-      "referenceNumber": "32401-KTC- 9210",
+      "referenceNumber": "32401-KTC-9210",
       "name": "Battery Wire",
       "vehicle": "TO RELAY HERO HONDA GLAMOUR ES / SUPER SPLENDOR ES (POSITIVE)",
       "description": "TO RELAY HERO HONDA GLAMOUR ES / SUPER SPLENDOR ES (POSITIVE)",
@@ -5532,7 +5541,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP383ZM",
-      "referenceNumber": "32401-KVE- 9000",
+      "referenceNumber": "32401-KVE-9000",
       "name": "Battery Wire",
       "vehicle": "TO RELAY HERO HONDA HUNK 150 ES / CBZ X-TREME 150 ES (POSITIVE)",
       "description": "TO RELAY HERO HONDA HUNK 150 ES / CBZ X-TREME 150 ES (POSITIVE)",
@@ -5565,8 +5574,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "HERO SPLENDOR / SPLENDOR PLUS BS6",
       "description": "HERO SPLENDOR / SPLENDOR PLUS BS6",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP384AO+HERO+SPLENDOR+SPLENDOR+PLUS+BS6",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP384AO+HERO+SPLENDOR+SPLENDOR+PLUS+BS6"
+      "image": "/Ignition Switch Cum Steering Lock/RP384ao Ignition switch Lock For Hero Splendor Splendor Plus Bs6.png",
+      "thumbnail": "/Ignition Switch Cum Steering Lock/RP384ao Ignition switch Lock For Hero Splendor Splendor Plus Bs6.png"
     },
     {
       "partNumber": "RP384BZ",
@@ -5574,8 +5583,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "HERO HF DELUXE BS6",
       "description": "HERO HF DELUXE BS6",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP384BZ+HERO+HF+DELUXE+BS6",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP384BZ+HERO+HF+DELUXE+BS6"
+      "image": "/Ignition Switch Cum Steering Lock/RP384bz Ignition switch Lock For Hero Hf Deluxe Bs6.png",
+      "thumbnail": "/Ignition Switch Cum Steering Lock/RP384bz Ignition switch Lock For Hero Hf Deluxe Bs6.png"
     },
     {
       "partNumber": "RP385",
@@ -5700,8 +5709,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "HERO SUPER SPLENDOR N/M",
       "description": "HERO SUPER SPLENDOR N/M",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP398AI+HERO+SUPER+SPLENDOR+N+M",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP398AI+HERO+SUPER+SPLENDOR+N+M"
+      "image": "/Ignition Switch Cum Steering Lock/RP398ai Ignition switch Lock For Hero Super Splendor nm.png",
+      "thumbnail": "/Ignition Switch Cum Steering Lock/RP398ai Ignition switch Lock For Hero Super Splendor nm.png"
     },
     {
       "partNumber": "RP399",
@@ -6348,8 +6357,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP501KM",
       "referenceNumber": null,
       "name": "Self Relay",
-      "vehicle": "TVS WEGO/JUPITOR/APACHE2013/STAR CITY/ RTR160/RTR180/PHOENIX/STAR CITY PLUS 110",
-      "description": "TVS WEGO/JUPITOR/APACHE2013/STAR CITY/ RTR160/RTR180/PHOENIX/STAR CITY PLUS 110",
+      "vehicle": "TVS WEGO/JUPITER/APACHE2013/STAR CITY/ RTR160/RTR180/PHOENIX/STAR CITY PLUS 110",
+      "description": "TVS WEGO/JUPITER/APACHE2013/STAR CITY/ RTR160/RTR180/PHOENIX/STAR CITY PLUS 110",
       "image": "/self relay/RP501KM Tvs Wego Jupiter Apache 2013 star city rtr 160 Phoenix star city.png",
       "thumbnail": "/self relay/RP501KM Tvs Wego Jupiter Apache 2013 star city rtr 160 Phoenix star city.png"
     },
@@ -6451,10 +6460,10 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Head Lamp Bulb",
       "vehicle": "HERO HONDA/SS/SLEEK",
       "description": "HERO HONDA/SS/SLEEK",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP505+12V+35+35W",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP505+12V+35+35W",
+      "image": "/headlamp bulb/RP505 Hero Honda Ss Sleek.png",
+      "thumbnail": "/headlamp bulb/RP505 Hero Honda Ss Sleek.png",
       "voltage": "12V- 35/35W",
-      "baseShellDiaMm": "P15D.25-1"
+      "baseShellDiamm": "P15D.25-1"
     },
     {
       "partNumber": "RP506",
@@ -6462,10 +6471,10 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Head Lamp Bulb",
       "vehicle": "KB-100/TVS SUZUKI/TVS SCOOTY/YAMAHA RX-100/SPLENDOR P-17",
       "description": "KB-100/TVS SUZUKI/TVS SCOOTY/YAMAHA RX-100/SPLENDOR P-17",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP506+12V+35+35W",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP506+12V+35+35W",
+      "image": "/headlamp bulb/RP506 Kb 100 tvs Suzuki tvs scooty yamaha rx 100 splendor p17.png",
+      "thumbnail": "/headlamp bulb/RP506 Kb 100 tvs Suzuki tvs scooty yamaha rx 100 splendor p17.png",
       "voltage": "12V- 35/35W",
-      "baseShellDiaMm": "P15D.25-3"
+      "baseShellDiamm": "P15D.25-3"
     },
     {
       "partNumber": "RP509",
@@ -6473,21 +6482,21 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Head Lamp Bulb",
       "vehicle": "VESPA XE/NV/CHETAK 12V/H/H PASSION/AMBITION/CBZ/DAWN/KB-4S/TVS SCOOTY/PULSAR/WITHOUT SHIELD",
       "description": "VESPA XE/NV/CHETAK 12V/H/H PASSION/AMBITION/CBZ/DAWN/KB-4S/TVS SCOOTY/PULSAR/WITHOUT SHIELD",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP509+12V+35+35W",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP509+12V+35+35W",
+      "image": "/headlamp bulb/RP509 Vespa xe nv chetak 12 Volt Passion Ambition cbz dawn with shield.png",
+      "thumbnail": "/headlamp bulb/RP509 Vespa xe nv chetak 12 Volt Passion Ambition cbz dawn with shield.png",
       "voltage": "12V- 35/35W",
-      "baseShellDiaMm": "BA20D"
+      "baseShellDiamm": "BA20D"
     },
     {
       "partNumber": "RP510",
       "referenceNumber": null,
       "name": "Head Lamp Bulb",
-      "vehicle": "LML VESPA/XE/NV/BAJAJ CHETAK ELEC./KB-4S/PULSAR/CALIBER CROMA/BOXER CT/HERO HONDA PASSION/AMBITION/CBZ/SPLENDOR/SCOOTY/VICTOR/SUZUKI SAMURAI, WITH SHIELD",
-      "description": "LML VESPA/XE/NV/BAJAJ CHETAK ELEC./KB-4S/PULSAR/CALIBER CROMA/BOXER CT/HERO HONDA PASSION/AMBITION/CBZ/SPLENDOR/SCOOTY/VICTOR/SUZUKI SAMURAI, WITH SHIELD",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP510+12V+35+35W",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP510+12V+35+35W",
+      "vehicle": "LML VESPA/XE/NV/BAJAJ CHETAK ELEC./KB-4S/PULSAR/CALIBER CROMA/BOXER CT/HERO HONDA PASSION/AMBITION/CBZ/SPLENDOR/SCOOTY/VICTOR/SUZUKI SAMURAI WITH SHIELD",
+      "description": "LML VESPA/XE/NV/BAJAJ CHETAK ELEC./KB-4S/PULSAR/CALIBER CROMA/BOXER CT/HERO HONDA PASSION/AMBITION/CBZ/SPLENDOR/SCOOTY/VICTOR/SUZUKI SAMURAI WITH SHIELD",
+      "image": "/headlamp bulb/RP510 Lml vespa xe nv Bajaj chetak elec kb 4s pulsar caliber croma.png",
+      "thumbnail": "/headlamp bulb/RP510 Lml vespa xe nv Bajaj chetak elec kb 4s pulsar caliber croma.png",
       "voltage": "12V- 35/35W",
-      "baseShellDiaMm": "BA20D"
+      "baseShellDiamm": "BA20D"
     }
   ],
   "2-wheeler-parts-indicator-bulb": [
@@ -6495,12 +6504,12 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP517",
       "referenceNumber": null,
       "name": "Indicator Bulb",
-      "vehicle": "1210, HERO HONDA/SS/SLEEK/TVS SUZUKI 12V/ENFIELD 12V/YAMAHA RX100 12V/CHETAK ELECTRONIC FE/CLASSIC",
-      "description": "1210, HERO HONDA/SS/SLEEK/TVS SUZUKI 12V/ENFIELD 12V/YAMAHA RX100 12V/CHETAK ELECTRONIC FE/CLASSIC",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP517+12V+10W",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP517+12V+10W",
+      "vehicle": "1210 HERO HONDA/SS/SLEEK/TVS SUZUKI 12V/ENFIELD 12V/YAMAHA RX100 12V/CHETAK ELECTRONIC FE/CLASSIC",
+      "description": "1210 HERO HONDA/SS/SLEEK/TVS SUZUKI 12V/ENFIELD 12V/YAMAHA RX100 12V/CHETAK ELECTRONIC FE/CLASSIC",
+      "image": "/indicator bulb/RP517 Hero hnd ss sleek Tvs suzuki 12v chetak electronic classic.png",
+      "thumbnail": "/indicator bulb/RP517 Hero hnd ss sleek Tvs suzuki 12v chetak electronic classic.png",
       "voltage": "12V- 10W",
-      "baseShellDiaMm": "BA 15s — 18 mm"
+      "baseShellDiamm": "BA 15s 18"
     },
     {
       "partNumber": "RP518",
@@ -6508,10 +6517,10 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Indicator Bulb",
       "vehicle": "AMBER/BLUE/RED/YELLOW/GREEN COLOUR",
       "description": "AMBER/BLUE/RED/YELLOW/GREEN COLOUR",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP518+12V+10W",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP518+12V+10W",
+      "image": "/indicator bulb/RP518 Amber blue red yellow green colour.png",
+      "thumbnail": "/indicator bulb/RP518 Amber blue red yellow green colour.png",
       "voltage": "12V- 10W",
-      "baseShellDiaMm": "BA 15s — 18 mm"
+      "baseShellDiamm": "BA 15s 18"
     },
     {
       "partNumber": "RP519",
@@ -6522,7 +6531,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP519+12V+10W",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP519+12V+10W",
       "voltage": "12V- 10W",
-      "baseShellDiaMm": "BA15S — 25 mm"
+      "baseShellDiamm": "BA15S 25"
     },
     {
       "partNumber": "RP520",
@@ -6530,10 +6539,10 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Indicator Bulb",
       "vehicle": "(RY-10) AMBER ENFIELD/BAJAJ PLATINA/XCD-125",
       "description": "(RY-10) AMBER ENFIELD/BAJAJ PLATINA/XCD-125",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP520+12V+10W",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP520+12V+10W",
+      "image": "/indicator bulb/RP520 Ry 10 Amber Enfield Bajaj Platina xcd 125.png",
+      "thumbnail": "/indicator bulb/RP520 Ry 10 Amber Enfield Bajaj Platina xcd 125.png",
       "voltage": "12V- 10W",
-      "baseShellDiaMm": "BA15s — 18 mm"
+      "baseShellDiamm": "BA15s 18"
     }
   ],
   "2-wheeler-parts-tail-stop-light-bulb": [
@@ -6543,10 +6552,10 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Tail & Stop Light Bulb",
       "vehicle": "(1215) HERO HONDA/SS/SLEEK/TVS SUZUKI 12V",
       "description": "(1215) HERO HONDA/SS/SLEEK/TVS SUZUKI 12V",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP521+12V+10+5W",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP521+12V+10+5W",
+      "image": "/tail and stop light bulb/RP521 1215 Hero Hnd ss sleek Tvs Suzuki 12v.png",
+      "thumbnail": "/tail and stop light bulb/RP521 1215 Hero Hnd ss sleek Tvs Suzuki 12v.png",
       "voltage": "12V- 10/5W",
-      "baseShellDiaMm": "BAY 15D.25 OFFSET"
+      "baseShellDiamm": "BAY 15D.25 OFFSET"
     },
     {
       "partNumber": "RP522",
@@ -6554,10 +6563,10 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Tail & Stop Light Bulb",
       "vehicle": "(1016) KB-100/4S/CHETAK/TVS SUZUKI/MAX-100/SAMURAI/SHOGUN",
       "description": "(1016) KB-100/4S/CHETAK/TVS SUZUKI/MAX-100/SAMURAI/SHOGUN",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP522+12V+21+5W",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP522+12V+21+5W",
+      "image": "/tail and stop light bulb/RP522 Kb 100 4s chetak tvs suzuki max 100 samurai shogun 1016.png",
+      "thumbnail": "/tail and stop light bulb/RP522 Kb 100 4s chetak tvs suzuki max 100 samurai shogun 1016.png",
       "voltage": "12V- 21/5W",
-      "baseShellDiaMm": "BAY 15D.25 OFFSET"
+      "baseShellDiamm": "BAY 15D.25 OFFSET"
     },
     {
       "partNumber": "RP523",
@@ -6568,7 +6577,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP523+12V+21+5W",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP523+12V+21+5W",
       "voltage": "12V- 21/5W",
-      "baseShellDiaMm": "BAY 15D.25 D.C"
+      "baseShellDiamm": "BAY 15D.25 D.C"
     },
     {
       "partNumber": "RP524",
@@ -6576,10 +6585,10 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Tail & Stop Light Bulb",
       "vehicle": "(12024) STOP LIGHT BULB BAJAJ CHETAK S.C",
       "description": "(12024) STOP LIGHT BULB BAJAJ CHETAK S.C",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP524+12V+10W",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP524+12V+10W",
+      "image": "/tail and stop light bulb/RP524 Stop Light Bulb Bajaj Chetak 12024.png",
+      "thumbnail": "/tail and stop light bulb/RP524 Stop Light Bulb Bajaj Chetak 12024.png",
       "voltage": "12V- 10W",
-      "baseShellDiaMm": "BA 15s — 25 mm S.C"
+      "baseShellDiamm": "BA 15s 25 S.C"
     }
   ],
   "2-wheeler-parts-indicator-festoon": [
@@ -6589,10 +6598,10 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Indicator Festoon",
       "vehicle": "(12844) CHETAK 12V/M-80/FE/LML FRONT INDICATOR",
       "description": "(12844) CHETAK 12V/M-80/FE/LML FRONT INDICATOR",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP525+12V+5W",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP525+12V+5W",
+      "image": "/indicator festoon/RP525 Chetak 12v m80 fe lml front Indicator.png",
+      "thumbnail": "/indicator festoon/RP525 Chetak 12v m80 fe lml front Indicator.png",
       "voltage": "12V-5W",
-      "baseShellDiaMm": "8.5 / 11 / 39"
+      "baseShellDiamm": "8.5 / 11 / 39"
     },
     {
       "partNumber": "RP526",
@@ -6603,7 +6612,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP526+12V+10W",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP526+12V+10W",
       "voltage": "12V- 10W",
-      "baseShellDiaMm": "8.5 / 11 / 44"
+      "baseShellDiamm": "8.5 / 11 / 44"
     }
   ],
   "2-wheeler-parts-turn-pilot-indicator-bulb": [
@@ -6616,7 +6625,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP527+12V+1+2W",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP527+12V+1+2W",
       "voltage": "12V- 1.2W",
-      "baseShellDiaMm": "BA 7s — 6.8 mm"
+      "baseShellDiamm": "BA 7s 6.8"
     },
     {
       "partNumber": "RP528",
@@ -6627,7 +6636,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP528+12V+4W",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP528+12V+4W",
       "voltage": "12V-4W",
-      "baseShellDiaMm": "BA 7s — 6.8 mm"
+      "baseShellDiamm": "BA 7s 6.8"
     },
     {
       "partNumber": "RP529",
@@ -6638,7 +6647,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP529+12V+2W",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP529+12V+2W",
       "voltage": "12V-2W",
-      "baseShellDiaMm": "BA 7s — 6.8 mm"
+      "baseShellDiamm": "BA 7s 6.8"
     }
   ],
   "2-wheeler-parts-speedo-meter-bulb": [
@@ -6651,7 +6660,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP530+12V+1+7W",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP530+12V+1+7W",
       "voltage": "12V- 1.7W",
-      "baseShellDiaMm": "Ba 9s — 11.0 mm"
+      "baseShellDiamm": "Ba 9s 11.0"
     },
     {
       "partNumber": "RP531",
@@ -6659,10 +6668,10 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Speedo Meter Bulb",
       "vehicle": "(TD) ENFIELD 12-V/YAMAHA RX-100 12V",
       "description": "(TD) ENFIELD 12-V/YAMAHA RX-100 12V",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP531+12V+3W",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP531+12V+3W",
+      "image": "/speedo meter bulb/RP531 Enfield 12v Yamaha rx 100 12v.png",
+      "thumbnail": "/speedo meter bulb/RP531 Enfield 12v Yamaha rx 100 12v.png",
       "voltage": "12V-3W",
-      "baseShellDiaMm": "Ba 9s — 8.8 mm"
+      "baseShellDiamm": "Ba 9s 8.8"
     },
     {
       "partNumber": "RP532",
@@ -6670,10 +6679,10 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Speedo Meter Bulb",
       "vehicle": "HERO HONDA/ALSO SIDE INDICATOR BULB FOR NEW GENERATION (WEDGE BASE)",
       "description": "HERO HONDA/ALSO SIDE INDICATOR BULB FOR NEW GENERATION (WEDGE BASE)",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP532+12V+3+4W",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP532+12V+3+4W",
+      "image": "/speedo meter bulb/RP532 Hero Honda Also Side Indi Bulb For New Generation Wedge Base.png",
+      "thumbnail": "/speedo meter bulb/RP532 Hero Honda Also Side Indi Bulb For New Generation Wedge Base.png",
       "voltage": "12V- 3.4W",
-      "baseShellDiaMm": "WEDGE BASE"
+      "baseShellDiamm": "WEDGE BASE"
     },
     {
       "partNumber": "RP533",
@@ -6681,10 +6690,10 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Speedo Meter Bulb",
       "vehicle": "(WEDGE BASE) AMBER/BLUE/GREEN/RED",
       "description": "(WEDGE BASE) AMBER/BLUE/GREEN/RED",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP533+12V+3+4W",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP533+12V+3+4W",
+      "image": "/speedo meter bulb/RP533 Amber blue green red wedge base.png",
+      "thumbnail": "/speedo meter bulb/RP533 Amber blue green red wedge base.png",
       "voltage": "12V- 3.4W",
-      "baseShellDiaMm": "WEDGE BASE"
+      "baseShellDiamm": "WEDGE BASE"
     }
   ],
   "2-wheeler-parts-halogen-bulb-m5": [
@@ -6694,10 +6703,10 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Halogen Bulb M-5",
       "vehicle": "KB-4S/CHETAK 12V ELEC./PULSAR/CALIBER CROMA/BOXER-CT/HERO HONDA PASSION/AMBITION/CBZ/CD DAWN/SPLENDOR/SCOOTY/VICTOR/SUZUKI SAMURAI/LML VESPA XE/NV",
       "description": "KB-4S/CHETAK 12V ELEC./PULSAR/CALIBER CROMA/BOXER-CT/HERO HONDA PASSION/AMBITION/CBZ/CD DAWN/SPLENDOR/SCOOTY/VICTOR/SUZUKI SAMURAI/LML VESPA XE/NV",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP534+12V+35+35W",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP534+12V+35+35W",
+      "image": "/halogen bulb m-5/RP534 Kb 4s Chetak 12v pulsar boxer ct Hnd passion lml v espa xe nv.png",
+      "thumbnail": "/halogen bulb m-5/RP534 Kb 4s Chetak 12v pulsar boxer ct Hnd passion lml v espa xe nv.png",
       "voltage": "12V- 35/35W",
-      "baseShellDiaMm": "Ba 20D"
+      "baseShellDiamm": "Ba 20D"
     },
     {
       "partNumber": "RP535",
@@ -6705,10 +6714,10 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Halogen Bulb M-5",
       "vehicle": "HERO HONDA/SS/SLEEK",
       "description": "HERO HONDA/SS/SLEEK",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP535+12V+35+35W",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP535+12V+35+35W",
+      "image": "/halogen bulb m-5/RP535 Hero Honda ss sleek.png",
+      "thumbnail": "/halogen bulb m-5/RP535 Hero Honda ss sleek.png",
       "voltage": "12V- 35/35W",
-      "baseShellDiaMm": "P15D-25-1"
+      "baseShellDiamm": "P15D-25-1"
     },
     {
       "partNumber": "RP536",
@@ -6716,10 +6725,10 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Halogen Bulb M-5",
       "vehicle": "KB-100/TVS SUZUKI/TVS SCOOTY/YAMAHA RX-100/SPLENDOR P-17/KINETIC CHALLENGER",
       "description": "KB-100/TVS SUZUKI/TVS SCOOTY/YAMAHA RX-100/SPLENDOR P-17/KINETIC CHALLENGER",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP536+12V+35+35W",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP536+12V+35+35W",
+      "image": "/halogen bulb m-5/RP536 Kb 100 Tvs Suzuki tvs scooty ymh rx 100 splendor.png",
+      "thumbnail": "/halogen bulb m-5/RP536 Kb 100 Tvs Suzuki tvs scooty ymh rx 100 splendor.png",
       "voltage": "12V- 35/35W",
-      "baseShellDiaMm": "P15D 25-3"
+      "baseShellDiamm": "P15D 25-3"
     }
   ],
   "2-wheeler-parts-halogen-bulb-hs-1": [
@@ -6729,10 +6738,10 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Halogen Bulb HS 1",
       "vehicle": "BAJAJ CALIBER 115/LML FREEDOM/HERO HONDA/KARIZMA/FIERO F2",
       "description": "BAJAJ CALIBER 115/LML FREEDOM/HERO HONDA/KARIZMA/FIERO F2",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP542+12V+35+35W",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP542+12V+35+35W",
+      "image": "/halogen bulb hs1/RP542 Bajaj caliber 115 Hs 1 lml freedom hero hnd karizma fiero f2.png",
+      "thumbnail": "/halogen bulb hs1/RP542 Bajaj caliber 115 Hs 1 lml freedom hero hnd karizma fiero f2.png",
       "voltage": "12V- 35/35W",
-      "baseShellDiaMm": "HS 1 LML PX-43T"
+      "baseShellDiamm": "HS 1 LML PX-43T"
     },
     {
       "partNumber": "RP543",
@@ -6740,10 +6749,10 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Halogen Bulb HS 1",
       "vehicle": "BAJAJ CALIBER 115/LML FREEDOM/KARIZMA/FIERO F2",
       "description": "BAJAJ CALIBER 115/LML FREEDOM/KARIZMA/FIERO F2",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP543+12V+35+35W",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP543+12V+35+35W",
+      "image": "/halogen bulb hs1/RP543  Bajaj caliber 115 Hs 1 lml freedom hero hnd karizma fiero f2 super white.png",
+      "thumbnail": "/halogen bulb hs1/RP543  Bajaj caliber 115 Hs 1 lml freedom hero hnd karizma fiero f2 super white.png",
       "voltage": "12V- 35/35W",
-      "baseShellDiaMm": "HS 1 LML PX-43T"
+      "baseShellDiamm": "HS 1 LML PX-43T"
     },
     {
       "partNumber": "RP544",
@@ -6754,7 +6763,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP544+12V+45+40W",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP544+12V+45+40W",
       "voltage": "12V- 45/40W",
-      "baseShellDiaMm": "PX-43T"
+      "baseShellDiamm": "PX-43T"
     },
     {
       "partNumber": "RP545",
@@ -6765,7 +6774,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP545+12V+35+35W",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP545+12V+35+35W",
       "voltage": "12V- 35/35W",
-      "baseShellDiaMm": "BA20D"
+      "baseShellDiamm": "BA20D"
     }
   ],
   "2-wheeler-parts-carbon-brush-holder-assly-for-starter": [
@@ -6773,10 +6782,10 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP546",
       "referenceNumber": null,
       "name": "Carbon Brush Holder Assly. for Starter",
-      "vehicle": "HERO HONDA SUPER SPLENDOR/GLAMOUR/IGNITOR/SHINE N/M/ZUES/ACCESS N/M",
-      "description": "HERO HONDA SUPER SPLENDOR/GLAMOUR/IGNITOR/SHINE N/M/ZUES/ACCESS N/M",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP546+HERO+HONDA+SUPER+SPLENDOR+GLAMOUR+IGNITOR+SHINE+N+M+ZUE",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP546+HERO+HONDA+SUPER+SPLENDOR+GLAMOUR+IGNITOR+SHINE+N+M+ZUE"
+      "vehicle": "HERO HONDA SUPER SPLENDOR/GLAMOUR/IGNITOR/SHINE N/M/ZEUS/ACCESS N/M",
+      "description": "HERO HONDA SUPER SPLENDOR/GLAMOUR/IGNITOR/SHINE N/M/ZEUS/ACCESS N/M",
+      "image": "/Carbon Brush Holder Assly. for Starter/RP546  Hero Honda Super Splendor Glamour Ignitor shine nm zeus acess nm.png",
+      "thumbnail": "/Carbon Brush Holder Assly. for Starter/RP546  Hero Honda Super Splendor Glamour Ignitor shine nm zeus acess nm.png"
     },
     {
       "partNumber": "RP547",
@@ -6784,8 +6793,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush Holder Assly. for Starter",
       "vehicle": "HERO HONDA CBZ X- TREME/HUNK/ACHIEVER/IMPULSE/STUNNER N.M(SM- 15)/UNICORN/CBR 150CC/GS 150-R",
       "description": "HERO HONDA CBZ X- TREME/HUNK/ACHIEVER/IMPULSE/STUNNER N.M(SM- 15)/UNICORN/CBR 150CC/GS 150-R",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP547+HERO+HONDA+CBZ+X+TREME+HUNK+ACHIEVER+IMPULSE+STUNNER+N+",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP547+HERO+HONDA+CBZ+X+TREME+HUNK+ACHIEVER+IMPULSE+STUNNER+N+"
+      "image": "/Carbon Brush Holder Assly. for Starter/RP547 Hero Honda cbz xtreme hunk achiever impulse stunner nm.png",
+      "thumbnail": "/Carbon Brush Holder Assly. for Starter/RP547 Hero Honda cbz xtreme hunk achiever impulse stunner nm.png"
     },
     {
       "partNumber": "RP548",
@@ -6793,15 +6802,15 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush Holder Assly. for Starter",
       "vehicle": "HERO HONDA PASSION PRO / CD DELUXE/SPLENDOR PRO/SPLENDOR NXG/PASSION X-PRO/KINETIC HONDA/ MARVEL/KINETIC ZOOM/MAHINDRA CENTURO/PANTERO/KINE/DREAM YUGA/DREAM NEO",
       "description": "HERO HONDA PASSION PRO / CD DELUXE/SPLENDOR PRO/SPLENDOR NXG/PASSION X-PRO/KINETIC HONDA/ MARVEL/KINETIC ZOOM/MAHINDRA CENTURO/PANTERO/KINE/DREAM YUGA/DREAM NEO",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP548+HERO+HONDA+PASSION+PRO+CD+DELUXE+SPLENDOR+PRO+SPLENDOR+",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP548+HERO+HONDA+PASSION+PRO+CD+DELUXE+SPLENDOR+PRO+SPLENDOR+"
+      "image": "/Carbon Brush Holder Assly. for Starter/RP548 Hero Honda Passion Pro Cd Deluxe Splendor Pro Marvel.png",
+      "thumbnail": "/Carbon Brush Holder Assly. for Starter/RP548 Hero Honda Passion Pro Cd Deluxe Splendor Pro Marvel.png"
     },
     {
       "partNumber": "RP549",
       "referenceNumber": null,
       "name": "Carbon Brush Holder Assly. for Starter",
-      "vehicle": "AGI,(O/M TYPE)PULSAR 150CC(SET OE 2)/NOVA 115/ MAHINDRA RODEO O/M/DURO O/M/FLUTE O/M/FREEDOM/ MAHINDRA RODEO N/M/DURO N/M/FLYTE N/M",
-      "description": "AGI,(O/M TYPE)PULSAR 150CC(SET OE 2)/NOVA 115/ MAHINDRA RODEO O/M/DURO O/M/FLUTE O/M/FREEDOM/ MAHINDRA RODEO N/M/DURO N/M/FLYTE N/M",
+      "vehicle": "AGI,(O/M TYPE)PULSAR 150CC(SET OE 2)/NOVA 115/ MAHINDRA RODEO O/M/DURO O/M/FLYTE O/M/FREEDOM/ MAHINDRA RODEO N/M/DURO N/M/FLYTE N/M",
+      "description": "AGI,(O/M TYPE)PULSAR 150CC(SET OE 2)/NOVA 115/ MAHINDRA RODEO O/M/DURO O/M/FLYTE O/M/FREEDOM/ MAHINDRA RODEO N/M/DURO N/M/FLYTE N/M",
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP549+AGI+O+M+TYPE+PULSAR+150CC+SET+OE+2+NOVA+115+MAHINDRA+RO",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP549+AGI+O+M+TYPE+PULSAR+150CC+SET+OE+2+NOVA+115+MAHINDRA+RO"
     },
@@ -6811,8 +6820,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush Holder Assly. for Starter",
       "vehicle": "VARROC,PULSAR O/M SET OF 4/ROYAL ENFIELD-350 TWIN SPARK/ELECTRA TWIN SPARK/BULLET CLASSIC 350/THUNDER 350",
       "description": "VARROC,PULSAR O/M SET OF 4/ROYAL ENFIELD-350 TWIN SPARK/ELECTRA TWIN SPARK/BULLET CLASSIC 350/THUNDER 350",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP550+VARROC+PULSAR+O+M+SET+OF+4+ROYAL+ENFIELD+350+TWIN+SPARK",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP550+VARROC+PULSAR+O+M+SET+OF+4+ROYAL+ENFIELD+350+TWIN+SPARK"
+      "image": "/Carbon Brush Holder Assly. for Starter/RP550 Varroc Pulsar om set of 4 Royal Enfield 350 twinspark.png",
+      "thumbnail": "/Carbon Brush Holder Assly. for Starter/RP550 Varroc Pulsar om set of 4 Royal Enfield 350 twinspark.png"
     },
     {
       "partNumber": "RP551",
@@ -6820,8 +6829,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush Holder Assly. for Starter",
       "vehicle": "VARROC, PULSAR 150/180 UG2(SET OF 2)DISCOVER 125 O/M/DISCOVER 135 N/M DTSI/AVENGER 180",
       "description": "VARROC, PULSAR 150/180 UG2(SET OF 2)DISCOVER 125 O/M/DISCOVER 135 N/M DTSI/AVENGER 180",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP551+VARROC+PULSAR+150+180+UG2+SET+OF+2+DISCOVER+125+O+M+DIS",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP551+VARROC+PULSAR+150+180+UG2+SET+OF+2+DISCOVER+125+O+M+DIS"
+      "image": "/Carbon Brush Holder Assly. for Starter/RP551 Varroc Pulsar 150 180 ug2 set of 2 Discover 125 om Avenger.png",
+      "thumbnail": "/Carbon Brush Holder Assly. for Starter/RP551 Varroc Pulsar 150 180 ug2 set of 2 Discover 125 om Avenger.png"
     },
     {
       "partNumber": "RP552",
@@ -6829,8 +6838,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush Holder Assly. for Starter",
       "vehicle": "VARROC,PULSAR LATEST/PULSAR 150/180 UG3/PULSAR 150/180 UG4(SET OF 2)PULSAR 135 N/MDISCOVER 100CC N/M /DISCOVER 125/DISCOVER 150 N/M",
       "description": "VARROC,PULSAR LATEST/PULSAR 150/180 UG3/PULSAR 150/180 UG4(SET OF 2)PULSAR 135 N/MDISCOVER 100CC N/M /DISCOVER 125/DISCOVER 150 N/M",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP552+VARROC+PULSAR+LATEST+PULSAR+150+180+UG3+PULSAR+150+180+",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP552+VARROC+PULSAR+LATEST+PULSAR+150+180+UG3+PULSAR+150+180+"
+      "image": "/Carbon Brush Holder Assly. for Starter/RP552 Varroc pulsar latest pulsar 150 180 ug3 pulsar 150 180  ug4 set of 2 pulsar 135 n m discover 100cc discover 125.png",
+      "thumbnail": "/Carbon Brush Holder Assly. for Starter/RP552 Varroc pulsar latest pulsar 150 180 ug3 pulsar 150 180  ug4 set of 2 pulsar 135 n m discover 100cc discover 125.png"
     },
     {
       "partNumber": "RP553",
@@ -6838,8 +6847,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush Holder Assly. for Starter",
       "vehicle": "FLASH,PULSAR 150/180 UG4/PUSAR 135 O/M/PULSAR 135 LS N/M/DISCOVER 100 O/M/DISCOVER 100CC N/M/DISCOVER 125 N/M/DISCOVER 125 LATEST/DISCOVER 150 O/M/DISCOVER N/M/XCD-135 DTSI",
       "description": "FLASH,PULSAR 150/180 UG4/PUSAR 135 O/M/PULSAR 135 LS N/M/DISCOVER 100 O/M/DISCOVER 100CC N/M/DISCOVER 125 N/M/DISCOVER 125 LATEST/DISCOVER 150 O/M/DISCOVER N/M/XCD-135 DTSI",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP553+FLASH+PULSAR+150+180+UG4+PUSAR+135+O+M+PULSAR+135+LS+N+",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP553+FLASH+PULSAR+150+180+UG4+PUSAR+135+O+M+PULSAR+135+LS+N+"
+      "image": "/Carbon Brush Holder Assly. for Starter/RP553 Flash Pulsar 150 180 ug4 Pulsar 135 om Discover 100 om.png",
+      "thumbnail": "/Carbon Brush Holder Assly. for Starter/RP553 Flash Pulsar 150 180 ug4 Pulsar 135 om Discover 100 om.png"
     },
     {
       "partNumber": "RP554",
@@ -6847,8 +6856,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush Holder Assly. for Starter",
       "vehicle": "LUCAS,PULSAR 135 LS N/M/DISCOVER 100 N/M/DISCOVER 125 LATEST/DISCOVER 150 N/M/XCD-135 DTSI",
       "description": "LUCAS,PULSAR 135 LS N/M/DISCOVER 100 N/M/DISCOVER 125 LATEST/DISCOVER 150 N/M/XCD-135 DTSI",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP554+LUCAS+PULSAR+135+LS+N+M+DISCOVER+100+N+M+DISCOVER+125+L",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP554+LUCAS+PULSAR+135+LS+N+M+DISCOVER+100+N+M+DISCOVER+125+L"
+      "image": "/Carbon Brush Holder Assly. for Starter/RP554 Lucas Pulsar 135 Ls n m discover 125 latest discover 150 n m xcd 135.png",
+      "thumbnail": "/Carbon Brush Holder Assly. for Starter/RP554 Lucas Pulsar 135 Ls n m discover 125 latest discover 150 n m xcd 135.png"
     },
     {
       "partNumber": "RP555",
@@ -6856,8 +6865,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush Holder Assly. for Starter",
       "vehicle": "APACHE/APACHE RTR/VICTOR GLX/ACCESS LATEST",
       "description": "APACHE/APACHE RTR/VICTOR GLX/ACCESS LATEST",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP555+APACHE+APACHE+RTR+VICTOR+GLX+ACCESS+LATEST",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP555+APACHE+APACHE+RTR+VICTOR+GLX+ACCESS+LATEST"
+      "image": "/Carbon Brush Holder Assly. for Starter/RP555 Apache Rtr Apache Victor Glx Access latest.png",
+      "thumbnail": "/Carbon Brush Holder Assly. for Starter/RP555 Apache Rtr Apache Victor Glx Access latest.png"
     },
     {
       "partNumber": "RP556",
@@ -6874,8 +6883,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush Holder Assly. for Starter",
       "vehicle": "PULSAR 220 F N/M (SET OF 4)",
       "description": "PULSAR 220 F N/M (SET OF 4)",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP557+PULSAR+220+F+N+M+SET+OF+4",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP557+PULSAR+220+F+N+M+SET+OF+4"
+      "image": "/Carbon Brush Holder Assly. for Starter/RP557 Pulsar 220 f n m set of 4.png",
+      "thumbnail": "/Carbon Brush Holder Assly. for Starter/RP557 Pulsar 220 f n m set of 4.png"
     },
     {
       "partNumber": "RP558",
@@ -6883,8 +6892,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush Holder Assly. for Starter",
       "vehicle": "CBZ STAR O/M/ AMBITION",
       "description": "CBZ STAR O/M/ AMBITION",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP558+CBZ+STAR+O+M+AMBITION",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP558+CBZ+STAR+O+M+AMBITION"
+      "image": "/Carbon Brush Holder Assly. for Starter/RP558 Cbz Star o m Ambition.png",
+      "thumbnail": "/Carbon Brush Holder Assly. for Starter/RP558 Cbz Star o m Ambition.png"
     },
     {
       "partNumber": "RP559",
@@ -6892,8 +6901,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush Holder Assly. for Starter",
       "vehicle": "HONDA SHINE O/M /STUNNER N/M (SM-14)",
       "description": "HONDA SHINE O/M /STUNNER N/M (SM-14)",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP559+HONDA+SHINE+O+M+STUNNER+N+M+SM+14",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP559+HONDA+SHINE+O+M+STUNNER+N+M+SM+14"
+      "image": "/Carbon Brush Holder Assly. for Starter/RP559 Honda Shine o m Stunner n m Sm 14.png",
+      "thumbnail": "/Carbon Brush Holder Assly. for Starter/RP559 Honda Shine o m Stunner n m Sm 14.png"
     },
     {
       "partNumber": "RP560",
@@ -6901,17 +6910,17 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush Holder Assly. for Starter",
       "vehicle": "KARIZMA / KARIZMA-R",
       "description": "KARIZMA / KARIZMA-R",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP560+KARIZMA+KARIZMA+R",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP560+KARIZMA+KARIZMA+R"
+      "image": "/Carbon Brush Holder Assly. for Starter/RP560 Karizma R Karizma.png",
+      "thumbnail": "/Carbon Brush Holder Assly. for Starter/RP560 Karizma R Karizma.png"
     },
     {
       "partNumber": "RP561",
       "referenceNumber": null,
       "name": "Carbon Brush Holder Assly. for Starter",
-      "vehicle": "FLAME,PHOENIX/SCOOTY PEP +/SCOOTY STREEK/WEGO/CB TWISTER/ACTIVA 125 LATEST/ DIO 110/STAR CITY PLUS 100CC N/M/KINETIC NOVA 135/ KINETIC 4S/KINETIC STYLE.",
-      "description": "FLAME,PHOENIX/SCOOTY PEP +/SCOOTY STREEK/WEGO/CB TWISTER/ACTIVA 125 LATEST/ DIO 110/STAR CITY PLUS 100CC N/M/KINETIC NOVA 135/ KINETIC 4S/KINETIC STYLE.",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP561+FLAME+PHOENIX+SCOOTY+PEP+SCOOTY+STREEK+WEGO+CB+TWISTER+",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP561+FLAME+PHOENIX+SCOOTY+PEP+SCOOTY+STREEK+WEGO+CB+TWISTER+"
+      "vehicle": "FLAME,PHOENIX/SCOOTY PEP +/SCOOTY STREAK/WEGO/CB TWISTER/ACTIVA 125 LATEST/ DIO 110/STAR CITY PLUS 100CC N/M/KINETIC NOVA 135/ KINETIC 4S/KINETIC STYLE.",
+      "description": "FLAME,PHOENIX/SCOOTY PEP +/SCOOTY STREAK/WEGO/CB TWISTER/ACTIVA 125 LATEST/ DIO 110/STAR CITY PLUS 100CC N/M/KINETIC NOVA 135/ KINETIC 4S/KINETIC STYLE.",
+      "image": "/Carbon Brush Holder Assly. for Starter/RP561 .png",
+      "thumbnail": "/Carbon Brush Holder Assly. for Starter/RP561 .png"
     },
     {
       "partNumber": "RP562",
@@ -6919,17 +6928,17 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush Holder Assly. for Starter",
       "vehicle": "ACTIVA 100CC O/M /ACTIVA 110CC N/M/ACTIVA 3G LATEST/DIO 100CC O/M/AVIATOR 110/SCOOTY PEP/PLEASURE O/M/PLESURE N/M/MAESTRO/GUSTO",
       "description": "ACTIVA 100CC O/M /ACTIVA 110CC N/M/ACTIVA 3G LATEST/DIO 100CC O/M/AVIATOR 110/SCOOTY PEP/PLEASURE O/M/PLESURE N/M/MAESTRO/GUSTO",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP562+ACTIVA+100CC+O+M+ACTIVA+110CC+N+M+ACTIVA+3G+LATEST+DIO+",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP562+ACTIVA+100CC+O+M+ACTIVA+110CC+N+M+ACTIVA+3G+LATEST+DIO+"
+      "image": "/Carbon Brush Holder Assly. for Starter/RP562 Activa 100cc om nm Activa 3g latest dio 100cc o m Aviator Scooty pep Pleasure Maestro Gusto.png",
+      "thumbnail": "/Carbon Brush Holder Assly. for Starter/RP562 Activa 100cc om nm Activa 3g latest dio 100cc o m Aviator Scooty pep Pleasure Maestro Gusto.png"
     },
     {
       "partNumber": "RP563",
       "referenceNumber": null,
       "name": "Carbon Brush Holder Assly. for Starter",
-      "vehicle": "YAMAHA FAZER 125 O/M / GLADIATOR/ENTISER/ALBA/ LIBERO GS-5/YBR 110/125/SS 125",
-      "description": "YAMAHA FAZER 125 O/M / GLADIATOR/ENTISER/ALBA/ LIBERO GS-5/YBR 110/125/SS 125",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP563+YAMAHA+FAZER+125+O+M+GLADIATOR+ENTISER+ALBA+LIBERO+GS+5",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP563+YAMAHA+FAZER+125+O+M+GLADIATOR+ENTISER+ALBA+LIBERO+GS+5"
+      "vehicle": "YAMAHA FAZER 125 O/M / GLADIATOR/ENTICER/ALBA/ LIBERO GS-5/YBR 110/125/SS 125",
+      "description": "YAMAHA FAZER 125 O/M / GLADIATOR/ENTICER/ALBA/ LIBERO GS-5/YBR 110/125/SS 125",
+      "image": "/Carbon Brush Holder Assly. for Starter/RP563 Yamaha Fazer 125 o m Gladiator Entiser Alba Libero Gs 5 Ybr 110 ss 125.png",
+      "thumbnail": "/Carbon Brush Holder Assly. for Starter/RP563 Yamaha Fazer 125 o m Gladiator Entiser Alba Libero Gs 5 Ybr 110 ss 125.png"
     },
     {
       "partNumber": "RP564",
@@ -6937,8 +6946,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush Holder Assly. for Starter",
       "vehicle": "YAMAHA FAZER 153 O/M /FZ-16 O/M /FZ-S O/M /STAR/ STAR DLX/ STAR CITY 110CC O/M /STAR CITY 110CC O/M /STAR SPORTS DLX/STAR SPORT CVTI",
       "description": "YAMAHA FAZER 153 O/M /FZ-16 O/M /FZ-S O/M /STAR/ STAR DLX/ STAR CITY 110CC O/M /STAR CITY 110CC O/M /STAR SPORTS DLX/STAR SPORT CVTI",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP564+YAMAHA+FAZER+153+O+M+FZ+16+O+M+FZ+S+O+M+STAR+STAR+DLX+S",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP564+YAMAHA+FAZER+153+O+M+FZ+16+O+M+FZ+S+O+M+STAR+STAR+DLX+S"
+      "image": "/Carbon Brush Holder Assly. for Starter/RP564 Yamaha Fazer 153 o m Fz 16 o m Star deluxe Star city 110cc om Star Sports dlx Cvti.png",
+      "thumbnail": "/Carbon Brush Holder Assly. for Starter/RP564 Yamaha Fazer 153 o m Fz 16 o m Star deluxe Star city 110cc om Star Sports dlx Cvti.png"
     },
     {
       "partNumber": "RP565",
@@ -6946,15 +6955,15 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush Holder Assly. for Starter",
       "vehicle": "YAMAHA FAZER 153 N/M / FZ-16 N/M /FZ-S N/M FZ-R/ ALPHA/RAY/RAY-Z/V MAX.",
       "description": "YAMAHA FAZER 153 N/M / FZ-16 N/M /FZ-S N/M FZ-R/ ALPHA/RAY/RAY-Z/V MAX.",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP565+YAMAHA+FAZER+153+N+M+FZ+16+N+M+FZ+S+N+M+FZ+R+ALPHA+RAY+",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP565+YAMAHA+FAZER+153+N+M+FZ+16+N+M+FZ+S+N+M+FZ+R+ALPHA+RAY+"
+      "image": "/Carbon Brush Holder Assly. for Starter/RP565 Yamaha fazer 153 n m Fz 16 n m Fz r Alpha Ray z v max.png",
+      "thumbnail": "/Carbon Brush Holder Assly. for Starter/RP565 Yamaha fazer 153 n m Fz 16 n m Fz r Alpha Ray z v max.png"
     },
     {
       "partNumber": "RP566",
       "referenceNumber": null,
       "name": "Carbon Brush Holder Assly. for Starter",
-      "vehicle": "JUPITOR / ZEST 110CC",
-      "description": "JUPITOR / ZEST 110CC",
+      "vehicle": "JUPITER / ZEST 110CC",
+      "description": "JUPITER / ZEST 110CC",
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP566+JUPITOR+ZEST+110CC",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP566+JUPITOR+ZEST+110CC"
     }
@@ -6966,8 +6975,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush for Starter",
       "vehicle": "HERO HOND SUPER SPLENDOR/GLAMOUR/IGNITOR/SHINE N/M/ZUES/ACCESS N/M",
       "description": "HERO HOND SUPER SPLENDOR/GLAMOUR/IGNITOR/SHINE N/M/ZUES/ACCESS N/M",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP567+HERO+HOND+SUPER+SPLENDOR+GLAMOUR+IGNITOR+SHINE+N+M+ZUES",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP567+HERO+HOND+SUPER+SPLENDOR+GLAMOUR+IGNITOR+SHINE+N+M+ZUES"
+      "image": "/carbon brush for starter/RP567 Hero Honda Super Splendor Glamour Igniter Shine n m Zeus Access n m.png",
+      "thumbnail": "/carbon brush for starter/RP567 Hero Honda Super Splendor Glamour Igniter Shine n m Zeus Access n m.png"
     },
     {
       "partNumber": "RP568",
@@ -6975,8 +6984,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush for Starter",
       "vehicle": "HERO HONDA CBZ X-TREME/HUNK/ACHIEVER/IMPULSE/ STUNNER N/M(SM-15)/UNICORN/CBR 150CC/GS 150-R",
       "description": "HERO HONDA CBZ X-TREME/HUNK/ACHIEVER/IMPULSE/ STUNNER N/M(SM-15)/UNICORN/CBR 150CC/GS 150-R",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP568+HERO+HONDA+CBZ+X+TREME+HUNK+ACHIEVER+IMPULSE+STUNNER+N+",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP568+HERO+HONDA+CBZ+X+TREME+HUNK+ACHIEVER+IMPULSE+STUNNER+N+"
+      "image": "/carbon brush for starter/RP568 Hero Honda Cbz Xtreme Hunk Achiever Impulse Stunner n m sm 15 Unicorn cbr 150cc Gs 150 r.png",
+      "thumbnail": "/carbon brush for starter/RP568 Hero Honda Cbz Xtreme Hunk Achiever Impulse Stunner n m sm 15 Unicorn cbr 150cc Gs 150 r.png"
     },
     {
       "partNumber": "RP569",
@@ -6984,8 +6993,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush for Starter",
       "vehicle": "HERO HONDA PASSION PRO/CD DELUXE/SPLENDOR PRO/SPLENDOR NXG/PASSION X-PRO/KINETIC HONDA/MARVEL/KINETIC ZOOM/MAHINDRA CENTURO/ PANTERO/KINE/DREAM YUGA/DREAM NEO",
       "description": "HERO HONDA PASSION PRO/CD DELUXE/SPLENDOR PRO/SPLENDOR NXG/PASSION X-PRO/KINETIC HONDA/MARVEL/KINETIC ZOOM/MAHINDRA CENTURO/ PANTERO/KINE/DREAM YUGA/DREAM NEO",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP569+HERO+HONDA+PASSION+PRO+CD+DELUXE+SPLENDOR+PRO+SPLENDOR+",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP569+HERO+HONDA+PASSION+PRO+CD+DELUXE+SPLENDOR+PRO+SPLENDOR+"
+      "image": "/carbon brush for starter/RP569 Hero Honda Passion pro cd deluxe Splendor pro nxg Passion x pro Kinetic Honda Marvel Mahindra Centuro Pantero Kine Dream Yuga Draem neo.png",
+      "thumbnail": "/carbon brush for starter/RP569 Hero Honda Passion pro cd deluxe Splendor pro nxg Passion x pro Kinetic Honda Marvel Mahindra Centuro Pantero Kine Dream Yuga Draem neo.png"
     },
     {
       "partNumber": "RP570",
@@ -6993,8 +7002,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush for Starter",
       "vehicle": "AGI, (O/M TYPE)PULSAR 150CC (SET OF 2)/NOVA- 115/MAHINDRA RODEO O/M/DURO, O/M/FLYTE O/M/FREEDOM/",
       "description": "AGI, (O/M TYPE)PULSAR 150CC (SET OF 2)/NOVA- 115/MAHINDRA RODEO O/M/DURO, O/M/FLYTE O/M/FREEDOM/",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP570+AGI+O+M+TYPE+PULSAR+150CC+SET+OF+2+NOVA+115+MAHINDRA+RO",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP570+AGI+O+M+TYPE+PULSAR+150CC+SET+OF+2+NOVA+115+MAHINDRA+RO"
+      "image": "/carbon brush for starter/RP570 Agl om type pulsar 150cc set of two nova 115 mahindra radeo o m duro o m flyte o m freedom.png",
+      "thumbnail": "/carbon brush for starter/RP570 Agl om type pulsar 150cc set of two nova 115 mahindra radeo o m duro o m flyte o m freedom.png"
     },
     {
       "partNumber": "RP571",
@@ -7002,8 +7011,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush for Starter",
       "vehicle": "MAHINDRA RODEO N/M /DURO N/M/FLYTE N/M",
       "description": "MAHINDRA RODEO N/M /DURO N/M/FLYTE N/M",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP571+MAHINDRA+RODEO+N+M+DURO+N+M+FLYTE+N+M",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP571+MAHINDRA+RODEO+N+M+DURO+N+M+FLYTE+N+M"
+      "image": "/carbon brush for starter/RP571 Mahindra radeo n m Duro n m Flyte n m.png",
+      "thumbnail": "/carbon brush for starter/RP571 Mahindra radeo n m Duro n m Flyte n m.png"
     },
     {
       "partNumber": "RP572",
@@ -7011,8 +7020,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush for Starter",
       "vehicle": "VARROC,PULSAR O/M(SET OF 4)ROYAL ENFIELD-350 TWINSPARK/ELECTRA TWIN SPARK/ BULLET CLASSIC 350/THUNDERBIRD 350",
       "description": "VARROC,PULSAR O/M(SET OF 4)ROYAL ENFIELD-350 TWINSPARK/ELECTRA TWIN SPARK/ BULLET CLASSIC 350/THUNDERBIRD 350",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP572+VARROC+PULSAR+O+M+SET+OF+4+ROYAL+ENFIELD+350+TWINSPARK+",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP572+VARROC+PULSAR+O+M+SET+OF+4+ROYAL+ENFIELD+350+TWINSPARK+"
+      "image": "/carbon brush for starter/RP572 Varroc Pulsar o m set of 4 Royal enfield 350 twinspark Electra Bullet classic 350 thunderbird 350.png",
+      "thumbnail": "/carbon brush for starter/RP572 Varroc Pulsar o m set of 4 Royal enfield 350 twinspark Electra Bullet classic 350 thunderbird 350.png"
     },
     {
       "partNumber": "RP573",
@@ -7020,8 +7029,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush for Starter",
       "vehicle": "VARROC, PULSAR 150/180 UG2(SET OF 2) DISCOVER 125 O/M/DISCOVER 135 N/M DTSI/AVENGER 180",
       "description": "VARROC, PULSAR 150/180 UG2(SET OF 2) DISCOVER 125 O/M/DISCOVER 135 N/M DTSI/AVENGER 180",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP573+VARROC+PULSAR+150+180+UG2+SET+OF+2+DISCOVER+125+O+M+DIS",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP573+VARROC+PULSAR+150+180+UG2+SET+OF+2+DISCOVER+125+O+M+DIS"
+      "image": "/carbon brush for starter/RP573 Varroc Pulsar 150 180 ug2 set of two Discover 125 o m Discover 135 n m dtsl Avenger 180.png",
+      "thumbnail": "/carbon brush for starter/RP573 Varroc Pulsar 150 180 ug2 set of two Discover 125 o m Discover 135 n m dtsl Avenger 180.png"
     },
     {
       "partNumber": "RP574",
@@ -7029,8 +7038,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush for Starter",
       "vehicle": "VARROC,PULSAR LATEST(PULSAR 150/180 UG3/PULSAR 150 UG4.5/180 UG4(SET OF 2)/PULSAR 135 N/M/DISCOVER 100 N/M/DISCOVER 125/DISCOVER 150 N/M",
       "description": "VARROC,PULSAR LATEST(PULSAR 150/180 UG3/PULSAR 150 UG4.5/180 UG4(SET OF 2)/PULSAR 135 N/M/DISCOVER 100 N/M/DISCOVER 125/DISCOVER 150 N/M",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP574+VARROC+PULSAR+LATEST+PULSAR+150+180+UG3+PULSAR+150+UG4+",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP574+VARROC+PULSAR+LATEST+PULSAR+150+180+UG3+PULSAR+150+UG4+"
+      "image": "/carbon brush for starter/RP574 Varroc Pulsar Latest Pulsar 150 180 ug3 Pulsar 150 ug5 Pulsar 135 n m Discover 100 n m Discover 125 Discover 150 n m.png",
+      "thumbnail": "/carbon brush for starter/RP574 Varroc Pulsar Latest Pulsar 150 180 ug3 Pulsar 150 ug5 Pulsar 135 n m Discover 100 n m Discover 125 Discover 150 n m.png"
     },
     {
       "partNumber": "RP575",
@@ -7108,8 +7117,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP582",
       "referenceNumber": null,
       "name": "Carbon Brush for Starter",
-      "vehicle": "FLAME/ PHONIX/SCOOTY PEP +/SCOOTY STREEK/WEGO/ CB TWISTER/ACTIVA 125 LATEST/DIO 110CC/STAR CITY+ 110CC N/M/KINETIC NOVA 135/KINETIC 4-S/KINETIC STYLE/",
-      "description": "FLAME/ PHONIX/SCOOTY PEP +/SCOOTY STREEK/WEGO/ CB TWISTER/ACTIVA 125 LATEST/DIO 110CC/STAR CITY+ 110CC N/M/KINETIC NOVA 135/KINETIC 4-S/KINETIC STYLE/",
+      "vehicle": "FLAME/ PHONIX/SCOOTY PEP +/SCOOTY STREAK/WEGO/ CB TWISTER/ACTIVA 125 LATEST/DIO 110CC/STAR CITY+ 110CC N/M/KINETIC NOVA 135/KINETIC 4-S/KINETIC STYLE/",
+      "description": "FLAME/ PHONIX/SCOOTY PEP +/SCOOTY STREAK/WEGO/ CB TWISTER/ACTIVA 125 LATEST/DIO 110CC/STAR CITY+ 110CC N/M/KINETIC NOVA 135/KINETIC 4-S/KINETIC STYLE/",
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP582+FLAME+PHONIX+SCOOTY+PEP+SCOOTY+STREEK+WEGO+CB+TWISTER+A",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP582+FLAME+PHONIX+SCOOTY+PEP+SCOOTY+STREEK+WEGO+CB+TWISTER+A"
     },
@@ -7135,8 +7144,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP584",
       "referenceNumber": null,
       "name": "Carbon Brush for Starter",
-      "vehicle": "YAMAHA FAZER 125 O/M/GLADIATOR/ENTISER/ALBA/ LIBERO GS-5/YBR-110/125/SS 125",
-      "description": "YAMAHA FAZER 125 O/M/GLADIATOR/ENTISER/ALBA/ LIBERO GS-5/YBR-110/125/SS 125",
+      "vehicle": "YAMAHA FAZER 125 O/M/GLADIATOR/ENTICER/ALBA/ LIBERO GS-5/YBR-110/125/SS 125",
+      "description": "YAMAHA FAZER 125 O/M/GLADIATOR/ENTICER/ALBA/ LIBERO GS-5/YBR-110/125/SS 125",
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP584+YAMAHA+FAZER+125+O+M+GLADIATOR+ENTISER+ALBA+LIBERO+GS+5",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP584+YAMAHA+FAZER+125+O+M+GLADIATOR+ENTISER+ALBA+LIBERO+GS+5"
     },
@@ -7162,118 +7171,237 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP587",
       "referenceNumber": null,
       "name": "Carbon Brush for Starter",
-      "vehicle": "JUPITOR/ ZEST 110CC",
-      "description": "JUPITOR/ ZEST 110CC",
+      "vehicle": "JUPITER/ ZEST 110CC",
+      "description": "JUPITER/ ZEST 110CC",
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP587+JUPITOR+ZEST+110CC",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP587+JUPITOR+ZEST+110CC"
+    },
+  ],
+    "2-wheeler-parts-plug-cap": [
+    {
+      "partNumber": "RP588",
+      "referenceNumber": null,
+      "name": "Plug Cap",
+      "vehicle": "HERO HONDA CD-100/SPLENDOR/PASSION/CD DAWN",
+      "description": "HERO HONDA CD-100/SPLENDOR/PASSION/CD DAWN",
+      "image": "/plug cap/RP588 Hero Honda cd 100 splendor passion cd dawn.png",
+      "thumbnail": "/plug cap/RP588 Hero Honda cd 100 splendor passion cd dawn.png"
+    },
+    {
+      "partNumber": "RP590",
+      "referenceNumber": null,
+      "name": "Plug Cap",
+      "vehicle": "HERO HONDA PASSION PRO/SPLENDOR PRO/SPLENDOR NXG",
+      "description": "HERO HONDA PASSION PRO/SPLENDOR PRO/SPLENDOR NXG",
+      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP590+HERO+HONDA+PASSION+PRO+SPLENDOR+PRO+SPLENDOR+NXG",
+      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP590+HERO+HONDA+PASSION+PRO+SPLENDOR+PRO+SPLENDOR+NXG"
+    },
+    {
+      "partNumber": "RP591",
+      "referenceNumber": null,
+      "name": "Plug Cap",
+      "vehicle": "HERO HONDA HUNK/CBZ X-TREME/IMPULSE (RED)",
+      "description": "HERO HONDA HUNK/CBZ X-TREME/IMPULSE (RED)",
+      "image": "/plug cap/RP591 Hero Honda hunk cbz x treme imulse red.png",
+      "thumbnail": "/plug cap/RP591 Hero Honda hunk cbz x treme imulse red.png"
+    },
+    {
+      "partNumber": "RP592",
+      "referenceNumber": null,
+      "name": "Plug Cap",
+      "vehicle": "HERO HONDA SUPER SPLENDOR-ASFS/CB-UNICORN (BLACK)",
+      "description": "HERO HONDA SUPER SPLENDOR-ASFS/CB-UNICORN (BLACK)",
+      "image": "/plug cap/RP592 Hero Honda super splendor asfs cb unicorn black.png",
+      "thumbnail": "/plug cap/RP592 Hero Honda super splendor asfs cb unicorn black.png"
+    },
+    {
+      "partNumber": "RP593",
+      "referenceNumber": null,
+      "name": "Plug Cap",
+      "vehicle": "HERO HONDA GLAMOUR/CD DELUXE/KARIZMA/ACHIEVER/SUPER SPLENDOR O/M",
+      "description": "HERO HONDA GLAMOUR/CD DELUXE/KARIZMA/ACHIEVER/SUPER SPLENDOR O/M",
+      "image": "/plug cap/RP593 Hero Honda glamour cd deluxe karizma achiever super splendor o m.png",
+      "thumbnail": "/plug cap/RP593 Hero Honda glamour cd deluxe karizma achiever super splendor o m.png"
+    },
+    {
+      "partNumber": "RP594",
+      "referenceNumber": null,
+      "name": "Plug Cap",
+      "vehicle": "HERO HONDA PASSION PRO",
+      "description": "HERO HONDA PASSION PRO",
+      "image": "/plug cap/RP594 Hero Honda passion pro.png",
+      "thumbnail": "/plug cap/RP594 Hero Honda passion pro.png"
+    },
+    {
+      "partNumber": "RP595",
+      "referenceNumber": null,
+      "name": "Plug Cap",
+      "vehicle": "HONDA SHINE/STUNNER/TWISTER/ETERNO/UNICORN",
+      "description": "HONDA SHINE/STUNNER/TWISTER/ETERNO/UNICORN",
+      "image": "/plug cap/RP595 Hero shine stunner twister eterno unicorn.png",
+      "thumbnail": "/plug cap/RP595 Hero shine stunner twister eterno unicorn.png"
+    },
+    {
+      "partNumber": "RP596",
+      "referenceNumber": null,
+      "name": "Plug Cap",
+      "vehicle": "HONDA UNICORN/CB 150CC",
+      "description": "HONDA UNICORN/CB 150CC",
+      "image": "/plug cap/RP596 Honda unicorn cb 150cc.png",
+      "thumbnail": "/plug cap/RP596 Honda unicorn cb 150cc.png"
+    },
+    {
+      "partNumber": "RP597",
+      "referenceNumber": null,
+      "name": "Plug Cap",
+      "vehicle": "HONDA ACTIVA/AVIATOR/PLEASURE",
+      "description": "HONDA ACTIVA/AVIATOR/PLEASURE",
+      "image": "/plug cap/RP597 Honda Activa aviator pleasure.png",
+      "thumbnail": "/plug cap/RP597 Honda Activa aviator pleasure.png"
+    },
+    {
+      "partNumber": "RP598",
+      "referenceNumber": null,
+      "name": "Plug Cap",
+      "vehicle": "HONDA DREAM YUGA",
+      "description": "HONDA DREAM YUGA",
+      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP598+HONDA+DREAM+YUGA",
+      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP598+HONDA+DREAM+YUGA"
+    },
+    {
+      "partNumber": "RP599",
+      "referenceNumber": null,
+      "name": "Plug Cap",
+      "vehicle": "BAJAJ KB-4S/BOXER/CALIBER/3W CNG O/M",
+      "description": "BAJAJ KB-4S/BOXER/CALIBER/3W CNG O/M",
+      "image": "/plug cap/RP599 Bajaj kb 4s boxer caliber 3w cng o m.png",
+      "thumbnail": "/plug cap/RP599 Bajaj kb 4s boxer caliber 3w cng o m.png"
+    },
+    {
+      "partNumber": "RP600",
+      "referenceNumber": null,
+      "name": "Plug Cap",
+      "vehicle": "BAJAJ PLATINA/CT-100/XCD-125/CALIBER-115",
+      "description": "BAJAJ PLATINA/CT-100/XCD-125/CALIBER-115",
+      "image": "/plug cap/RP600 Bajaj platina ct 100 xcd 125 caliber 115.png",
+      "thumbnail": "/plug cap/RP600 Bajaj platina ct 100 xcd 125 caliber 115.png"
+    },
+    {
+      "partNumber": "RP601",
+      "referenceNumber": null,
+      "name": "Plug Cap",
+      "vehicle": "BAJAJ PULSAR-DTSI/DISCOVER-DTSI/AVENGER-DTSI",
+      "description": "BAJAJ PULSAR-DTSI/DISCOVER-DTSI/AVENGER-DTSI",
+      "image": "/plug cap/RP601 Bajaj pulsar dtsi discover dtsi avenger dtsi.png",
+      "thumbnail": "/plug cap/RP601 Bajaj pulsar dtsi discover dtsi avenger dtsi.png"
     },
     {
       "partNumber": "RP602",
       "referenceNumber": null,
-      "name": "Carbon Brush for Starter",
-      "vehicle": "Carbon Brush for Starter product",
-      "description": "Carbon Brush for Starter product",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP602+Carbon+Brush+for+Starter+product",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP602+Carbon+Brush+for+Starter+product"
+      "name": "Plug Cap",
+      "vehicle": "PULSAR-DTSI/DISCOVER-DTSI/AVENGER-DTSI WITH DUST SEAL",
+      "description": "PULSAR-DTSI/DISCOVER-DTSI/AVENGER-DTSI WITH DUST SEAL",
+      "image": "/plug cap/RP602 Pulsar dtsi discover dtsi avenger dtsi dust seal.png",
+      "thumbnail": "/plug cap/RP602 Pulsar dtsi discover dtsi avenger dtsi dust seal.png"
     },
     {
       "partNumber": "RP603",
       "referenceNumber": null,
-      "name": "Carbon Brush for Starter",
-      "vehicle": "Carbon Brush for Starter product",
-      "description": "Carbon Brush for Starter product",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP603+Carbon+Brush+for+Starter+product",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP603+Carbon+Brush+for+Starter+product"
+      "name": "Plug Cap",
+      "vehicle": "BAJAJ M-80, 4-STROKE",
+      "description": "BAJAJ M-80, 4-STROKE",
+      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP603+BAJAJ+M+80+4+STROKE",
+      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP603+BAJAJ+M+80+4+STROKE"
     },
     {
       "partNumber": "RP604",
       "referenceNumber": null,
-      "name": "Carbon Brush for Starter",
-      "vehicle": "Carbon Brush for Starter product",
-      "description": "Carbon Brush for Starter product",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP604+Carbon+Brush+for+Starter+product",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP604+Carbon+Brush+for+Starter+product"
+      "name": "Plug Cap",
+      "vehicle": "TVS VICTOR/CENTRA/FIERO/ACCESS-125/SUZUKI HAYATE",
+      "description": "TVS VICTOR/CENTRA/FIERO/ACCESS-125/SUZUKI HAYATE",
+      "image": "/plug cap/RP604 Tvs victor centra fiero access 125 Suzuki hayate.png",
+      "thumbnail": "/plug cap/RP604 Tvs victor centra fiero access 125 Suzuki hayate.png"
     },
     {
       "partNumber": "RP605",
       "referenceNumber": null,
-      "name": "Carbon Brush for Starter",
-      "vehicle": "Carbon Brush for Starter product",
-      "description": "Carbon Brush for Starter product",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP605+Carbon+Brush+for+Starter+product",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP605+Carbon+Brush+for+Starter+product"
+      "name": "Plug Cap",
+      "vehicle": "TVS STAR/STAR CITY/MAX-100 DLX/XL-SUPER",
+      "description": "TVS STAR/STAR CITY/MAX-100 DLX/XL-SUPER",
+      "image": "/plug cap/RP605 Tvs star city max 100 dlx xl super.png",
+      "thumbnail": "/plug cap/RP605 Tvs star city max 100 dlx xl super.png"
     },
     {
       "partNumber": "RP606",
       "referenceNumber": null,
-      "name": "Carbon Brush for Starter",
-      "vehicle": "Carbon Brush for Starter product",
-      "description": "Carbon Brush for Starter product",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP606+Carbon+Brush+for+Starter+product",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP606+Carbon+Brush+for+Starter+product"
+      "name": "Plug Cap",
+      "vehicle": "TVS APACHE/RTR-160/RTR-180",
+      "description": "TVS APACHE/RTR-160/RTR-180",
+      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP606+TVS+APACHE+RTR+160+RTR+180",
+      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP606+TVS+APACHE+RTR+160+RTR+180"
     },
     {
       "partNumber": "RP607",
       "referenceNumber": null,
-      "name": "Carbon Brush for Starter",
-      "vehicle": "Carbon Brush for Starter product",
-      "description": "Carbon Brush for Starter product",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP607+Carbon+Brush+for+Starter+product",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP607+Carbon+Brush+for+Starter+product"
+      "name": "Plug Cap",
+      "vehicle": "TVS SUZUKI-12V/SAMURAI/KINETIC HONDA",
+      "description": "TVS SUZUKI-12V/SAMURAI/KINETIC HONDA",
+      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP607+TVS+SUZUKI+12V+SAMURAI+KINETIC+HONDA",
+      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP607+TVS+SUZUKI+12V+SAMURAI+KINETIC+HONDA"
     },
     {
       "partNumber": "RP608",
       "referenceNumber": null,
-      "name": "Carbon Brush for Starter",
-      "vehicle": "Carbon Brush for Starter product",
-      "description": "Carbon Brush for Starter product",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP608+Carbon+Brush+for+Starter+product",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP608+Carbon+Brush+for+Starter+product"
+      "name": "Plug Cap",
+      "vehicle": "SUZUKI GS-150R",
+      "description": "SUZUKI GS-150R",
+      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP608+SUZUKI+GS+150R",
+      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP608+SUZUKI+GS+150R"
     },
     {
       "partNumber": "RP609",
       "referenceNumber": null,
-      "name": "Carbon Brush for Starter",
-      "vehicle": "Carbon Brush for Starter product",
-      "description": "Carbon Brush for Starter product",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP609+Carbon+Brush+for+Starter+product",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP609+Carbon+Brush+for+Starter+product"
+      "name": "Plug Cap",
+      "vehicle": "YAMAHA RX-100/RX-135/CRUX/CRUX-R/LIBERO/YBX",
+      "description": "YAMAHA RX-100/RX-135/CRUX/CRUX-R/LIBERO/YBX",
+      "image": "/plug cap/RP609 Yamaha rx 100 rx 135 crux r libero ybx.png",
+      "thumbnail": "/plug cap/RP609 Yamaha rx 100 rx 135 crux r libero ybx.png"
     },
     {
       "partNumber": "RP610",
       "referenceNumber": null,
-      "name": "Carbon Brush for Starter",
-      "vehicle": "Carbon Brush for Starter product",
-      "description": "Carbon Brush for Starter product",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP610+Carbon+Brush+for+Starter+product",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP610+Carbon+Brush+for+Starter+product"
+      "name": "Plug Cap",
+      "vehicle": "YAMAHA FZ/FZS/FAZER/YZF R-15/SZR",
+      "description": "YAMAHA FZ/FZS/FAZER/YZF R-15/SZR",
+      "image": "/plug cap/RP610 Yamaha fz fzs fazer yzf r 15 szr.png",
+      "thumbnail": "/plug cap/RP610 Yamaha fz fzs fazer yzf r 15 szr.png"
     },
     {
       "partNumber": "RP611",
       "referenceNumber": null,
-      "name": "Carbon Brush for Starter",
-      "vehicle": "Carbon Brush for Starter product",
-      "description": "Carbon Brush for Starter product",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP611+Carbon+Brush+for+Starter+product",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP611+Carbon+Brush+for+Starter+product"
+      "name": "Plug Cap",
+      "vehicle": "ROYAL ENFIELD TWIN SPARK RIGHT SIDE",
+      "description": "ROYAL ENFIELD TWIN SPARK RIGHT SIDE",
+      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP611+ROYAL+ENFIELD+TWIN+SPARK+RIGHT+SIDE",
+      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP611+ROYAL+ENFIELD+TWIN+SPARK+RIGHT+SIDE"
     },
     {
       "partNumber": "RP612",
       "referenceNumber": null,
-      "name": "Carbon Brush for Starter",
-      "vehicle": "Carbon Brush for Starter product",
-      "description": "Carbon Brush for Starter product",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP612+Carbon+Brush+for+Starter+product",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP612+Carbon+Brush+for+Starter+product"
+      "name": "Plug Cap",
+      "vehicle": "ROYAL ENFIELD TWIN SPARK LEFT SIDE",
+      "description": "ROYAL ENFIELD TWIN SPARK LEFT SIDE",
+      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP612+ROYAL+ENFIELD+TWIN+SPARK+LEFT+SIDE",
+      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP612+ROYAL+ENFIELD+TWIN+SPARK+LEFT+SIDE"
     },
     {
       "partNumber": "RP613",
       "referenceNumber": null,
-      "name": "Carbon Brush for Starter",
-      "vehicle": "Carbon Brush for Starter product",
-      "description": "Carbon Brush for Starter product",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP613+Carbon+Brush+for+Starter+product",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP613+Carbon+Brush+for+Starter+product"
+      "name": "Plug Cap",
+      "vehicle": "LML NV",
+      "description": "LML NV",
+      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP613+LML+NV",
+      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP613+LML+NV"
     }
   ],
   "2-wheeler-parts-dc-horn": [
@@ -7546,8 +7674,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP641",
       "referenceNumber": null,
       "name": "Front Stop Switch",
-      "vehicle": "TVS SUZUKI AX-100/SCOOTY/CENTRA/VICTOR GLX/GX/STAR SPORT/TVS JUPITOR/TVS MAX 4R/TVS APACHE 150 KS(DRUM BRAKE) TVS STAR 2006(BASE/ DLX)TVS STAR CITY 2006 ONWARDS /TVS STAR SPORTS 2008(DLX/CVTI)/ TVS STAR CITY PLUS/TVS PHOENIX DRUM BRAKE2012 ONWARDS/TVS FLAME",
-      "description": "TVS SUZUKI AX-100/SCOOTY/CENTRA/VICTOR GLX/GX/STAR SPORT/TVS JUPITOR/TVS MAX 4R/TVS APACHE 150 KS(DRUM BRAKE) TVS STAR 2006(BASE/ DLX)TVS STAR CITY 2006 ONWARDS /TVS STAR SPORTS 2008(DLX/CVTI)/ TVS STAR CITY PLUS/TVS PHOENIX DRUM BRAKE2012 ONWARDS/TVS FLAME",
+      "vehicle": "TVS SUZUKI AX-100/SCOOTY/CENTRA/VICTOR GLX/GX/STAR SPORT/TVS JUPITER/TVS MAX 4R/TVS APACHE 150 KS(DRUM BRAKE) TVS STAR 2006(BASE/ DLX)TVS STAR CITY 2006 ONWARDS /TVS STAR SPORTS 2008(DLX/CVTI)/ TVS STAR CITY PLUS/TVS PHOENIX DRUM BRAKE2012 ONWARDS/TVS FLAME",
+      "description": "TVS SUZUKI AX-100/SCOOTY/CENTRA/VICTOR GLX/GX/STAR SPORT/TVS JUPITER/TVS MAX 4R/TVS APACHE 150 KS(DRUM BRAKE) TVS STAR 2006(BASE/ DLX)TVS STAR CITY 2006 ONWARDS /TVS STAR SPORTS 2008(DLX/CVTI)/ TVS STAR CITY PLUS/TVS PHOENIX DRUM BRAKE2012 ONWARDS/TVS FLAME",
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP641+TVS+SUZUKI+AX+100+SCOOTY+CENTRA+VICTOR+GLX+GX+STAR+SPOR",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP641+TVS+SUZUKI+AX+100+SCOOTY+CENTRA+VICTOR+GLX+GX+STAR+SPOR"
     },
@@ -7582,8 +7710,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP645",
       "referenceNumber": null,
       "name": "Front Stop Switch",
-      "vehicle": "SUZUKI FIERO /F2/VICTER ADRENO(WITH COUPLER)ES/ENFIELD CITY BIKE",
-      "description": "SUZUKI FIERO /F2/VICTER ADRENO(WITH COUPLER)ES/ENFIELD CITY BIKE",
+      "vehicle": "SUZUKI FIERO /F2/VICTOR ADRENO(WITH COUPLER)ES/ENFIELD CITY BIKE",
+      "description": "SUZUKI FIERO /F2/VICTOR ADRENO(WITH COUPLER)ES/ENFIELD CITY BIKE",
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP645+SUZUKI+FIERO+F2+VICTER+ADRENO+WITH+COUPLER+ES+ENFIELD+C",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP645+SUZUKI+FIERO+F2+VICTER+ADRENO+WITH+COUPLER+ES+ENFIELD+C"
     },
@@ -7892,8 +8020,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP678",
       "referenceNumber": null,
       "name": "Fuse Wire",
-      "vehicle": "BAJAJ XCD 125 DTSI KS/ES/XCD125 DTSI ES UG(ALLOY WHEEL 2008 MODEL)PLATINA DTS-i 125 ES(2008 MODEL(HERO HONDA TYPE) (WITH TWO FUSE 10 AMP)",
-      "description": "BAJAJ XCD 125 DTSI KS/ES/XCD125 DTSI ES UG(ALLOY WHEEL 2008 MODEL)PLATINA DTS-i 125 ES(2008 MODEL(HERO HONDA TYPE) (WITH TWO FUSE 10 AMP)",
+      "vehicle": "BAJAJ XCD 125 DTSI KS/ES/XCD125 DTSI ES UG(ALLOY WHEEL 2008 MODEL)PLATINA DTSI 125 ES(2008 MODEL(HERO HONDA TYPE) (WITH TWO FUSE 10 AMP)",
+      "description": "BAJAJ XCD 125 DTSI KS/ES/XCD125 DTSI ES UG(ALLOY WHEEL 2008 MODEL)PLATINA DTSI 125 ES(2008 MODEL(HERO HONDA TYPE) (WITH TWO FUSE 10 AMP)",
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP678+BAJAJ+XCD+125+DTSI+KS+ES+XCD125+DTSI+ES+UG+ALLOY+WHEEL+",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP678+BAJAJ+XCD+125+DTSI+KS+ES+XCD125+DTSI+ES+UG+ALLOY+WHEEL+"
     },
@@ -7901,8 +8029,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP679",
       "referenceNumber": null,
       "name": "Fuse Wire",
-      "vehicle": "PULSAR 150 DTS-i ES UG-4/PULSAR 180 DTSI ES UG4(WITH TWO FUSE 5 AMP)",
-      "description": "PULSAR 150 DTS-i ES UG-4/PULSAR 180 DTSI ES UG4(WITH TWO FUSE 5 AMP)",
+      "vehicle": "PULSAR 150 DTSI ES UG-4/PULSAR 180 DTSI ES UG4(WITH TWO FUSE 5 AMP)",
+      "description": "PULSAR 150 DTSI ES UG-4/PULSAR 180 DTSI ES UG4(WITH TWO FUSE 5 AMP)",
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP679+PULSAR+150+DTS+i+ES+UG+4+PULSAR+180+DTSI+ES+UG4+WITH+TW",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP679+PULSAR+150+DTS+i+ES+UG+4+PULSAR+180+DTSI+ES+UG4+WITH+TW"
     },
@@ -7910,8 +8038,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP680",
       "referenceNumber": null,
       "name": "Fuse Wire",
-      "vehicle": "BAJAJ DISCOVER DTS-i ES(2006 MODEL)DISCOCER DTSI 135ES/DISCOVER-135 KS/DISCOVER 135 DTSI ES (ALLOY WHEEL 2008 MODEL)/DISCOVER 135 DTSI KS N/M / DICOVER 135 DTSI ES UG/XCD 125 DTSI ES/XCD 125 DTSI UG (2008 MODEL)PULSAR 200 DTSI ES/PULSAR 150/PULSAR 180 DTSI ES/180 UG3(DIGITAL MEATER)/PULSAR 180 KS O/M UG1/AVENGER(WITH TWO FUSE 10 AMP)",
-      "description": "BAJAJ DISCOVER DTS-i ES(2006 MODEL)DISCOCER DTSI 135ES/DISCOVER-135 KS/DISCOVER 135 DTSI ES (ALLOY WHEEL 2008 MODEL)/DISCOVER 135 DTSI KS N/M / DICOVER 135 DTSI ES UG/XCD 125 DTSI ES/XCD 125 DTSI UG (2008 MODEL)PULSAR 200 DTSI ES/PULSAR 150/PULSAR 180 DTSI ES/180 UG3(DIGITAL MEATER)/PULSAR 180 KS O/M UG1/AVENGER(WITH TWO FUSE 10 AMP)",
+      "vehicle": "BAJAJ DISCOVER DTSI ES(2006 MODEL)DISCOVER DTSI 135ES/DISCOVER-135 KS/DISCOVER 135 DTSI ES (ALLOY WHEEL 2008 MODEL)/DISCOVER 135 DTSI KS N/M / DISCOVER 135 DTSI ES UG/XCD 125 DTSI ES/XCD 125 DTSI UG (2008 MODEL)PULSAR 200 DTSI ES/PULSAR 150/PULSAR 180 DTSI ES/180 UG3(DIGITAL METER)/PULSAR 180 KS O/M UG1/AVENGER(WITH TWO FUSE 10 AMP)",
+      "description": "BAJAJ DISCOVER DTSI ES(2006 MODEL)DISCOVER DTSI 135ES/DISCOVER-135 KS/DISCOVER 135 DTSI ES (ALLOY WHEEL 2008 MODEL)/DISCOVER 135 DTSI KS N/M / DISCOVER 135 DTSI ES UG/XCD 125 DTSI ES/XCD 125 DTSI UG (2008 MODEL)PULSAR 200 DTSI ES/PULSAR 150/PULSAR 180 DTSI ES/180 UG3(DIGITAL METER)/PULSAR 180 KS O/M UG1/AVENGER(WITH TWO FUSE 10 AMP)",
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP680+BAJAJ+DISCOVER+DTS+i+ES+2006+MODEL+DISCOCER+DTSI+135ES+",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP680+BAJAJ+DISCOVER+DTS+i+ES+2006+MODEL+DISCOCER+DTSI+135ES+"
     },
@@ -7964,8 +8092,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP686",
       "referenceNumber": null,
       "name": "Fuse Wire",
-      "vehicle": "HERO HONDA KARIZMA ES/KARIZMA ZMR ES/ACHIEVER ES/ACHIEVER KS/ACHIEVER DISC BREAK/ACHIEVER-135(FUSE 7.5 & 15 AMP)",
-      "description": "HERO HONDA KARIZMA ES/KARIZMA ZMR ES/ACHIEVER ES/ACHIEVER KS/ACHIEVER DISC BREAK/ACHIEVER-135(FUSE 7.5 & 15 AMP)",
+      "vehicle": "HERO HONDA KARIZMA ES/KARIZMA ZMR ES/ACHIEVER ES/ACHIEVER KS/ACHIEVER DISC BRAKE/ACHIEVER-135(FUSE 7.5 & 15 AMP)",
+      "description": "HERO HONDA KARIZMA ES/KARIZMA ZMR ES/ACHIEVER ES/ACHIEVER KS/ACHIEVER DISC BRAKE/ACHIEVER-135(FUSE 7.5 & 15 AMP)",
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP686+HERO+HONDA+KARIZMA+ES+KARIZMA+ZMR+ES+ACHIEVER+ES+ACHIEV",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP686+HERO+HONDA+KARIZMA+ES+KARIZMA+ZMR+ES+ACHIEVER+ES+ACHIEV"
     },
@@ -7973,8 +8101,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP687",
       "referenceNumber": null,
       "name": "Fuse Wire",
-      "vehicle": "HERO HONDA PASSION PRO 100 ES(2010 MODEL)DIGITEL MEATER TWO FUSE 10 & 15 AMP",
-      "description": "HERO HONDA PASSION PRO 100 ES(2010 MODEL)DIGITEL MEATER TWO FUSE 10 & 15 AMP",
+      "vehicle": "HERO HONDA PASSION PRO 100 ES(2010 MODEL)DIGITEL METER TWO FUSE 10 & 15 AMP",
+      "description": "HERO HONDA PASSION PRO 100 ES(2010 MODEL)DIGITEL METER TWO FUSE 10 & 15 AMP",
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP687+HERO+HONDA+PASSION+PRO+100+ES+2010+MODEL+DIGITEL+MEATER",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP687+HERO+HONDA+PASSION+PRO+100+ES+2010+MODEL+DIGITEL+MEATER"
     },
@@ -8168,233 +8296,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP708+ROYAL+ENFIELD+ELECTRA+350CC+ES+CLASSIC+350CC+ES+10+AMP+"
     }
   ],
-  "2-wheeler-parts-plug-cap": [
-    {
-      "partNumber": "RP588",
-      "referenceNumber": null,
-      "name": "Plug Cap",
-      "vehicle": "HERO HONDA CD-100/SPLENDOR/PASSION/CD DAWN",
-      "description": "HERO HONDA CD-100/SPLENDOR/PASSION/CD DAWN",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP588+HERO+HONDA+CD+100+SPLENDOR+PASSION+CD+DAWN",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP588+HERO+HONDA+CD+100+SPLENDOR+PASSION+CD+DAWN"
-    },
-    {
-      "partNumber": "RP590",
-      "referenceNumber": null,
-      "name": "Plug Cap",
-      "vehicle": "HERO HONDA PASSION PRO/SPLENDOR PRO/SPLENDOR NXG",
-      "description": "HERO HONDA PASSION PRO/SPLENDOR PRO/SPLENDOR NXG",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP590+HERO+HONDA+PASSION+PRO+SPLENDOR+PRO+SPLENDOR+NXG",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP590+HERO+HONDA+PASSION+PRO+SPLENDOR+PRO+SPLENDOR+NXG"
-    },
-    {
-      "partNumber": "RP591",
-      "referenceNumber": null,
-      "name": "Plug Cap",
-      "vehicle": "HERO HONDA HUNK/CBZ X-TREME/IMPULSE (RED)",
-      "description": "HERO HONDA HUNK/CBZ X-TREME/IMPULSE (RED)",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP591+HERO+HONDA+HUNK+CBZ+X+TREME+IMPULSE+RED",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP591+HERO+HONDA+HUNK+CBZ+X+TREME+IMPULSE+RED"
-    },
-    {
-      "partNumber": "RP592",
-      "referenceNumber": null,
-      "name": "Plug Cap",
-      "vehicle": "HERO HONDA SUPER SPLENDOR-ASFS/CB-UNICORN (BLACK)",
-      "description": "HERO HONDA SUPER SPLENDOR-ASFS/CB-UNICORN (BLACK)",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP592+HERO+HONDA+SUPER+SPLENDOR+ASFS+CB+UNICORN+BLACK",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP592+HERO+HONDA+SUPER+SPLENDOR+ASFS+CB+UNICORN+BLACK"
-    },
-    {
-      "partNumber": "RP593",
-      "referenceNumber": null,
-      "name": "Plug Cap",
-      "vehicle": "HERO HONDA GLAMOUR/CD DELUXE/KARIZMA/ACHIEVER/SUPER SPLENDOR O/M",
-      "description": "HERO HONDA GLAMOUR/CD DELUXE/KARIZMA/ACHIEVER/SUPER SPLENDOR O/M",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP593+HERO+HONDA+GLAMOUR+CD+DELUXE+KARIZMA+ACHIEVER+SUPER+SPL",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP593+HERO+HONDA+GLAMOUR+CD+DELUXE+KARIZMA+ACHIEVER+SUPER+SPL"
-    },
-    {
-      "partNumber": "RP594",
-      "referenceNumber": null,
-      "name": "Plug Cap",
-      "vehicle": "HERO HONDA PASSION PRO",
-      "description": "HERO HONDA PASSION PRO",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP594+HERO+HONDA+PASSION+PRO",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP594+HERO+HONDA+PASSION+PRO"
-    },
-    {
-      "partNumber": "RP595",
-      "referenceNumber": null,
-      "name": "Plug Cap",
-      "vehicle": "HONDA SHINE/STUNNER/TWISTER/ETERNO/UNICORN",
-      "description": "HONDA SHINE/STUNNER/TWISTER/ETERNO/UNICORN",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP595+HONDA+SHINE+STUNNER+TWISTER+ETERNO+UNICORN",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP595+HONDA+SHINE+STUNNER+TWISTER+ETERNO+UNICORN"
-    },
-    {
-      "partNumber": "RP596",
-      "referenceNumber": null,
-      "name": "Plug Cap",
-      "vehicle": "HONDA UNICORN/CB 150CC",
-      "description": "HONDA UNICORN/CB 150CC",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP596+HONDA+UNICORN+CB+150CC",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP596+HONDA+UNICORN+CB+150CC"
-    },
-    {
-      "partNumber": "RP597",
-      "referenceNumber": null,
-      "name": "Plug Cap",
-      "vehicle": "HONDA ACTIVA/AVIATOR/PLEASURE",
-      "description": "HONDA ACTIVA/AVIATOR/PLEASURE",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP597+HONDA+ACTIVA+AVIATOR+PLEASURE",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP597+HONDA+ACTIVA+AVIATOR+PLEASURE"
-    },
-    {
-      "partNumber": "RP598",
-      "referenceNumber": null,
-      "name": "Plug Cap",
-      "vehicle": "HONDA DREAM YUGA",
-      "description": "HONDA DREAM YUGA",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP598+HONDA+DREAM+YUGA",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP598+HONDA+DREAM+YUGA"
-    },
-    {
-      "partNumber": "RP599",
-      "referenceNumber": null,
-      "name": "Plug Cap",
-      "vehicle": "BAJAJ KB-4S/BOXER/CALIBER/3W CNG O/M",
-      "description": "BAJAJ KB-4S/BOXER/CALIBER/3W CNG O/M",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP599+BAJAJ+KB+4S+BOXER+CALIBER+3W+CNG+O+M",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP599+BAJAJ+KB+4S+BOXER+CALIBER+3W+CNG+O+M"
-    },
-    {
-      "partNumber": "RP600",
-      "referenceNumber": null,
-      "name": "Plug Cap",
-      "vehicle": "BAJAJ PLATINA/CT-100/XCD-125/CALIBER-115",
-      "description": "BAJAJ PLATINA/CT-100/XCD-125/CALIBER-115",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP600+BAJAJ+PLATINA+CT+100+XCD+125+CALIBER+115",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP600+BAJAJ+PLATINA+CT+100+XCD+125+CALIBER+115"
-    },
-    {
-      "partNumber": "RP601",
-      "referenceNumber": null,
-      "name": "Plug Cap",
-      "vehicle": "BAJAJ PULSAR-DTSI/DISCOVER-DTSI/AVENGER-DTSI",
-      "description": "BAJAJ PULSAR-DTSI/DISCOVER-DTSI/AVENGER-DTSI",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP601+BAJAJ+PULSAR+DTSI+DISCOVER+DTSI+AVENGER+DTSI",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP601+BAJAJ+PULSAR+DTSI+DISCOVER+DTSI+AVENGER+DTSI"
-    },
-    {
-      "partNumber": "RP602",
-      "referenceNumber": null,
-      "name": "Plug Cap",
-      "vehicle": "PULSAR-DTSI/DISCOVER-DTSI/AVENGER-DTSI WITH DUST SEAL",
-      "description": "PULSAR-DTSI/DISCOVER-DTSI/AVENGER-DTSI WITH DUST SEAL",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP602+PULSAR+DTSI+DISCOVER+DTSI+AVENGER+DTSI+WITH+DUST+SEAL",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP602+PULSAR+DTSI+DISCOVER+DTSI+AVENGER+DTSI+WITH+DUST+SEAL"
-    },
-    {
-      "partNumber": "RP603",
-      "referenceNumber": null,
-      "name": "Plug Cap",
-      "vehicle": "BAJAJ M-80, 4-STROKE",
-      "description": "BAJAJ M-80, 4-STROKE",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP603+BAJAJ+M+80+4+STROKE",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP603+BAJAJ+M+80+4+STROKE"
-    },
-    {
-      "partNumber": "RP604",
-      "referenceNumber": null,
-      "name": "Plug Cap",
-      "vehicle": "TVS VICTOR/CENTRA/FIERO/ACCESS-125/SUZUKI HAYATE",
-      "description": "TVS VICTOR/CENTRA/FIERO/ACCESS-125/SUZUKI HAYATE",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP604+TVS+VICTOR+CENTRA+FIERO+ACCESS+125+SUZUKI+HAYATE",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP604+TVS+VICTOR+CENTRA+FIERO+ACCESS+125+SUZUKI+HAYATE"
-    },
-    {
-      "partNumber": "RP605",
-      "referenceNumber": null,
-      "name": "Plug Cap",
-      "vehicle": "TVS STAR/STAR CITY/MAX-100 DLX/XL-SUPER",
-      "description": "TVS STAR/STAR CITY/MAX-100 DLX/XL-SUPER",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP605+TVS+STAR+STAR+CITY+MAX+100+DLX+XL+SUPER",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP605+TVS+STAR+STAR+CITY+MAX+100+DLX+XL+SUPER"
-    },
-    {
-      "partNumber": "RP606",
-      "referenceNumber": null,
-      "name": "Plug Cap",
-      "vehicle": "TVS APACHE/RTR-160/RTR-180",
-      "description": "TVS APACHE/RTR-160/RTR-180",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP606+TVS+APACHE+RTR+160+RTR+180",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP606+TVS+APACHE+RTR+160+RTR+180"
-    },
-    {
-      "partNumber": "RP607",
-      "referenceNumber": null,
-      "name": "Plug Cap",
-      "vehicle": "TVS SUZUKI-12V/SAMURAI/KINETIC HONDA",
-      "description": "TVS SUZUKI-12V/SAMURAI/KINETIC HONDA",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP607+TVS+SUZUKI+12V+SAMURAI+KINETIC+HONDA",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP607+TVS+SUZUKI+12V+SAMURAI+KINETIC+HONDA"
-    },
-    {
-      "partNumber": "RP608",
-      "referenceNumber": null,
-      "name": "Plug Cap",
-      "vehicle": "SUZUKI GS-150R",
-      "description": "SUZUKI GS-150R",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP608+SUZUKI+GS+150R",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP608+SUZUKI+GS+150R"
-    },
-    {
-      "partNumber": "RP609",
-      "referenceNumber": null,
-      "name": "Plug Cap",
-      "vehicle": "YAMAHA RX-100/RX-135/CRUX/CRUX-R/LIBERO/YBX",
-      "description": "YAMAHA RX-100/RX-135/CRUX/CRUX-R/LIBERO/YBX",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP609+YAMAHA+RX+100+RX+135+CRUX+CRUX+R+LIBERO+YBX",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP609+YAMAHA+RX+100+RX+135+CRUX+CRUX+R+LIBERO+YBX"
-    },
-    {
-      "partNumber": "RP610",
-      "referenceNumber": null,
-      "name": "Plug Cap",
-      "vehicle": "YAMAHA FZ/FZS/FAZER/YZF R-15/SZR",
-      "description": "YAMAHA FZ/FZS/FAZER/YZF R-15/SZR",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP610+YAMAHA+FZ+FZS+FAZER+YZF+R+15+SZR",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP610+YAMAHA+FZ+FZS+FAZER+YZF+R+15+SZR"
-    },
-    {
-      "partNumber": "RP611",
-      "referenceNumber": null,
-      "name": "Plug Cap",
-      "vehicle": "ROYAL ENFIELD TWIN SPARK RIGHT SIDE",
-      "description": "ROYAL ENFIELD TWIN SPARK RIGHT SIDE",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP611+ROYAL+ENFIELD+TWIN+SPARK+RIGHT+SIDE",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP611+ROYAL+ENFIELD+TWIN+SPARK+RIGHT+SIDE"
-    },
-    {
-      "partNumber": "RP612",
-      "referenceNumber": null,
-      "name": "Plug Cap",
-      "vehicle": "ROYAL ENFIELD TWIN SPARK LEFT SIDE",
-      "description": "ROYAL ENFIELD TWIN SPARK LEFT SIDE",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP612+ROYAL+ENFIELD+TWIN+SPARK+LEFT+SIDE",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP612+ROYAL+ENFIELD+TWIN+SPARK+LEFT+SIDE"
-    },
-    {
-      "partNumber": "RP613",
-      "referenceNumber": null,
-      "name": "Plug Cap",
-      "vehicle": "LML NV",
-      "description": "LML NV",
-      "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP613+LML+NV",
-      "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP613+LML+NV"
-    }
-  ],
+
   "3-wheeler-parts-charging-coil-source": [
     {
       "partNumber": "RP106",
@@ -8548,7 +8450,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
   "3-wheeler-parts-cdi-unit": [
     {
       "partNumber": "RP228",
-      "referenceNumber": "24 11 1128",
+      "referenceNumber": "24111128",
       "name": "C.D.I. Unit",
       "vehicle": "BAJAJ 3W 2S 5 PORT D MODEL",
       "description": "BAJAJ 3W 2S 5 PORT D MODEL",
@@ -8575,7 +8477,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
     },
     {
       "partNumber": "RP229",
-      "referenceNumber": "24 11 1190/24 11 1191",
+      "referenceNumber": "24111190/24111191",
       "name": "C.D.I. Unit",
       "vehicle": "BAJAJ 3W 2S RE-145 P",
       "description": "BAJAJ 3W 2S RE-145 P",
