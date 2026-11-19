@@ -32,22 +32,8 @@ import {
 
 } from '@/data/categoryRegistry';
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import { companyInfo } from '@/data/navigation';
+
 import { catalogueProductsByCategory } from '@/data/catalogueProducts';
 
 interface CategoryDetailPageProps {
@@ -55,6 +41,7 @@ interface CategoryDetailPageProps {
   slug: string;
 
   viewMode?: 'overview' | 'products';
+
   initialProductIndex?: number;
 
 }
@@ -92,18 +79,31 @@ const FALLBACK_IMAGE = '/logo.png';
    ========================================================= */
 
 function encodeImagePath(path: string): string {
+
   if (!path) return FALLBACK_IMAGE;
+
   if (/^https?:\/\//i.test(path)) return path;
+
   return path
+
     .split('/')
+
     .map((segment) => {
+
       try {
+
         return encodeURIComponent(decodeURIComponent(segment));
+
       } catch {
+
         return encodeURIComponent(segment);
+
       }
+
     })
+
     .join('/');
+
 }
 
 /* =========================================================
@@ -223,18 +223,23 @@ function CategoryDetailPage({
     slug === '2-wheeler-parts-combination-switch-lh-only';
 
   const isSelfRelay = slug === '2-wheeler-parts-self-relay';
+
   const isCoilPlateAssembly =
+
     slug === '2-wheeler-parts-coil-plate-assembly';
 
   /* Product source must be declared before hooks that use products. */
 
   const productSource: ProductCard[] =
+
     (catalogueProductsByCategory[slug] as ProductCard[] | undefined) || [];
 
   const products = productSource;
 
   const [activeProduct, setActiveProduct] = useState(() =>
+
     Math.max(0, Math.min(initialProductIndex, Math.max(products.length - 1, 0)))
+
   );
 
   const [productSearch, setProductSearch] = useState('');
@@ -246,8 +251,11 @@ function CategoryDetailPage({
   useEffect(() => {
 
     const safeIndex = Math.max(
+
       0,
+
       Math.min(initialProductIndex, Math.max(products.length - 1, 0))
+
     );
 
     setActiveProduct(safeIndex);
@@ -277,7 +285,9 @@ function CategoryDetailPage({
   /* Product heading */
 
   const productType = isCoilPlateAssembly
+
     ? 'Coil Plate Assembly'
+
     : isSelfRelay
 
     ? 'Self Relay'
@@ -381,29 +391,47 @@ function CategoryDetailPage({
   };
 
   // Keep the selected thumbnail visible without scrolling the whole page.
+
   // scrollIntoView() can unexpectedly move the document vertically.
+
   useEffect(() => {
+
     const strip = referenceStripRef.current;
+
     if (!strip) return;
 
     const selected = strip.querySelector<HTMLElement>(
+
       `[data-product-index="${activeProduct}"]`
+
     );
+
     if (!selected) return;
 
     const selectedLeft = selected.offsetLeft - strip.offsetLeft;
+
     const selectedRight = selectedLeft + selected.offsetWidth;
+
     const visibleLeft = strip.scrollLeft;
+
     const visibleRight = visibleLeft + strip.clientWidth;
 
     if (selectedLeft < visibleLeft) {
+
       strip.scrollTo({ left: selectedLeft - 12, behavior: 'smooth' });
+
     } else if (selectedRight > visibleRight) {
+
       strip.scrollTo({
+
         left: selectedRight - strip.clientWidth + 12,
+
         behavior: 'smooth',
+
       });
+
     }
+
   }, [activeProduct, productSearch, slug]);
 
   /* WhatsApp */
@@ -437,21 +465,37 @@ function CategoryDetailPage({
   )}`;
 
   /* Hero banner */
+
   const firstCatalogueImage = catalogueProductsByCategory[slug]?.[0]?.image;
+
   const heroImage = isOverviewMode
+
     ? category?.image || firstCatalogueImage || ''
+
     : isSelfRelay
+
       ? '/Self Relay Key Features Banner.png'
+
       : isLtCoil
+
         ? '/L.T. Coils Product Feature Banner.png-1600.webp'
+
         : isPickupCoil
+
           ? '/Pickup Coil 2-Wheeler Parts Banner.png-1600.webp'
+
           : isCdi
+
             ? '/ORADO C.D.I. Unit Features.png-1600.webp'
+
             : isAcRegulator
+
               ? '/A.C. Regulator Product Banner.png'
+
               : isFlasher
+
                 ? '/Electronic Flasher Key Features.png'
+
                 : firstCatalogueImage || category?.image || '';
 
   /* =====================================================
@@ -863,50 +907,95 @@ function CategoryDetailPage({
           </div>
 
           {isOverviewMode ? (
+
             /* CATEGORY OVERVIEW: show all products without auto-selecting one */
+
             <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+
               {products.map((product, index) => (
+
                 <a
+
                   key={`${product.partNumber}-${product.referenceNumber || ''}-${index}`}
+
                   href={`#category/${slug}?view=products&product=${index}`}
+
                   className="group overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:border-red-300 hover:shadow-lg"
+
                 >
+
                   <div className="flex aspect-square items-center justify-center bg-white p-4">
+
                     <img
+
                       src={encodeImagePath(product.thumbnail || product.image)}
+
                       alt={`${product.partNumber} ${product.name} ${product.vehicle}`}
+
                       loading="lazy"
+
                       className="h-full w-full object-contain transition-transform group-hover:scale-105"
+
                       onError={handleImageError}
+
                     />
+
                   </div>
+
                   <div className="border-t border-slate-100 p-3 sm:p-4">
+
                     <p className="text-[10px] font-extrabold uppercase tracking-wide text-red-600">
+
                       {product.partNumber}
+
                     </p>
+
                     {product.referenceNumber && (
+
                       <p className="mt-1 break-words text-[10px] font-semibold text-blue-700">
+
                         Ref: {product.referenceNumber}
+
                       </p>
+
                     )}
+
                     <h3 className="mt-1 text-sm font-extrabold text-[#102747]">
+
                       {product.name || productType}
+
                     </h3>
+
                     <p className="mt-2 text-[9px] font-bold uppercase tracking-wide text-slate-400">
+
                       Vehicle Compatibility
+
                     </p>
+
                     <p className="mt-1 line-clamp-3 text-xs leading-5 text-slate-600">
+
                       {product.description || product.vehicle}
+
                     </p>
+
                     <span className="mt-3 inline-flex items-center gap-1 text-[10px] font-extrabold uppercase text-red-600">
+
                       View Product <ArrowRight className="h-3 w-3" />
+
                     </span>
+
                   </div>
+
                 </a>
+
               ))}
+
             </div>
+
           ) : (
+
             <>
+
           {/* PRODUCT SELECTOR */}
 
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)]">
@@ -1146,36 +1235,63 @@ function CategoryDetailPage({
               )}
 
               {currentProduct?.voltage && (
+
                 <div className="mt-4 rounded-xl border border-slate-200 bg-slate-50 p-5">
+
                   <p className="text-xs font-bold uppercase tracking-wider text-slate-400">
+
                     Voltage
+
                   </p>
+
                   <p className="mt-2 text-lg font-bold text-[#102747]">
+
                     {currentProduct.voltage}
+
                   </p>
+
                 </div>
+
               )}
 
               {currentProduct?.baseShellDiaMm && (
+
                 <div className="mt-4 rounded-xl border border-slate-200 bg-slate-50 p-5">
+
                   <p className="text-xs font-bold uppercase tracking-wider text-slate-400">
+
                     Base Shell Dia mm
+
                   </p>
+
                   <p className="mt-2 text-lg font-bold text-[#102747]">
+
                     {currentProduct.baseShellDiaMm}
+
                   </p>
+
                 </div>
+
               )}
 
               {currentProduct?.description && (
+
                 <div className="mt-4 rounded-xl border border-slate-200 bg-white p-5">
+
                   <p className="text-xs font-bold uppercase tracking-wider text-slate-400">
+
                     Product Description
+
                   </p>
+
                   <p className="mt-2 text-sm font-semibold leading-relaxed text-[#102747]">
+
                     {currentProduct.description}
+
                   </p>
+
                 </div>
+
               )}
 
               {/* ENQUIRY BUTTONS */}
@@ -1329,8 +1445,11 @@ function CategoryDetailPage({
                 {filteredProducts.map((product) => {
 
                   // Use the actual product object to locate its catalogue position.
+
 // Multiple catalogue entries may intentionally share one image path.
+
 // Matching by image returns the first entry and selects the wrong card.
+
                   const originalIndex = products.indexOf(product);
 
                   const isActive = activeProduct === originalIndex;
@@ -1396,14 +1515,23 @@ function CategoryDetailPage({
                       )}
 
                       {product.description && (
+
                         <>
+
                           <p className="mt-1 text-[9px] font-semibold uppercase tracking-wide text-slate-400">
+
                             Product Description
+
                           </p>
+
                           <p className="line-clamp-2 text-[10px] leading-4 text-slate-500">
+
                             {product.description}
+
                           </p>
+
                         </>
+
                       )}
 
                     </button>
@@ -1445,7 +1573,9 @@ function CategoryDetailPage({
             )}
 
           </div>
+
             </>
+
           )}
 
         </section>
@@ -1512,7 +1642,7 @@ function CategoryDetailPage({
 
                   key={item.slug}
 
-                  href={`#category/${item.slug}?view=overview`}
+                  href={`#category/${item.slug}?view=products&product=0`}
 
                   className="group overflow-hidden rounded-2xl border border-slate-200 bg-white p-3 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-red-300 hover:shadow-lg sm:p-4"
 
