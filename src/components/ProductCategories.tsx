@@ -74,7 +74,7 @@ const departments: ProductDepartment[] = [
     description:
       'Electrical components for motorcycles and scooters, sourced directly from the ORADO product catalogue.',
     categories: twoWheelerProductCategories,
-    images: homepageTwoWheelerImages,
+    images: twoWheelerImages,
     icon: Bike,
     accent: 'bg-brand-red',
     viewAllHref: '#products-page-2-wheeler',
