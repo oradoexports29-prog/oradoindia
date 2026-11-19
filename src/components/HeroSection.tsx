@@ -24,7 +24,7 @@ export default function HeroSection() {
               </span>
             </div>
 
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-[1.1] tracking-tight mb-6">
+            <h1 className="mb-6 text-3xl font-extrabold leading-[1.12] tracking-tight sm:text-4xl md:text-5xl lg:text-6xl">
               Precision Electrical
               <br />
               Components.
@@ -42,19 +42,35 @@ export default function HeroSection() {
             <div className="flex flex-wrap gap-4">
               <a
                 href="#products-page"
-                className="inline-flex items-center gap-2 bg-brand-red text-white font-bold text-sm uppercase tracking-wide px-7 py-3.5 rounded-md hover:bg-brand-red-dark transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
+                className="inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-brand-red px-5 py-3.5 text-center text-xs font-bold uppercase tracking-wide text-white shadow-lg transition-all hover:bg-brand-red-dark hover:shadow-xl hover:-translate-y-0.5 sm:px-7 sm:text-sm"
               >
                 Explore Products
                 <ArrowRight className="h-4 w-4" />
               </a>
               <a
                 href="#contact"
-                className="inline-flex items-center gap-2 bg-white text-navy-900 font-bold text-sm uppercase tracking-wide px-7 py-3.5 rounded-md hover:bg-gray-100 transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
+                className="inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-white px-5 py-3.5 text-center text-xs font-bold uppercase tracking-wide text-navy-900 shadow-lg transition-all hover:bg-gray-100 hover:shadow-xl hover:-translate-y-0.5 sm:px-7 sm:text-sm"
               >
                 <FileText className="h-4 w-4" />
                 Request a Quote
               </a>
             </div>
+
+            {/* Mobile hero image: the desktop image remains in its original right column. */}
+            <figure className="mt-8 overflow-hidden rounded-2xl border border-white/15 bg-white shadow-xl lg:hidden">
+              <img
+                src="/home%20image1.png.640.webp"
+                srcSet="/home%20image1.png.640.webp 640w, /home%20image1.png.webp 1600w"
+                sizes="(max-width: 639px) calc(100vw - 2rem), 640px"
+                width={640}
+                height={427}
+                alt="ORADO automotive electrical components"
+                className="block h-auto max-h-[320px] w-full object-contain"
+                loading="eager"
+                decoding="async"
+                {...{ fetchpriority: 'high' }}
+              />
+            </figure>
 
             {/* Trust indicators */}
             <div className="flex flex-wrap gap-6 mt-10 pt-8 border-t border-white/10">

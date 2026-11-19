@@ -1034,6 +1034,8 @@ function CategoryDetailPage({
 
                     loading="eager"
 
+                    decoding="async"
+
                     className={
 
                       isIgniter
@@ -1144,7 +1146,7 @@ function CategoryDetailPage({
 
             {/* PRODUCT DETAILS */}
 
-            <div className="flex min-h-[720px] flex-col rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8 lg:min-h-[760px]">
+            <div className="flex min-h-0 flex-col rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:p-6 lg:min-h-[760px] lg:p-8">
 
               <span className="mb-4 inline-flex w-fit rounded-md bg-yellow-400 px-4 py-2 text-xs font-extrabold uppercase tracking-wide text-[#102747]">
 
@@ -1158,7 +1160,7 @@ function CategoryDetailPage({
 
               </p>
 
-              <h2 className="mt-2 text-3xl font-black leading-tight text-[#102747]">
+              <h2 className="mt-2 text-2xl font-black leading-tight text-[#102747] sm:text-3xl">
 
                 {productType}
 
@@ -1198,7 +1200,7 @@ function CategoryDetailPage({
 
               {/* PART NUMBER */}
 
-              <div className="mt-8 rounded-xl border border-slate-200 bg-slate-50 p-5">
+              <div className="mt-6 rounded-xl border border-slate-200 bg-slate-50 p-4 sm:mt-8 sm:p-5">
 
                 <p className="text-xs font-bold uppercase tracking-wider text-slate-400">
 
@@ -1216,7 +1218,7 @@ function CategoryDetailPage({
 
               {currentProduct?.referenceNumber && (
 
-                <div className="mt-4 rounded-xl border border-blue-200 bg-blue-50 p-5">
+                <div className="mt-4 rounded-xl border border-blue-200 bg-blue-50 p-4 sm:p-5">
 
                   <p className="text-xs font-bold uppercase tracking-wider text-blue-600">
 
@@ -1236,7 +1238,7 @@ function CategoryDetailPage({
 
               {currentProduct?.voltage && (
 
-                <div className="mt-4 rounded-xl border border-slate-200 bg-slate-50 p-5">
+                <div className="mt-4 rounded-xl border border-slate-200 bg-slate-50 p-4 sm:p-5">
 
                   <p className="text-xs font-bold uppercase tracking-wider text-slate-400">
 
@@ -1256,7 +1258,7 @@ function CategoryDetailPage({
 
               {currentProduct?.baseShellDiaMm && (
 
-                <div className="mt-4 rounded-xl border border-slate-200 bg-slate-50 p-5">
+                <div className="mt-4 rounded-xl border border-slate-200 bg-slate-50 p-4 sm:p-5">
 
                   <p className="text-xs font-bold uppercase tracking-wider text-slate-400">
 
@@ -1276,7 +1278,7 @@ function CategoryDetailPage({
 
               {currentProduct?.description && (
 
-                <div className="mt-4 rounded-xl border border-slate-200 bg-white p-5">
+                <div className="mt-4 rounded-xl border border-slate-200 bg-white p-4 sm:p-5">
 
                   <p className="text-xs font-bold uppercase tracking-wider text-slate-400">
 
