@@ -392,8 +392,40 @@ function App() {
     };
   }, []);
 
-  const getCategorySlug = () =>
-    isCategoryPage ? hash.replace('#category/', '') : '';
+  // Category links can open either the category overview or the
+  // category page with its first product selected. The query string
+  // is stored inside the URL hash, so parse it separately from the slug.
+  const getCategoryRoute = (): {
+    slug: string;
+    viewMode: 'overview' | 'products';
+    initialProductIndex: number;
+  } => {
+    if (!isCategoryPage) {
+      return { slug: '', viewMode: 'products', initialProductIndex: 0 };
+    }
+
+    const route = hash.slice('#category/'.length);
+    const questionMarkIndex = route.indexOf('?');
+    const rawSlug = questionMarkIndex >= 0
+      ? route.slice(0, questionMarkIndex)
+      : route;
+    const queryString = questionMarkIndex >= 0
+      ? route.slice(questionMarkIndex + 1)
+      : '';
+    const params = new URLSearchParams(queryString);
+
+    const requestedProductIndex = Number.parseInt(params.get('product') || '0', 10);
+
+    return {
+      slug: decodeURIComponent(rawSlug),
+      viewMode: params.get('view') === 'overview' ? 'overview' : 'products',
+      initialProductIndex: Number.isFinite(requestedProductIndex) && requestedProductIndex >= 0
+        ? requestedProductIndex
+        : 0,
+    };
+  };
+
+  const categoryRoute = getCategoryRoute();
 
   return (
     <div className="min-h-screen bg-white">
@@ -405,7 +437,11 @@ function App() {
         ) : isAboutPage ? (
           <AboutUsPage />
         ) : isCategoryPage ? (
-          <CategoryDetailPage slug={getCategorySlug()} />
+          <CategoryDetailPage
+            slug={categoryRoute.slug}
+            viewMode={categoryRoute.viewMode}
+            initialProductIndex={categoryRoute.initialProductIndex}
+          />
         ) : isProductsPage ? (
           <ProductsPage />
         ) : isQualityPage ? (

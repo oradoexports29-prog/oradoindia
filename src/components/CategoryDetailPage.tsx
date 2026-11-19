@@ -54,6 +54,9 @@ interface CategoryDetailPageProps {
 
   slug: string;
 
+  viewMode?: 'overview' | 'products';
+  initialProductIndex?: number;
+
 }
 
 interface ProductCard {
@@ -165,7 +168,13 @@ function CategoryDetailPage({
 
   slug,
 
+  viewMode = 'products',
+
+  initialProductIndex = 0,
+
 }: CategoryDetailPageProps) {
+
+  const isOverviewMode = viewMode === 'overview';
 
   const category = getCategoryBySlug(slug);
 
@@ -217,21 +226,35 @@ function CategoryDetailPage({
   const isCoilPlateAssembly =
     slug === '2-wheeler-parts-coil-plate-assembly';
 
-  const [activeProduct, setActiveProduct] = useState(0);
+  /* Product source must be declared before hooks that use products. */
+
+  const productSource: ProductCard[] =
+    (catalogueProductsByCategory[slug] as ProductCard[] | undefined) || [];
+
+  const products = productSource;
+
+  const [activeProduct, setActiveProduct] = useState(() =>
+    Math.max(0, Math.min(initialProductIndex, Math.max(products.length - 1, 0)))
+  );
 
   const [productSearch, setProductSearch] = useState('');
 
   const referenceStripRef = useRef<HTMLDivElement | null>(null);
 
-  /* Reset selection when category changes */
+  /* Reset selection when category or requested product changes. */
 
   useEffect(() => {
 
-    setActiveProduct(0);
+    const safeIndex = Math.max(
+      0,
+      Math.min(initialProductIndex, Math.max(products.length - 1, 0))
+    );
+
+    setActiveProduct(safeIndex);
 
     setProductSearch('');
 
-  }, [slug]);
+  }, [slug, initialProductIndex, products.length]);
 
   /* Related categories */
 
@@ -305,12 +328,7 @@ function CategoryDetailPage({
 
                   : category?.title || 'ORADO Product';
 
-  /* Product source */
-
-  const productSource: ProductCard[] =
-    (catalogueProductsByCategory[slug] as ProductCard[] | undefined) || [];
-
-  const products = productSource;
+  /* Currently selected product */
 
   const currentProduct = products[activeProduct];
 
@@ -420,19 +438,21 @@ function CategoryDetailPage({
 
   /* Hero banner */
   const firstCatalogueImage = catalogueProductsByCategory[slug]?.[0]?.image;
-  const heroImage = isSelfRelay
-    ? '/Self Relay Key Features Banner.png'
-    : isLtCoil
-      ? '/L.T. Coils Product Feature Banner.png-1600.webp'
-      : isPickupCoil
-        ? '/Pickup Coil 2-Wheeler Parts Banner.png-1600.webp'
-        : isCdi
-          ? '/ORADO C.D.I. Unit Features.png-1600.webp'
-          : isAcRegulator
-            ? '/A.C. Regulator Product Banner.png'
-            : isFlasher
-              ? '/Electronic Flasher Key Features.png'
-              : firstCatalogueImage || category?.image || '';
+  const heroImage = isOverviewMode
+    ? category?.image || firstCatalogueImage || ''
+    : isSelfRelay
+      ? '/Self Relay Key Features Banner.png'
+      : isLtCoil
+        ? '/L.T. Coils Product Feature Banner.png-1600.webp'
+        : isPickupCoil
+          ? '/Pickup Coil 2-Wheeler Parts Banner.png-1600.webp'
+          : isCdi
+            ? '/ORADO C.D.I. Unit Features.png-1600.webp'
+            : isAcRegulator
+              ? '/A.C. Regulator Product Banner.png'
+              : isFlasher
+                ? '/Electronic Flasher Key Features.png'
+                : firstCatalogueImage || category?.image || '';
 
   /* =====================================================
 
@@ -842,6 +862,51 @@ function CategoryDetailPage({
 
           </div>
 
+          {isOverviewMode ? (
+            /* CATEGORY OVERVIEW: show all products without auto-selecting one */
+            <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+              {products.map((product, index) => (
+                <a
+                  key={`${product.partNumber}-${product.referenceNumber || ''}-${index}`}
+                  href={`#category/${slug}?view=products&product=${index}`}
+                  className="group overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:border-red-300 hover:shadow-lg"
+                >
+                  <div className="flex aspect-square items-center justify-center bg-white p-4">
+                    <img
+                      src={encodeImagePath(product.thumbnail || product.image)}
+                      alt={`${product.partNumber} ${product.name} ${product.vehicle}`}
+                      loading="lazy"
+                      className="h-full w-full object-contain transition-transform group-hover:scale-105"
+                      onError={handleImageError}
+                    />
+                  </div>
+                  <div className="border-t border-slate-100 p-3 sm:p-4">
+                    <p className="text-[10px] font-extrabold uppercase tracking-wide text-red-600">
+                      {product.partNumber}
+                    </p>
+                    {product.referenceNumber && (
+                      <p className="mt-1 break-words text-[10px] font-semibold text-blue-700">
+                        Ref: {product.referenceNumber}
+                      </p>
+                    )}
+                    <h3 className="mt-1 text-sm font-extrabold text-[#102747]">
+                      {product.name || productType}
+                    </h3>
+                    <p className="mt-2 text-[9px] font-bold uppercase tracking-wide text-slate-400">
+                      Vehicle Compatibility
+                    </p>
+                    <p className="mt-1 line-clamp-3 text-xs leading-5 text-slate-600">
+                      {product.description || product.vehicle}
+                    </p>
+                    <span className="mt-3 inline-flex items-center gap-1 text-[10px] font-extrabold uppercase text-red-600">
+                      View Product <ArrowRight className="h-3 w-3" />
+                    </span>
+                  </div>
+                </a>
+              ))}
+            </div>
+          ) : (
+            <>
           {/* PRODUCT SELECTOR */}
 
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)]">
@@ -1380,6 +1445,8 @@ function CategoryDetailPage({
             )}
 
           </div>
+            </>
+          )}
 
         </section>
 
@@ -1445,7 +1512,7 @@ function CategoryDetailPage({
 
                   key={item.slug}
 
-                  href={`#category/${item.slug}`}
+                  href={`#category/${item.slug}?view=overview`}
 
                   className="group overflow-hidden rounded-2xl border border-slate-200 bg-white p-3 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-red-300 hover:shadow-lg sm:p-4"
 
