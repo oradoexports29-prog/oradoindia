@@ -1,68 +1,105 @@
+// ORADO CATEGORY IMAGES
+// 2-wheeler images are taken from the first available real product image
+// in each matching category in catalogueProductsByCategory.
+// Keep these paths aligned with the files inside the public folder.
+
 export const twoWheelerImages = [
-  // 01 - Charging Coil (Source)
-  '/chargingcoil.png.webp',
+  // Charging Coil (Source) (RP101) — 2-wheeler-parts-charging-coil-source
+  '/2 wheeler/charging coil/Orado rp101 Ignition Charging Coil For Bajaj 12 Volt Green Coil (16).png',
 
-  // 02 - L.T. Coils (Light)
-  '/ltcoil.png.webp',
+  // L.T. Coils (Light) (RP141) — 2-wheeler-parts-lt-coils-light
+  '/2 wheeler/lt coil/RP141 Ignition Lt Coil For Bajaj 12v set of two .png',
 
-  // 03 - Pick Up Coil (Pulsar)
-  '/pickup%20coil/Orado%20rp191dd%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Pulsar%20150%20(2).png.webp',
+  // Pick Up Coil (Pulsar) (RP182) — 2-wheeler-parts-pick-up-coil-pulsar
+  '/2 wheeler/pickup coil/RP182%20Ignition%20Pickup%20Coil%20For%20Bajaj%2012v%20.png',
 
-  // 04 - C.D.I. Unit
-  '/cdi%20unit/RP221%20Cdi%20Unit%20For%20Bajaj%20Chetak%2099%20Bravo%20Classic%20sl%20.png',
+  // C.D.I. Unit (RP220) — 2-wheeler-parts-cdi-unit
+  '/2 wheeler/cdi unit/RP220 CDI Unit For Bajaj Chetak 12V 5 Pin Scooter Two Wheeler Spare Parts .png',
 
-  // 05 - A.C. Regulator
-  '/ac%20regulator/rp246%20AC%20Regulator%20For%20Lml%20Select%20nv%20Spl%20express%205%20trendy%20%20(5).webp',
+  // A.C. Regulator (RP246) — 2-wheeler-parts-ac-regulator
+  '/2 wheeler/ac regulator/rp246%20AC%20Regulator%20For%20Lml%20Select%20nv%20Spl%20express%205%20trendy%20%20(5).png',
 
-  // 06 - Electronic Flasher
-  '/electronic%20flasher/RP%20255SD%20%20Electronic%20Flasher%20for%20Honda%20Activa%2012v%20Dc%20Oe%20Type%20Two%20Wheelers%20S%20Cooter%20Parts%20%20(5).webp',
+  // Electronic Flasher (RP250) — 2-wheeler-parts-electronic-flasher
+  '/2 wheeler/electronic flasher/RP250%20Electronic%20Flasher%20for%20Bajaj%2012V%20AC%20Scooter%20Two%20Wheeler%20Spare%20Parts%20(1).png',
 
-  // 07 - Regulator Rectifier (ORADO RP256)
-  '/regulator%20rectifier/RP256%20Lml%20Vespa%20Select%20Self%20Start%20Select%20II%205%20Pin%20(6).png',
+  // Regulator Rectifier (RP256) — 2-wheeler-parts-regulator-rectifier
+  '/2 wheeler/regulator rectifier/RP256 Lml Vespa Select Self Start Select II 5 Pin.png',
 
-  // 08 - Rectifier (ORADO RP277)
-  '/rectifier/RP277%20Regulator%20Rectifier%20For%20Hero%20Honda%20Cd%20100%20Dawn%20Kinetic%20Honda%20(3).png',
+  // Rectifier (RP277) — 2-wheeler-parts-rectifier
+  '/2 wheeler/rectifier/RP277 Regulator Rectifier For Hero Honda Cd 100 Dawn Kinetic Honda (3).png',
 
-  // 09 - Coil Plate Assembly (ORADO RP284)
-  '/coil%20plate%20assembly/Orado%20rp284%20Stator%20Coil%20Plate%20Assembly%20For%20Bajaj%20chetak%2012v%20electronic%20(2).png',
+  // Coil Plate Sensor (RPS101) — 2-wheeler-parts-coil-plate-sensor
+  'https://placehold.co/900x900/FFFFFF/102747.png?text=RPS101+ACTIVA+BS6+6G+WHITE+SENSOR',
 
-  // 10 - H.T. Coils (ORADO RP316)
-  '/ht%20coil/RP316%20Bajaj%20Chetak%2012%20Volt%20(6).png',
+  // Coil Plate Assembly (RP283) — 2-wheeler-parts-coil-plate-assembly
+  '/2 wheeler/coil plate assembly/Orado rp283 Stator Coil Plate Assembly For Bajaj chetak 6v point type (1).png',
 
-  // 11 - Igniters (Actual ORADO RP358 Product)
-  '/igniters/rp358%20Ignition%20coil%20Igniters%20For%20Lml%20%20V%20espa%2012V%20%20(4).png',
+  // H.T. Coils (RP315) — 2-wheeler-parts-ht-coils
+  '/2 wheeler/ht coil/RP315.jpg',
 
-  // 12 - Battery Wire (Actual ORADO RP379 Product)
-  '/battery-wire/RP379-negative.png',
+  // Igniters (RP358) — 2-wheeler-parts-igniters
+  '/2 wheeler/igniters/rp358 Ignition coil Igniters For Lml  V espa 12V  (4).png',
 
-  // 13 - Ignition Switch Cum Steering Lock (Actual ORADO RP384 Product)
-  '/Ignition%20Switch%20Cum%20Steering%20Lock/RP384%20Ignition%20switch%20Lock%20For%20Hero%20Hnd%20Splendor%20Passion%20(3).png',
+  // Battery Wire (RP379) — 2-wheeler-parts-battery-wire
+  '/2 wheeler/battery-wire/RP379-positive.png',
 
-  // 14 - Combination Switch (LH Only) - Actual ORADO RP455 Product
-  '/combination%20switch/RP455%20Hero%20Honda%20Cd%20100%20(1).png',
+  // Ignition Switch Cum Steering Lock / Ignition Switch (RP384) — 2-wheeler-parts-ignition-switch-cum-steering-lock-ignition-switch
+  '/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP384%20Ignition%20switch%20Lock%20For%20Hero%20Hnd%20Splendor%20Passion%20(3).png',
 
-  // 15 - Self Relay (Actual ORADO RP489 Product)
-  '/self%20relay/RP489%20Bajaj%20platina%20ug4%20ct100.png',
-  'https://images.pexels.com/photos/5111318/pexels-photo-5111318.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  'https://images.pexels.com/photos/8373457/pexels-photo-8373457.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  'https://images.pexels.com/photos/12000096/pexels-photo-12000096.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  'https://images.pexels.com/photos/34496189/pexels-photo-34496189.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  'https://images.pexels.com/photos/16803656/pexels-photo-16803656.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  'https://images.pexels.com/photos/27258940/pexels-photo-27258940.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  'https://images.pexels.com/photos/37143221/pexels-photo-37143221.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  'https://images.pexels.com/photos/16368058/pexels-photo-16368058.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  'https://images.pexels.com/photos/5111324/pexels-photo-5111324.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  'https://images.pexels.com/photos/31292505/pexels-photo-31292505.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  'https://images.pexels.com/photos/32683778/pexels-photo-32683778.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  'https://images.pexels.com/photos/20522565/pexels-photo-20522565.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  'https://images.pexels.com/photos/33339854/pexels-photo-33339854.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  'https://images.pexels.com/photos/33339856/pexels-photo-33339856.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  'https://images.pexels.com/photos/3855333/pexels-photo-3855333.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  'https://images.pexels.com/photos/11890963/pexels-photo-11890963.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  'https://images.pexels.com/photos/36148000/pexels-photo-36148000.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  'https://images.pexels.com/photos/37754806/pexels-photo-37754806.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+  // Self Relay (RP489) — 2-wheeler-parts-self-relay
+  '/2 wheeler/self relay/RP489 Bajaj platina ug4 ct100.png',
+
+  // Head Lamp Bulb (RP505) — 2-wheeler-parts-head-lamp-bulb
+  '/2 wheeler/headlamp bulb/RP505 Hero Honda Ss Sleek.png',
+
+  // Indicator Bulb (RP517) — 2-wheeler-parts-indicator-bulb
+  '/2 wheeler/indicator bulb/RP517 Hero hnd ss sleek Tvs suzuki 12v chetak electronic classic.png',
+
+  // Tail & Stop Light Bulb (RP521) — 2-wheeler-parts-tail-stop-light-bulb
+  '/2 wheeler/tail and stop light bulb/RP521 1215 Hero Hnd ss sleek Tvs Suzuki 12v.png',
+
+  // Indicator Festoon (RP525) — 2-wheeler-parts-indicator-festoon
+  '/2 wheeler/indicator festoon/RP525 Chetak 12v m80 fe lml front Indicator.png',
+
+  // Turn Pilot Indicator Bulb (RP527) — 2-wheeler-parts-turn-pilot-indicator-bulb
+  'https://placehold.co/900x900/FFFFFF/102747.png?text=RP527+12V+1+2W',
+
+  // Speedo Meter Bulb (RP531) — 2-wheeler-parts-speedo-meter-bulb
+  '/2 wheeler/speedo meter bulb/RP531 Enfield 12v Yamaha rx 100 12v.png',
+
+  // Halogen Bulb M-5 (RP534) — 2-wheeler-parts-halogen-bulb-m5
+  '/2 wheeler/halogen bulb m-5/RP534 Kb 4s Chetak 12v pulsar boxer ct Hnd passion lml v espa xe nv.png',
+
+  // Halogen Bulb HS 1 (RP542) — 2-wheeler-parts-halogen-bulb-hs-1
+  '/2 wheeler/halogen bulb hs1/RP542 Bajaj caliber 115 Hs 1 lml freedom hero hnd karizma fiero f2.png',
+
+  // Carbon Brush Holder Assly. for Starter (RP546) — 2-wheeler-parts-carbon-brush-holder-assly-for-starter
+  '/2 wheeler/Carbon Brush Holder Assly. for Starter/RP546  Hero Honda Super Splendor Glamour Ignitor shine nm zeus acess nm.png',
+
+  // Carbon Brush for Starter (RP567) — 2-wheeler-parts-carbon-brush-for-starter
+  '/2 wheeler/carbon brush for starter/RP567 Hero Honda Super Splendor Glamour Igniter Shine n m Zeus Access n m.png',
+
+  // Plug Cap (RP588) — 2-wheeler-parts-plug-cap
+  '/2 wheeler/plug cap/RP588 Hero Honda cd 100 splendor passion cd dawn.png',
+
+  // DC Horn (RP614) — 2-wheeler-parts-dc-horn
+  '/2 wheeler/dc horn product/RP614 Dc Horn For Horn 74mm 12v universal active type.png',
+
+  // Plug Wire Assembly (RP616) — 2-wheeler-parts-plug-wire-assembly
+  '/2 wheeler/plug wire assembly/RP616 Hero Honda cd 100 splendor passion cbz cd dlx.png',
+
+  // Front Stop Switch (RP635) — 2-wheeler-parts-front-stop-switch
+  '/2 wheeler/front stop switch/RP635 Hero Honda Splendor Passion Super Splendor nxg ks Shine ks Hero Pleasure Honda Aviator Het.png',
+
+  // Rear Stop Switch (RP648) — 2-wheeler-parts-rear-stop-switch
+  '/2 wheeler/rear stop switch/RP648 Hero Honda Cd 100 Sleek ss.png',
+
+  // Fuse Wire (RP676) — 2-wheeler-parts-fuse-wire
+  '/2 wheeler/fuse wire/RP676 Bajaj Pulsar 150.png',
+
 ];
 
+// Three-wheeler category images (existing supplied image set).
 export const threeWheelerImages = [
   'https://images.pexels.com/photos/34847944/pexels-photo-34847944.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   'https://images.pexels.com/photos/31848512/pexels-photo-31848512.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
@@ -78,6 +115,7 @@ export const threeWheelerImages = [
   'https://images.pexels.com/photos/4116222/pexels-photo-4116222.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
 ];
 
+// Lubrication and hand-tool images (existing supplied image set).
 export const lubricationHandToolImages = [
   'https://images.pexels.com/photos/13065691/pexels-photo-13065691.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   'https://images.pexels.com/photos/13065697/pexels-photo-13065697.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',

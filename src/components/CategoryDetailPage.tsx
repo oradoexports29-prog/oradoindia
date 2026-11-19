@@ -868,7 +868,7 @@ function CategoryDetailPage({
 
                   <img
 
-                    key={currentProduct.image}
+                    key={`${activeProduct}-${currentProduct.image}`}
 
                     src={encodeImagePath(currentProduct.image)}
 
@@ -1263,11 +1263,10 @@ function CategoryDetailPage({
 
                 {filteredProducts.map((product) => {
 
-                  const originalIndex = products.findIndex(
-
-                    (item) => item.image === product.image
-
-                  );
+                  // Use the actual product object to locate its catalogue position.
+// Multiple catalogue entries may intentionally share one image path.
+// Matching by image returns the first entry and selects the wrong card.
+                  const originalIndex = products.indexOf(product);
 
                   const isActive = activeProduct === originalIndex;
 
