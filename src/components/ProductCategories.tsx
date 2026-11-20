@@ -21,7 +21,7 @@ import {
 import {
   lubricationHandToolImages,
   threeWheelerImages,
-  twoWheelerImages,
+  twoWheelerCategoryCardImages,
 } from '@/data/productImages';
 
 interface ProductDepartment {
@@ -44,7 +44,7 @@ const departments: ProductDepartment[] = [
     description:
       'Electrical components for motorcycles and scooters, sourced directly from the ORADO product catalogue.',
     categories: twoWheelerProductCategories,
-    images: twoWheelerImages,
+    images: twoWheelerCategoryCardImages,
     icon: Bike,
     accent: 'bg-brand-red',
     viewAllHref: '#products-page-2-wheeler',

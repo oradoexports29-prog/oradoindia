@@ -98,6 +98,42 @@ export const twoWheelerImages = [
   '/2 wheeler/fuse wire/RP676 Bajaj Pulsar 150.webp',
 ];
 
+// Lightweight homepage category-card images. Full-resolution originals above remain unchanged
+// for product listings and category detail pages.
+export const twoWheelerCategoryCardImages = [
+  "/category-cards/2w/01.webp",
+  "/category-cards/2w/02.webp",
+  "/category-cards/2w/03.webp",
+  "/category-cards/2w/04.webp",
+  "/category-cards/2w/05.webp",
+  "/category-cards/2w/06.webp",
+  "/category-cards/2w/07.webp",
+  "/category-cards/2w/08.webp",
+  "https://placehold.co/900x900/FFFFFF/102747.png?text=RPS101+ACTIVA+BS6+6G+WHITE+SENSOR",
+  "/category-cards/2w/10.webp",
+  "/category-cards/2w/11.webp",
+  "/category-cards/2w/12.webp",
+  "/category-cards/2w/13.webp",
+  "/category-cards/2w/14.webp",
+  "/category-cards/2w/15.webp",
+  "/category-cards/2w/16.webp",
+  "/category-cards/2w/17.webp",
+  "/category-cards/2w/18.webp",
+  "/category-cards/2w/19.webp",
+  "https://placehold.co/900x900/FFFFFF/102747.png?text=RP527+12V+1+2W",
+  "/category-cards/2w/21.webp",
+  "/category-cards/2w/22.webp",
+  "/category-cards/2w/23.webp",
+  "/category-cards/2w/24.webp",
+  "/category-cards/2w/25.webp",
+  "/category-cards/2w/26.webp",
+  "/category-cards/2w/27.webp",
+  "/category-cards/2w/28.webp",
+  "/category-cards/2w/29.webp",
+  "/category-cards/2w/30.webp",
+  "/category-cards/2w/31.webp",
+];
+
 // Three-wheeler category images (unchanged).
 export const threeWheelerImages = [
   'https://images.pexels.com/photos/34847944/pexels-photo-34847944.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',

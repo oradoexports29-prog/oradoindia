@@ -10,6 +10,24 @@ interface CategoryCarouselProps {
   intervalMs?: number;
 }
 
+function getResponsiveImageProps(src: string) {
+  if (!src.includes('images.pexels.com')) {
+    return { src };
+  }
+
+  const makeUrl = (width: number) => {
+    const url = new URL(src);
+    url.searchParams.set('w', String(width));
+    url.searchParams.set('h', String(Math.round(width * 0.6)));
+    return url.toString();
+  };
+
+  return {
+    src: makeUrl(640),
+    srcSet: `${makeUrl(480)} 480w, ${makeUrl(640)} 640w`,
+  };
+}
+
 function chunkArray<T>(arr: T[], size: number): T[][] {
   const chunks: T[][] = [];
   for (let i = 0; i < arr.length; i += size) {
@@ -113,7 +131,12 @@ export default function CategoryCarousel({
               <div className="grid grid-cols-2 gap-2 sm:gap-3 lg:grid-cols-3">
                 {slide.map((category, catIndex) => {
                   const imageIndex =
-                    (slideIndex * columns + catIndex) % images.length;
+                    images.length > 0
+                      ? (slideIndex * columns + catIndex) % images.length
+                      : -1;
+
+                  const imageSrc =
+                    imageIndex >= 0 ? images[imageIndex] : '';
 
                   return (
                     <a
@@ -123,16 +146,18 @@ export default function CategoryCarousel({
                       className="group/card min-w-0 overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-brand-red/40 hover:shadow-md"
                     >
                       <div className="relative aspect-[5/3] overflow-hidden bg-gray-100">
-                        <img
-                          src={images[imageIndex]}
-                          alt={category.label}
-                          width={720}
-                          height={432}
-                          sizes="(max-width: 639px) 45vw, (max-width: 1023px) 45vw, 30vw"
-                          className="h-full w-full object-cover transition-transform duration-500 group-hover/card:scale-105"
-                          loading="lazy"
-                          decoding="async"
-                        />
+                        {imageSrc && (
+                          <img
+                            {...getResponsiveImageProps(imageSrc)}
+                            alt={category.label}
+                            width={720}
+                            height={432}
+                            sizes="(max-width: 639px) 45vw, (max-width: 1023px) 45vw, 30vw"
+                            className="h-full w-full object-cover transition-transform duration-500 group-hover/card:scale-105"
+                            loading="lazy"
+                            decoding="async"
+                          />
+                        )}
 
                         <div className="absolute inset-0 bg-gradient-to-t from-navy-950/60 via-transparent to-transparent opacity-80" />
 
