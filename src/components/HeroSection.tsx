@@ -9,7 +9,9 @@ import {
 
 const heroImage = '/home%20image1.png.webp';
 const heroImageSmall = '/home%20image1.png.640.webp';
-const heroImageSecondary = '/home%20image2.png.webp';
+const heroImageMedium = '/home%20image1.png.768.webp';
+const heroImageLarge = '/home%20image1.png.1024.webp';
+const heroImageSecondary = '/home%20image2.320.webp';
 
 export default function HeroSection() {
   return (
@@ -98,12 +100,12 @@ export default function HeroSection() {
             <div className="relative overflow-hidden rounded-xl border border-white/10 bg-white shadow-2xl sm:rounded-2xl">
               <img
                 src={heroImage}
-                srcSet={`${heroImageSmall} 640w, ${heroImage} 1600w`}
+                srcSet={`${heroImageSmall} 640w, ${heroImageMedium} 768w, ${heroImageLarge} 1024w, ${heroImage} 1280w`}
                 sizes="(max-width: 639px) calc(100vw - 2rem), (max-width: 1023px) calc(100vw - 3rem), 50vw"
                 width={1280}
                 height={853}
                 alt="ORADO automotive electrical components"
-                {...{ fetchpriority: 'high' }}
+                fetchPriority="high"
                 decoding="async"
                 loading="eager"
                 className="block aspect-[3/2] h-auto max-h-[420px] w-full object-contain lg:aspect-auto lg:h-[420px] lg:object-cover"

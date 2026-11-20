@@ -222,7 +222,7 @@ export default function MobileNavigation() {
             aria-label="ORADO Home"
           >
             <img
-              src="/logo.png"
+              src="/logo.webp"
               alt="ORADO"
               className="h-10 w-auto max-w-[170px] object-contain"
             />
@@ -275,7 +275,7 @@ export default function MobileNavigation() {
           >
             <div className="flex items-center justify-between border-b border-gray-200 bg-navy-900 p-4">
               <img
-                src="/logo.png"
+                src="/logo.webp"
                 alt="ORADO"
                 className="h-10 w-auto max-w-[170px] rounded bg-white px-2 object-contain"
               />
