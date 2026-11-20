@@ -14,8 +14,6 @@ import {
   ClipboardList,
   CheckCircle2,
   Clock3,
-  Headphones,
-  Zap,
   ChevronRight,
 } from 'lucide-react';
 import { companyInfo } from '@/data/navigation';

@@ -1,5 +1,5 @@
 
-import { lazy, Suspense, useCallback, useEffect, useLayoutEffect, useState } from 'react';
+import { lazy, Suspense, useEffect, useLayoutEffect, useState } from 'react';
 
 import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
@@ -9,7 +9,6 @@ import CompanyIntroduction from '@/components/CompanyIntroduction';
 import WhyChooseOrado from '@/components/WhyChooseOrado';
 import Footer from '@/components/Footer';
 import FloatingContactToolbar from '@/components/FloatingContactToolbar';
-import Logo from '@/components/Logo';
 
 import useOradoAnimations from '@/hooks/useOradoAnimations';
 
@@ -178,161 +177,14 @@ function CataloguePage() {
   );
 }
 
-function IntroAnimation({ onFinish }: { onFinish: () => void }) {
-  useEffect(() => {
-    const timer = window.setTimeout(onFinish, 2600);
-    return () => window.clearTimeout(timer);
-  }, [onFinish]);
-
-  return (
-    <div
-      className="fixed inset-0 z-[9999] flex items-center justify-center overflow-hidden bg-white px-5 text-center text-[#071d49]"
-      role="dialog"
-      aria-label="Welcome to ORADO"
-      aria-modal="true"
-    >
-      <style>{`
-        @keyframes oradoIntroLogo {
-          from {
-            opacity: 0;
-            transform: translateY(20px) scale(.92);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0) scale(1);
-          }
-        }
-
-        @keyframes oradoIntroLine {
-          from { transform: scaleX(0); }
-          to { transform: scaleX(1); }
-        }
-
-        @keyframes oradoIntroText {
-          from {
-            opacity: 0;
-            transform: translateY(10px);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-
-        .orado-intro-logo {
-          animation: oradoIntroLogo 850ms cubic-bezier(.22,1,.36,1) both;
-        }
-
-        .orado-intro-logo img,
-        .orado-intro-logo svg {
-          display: block;
-          width: 100% !important;
-          max-width: 100% !important;
-          height: auto;
-          max-height: 230px;
-          object-fit: contain;
-          margin-inline: auto;
-        }
-
-        .orado-intro-line {
-          width: 150px;
-          height: 5px;
-          margin: 26px auto 0;
-          border-radius: 999px;
-          background: #ffcc00;
-          transform-origin: center;
-          animation: oradoIntroLine 750ms ease-out 250ms both;
-        }
-
-        .orado-intro-tagline {
-          margin-top: 23px;
-          color: #071d49;
-          font-size: clamp(11px, 2vw, 15px);
-          font-weight: 800;
-          line-height: 1.8;
-          letter-spacing: .14em;
-          animation: oradoIntroText 650ms ease-out 450ms both;
-        }
-
-        .orado-intro-since {
-          margin-top: 10px;
-          color: #ed1c24;
-          font-size: 12px;
-          font-weight: 700;
-          letter-spacing: .18em;
-          animation: oradoIntroText 650ms ease-out 600ms both;
-        }
-
-        @media (max-width: 480px) {
-          .orado-intro-logo img,
-          .orado-intro-logo svg {
-            max-height: 150px;
-          }
-
-          .orado-intro-tagline {
-            letter-spacing: .07em;
-          }
-
-          .orado-intro-since {
-            font-size: 10px;
-            letter-spacing: .12em;
-          }
-        }
-
-        @media (prefers-reduced-motion: reduce) {
-          .orado-intro-logo,
-          .orado-intro-line,
-          .orado-intro-tagline,
-          .orado-intro-since {
-            animation: none !important;
-          }
-        }
-      `}</style>
-
-      <div className="w-full">
-        <div className="orado-intro-logo mx-auto w-[min(560px,88vw)]">
-          <Logo />
-        </div>
-
-        <div className="orado-intro-line" />
-
-        <p className="orado-intro-tagline">
-          TRUSTED ELECTRICAL PARTS
-        </p>
-
-        <p className="orado-intro-since">
-          ESTABLISHED 1994 · MADE IN INDIA
-        </p>
-      </div>
-
-      <button
-        type="button"
-        onClick={onFinish}
-        className="absolute right-5 top-5 rounded-md border border-[#071d49]/25 bg-white px-4 py-2 text-sm font-semibold text-[#071d49] transition hover:border-yellow-400 hover:bg-yellow-400 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-      >
-        Skip Intro
-      </button>
-    </div>
-  );
-}
-
 function App() {
   const [hash, setHash] = useState(() => window.location.hash);
 
   const [qualitySection, setQualitySection] =
     useState<QualitySection>('main');
 
-  const [showIntro, setShowIntro] = useState(false);
-
   useOradoAnimations(hash);
 
-  useEffect(() => {
-    setShowIntro(true);
-  }, []);
-
-  const finishIntro = useCallback(() => {
-    setShowIntro(false);
-  }, []);
 
   const isAboutPage =
     hash === '#about-page' || hash.startsWith('#about-');
@@ -470,8 +322,6 @@ function App() {
 
       <Footer />
       <FloatingContactToolbar />
-
-      {showIntro && <IntroAnimation onFinish={finishIntro} />}
     </div>
   );
 }

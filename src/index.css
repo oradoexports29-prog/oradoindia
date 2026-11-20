@@ -220,17 +220,25 @@
     max-width: 100%;
   }
 
-  #root main img,
-  #root section img {
-    height: auto;
-  }
-
   /* Keep long labels and headings within their containers */
   #root h1,
   #root h2,
   #root h3,
   #root p {
-    overflow-wrap: break-word;
+    overflow-wrap: anywhere;
+  }
+
+  #root main,
+  #root section,
+  #root article,
+  #root .container-max {
+    min-width: 0;
+  }
+
+  #root img,
+  #root video,
+  #root iframe {
+    max-width: 100%;
   }
 }
 

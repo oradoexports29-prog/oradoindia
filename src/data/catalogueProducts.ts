@@ -22,8 +22,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Charging Coil (Source)",
       "vehicle": "BAJAJ 12V GREEN COIL",
       "description": "BAJAJ 12V GREEN COIL",
-      "image": "/2 wheeler/charging coil/Orado rp101 Ignition Charging Coil For Bajaj 12 Volt Green Coil (16).png",
-      "thumbnail": "/2 wheeler/charging coil/Orado rp101 Ignition Charging Coil For Bajaj 12 Volt Green Coil (16).png"
+      "image": "/2 wheeler/charging coil/Orado rp101 Ignition Charging Coil For Bajaj 12 Volt Green Coil (16).webp",
+      "thumbnail": "/2 wheeler/charging coil/Orado rp101 Ignition Charging Coil For Bajaj 12 Volt Green Coil (16).webp"
     },
     {
       "partNumber": "RP102",
@@ -31,8 +31,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Charging Coil (Source)",
       "vehicle": "BAJAJ CLASSIC",
       "description": "BAJAJ CLASSIC",
-      "image": "/2 wheeler/charging coil/orado rp102 Ignition Charging Coil For Bajaj Classic (4).png",
-      "thumbnail": "/2 wheeler/charging coil/orado rp102 Ignition Charging Coil For Bajaj Classic (4).png"
+      "image": "/2 wheeler/charging coil/orado rp102 Ignition Charging Coil For Bajaj Classic (4).webp",
+      "thumbnail": "/2 wheeler/charging coil/orado rp102 Ignition Charging Coil For Bajaj Classic (4).webp"
     },
     {
       "partNumber": "RP103",
@@ -40,8 +40,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Charging Coil (Source)",
       "vehicle": "BAJAJ BRAVO",
       "description": "BAJAJ BRAVO",
-      "image": "/2 wheeler/charging coil/Orado rp103 Ignition Charging Coil For Bajaj Bravo (4).png",
-      "thumbnail": "/2 wheeler/charging coil/Orado rp103 Ignition Charging Coil For Bajaj Bravo (4).png"
+      "image": "/2 wheeler/charging coil/Orado rp103 Ignition Charging Coil For Bajaj Bravo (4).webp",
+      "thumbnail": "/2 wheeler/charging coil/Orado rp103 Ignition Charging Coil For Bajaj Bravo (4).webp"
     },
     {
       "partNumber": "RP104",
@@ -49,8 +49,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Charging Coil (Source)",
       "vehicle": "BAJAJ SUNNY",
       "description": "BAJAJ SUNNY",
-      "image": "/2 wheeler/charging coil/Orado RP104 Ignition charging coil for Bajaj sunny (8).png",
-      "thumbnail": "/2 wheeler/charging coil/Orado RP104 Ignition charging coil for Bajaj sunny (8).png"
+      "image": "/2 wheeler/charging coil/Orado RP104 Ignition charging coil for Bajaj sunny (8).webp",
+      "thumbnail": "/2 wheeler/charging coil/Orado RP104 Ignition charging coil for Bajaj sunny (8).webp"
     },
     {
       "partNumber": "RP105",
@@ -58,8 +58,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Charging Coil (Source)",
       "vehicle": "BAJAJ M-80",
       "description": "BAJAJ M-80",
-      "image": "/2 wheeler/charging coil/Orado rp105 Ignition Charging Coil For Bajaj M80 (3).png",
-      "thumbnail": "/2 wheeler/charging coil/Orado rp105 Ignition Charging Coil For Bajaj M80 (3).png"
+      "image": "/2 wheeler/charging coil/Orado rp105 Ignition Charging Coil For Bajaj M80 (3).webp",
+      "thumbnail": "/2 wheeler/charging coil/Orado rp105 Ignition Charging Coil For Bajaj M80 (3).webp"
     },
     {
       "partNumber": "RP108",
@@ -76,8 +76,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Charging Coil (Source)",
       "vehicle": "BAJAJ KB-4S",
       "description": "BAJAJ KB-4S",
-      "image": "/2 wheeler/charging coil/Orado rp109 Ignition Charging Coil For Bajaj Kb 4S (6).png",
-      "thumbnail": "/2 wheeler/charging coil/Orado rp109 Ignition Charging Coil For Bajaj Kb 4S (6).png"
+      "image": "/2 wheeler/charging coil/Orado rp109 Ignition Charging Coil For Bajaj Kb 4S (6).webp",
+      "thumbnail": "/2 wheeler/charging coil/Orado rp109 Ignition Charging Coil For Bajaj Kb 4S (6).webp"
     },
     {
       "partNumber": "RP110",
@@ -85,8 +85,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Charging Coil (Source)",
       "vehicle": "BAJAJ CALIBER",
       "description": "BAJAJ CALIBER",
-      "image": "/2 wheeler/charging coil/RP110 Bajaj Caliber (2).png",
-      "thumbnail": "/2 wheeler/charging coil/RP110 Bajaj Caliber (2).png"
+      "image": "/2 wheeler/charging coil/RP110 Bajaj Caliber (2).webp",
+      "thumbnail": "/2 wheeler/charging coil/RP110 Bajaj Caliber (2).webp"
     },
     {
       "partNumber": "RP111",
@@ -94,8 +94,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Charging Coil (Source)",
       "vehicle": "BAJAJ CALIBER UPGRADE",
       "description": "BAJAJ CALIBER UPGRADE",
-      "image": "/2 wheeler/charging coil/RP111 Bajaj Caliber Upgrade (2).png",
-      "thumbnail": "/2 wheeler/charging coil/RP111 Bajaj Caliber Upgrade (2).png"
+      "image": "/2 wheeler/charging coil/RP111 Bajaj Caliber Upgrade (2).webp",
+      "thumbnail": "/2 wheeler/charging coil/RP111 Bajaj Caliber Upgrade (2).webp"
     },
     {
       "partNumber": "RP112",
@@ -103,8 +103,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Charging Coil (Source)",
       "vehicle": "BAJAJ CALIBER CROMA",
       "description": "BAJAJ CALIBER CROMA",
-      "image": "/2 wheeler/charging coil/RP112 Bajaj Caliber Croma Charging Coil(3).png",
-      "thumbnail": "/2 wheeler/charging coil/RP112 Bajaj Caliber Croma Charging Coil(3).png"
+      "image": "/2 wheeler/charging coil/RP112 Bajaj Caliber Croma Charging Coil(3).webp",
+      "thumbnail": "/2 wheeler/charging coil/RP112 Bajaj Caliber Croma Charging Coil(3).webp"
     },
     {
       "partNumber": "RP113",
@@ -112,17 +112,17 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Charging Coil (Source)",
       "vehicle": "BAJAJ BOXER AT (NEW MODEL) AR",
       "description": "BAJAJ BOXER AT (NEW MODEL) AR",
-      "image": "/2 wheeler/charging coil/RP.113 Bajaj Boxer At New Model (4).png",
-      "thumbnail": "/2 wheeler/charging coil/RP.113 Bajaj Boxer At New Model (4).png"
+      "image": "/2 wheeler/charging coil/RP.113 Bajaj Boxer At New Model (4).webp",
+      "thumbnail": "/2 wheeler/charging coil/RP.113 Bajaj Boxer At New Model (4).webp"
     },
     {
       "partNumber": "RP116",
       "referenceNumber": null,
       "name": "Charging Coil (Source)",
-      "vehicle": "BAJAJ CT -100/PLATINA",
-      "description": "BAJAJ CT -100/PLATINA",
-      "image": "/2 wheeler/charging coil/ORADO RP116 Charging Coil For Bajaj ct 100 platina (1).png",
-      "thumbnail": "/2 wheeler/charging coil/ORADO RP116 Charging Coil For Bajaj ct 100 platina (1).png"
+      "vehicle": "BAJAJ CT - 100/PLATINA",
+      "description": "BAJAJ CT - 100/PLATINA",
+      "image": "/2 wheeler/charging coil/ORADO RP116 Charging Coil For Bajaj ct 100 platina (1).webp",
+      "thumbnail": "/2 wheeler/charging coil/ORADO RP116 Charging Coil For Bajaj ct 100 platina (1).webp"
     },
     {
       "partNumber": "RP117",
@@ -130,8 +130,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Charging Coil (Source)",
       "vehicle": "LML VESPA",
       "description": "LML VESPA",
-      "image": "/2 wheeler/charging coil/Orado rp117 Ignition Charging Coil For Lml Vespa (7).png",
-      "thumbnail": "/2 wheeler/charging coil/Orado rp117 Ignition Charging Coil For Lml Vespa (7).png"
+      "image": "/2 wheeler/charging coil/Orado rp117 Ignition Charging Coil For Lml Vespa (7).webp",
+      "thumbnail": "/2 wheeler/charging coil/Orado rp117 Ignition Charging Coil For Lml Vespa (7).webp"
     },
     {
       "partNumber": "RP118",
@@ -139,8 +139,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Charging Coil (Source)",
       "vehicle": "LML VESPA SELECT-II / STAR / NV SPL / NV EXPRESS",
       "description": "LML VESPA SELECT-II / STAR / NV SPL / NV EXPRESS",
-      "image": "/2 wheeler/charging coil/Orado rp118 Ignition Charging Coil For Lml vespa select 11 star nv spl nv express (3).png",
-      "thumbnail": "/2 wheeler/charging coil/Orado rp118 Ignition Charging Coil For Lml vespa select 11 star nv spl nv express (3).png"
+      "image": "/2 wheeler/charging coil/Orado rp118 Ignition Charging Coil For Lml vespa select 11 star nv spl nv express (3).webp",
+      "thumbnail": "/2 wheeler/charging coil/Orado rp118 Ignition Charging Coil For Lml vespa select 11 star nv spl nv express (3).webp"
     },
     {
       "partNumber": "RP118KJ",
@@ -148,8 +148,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Charging Coil (Source)",
       "vehicle": "VESPA 4S N/M",
       "description": "VESPA 4S N/M",
-      "image": "/2 wheeler/charging coil/RP118KJ Black Coil Component with Woven Wire Leads.png",
-      "thumbnail": "/2 wheeler/charging coil/RP118KJ Black Coil Component with Woven Wire Leads.png"
+      "image": "/2 wheeler/charging coil/RP118KJ Black Coil Component with Woven Wire Leads.webp",
+      "thumbnail": "/2 wheeler/charging coil/RP118KJ Black Coil Component with Woven Wire Leads.webp"
     },
     {
       "partNumber": "RP119",
@@ -157,8 +157,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Charging Coil (Source)",
       "vehicle": "RAJDOOT ELECTRONIC-12V",
       "description": "RAJDOOT ELECTRONIC-12V",
-      "image": "/2 wheeler/charging coil/Orado rp119 Ignition Charging Coil For Rajdoot Electronic 12v (11).png",
-      "thumbnail": "/2 wheeler/charging coil/Orado rp119 Ignition Charging Coil For Rajdoot Electronic 12v (11).png"
+      "image": "/2 wheeler/charging coil/Orado rp119 Ignition Charging Coil For Rajdoot Electronic 12v (11).webp",
+      "thumbnail": "/2 wheeler/charging coil/Orado rp119 Ignition Charging Coil For Rajdoot Electronic 12v (11).webp"
     },
     {
       "partNumber": "RP120",
@@ -166,8 +166,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Charging Coil (Source)",
       "vehicle": "HERO HONDA CD-100",
       "description": "HERO HONDA CD-100",
-      "image": "/2 wheeler/charging coil/Orado rp120 Ignition Charging Coil For Hero Honda Cd 100 (11).png",
-      "thumbnail": "/2 wheeler/charging coil/Orado rp120 Ignition Charging Coil For Hero Honda Cd 100 (11).png"
+      "image": "/2 wheeler/charging coil/Orado rp120 Ignition Charging Coil For Hero Honda Cd 100 (11).webp",
+      "thumbnail": "/2 wheeler/charging coil/Orado rp120 Ignition Charging Coil For Hero Honda Cd 100 (11).webp"
     },
     {
       "partNumber": "RP121",
@@ -175,8 +175,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Charging Coil (Source)",
       "vehicle": "HERO HONDA SS",
       "description": "HERO HONDA SS",
-      "image": "/2 wheeler/charging coil/Orado rp121 Ignition Charging Coil For Hero Honda ss (12).png",
-      "thumbnail": "/2 wheeler/charging coil/Orado rp121 Ignition Charging Coil For Hero Honda ss (12).png"
+      "image": "/2 wheeler/charging coil/Orado rp121 Ignition Charging Coil For Hero Honda ss (12).webp",
+      "thumbnail": "/2 wheeler/charging coil/Orado rp121 Ignition Charging Coil For Hero Honda ss (12).webp"
     },
     {
       "partNumber": "RP122",
@@ -184,8 +184,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Charging Coil (Source)",
       "vehicle": "HERO HONDA SPLENDOR OLD / KINETIC BOSS",
       "description": "HERO HONDA SPLENDOR OLD / KINETIC BOSS",
-      "image": "/2 wheeler/charging coil/Orado rp122 Ignition Charging Coil For Hero Honda Splendor old kinetic boss (16).png",
-      "thumbnail": "/2 wheeler/charging coil/Orado rp122 Ignition Charging Coil For Hero Honda Splendor old kinetic boss (16).png"
+      "image": "/2 wheeler/charging coil/Orado rp122 Ignition Charging Coil For Hero Honda Splendor old kinetic boss (16).webp",
+      "thumbnail": "/2 wheeler/charging coil/Orado rp122 Ignition Charging Coil For Hero Honda Splendor old kinetic boss (16).webp"
     },
     {
       "partNumber": "RP123",
@@ -193,8 +193,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Charging Coil (Source)",
       "vehicle": "HERO HONDA SPLENDOR NEW MODEL / PASSION / KINETIC MARVEL",
       "description": "HERO HONDA SPLENDOR NEW MODEL / PASSION / KINETIC MARVEL",
-      "image": "/2 wheeler/charging coil/ORADO RP123 Charging Coil For Hero Hnd Splendor new model passion kinetic marvel  (8).png",
-      "thumbnail": "/2 wheeler/charging coil/ORADO RP123 Charging Coil For Hero Hnd Splendor new model passion kinetic marvel  (8).png"
+      "image": "/2 wheeler/charging coil/ORADO RP123 Charging Coil For Hero Hnd Splendor new model passion kinetic marvel  (8).webp",
+      "thumbnail": "/2 wheeler/charging coil/ORADO RP123 Charging Coil For Hero Hnd Splendor new model passion kinetic marvel  (8).webp"
     },
     {
       "partNumber": "RP124",
@@ -211,8 +211,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Charging Coil (Source)",
       "vehicle": "TVS SUZUKI",
       "description": "TVS SUZUKI",
-      "image": "/2 wheeler/charging coil/Orado rp125 Ignition Charging Coil For Tvs Suzuki (18).png",
-      "thumbnail": "/2 wheeler/charging coil/Orado rp125 Ignition Charging Coil For Tvs Suzuki (18).png"
+      "image": "/2 wheeler/charging coil/Orado rp125 Ignition Charging Coil For Tvs Suzuki (18).webp",
+      "thumbnail": "/2 wheeler/charging coil/Orado rp125 Ignition Charging Coil For Tvs Suzuki (18).webp"
     },
     {
       "partNumber": "RP126",
@@ -220,8 +220,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Charging Coil (Source)",
       "vehicle": "TVS SUZUKI SAMURAI / MAX-100",
       "description": "TVS SUZUKI SAMURAI / MAX-100",
-      "image": "/2 wheeler/charging coil/Orado rp126 Ignition Charging Coil For Tvs Suzuki Samurai max 100 (12).png",
-      "thumbnail": "/2 wheeler/charging coil/Orado rp126 Ignition Charging Coil For Tvs Suzuki Samurai max 100 (12).png"
+      "image": "/2 wheeler/charging coil/Orado rp126 Ignition Charging Coil For Tvs Suzuki Samurai max 100 (12).webp",
+      "thumbnail": "/2 wheeler/charging coil/Orado rp126 Ignition Charging Coil For Tvs Suzuki Samurai max 100 (12).webp"
     },
     {
       "partNumber": "RP129",
@@ -229,8 +229,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Charging Coil (Source)",
       "vehicle": "TVS SCOOTY / SUPER XL",
       "description": "TVS SCOOTY / SUPER XL",
-      "image": "/2 wheeler/charging coil/Orado rp129 Ignition Charging Coil For Tvs Scooty super xl (1).png",
-      "thumbnail": "/2 wheeler/charging coil/Orado rp129 Ignition Charging Coil For Tvs Scooty super xl (1).png"
+      "image": "/2 wheeler/charging coil/Orado rp129 Ignition Charging Coil For Tvs Scooty super xl (1).webp",
+      "thumbnail": "/2 wheeler/charging coil/Orado rp129 Ignition Charging Coil For Tvs Scooty super xl (1).webp"
     },
     {
       "partNumber": "RP131",
@@ -238,8 +238,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Charging Coil (Source)",
       "vehicle": "YAMAHA RX-100",
       "description": "YAMAHA RX-100",
-      "image": "/2 wheeler/charging coil/Orado rp131 Ignition Charging Coil For Yamaha Rx 100 (3).png",
-      "thumbnail": "/2 wheeler/charging coil/Orado rp131 Ignition Charging Coil For Yamaha Rx 100 (3).png"
+      "image": "/2 wheeler/charging coil/Orado rp131 Ignition Charging Coil For Yamaha Rx 100 (3).webp",
+      "thumbnail": "/2 wheeler/charging coil/Orado rp131 Ignition Charging Coil For Yamaha Rx 100 (3).webp"
     },
     {
       "partNumber": "RP132",
@@ -265,8 +265,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Charging Coil (Source)",
       "vehicle": "KINETIC HONDA",
       "description": "KINETIC HONDA",
-      "image": "/2 wheeler/charging coil/Orado rp134 Ignition Charging Coil For Kinetic Honda (16).png",
-      "thumbnail": "/2 wheeler/charging coil/Orado rp134 Ignition Charging Coil For Kinetic Honda (16).png"
+      "image": "/2 wheeler/charging coil/Orado rp134 Ignition Charging Coil For Kinetic Honda (16).webp",
+      "thumbnail": "/2 wheeler/charging coil/Orado rp134 Ignition Charging Coil For Kinetic Honda (16).webp"
     },
     {
       "partNumber": "RP135",
@@ -274,8 +274,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Charging Coil (Source)",
       "vehicle": "V.I.P 240 DX.ST. (POINT TYPE MOPED)",
       "description": "V.I.P 240 DX.ST. (POINT TYPE MOPED)",
-      "image": "/2 wheeler/charging coil/Orado rp135 Ignition Charging Coil For V.i.p 240 Dx St Point type Moped (4).png",
-      "thumbnail": "/2 wheeler/charging coil/Orado rp135 Ignition Charging Coil For V.i.p 240 Dx St Point type Moped (4).png"
+      "image": "/2 wheeler/charging coil/Orado rp135 Ignition Charging Coil For V.i.p 240 Dx St Point type Moped (4).webp",
+      "thumbnail": "/2 wheeler/charging coil/Orado rp135 Ignition Charging Coil For V.i.p 240 Dx St Point type Moped (4).webp"
     },
     {
       "partNumber": "RP136",
@@ -283,8 +283,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Charging Coil (Source)",
       "vehicle": "PANTHER ELECTRONIC",
       "description": "PANTHER ELECTRONIC",
-      "image": "/2 wheeler/charging coil/RP136 Panther Electronic (3).png",
-      "thumbnail": "/2 wheeler/charging coil/RP136 Panther Electronic (3).png"
+      "image": "/2 wheeler/charging coil/RP136 Panther Electronic (3).webp",
+      "thumbnail": "/2 wheeler/charging coil/RP136 Panther Electronic (3).webp"
     },
     {
       "partNumber": "RP137",
@@ -292,8 +292,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Charging Coil (Source)",
       "vehicle": "HERO GIZMO",
       "description": "HERO GIZMO",
-      "image": "/2 wheeler/charging coil/Orado rp137 Ignition Charging Coil For Hero Gizmo (2).png",
-      "thumbnail": "/2 wheeler/charging coil/Orado rp137 Ignition Charging Coil For Hero Gizmo (2).png"
+      "image": "/2 wheeler/charging coil/Orado rp137 Ignition Charging Coil For Hero Gizmo (2).webp",
+      "thumbnail": "/2 wheeler/charging coil/Orado rp137 Ignition Charging Coil For Hero Gizmo (2).webp"
     },
     {
       "partNumber": "RP138",
@@ -310,8 +310,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Charging Coil (Source)",
       "vehicle": "BULLET ELECTRA / AVL / THUNDER",
       "description": "BULLET ELECTRA / AVL / THUNDER",
-      "image": "/2 wheeler/charging coil/Orado rp140 Ignition Charging Coil For Bullet Electra AVL Thunder (4).png",
-      "thumbnail": "/2 wheeler/charging coil/Orado rp140 Ignition Charging Coil For Bullet Electra AVL Thunder (4).png"
+      "image": "/2 wheeler/charging coil/Orado rp140 Ignition Charging Coil For Bullet Electra AVL Thunder (4).webp",
+      "thumbnail": "/2 wheeler/charging coil/Orado rp140 Ignition Charging Coil For Bullet Electra AVL Thunder (4).webp"
     }
   ],
   "2-wheeler-parts-lt-coils-light": [
@@ -321,8 +321,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "L.T. Coils (Light)",
       "vehicle": "BAJAJ 12V (SET OF TWO)",
       "description": "BAJAJ 12V (SET OF TWO)",
-      "image": "/2 wheeler/lt coil/RP141 Ignition Lt Coil For Bajaj 12v set of two .png",
-      "thumbnail": "/2 wheeler/lt coil/RP141 Ignition Lt Coil For Bajaj 12v set of two .png"
+      "image": "/2 wheeler/lt coil/RP141 Ignition Lt Coil For Bajaj 12v set of two .webp",
+      "thumbnail": "/2 wheeler/lt coil/RP141 Ignition Lt Coil For Bajaj 12v set of two .webp"
     },
     {
       "partNumber": "RP142",
@@ -330,8 +330,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "L.T. Coils (Light)",
       "vehicle": "BAJAJ 12V I NO. COIL",
       "description": "BAJAJ 12V I NO. COIL",
-      "image": "/2 wheeler/lt coil/RP142 Ignition Lt Coil For Bajaj 12v I no coil .png",
-      "thumbnail": "/2 wheeler/lt coil/RP142 Ignition Lt Coil For Bajaj 12v I no coil .png"
+      "image": "/2 wheeler/lt coil/RP142 Ignition Lt Coil For Bajaj 12v I no coil .webp",
+      "thumbnail": "/2 wheeler/lt coil/RP142 Ignition Lt Coil For Bajaj 12v I no coil .webp"
     },
     {
       "partNumber": "RP143",
@@ -339,8 +339,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "L.T. Coils (Light)",
       "vehicle": "BAJAJ 12V II NO. COIL",
       "description": "BAJAJ 12V II NO. COIL",
-      "image": "/2 wheeler/lt coil/RP143 Ignition Lt Coil For Bajaj 12v II no coil .png",
-      "thumbnail": "/2 wheeler/lt coil/RP143 Ignition Lt Coil For Bajaj 12v II no coil .png"
+      "image": "/2 wheeler/lt coil/RP143 Ignition Lt Coil For Bajaj 12v II no coil .webp",
+      "thumbnail": "/2 wheeler/lt coil/RP143 Ignition Lt Coil For Bajaj 12v II no coil .webp"
     },
     {
       "partNumber": "RP144",
@@ -348,8 +348,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "L.T. Coils (Light)",
       "vehicle": "BAJAJ 6V I NO. COIL",
       "description": "BAJAJ 6V I NO. COIL",
-      "image": "/2 wheeler/lt coil/RP144 Ignition Lt Coil For Bajaj 6v I no coil .png",
-      "thumbnail": "/2 wheeler/lt coil/RP144 Ignition Lt Coil For Bajaj 6v I no coil .png"
+      "image": "/2 wheeler/lt coil/RP144 Ignition Lt Coil For Bajaj 6v I no coil .webp",
+      "thumbnail": "/2 wheeler/lt coil/RP144 Ignition Lt Coil For Bajaj 6v I no coil .webp"
     },
     {
       "partNumber": "RP145",
@@ -357,8 +357,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "L.T. Coils (Light)",
       "vehicle": "BAJAJ 6V II NO. COIL",
       "description": "BAJAJ 6V II NO. COIL",
-      "image": "/2 wheeler/lt coil/RP145 Ignition Lt Coil For Bajaj 6v II no coil .png",
-      "thumbnail": "/2 wheeler/lt coil/RP145 Ignition Lt Coil For Bajaj 6v II no coil .png"
+      "image": "/2 wheeler/lt coil/RP145 Ignition Lt Coil For Bajaj 6v II no coil .webp",
+      "thumbnail": "/2 wheeler/lt coil/RP145 Ignition Lt Coil For Bajaj 6v II no coil .webp"
     },
     {
       "partNumber": "RP146",
@@ -366,8 +366,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "L.T. Coils (Light)",
       "vehicle": "BAJAJ 6V III NO. COIL",
       "description": "BAJAJ 6V III NO. COIL",
-      "image": "/2 wheeler/lt coil/RP146 Ignition Lt Coil For Bajaj 6v III no coil .png",
-      "thumbnail": "/2 wheeler/lt coil/RP146 Ignition Lt Coil For Bajaj 6v III no coil .png"
+      "image": "/2 wheeler/lt coil/RP146 Ignition Lt Coil For Bajaj 6v III no coil .webp",
+      "thumbnail": "/2 wheeler/lt coil/RP146 Ignition Lt Coil For Bajaj 6v III no coil .webp"
     },
     {
       "partNumber": "RP151",
@@ -384,8 +384,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "L.T. Coils (Light)",
       "vehicle": "BAJAJ KB-100",
       "description": "BAJAJ KB-100",
-      "image": "/2 wheeler/lt coil/RP152 Ignition Lt Coil For Bajaj Kb 100 .png",
-      "thumbnail": "/2 wheeler/lt coil/RP152 Ignition Lt Coil For Bajaj Kb 100 .png"
+      "image": "/2 wheeler/lt coil/RP152 Ignition Lt Coil For Bajaj Kb 100 .webp",
+      "thumbnail": "/2 wheeler/lt coil/RP152 Ignition Lt Coil For Bajaj Kb 100 .webp"
     },
     {
       "partNumber": "RP153",
@@ -393,8 +393,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "L.T. Coils (Light)",
       "vehicle": "BAJAJ KB-4S",
       "description": "BAJAJ KB-4S",
-      "image": "/2 wheeler/lt coil/RP153 Ignition Lt Coil For Bajaj Kb 4s .png",
-      "thumbnail": "/2 wheeler/lt coil/RP153 Ignition Lt Coil For Bajaj Kb 4s .png"
+      "image": "/2 wheeler/lt coil/RP153 Ignition Lt Coil For Bajaj Kb 4s .webp",
+      "thumbnail": "/2 wheeler/lt coil/RP153 Ignition Lt Coil For Bajaj Kb 4s .webp"
     },
     {
       "partNumber": "RP154",
@@ -402,8 +402,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "L.T. Coils (Light)",
       "vehicle": "BAJAJ KB-4S NEW MODEL / BOXER / AT / CT",
       "description": "BAJAJ KB-4S NEW MODEL / BOXER / AT / CT",
-      "image": "/2 wheeler/lt coil/RP154 Ignition Lt Coil Fit for Bajaj Kb 4s New Model Boxer at Ct .png",
-      "thumbnail": "/2 wheeler/lt coil/RP154 Ignition Lt Coil Fit for Bajaj Kb 4s New Model Boxer at Ct .png"
+      "image": "/2 wheeler/lt coil/RP154 Ignition Lt Coil Fit for Bajaj Kb 4s New Model Boxer at Ct .webp",
+      "thumbnail": "/2 wheeler/lt coil/RP154 Ignition Lt Coil Fit for Bajaj Kb 4s New Model Boxer at Ct .webp"
     },
     {
       "partNumber": "RP155",
@@ -411,8 +411,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "L.T. Coils (Light)",
       "vehicle": "BAJAJ KB-4S BOXER",
       "description": "BAJAJ KB-4S BOXER",
-      "image": "/2 wheeler/lt coil/RP155 Ignition Lt Coil For Bajaj Kb 4s Boxer .jpg",
-      "thumbnail": "/2 wheeler/lt coil/RP155 Ignition Lt Coil For Bajaj Kb 4s Boxer .jpg"
+      "image": "/2 wheeler/lt coil/RP155 Ignition Lt Coil For Bajaj Kb 4s Boxer .webp",
+      "thumbnail": "/2 wheeler/lt coil/RP155 Ignition Lt Coil For Bajaj Kb 4s Boxer .webp"
     },
     {
       "partNumber": "RP156",
@@ -420,8 +420,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "L.T. Coils (Light)",
       "vehicle": "BAJAJ KB-4S BOXER AT",
       "description": "BAJAJ KB-4S BOXER AT",
-      "image": "/2 wheeler/lt coil/RP156 Ignition Lt Coil Fit for Bajaj Kb 4s Boxer at .jpg",
-      "thumbnail": "/2 wheeler/lt coil/RP156 Ignition Lt Coil Fit for Bajaj Kb 4s Boxer at .jpg"
+      "image": "/2 wheeler/lt coil/RP156 Ignition Lt Coil Fit for Bajaj Kb 4s Boxer at .webp",
+      "thumbnail": "/2 wheeler/lt coil/RP156 Ignition Lt Coil Fit for Bajaj Kb 4s Boxer at .webp"
     },
     {
       "partNumber": "RP157",
@@ -429,8 +429,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "L.T. Coils (Light)",
       "vehicle": "BAJAJ CALIBER",
       "description": "BAJAJ CALIBER",
-      "image": "/2 wheeler/lt coil/RP157 Ignition Lt Coil Fit for Bajaj Caliber .png",
-      "thumbnail": "/2 wheeler/lt coil/RP157 Ignition Lt Coil Fit for Bajaj Caliber .png"
+      "image": "/2 wheeler/lt coil/RP157 Ignition Lt Coil Fit for Bajaj Caliber .webp",
+      "thumbnail": "/2 wheeler/lt coil/RP157 Ignition Lt Coil Fit for Bajaj Caliber .webp"
     },
     {
       "partNumber": "RP158",
@@ -438,8 +438,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "L.T. Coils (Light)",
       "vehicle": "BAJAJ CALIBER CROMA (FOUR HOLE)",
       "description": "BAJAJ CALIBER CROMA (FOUR HOLE)",
-      "image": "/2 wheeler/lt coil/RP158 Ignition Lt Coil Fit for Bajaj Caliber Croma Four Hole .png",
-      "thumbnail": "/2 wheeler/lt coil/RP158 Ignition Lt Coil Fit for Bajaj Caliber Croma Four Hole .png"
+      "image": "/2 wheeler/lt coil/RP158 Ignition Lt Coil Fit for Bajaj Caliber Croma Four Hole .webp",
+      "thumbnail": "/2 wheeler/lt coil/RP158 Ignition Lt Coil Fit for Bajaj Caliber Croma Four Hole .webp"
     },
     {
       "partNumber": "RP159",
@@ -447,8 +447,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "L.T. Coils (Light)",
       "vehicle": "BAJAJ CALIBER UPGRADE",
       "description": "BAJAJ CALIBER UPGRADE",
-      "image": "/2 wheeler/lt coil/RP159  Ignition LT Coil Fit for Bajaj Caliber Upgrade Motorcycle .png",
-      "thumbnail": "/2 wheeler/lt coil/RP159  Ignition LT Coil Fit for Bajaj Caliber Upgrade Motorcycle .png"
+      "image": "/2 wheeler/lt coil/RP159  Ignition LT Coil Fit for Bajaj Caliber Upgrade Motorcycle .webp",
+      "thumbnail": "/2 wheeler/lt coil/RP159  Ignition LT Coil Fit for Bajaj Caliber Upgrade Motorcycle .webp"
     },
     {
       "partNumber": "RP159JS",
@@ -456,8 +456,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "L.T. Coils (Light)",
       "vehicle": "BAJAJ CT-100",
       "description": "BAJAJ CT-100",
-      "image": "/2 wheeler/lt coil/RP159JS Bajaj Ct 100 .png",
-      "thumbnail": "/2 wheeler/lt coil/RP159JS Bajaj Ct 100 .png"
+      "image": "/2 wheeler/lt coil/RP159JS Bajaj Ct 100 .webp",
+      "thumbnail": "/2 wheeler/lt coil/RP159JS Bajaj Ct 100 .webp"
     },
     {
       "partNumber": "RP160",
@@ -474,8 +474,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "L.T. Coils (Light)",
       "vehicle": "HERO HONDA",
       "description": "HERO HONDA",
-      "image": "/2 wheeler/lt coil/RP161 Ignition Lt Coil For Hero Honda .png",
-      "thumbnail": "/2 wheeler/lt coil/RP161 Ignition Lt Coil For Hero Honda .png"
+      "image": "/2 wheeler/lt coil/RP161 Ignition Lt Coil For Hero Honda .webp",
+      "thumbnail": "/2 wheeler/lt coil/RP161 Ignition Lt Coil For Hero Honda .webp"
     },
     {
       "partNumber": "RP162",
@@ -483,8 +483,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "L.T. Coils (Light)",
       "vehicle": "HERO HONDA SS",
       "description": "HERO HONDA SS",
-      "image": "/2 wheeler/lt coil/RP162 Lt Coil For Hero Hnd ss .png",
-      "thumbnail": "/2 wheeler/lt coil/RP162 Lt Coil For Hero Hnd ss .png"
+      "image": "/2 wheeler/lt coil/RP162 Lt Coil For Hero Hnd ss .webp",
+      "thumbnail": "/2 wheeler/lt coil/RP162 Lt Coil For Hero Hnd ss .webp"
     },
     {
       "partNumber": "RP163",
@@ -492,8 +492,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "L.T. Coils (Light)",
       "vehicle": "HERO HONDA SPLENDOR (TWO HOLE FITTING)",
       "description": "HERO HONDA SPLENDOR (TWO HOLE FITTING)",
-      "image": "/2 wheeler/lt coil/RP163 Ignition Lt Coil For Hero Honda Splendor two hole fitting .png",
-      "thumbnail": "/2 wheeler/lt coil/RP163 Ignition Lt Coil For Hero Honda Splendor two hole fitting .png"
+      "image": "/2 wheeler/lt coil/RP163 Ignition Lt Coil For Hero Honda Splendor two hole fitting .webp",
+      "thumbnail": "/2 wheeler/lt coil/RP163 Ignition Lt Coil For Hero Honda Splendor two hole fitting .webp"
     },
     {
       "partNumber": "RP164",
@@ -501,15 +501,15 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "L.T. Coils (Light)",
       "vehicle": "HERO HONDA SPLENDOR / PASSION (FOUR HOLE FITTING)",
       "description": "HERO HONDA SPLENDOR / PASSION (FOUR HOLE FITTING)",
-      "image": "/2 wheeler/lt coil/RP164 Ignition Lt Coil For Hero Honda Splendor passion four hole fitting .png",
-      "thumbnail": "/2 wheeler/lt coil/RP164 Ignition Lt Coil For Hero Honda Splendor passion four hole fitting .png"
+      "image": "/2 wheeler/lt coil/RP164 Ignition Lt Coil For Hero Honda Splendor passion four hole fitting .webp",
+      "thumbnail": "/2 wheeler/lt coil/RP164 Ignition Lt Coil For Hero Honda Splendor passion four hole fitting .webp"
     },
     {
       "partNumber": "RP165",
       "referenceNumber": null,
       "name": "L.T. Coils (Light)",
-      "vehicle": "IND-SUZUKI 6V",
-      "description": "IND-SUZUKI 6V",
+      "vehicle": "IND- SUZUKI 6V",
+      "description": "IND- SUZUKI 6V",
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP165+IND+SUZUKI+6V",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP165+IND+SUZUKI+6V"
     },
@@ -519,8 +519,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "L.T. Coils (Light)",
       "vehicle": "IND-SUZUKI 12V",
       "description": "IND-SUZUKI 12V",
-      "image": "/2 wheeler/lt coil/RP166 Ignition Lt Coil For Ind suzuki 12v .png",
-      "thumbnail": "/2 wheeler/lt coil/RP166 Ignition Lt Coil For Ind suzuki 12v .png"
+      "image": "/2 wheeler/lt coil/RP166 Ignition Lt Coil For Ind suzuki 12v .webp",
+      "thumbnail": "/2 wheeler/lt coil/RP166 Ignition Lt Coil For Ind suzuki 12v .webp"
     },
     {
       "partNumber": "RP167",
@@ -528,8 +528,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "L.T. Coils (Light)",
       "vehicle": "SUZUKI SAMURAI / MAX-100",
       "description": "SUZUKI SAMURAI / MAX-100",
-      "image": "/2 wheeler/lt coil/RP167 Ignition Lt Coil For Suzuki samurai max 100 .jpg",
-      "thumbnail": "/2 wheeler/lt coil/RP167 Ignition Lt Coil For Suzuki samurai max 100 .jpg"
+      "image": "/2 wheeler/lt coil/RP167 Ignition Lt Coil For Suzuki samurai max 100 .webp",
+      "thumbnail": "/2 wheeler/lt coil/RP167 Ignition Lt Coil For Suzuki samurai max 100 .webp"
     },
     {
       "partNumber": "RP168",
@@ -537,8 +537,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "L.T. Coils (Light)",
       "vehicle": "YAMAHA RX - 100",
       "description": "YAMAHA RX - 100",
-      "image": "/2 wheeler/lt coil/RP168 Ignition Lt Coil For Yamaha Rx 100 .png",
-      "thumbnail": "/2 wheeler/lt coil/RP168 Ignition Lt Coil For Yamaha Rx 100 .png"
+      "image": "/2 wheeler/lt coil/RP168 Ignition Lt Coil For Yamaha Rx 100 .webp",
+      "thumbnail": "/2 wheeler/lt coil/RP168 Ignition Lt Coil For Yamaha Rx 100 .webp"
     },
     {
       "partNumber": "RP169",
@@ -546,8 +546,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "L.T. Coils (Light)",
       "vehicle": "KINETIC HONDA / BOSS / MARVEL",
       "description": "KINETIC HONDA / BOSS / MARVEL",
-      "image": "/2 wheeler/lt coil/RP169  Ignition LT Coil Fit for Kinetic Honda Boss Marvel Scooter .png",
-      "thumbnail": "/2 wheeler/lt coil/RP169  Ignition LT Coil Fit for Kinetic Honda Boss Marvel Scooter .png"
+      "image": "/2 wheeler/lt coil/RP169  Ignition LT Coil Fit for Kinetic Honda Boss Marvel Scooter .webp",
+      "thumbnail": "/2 wheeler/lt coil/RP169  Ignition LT Coil Fit for Kinetic Honda Boss Marvel Scooter .webp"
     },
     {
       "partNumber": "RP170",
@@ -555,8 +555,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "L.T. Coils (Light)",
       "vehicle": "LML VESPA COIL NO. 1",
       "description": "LML VESPA COIL NO. 1",
-      "image": "/2 wheeler/lt coil/RP170  Ignition LT Coil No. 1 Fit for LML Vespa Scooter .png",
-      "thumbnail": "/2 wheeler/lt coil/RP170  Ignition LT Coil No. 1 Fit for LML Vespa Scooter .png"
+      "image": "/2 wheeler/lt coil/RP170  Ignition LT Coil No. 1 Fit for LML Vespa Scooter .webp",
+      "thumbnail": "/2 wheeler/lt coil/RP170  Ignition LT Coil No. 1 Fit for LML Vespa Scooter .webp"
     },
     {
       "partNumber": "RP171",
@@ -564,8 +564,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "L.T. Coils (Light)",
       "vehicle": "LML VESPA COIL NO. 2 & 4",
       "description": "LML VESPA COIL NO. 2 & 4",
-      "image": "/2 wheeler/lt coil/RP171 Ignition LT Coil No. 2  4 Fit for LML Vespa Scooter .png",
-      "thumbnail": "/2 wheeler/lt coil/RP171 Ignition LT Coil No. 2  4 Fit for LML Vespa Scooter .png"
+      "image": "/2 wheeler/lt coil/RP171 Ignition LT Coil No. 2  4 Fit for LML Vespa Scooter .webp",
+      "thumbnail": "/2 wheeler/lt coil/RP171 Ignition LT Coil No. 2  4 Fit for LML Vespa Scooter .webp"
     },
     {
       "partNumber": "RP172",
@@ -573,8 +573,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "L.T. Coils (Light)",
       "vehicle": "LML VESPA COIL NO.3",
       "description": "LML VESPA COIL NO.3",
-      "image": "/2 wheeler/lt coil/RP172  Ignition LT Coil No. 3 Fit for LML Vespa Scooter .png",
-      "thumbnail": "/2 wheeler/lt coil/RP172  Ignition LT Coil No. 3 Fit for LML Vespa Scooter .png"
+      "image": "/2 wheeler/lt coil/RP172  Ignition LT Coil No. 3 Fit for LML Vespa Scooter .webp",
+      "thumbnail": "/2 wheeler/lt coil/RP172  Ignition LT Coil No. 3 Fit for LML Vespa Scooter .webp"
     },
     {
       "partNumber": "RP173",
@@ -582,8 +582,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "L.T. Coils (Light)",
       "vehicle": "LML VESPA (SET OF 4)",
       "description": "LML VESPA (SET OF 4)",
-      "image": "/2 wheeler/lt coil/RP173 lML Vespa Set of 4 .png",
-      "thumbnail": "/2 wheeler/lt coil/RP173 lML Vespa Set of 4 .png"
+      "image": "/2 wheeler/lt coil/RP173 lML Vespa Set of 4 .webp",
+      "thumbnail": "/2 wheeler/lt coil/RP173 lML Vespa Set of 4 .webp"
     },
     {
       "partNumber": "RP174",
@@ -600,8 +600,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "L.T. Coils (Light)",
       "vehicle": "TVS SCOOTY / SUPER XL ( MOPED )",
       "description": "TVS SCOOTY / SUPER XL ( MOPED )",
-      "image": "/2 wheeler/lt coil/RP175  Ignition LT Coil Fit for TVS Scooty Super XL Moped Scooter .png",
-      "thumbnail": "/2 wheeler/lt coil/RP175  Ignition LT Coil Fit for TVS Scooty Super XL Moped Scooter .png"
+      "image": "/2 wheeler/lt coil/RP175  Ignition LT Coil Fit for TVS Scooty Super XL Moped Scooter .webp",
+      "thumbnail": "/2 wheeler/lt coil/RP175  Ignition LT Coil Fit for TVS Scooty Super XL Moped Scooter .webp"
     },
     {
       "partNumber": "RP176",
@@ -609,8 +609,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "L.T. Coils (Light)",
       "vehicle": "V.I.P 240 DX ( MOPED )",
       "description": "V.I.P 240 DX ( MOPED )",
-      "image": "/2 wheeler/lt coil/RP176 Ignition Lt Coil For Vip 240 Dx Moped .jpg",
-      "thumbnail": "/2 wheeler/lt coil/RP176 Ignition Lt Coil For Vip 240 Dx Moped .jpg"
+      "image": "/2 wheeler/lt coil/RP176 Ignition Lt Coil For Vip 240 Dx Moped .webp",
+      "thumbnail": "/2 wheeler/lt coil/RP176 Ignition Lt Coil For Vip 240 Dx Moped .webp"
     },
     {
       "partNumber": "RP177",
@@ -618,8 +618,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "L.T. Coils (Light)",
       "vehicle": "HERO GIZMO ( MOPED )",
       "description": "HERO GIZMO ( MOPED )",
-      "image": "/2 wheeler/lt coil/RP177  Ignition L.T Coil Fit For Hero Gizmo Moped 12V .png",
-      "thumbnail": "/2 wheeler/lt coil/RP177  Ignition L.T Coil Fit For Hero Gizmo Moped 12V .png"
+      "image": "/2 wheeler/lt coil/RP177  Ignition L.T Coil Fit For Hero Gizmo Moped 12V .webp",
+      "thumbnail": "/2 wheeler/lt coil/RP177  Ignition L.T Coil Fit For Hero Gizmo Moped 12V .webp"
     },
     {
       "partNumber": "RP178",
@@ -627,8 +627,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "L.T. Coils (Light)",
       "vehicle": "HERO PANTHER ( MOPED )",
       "description": "HERO PANTHER ( MOPED )",
-      "image": "/2 wheeler/lt coil/RP178  Ignition L.T Coil Fit For Hero Panther Moped .png",
-      "thumbnail": "/2 wheeler/lt coil/RP178  Ignition L.T Coil Fit For Hero Panther Moped .png"
+      "image": "/2 wheeler/lt coil/RP178  Ignition L.T Coil Fit For Hero Panther Moped .webp",
+      "thumbnail": "/2 wheeler/lt coil/RP178  Ignition L.T Coil Fit For Hero Panther Moped .webp"
     }
   ],
   "2-wheeler-parts-pick-up-coil-pulsar": [
@@ -638,8 +638,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "BAJAJ 12V",
       "description": "BAJAJ 12V",
-      "image": "/2 wheeler/pickup coil/RP182%20Ignition%20Pickup%20Coil%20For%20Bajaj%2012v%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP182%20Ignition%20Pickup%20Coil%20For%20Bajaj%2012v%20.png"
+      "image": "/2 wheeler/pickup coil/RP182%20Ignition%20Pickup%20Coil%20For%20Bajaj%2012v%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP182%20Ignition%20Pickup%20Coil%20For%20Bajaj%2012v%20.webp"
     },
     {
       "partNumber": "RP183",
@@ -647,8 +647,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "BAJAJ 99 RED",
       "description": "BAJAJ 99 RED",
-      "image": "/2 wheeler/pickup coil/RP183%20Ignition%20Pickup%20Coil%20For%20Bajaj%2099%20Red%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP183%20Ignition%20Pickup%20Coil%20For%20Bajaj%2099%20Red%20.png"
+      "image": "/2 wheeler/pickup coil/RP183%20Ignition%20Pickup%20Coil%20For%20Bajaj%2099%20Red%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP183%20Ignition%20Pickup%20Coil%20For%20Bajaj%2099%20Red%20.webp"
     },
     {
       "partNumber": "RP184",
@@ -656,8 +656,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "BAJAJ M-80 BLACK",
       "description": "BAJAJ M-80 BLACK",
-      "image": "/2 wheeler/pickup coil/RP184%20Bajaj%20M80%20Balck%20(9).png",
-      "thumbnail": "/2 wheeler/pickup coil/RP184%20Bajaj%20M80%20Balck%20(9).png"
+      "image": "/2 wheeler/pickup coil/RP184%20Bajaj%20M80%20Balck%20(9).webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP184%20Bajaj%20M80%20Balck%20(9).webp"
     },
     {
       "partNumber": "RP184SH",
@@ -665,8 +665,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "BAJAJ 12V TEDEY HOLE WALI",
       "description": "BAJAJ 12V TEDEY HOLE WALI",
-      "image": "/2 wheeler/pickup coil/RP184SH%20Ignition%20Pickup%20Coil%20For%20Bajaj%2012V%20Tedey%20Hole%20Wali%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP184SH%20Ignition%20Pickup%20Coil%20For%20Bajaj%2012V%20Tedey%20Hole%20Wali%20.png"
+      "image": "/2 wheeler/pickup coil/RP184SH%20Ignition%20Pickup%20Coil%20For%20Bajaj%2012V%20Tedey%20Hole%20Wali%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP184SH%20Ignition%20Pickup%20Coil%20For%20Bajaj%2012V%20Tedey%20Hole%20Wali%20.webp"
     },
     {
       "partNumber": "RP186",
@@ -674,8 +674,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "BAJAJ BRAVO",
       "description": "BAJAJ BRAVO",
-      "image": "/2 wheeler/pickup coil/RP186%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Bravo%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP186%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Bravo%20.png"
+      "image": "/2 wheeler/pickup coil/RP186%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Bravo%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP186%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Bravo%20.webp"
     },
     {
       "partNumber": "RP188",
@@ -683,8 +683,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "BAJAJ 99 (WHITE) 3W REAR ENGINE",
       "description": "BAJAJ 99 (WHITE) 3W REAR ENGINE",
-      "image": "/2 wheeler/pickup coil/RP188 Bajaj 99 3w Rear Engine .png",
-      "thumbnail": "/2 wheeler/pickup coil/RP188 Bajaj 99 3w Rear Engine .png"
+      "image": "/2 wheeler/pickup coil/RP188 Bajaj 99 3w Rear Engine .webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP188 Bajaj 99 3w Rear Engine .webp"
     },
     {
       "partNumber": "RP189",
@@ -710,8 +710,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "BAJAJ DISCOVER 100CC / 125 / 150CC",
       "description": "BAJAJ DISCOVER 100CC / 125 / 150CC",
-      "image": "/2 wheeler/pickup coil/RP191RO%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Discover%20100cc%20125%20150cc%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP191RO%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Discover%20100cc%20125%20150cc%20.png"
+      "image": "/2 wheeler/pickup coil/RP191RO%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Discover%20100cc%20125%20150cc%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP191RO%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Discover%20100cc%20125%20150cc%20.webp"
     },
     {
       "partNumber": "RP191RG",
@@ -719,8 +719,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "BAJAJ DISCOVER 135CC DTSI",
       "description": "BAJAJ DISCOVER 135CC DTSI",
-      "image": "/2 wheeler/pickup coil/RP191RG%20Ignition%20Pickup%20Coil%20%20For%20Bajaj%20Discover%20135cc%20Dtsi%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP191RG%20Ignition%20Pickup%20Coil%20%20For%20Bajaj%20Discover%20135cc%20Dtsi%20.png"
+      "image": "/2 wheeler/pickup coil/RP191RG%20Ignition%20Pickup%20Coil%20%20For%20Bajaj%20Discover%20135cc%20Dtsi%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP191RG%20Ignition%20Pickup%20Coil%20%20For%20Bajaj%20Discover%20135cc%20Dtsi%20.webp"
     },
     {
       "partNumber": "RP191DD",
@@ -728,8 +728,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "BAJAJ PULSAR 150",
       "description": "BAJAJ PULSAR 150",
-      "image": "/2 wheeler/pickup coil/RP191DD%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Pulsar%20150%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP191DD%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Pulsar%20150%20.png"
+      "image": "/2 wheeler/pickup coil/RP191DD%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Pulsar%20150%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP191DD%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Pulsar%20150%20.webp"
     },
     {
       "partNumber": "RP192",
@@ -737,8 +737,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "BAJAJ KB 4S",
       "description": "BAJAJ KB 4S",
-      "image": "/2 wheeler/pickup coil/RP192%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Kb%204s%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP192%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Kb%204s%20.png"
+      "image": "/2 wheeler/pickup coil/RP192%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Kb%204s%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP192%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Kb%204s%20.webp"
     },
     {
       "partNumber": "RP192RU",
@@ -746,8 +746,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "BAJAJ PULSAR 180 DTSI-UG4",
       "description": "BAJAJ PULSAR 180 DTSI-UG4",
-      "image": "/2 wheeler/pickup coil/RP192RU%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Pulsar%20180%20Dtsi%20ug4%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP192RU%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Pulsar%20180%20Dtsi%20ug4%20.png"
+      "image": "/2 wheeler/pickup coil/RP192RU%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Pulsar%20180%20Dtsi%20ug4%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP192RU%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Pulsar%20180%20Dtsi%20ug4%20.webp"
     },
     {
       "partNumber": "RP192AA",
@@ -755,8 +755,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "BAJAJ PULSAR 135CC",
       "description": "BAJAJ PULSAR 135CC",
-      "image": "/2 wheeler/pickup coil/RP192AA%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Pulsar%20135cc%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP192AA%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Pulsar%20135cc%20.png"
+      "image": "/2 wheeler/pickup coil/RP192AA%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Pulsar%20135cc%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP192AA%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Pulsar%20135cc%20.webp"
     },
     {
       "partNumber": "RP192BB",
@@ -764,8 +764,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "BAJAJ PULSAR 180 DTSI UG3",
       "description": "BAJAJ PULSAR 180 DTSI UG3",
-      "image": "/2 wheeler/pickup coil/RP192BB%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Pulsar%20180%20Dtsi%20Ug3%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP192BB%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Pulsar%20180%20Dtsi%20Ug3%20.png"
+      "image": "/2 wheeler/pickup coil/RP192BB%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Pulsar%20180%20Dtsi%20Ug3%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP192BB%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Pulsar%20180%20Dtsi%20Ug3%20.webp"
     },
     {
       "partNumber": "RP192CE",
@@ -773,8 +773,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "BAJAJ PULSAR 200CC",
       "description": "BAJAJ PULSAR 200CC",
-      "image": "/2 wheeler/pickup coil/RP192CE%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Pulsar%20200cc%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP192CE%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Pulsar%20200cc%20.png"
+      "image": "/2 wheeler/pickup coil/RP192CE%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Pulsar%20200cc%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP192CE%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Pulsar%20200cc%20.webp"
     },
     {
       "partNumber": "RP192DC",
@@ -791,8 +791,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "BAJAJ XCD 125 / 135 /BOXER BM-100/BM-150 BS4 / BS3 / BAJAJ CT-110 KS BS4 /PLATINA 100/ 125 BS3 / BS4 / VIKRANT V15 BS4 / DISCOVER 100M/ 100T / 125M / 125 ST / 135 / 150S / 150F / DISCOVER 110 / 125 BS4 / PULSAR 150 BS4 / PLATINA 100 COMFORTEC ES / KS BS4",
       "description": "BAJAJ XCD 125 / 135 /BOXER BM-100/BM-150 BS4 / BS3 / BAJAJ CT-110 KS BS4 /PLATINA 100/ 125 BS3 / BS4 / VIKRANT V15 BS4 / DISCOVER 100M/ 100T / 125M / 125 ST / 135 / 150S / 150F / DISCOVER 110 / 125 BS4 / PULSAR 150 BS4 / PLATINA 100 COMFORTEC ES / KS BS4",
-      "image": "/2 wheeler/pickup coil/RP192RX%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Xcd%20125%20135%20Boxer%20bm%20100%20bm%20150%20Bajaj%20Ct%20110%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP192RX%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Xcd%20125%20135%20Boxer%20bm%20100%20bm%20150%20Bajaj%20Ct%20110%20.png"
+      "image": "/2 wheeler/pickup coil/RP192RX%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Xcd%20125%20135%20Boxer%20bm%20100%20bm%20150%20Bajaj%20Ct%20110%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP192RX%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Xcd%20125%20135%20Boxer%20bm%20100%20bm%20150%20Bajaj%20Ct%20110%20.webp"
     },
     {
       "partNumber": "RP193",
@@ -800,8 +800,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "BAJAJ CALIBER / BOXER / CT / AR",
       "description": "BAJAJ CALIBER / BOXER / CT / AR",
-      "image": "/2 wheeler/pickup coil/RP193%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Caliber%20Boxer%20Ct%20Ar%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP193%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Caliber%20Boxer%20Ct%20Ar%20.png"
+      "image": "/2 wheeler/pickup coil/RP193%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Caliber%20Boxer%20Ct%20Ar%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP193%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Caliber%20Boxer%20Ct%20Ar%20.webp"
     },
     {
       "partNumber": "RP193MW",
@@ -809,8 +809,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "BAJAJ BOXER AT",
       "description": "BAJAJ BOXER AT",
-      "image": "/2 wheeler/pickup coil/RP193MW%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Boxer%20At%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP193MW%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Boxer%20At%20.png"
+      "image": "/2 wheeler/pickup coil/RP193MW%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Boxer%20At%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP193MW%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Boxer%20At%20.webp"
     },
     {
       "partNumber": "RP193RM",
@@ -818,17 +818,17 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "BAJAJ WIND 125",
       "description": "BAJAJ WIND 125",
-      "image": "/2 wheeler/pickup coil/RP193RM%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Wind%20125%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP193RM%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Wind%20125%20.png"
+      "image": "/2 wheeler/pickup coil/RP193RM%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Wind%20125%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP193RM%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Wind%20125%20.webp"
     },
     {
       "partNumber": "RP194",
       "referenceNumber": null,
       "name": "Pick Up Coil (Pulsar)",
-      "vehicle": "BAJAJ PULSAR 150 / 180 DTSI / DISCOVER ES/KS / PULSAR UG1 / PULSAR UG2",
-      "description": "BAJAJ PULSAR 150 / 180 DTSI / DISCOVER ES/KS / PULSAR UG1 / PULSAR UG2",
-      "image": "/2 wheeler/pickup coil/RP194 Ignition Pickup Coil For Bajaj Pulsar 150 180 dtsi discover es ks Pulsar ug1 Pulsar ug2 (1).png",
-      "thumbnail": "/2 wheeler/pickup coil/RP194 Ignition Pickup Coil For Bajaj Pulsar 150 180 dtsi discover es ks Pulsar ug1 Pulsar ug2 (1).png"
+      "vehicle": "BAJAJ PULSAR 150 / 180DTSI / DISCOVER ES/KS / PULSAR UG1 / PULSAR UG2",
+      "description": "BAJAJ PULSAR 150 / 180DTSI / DISCOVER ES/KS / PULSAR UG1 / PULSAR UG2",
+      "image": "/2 wheeler/pickup coil/RP194 Ignition Pickup Coil For Bajaj Pulsar 150 180 dtsi discover es ks Pulsar ug1 Pulsar ug2 (1).webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP194 Ignition Pickup Coil For Bajaj Pulsar 150 180 dtsi discover es ks Pulsar ug1 Pulsar ug2 (1).webp"
     },
     {
       "partNumber": "RP194JW",
@@ -836,8 +836,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "BAJAJ CALIBER CROMA",
       "description": "BAJAJ CALIBER CROMA",
-      "image": "/2 wheeler/pickup coil/RP194JW%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Caliber%20Croma%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP194JW%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Caliber%20Croma%20.png"
+      "image": "/2 wheeler/pickup coil/RP194JW%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Caliber%20Croma%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP194JW%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Caliber%20Croma%20.webp"
     },
     {
       "partNumber": "RP194KW",
@@ -845,8 +845,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "BAJAJ CALIBER UPGRADE",
       "description": "BAJAJ CALIBER UPGRADE",
-      "image": "/2 wheeler/pickup coil/RP194KW%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Caliber%20Upgrade%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP194KW%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Caliber%20Upgrade%20.png"
+      "image": "/2 wheeler/pickup coil/RP194KW%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Caliber%20Upgrade%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP194KW%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Caliber%20Upgrade%20.webp"
     },
     {
       "partNumber": "RP194SJ",
@@ -854,8 +854,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "BAJAJ CT-100 / PLATINA",
       "description": "BAJAJ CT-100 / PLATINA",
-      "image": "/2 wheeler/pickup coil/RP194SJ%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Ct%20100%20Platina%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP194SJ%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Ct%20100%20Platina%20.png"
+      "image": "/2 wheeler/pickup coil/RP194SJ%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Ct%20100%20Platina%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP194SJ%20Ignition%20Pickup%20Coil%20For%20Bajaj%20Ct%20100%20Platina%20.webp"
     },
     {
       "partNumber": "RP195",
@@ -863,8 +863,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "LML VESPA",
       "description": "LML VESPA",
-      "image": "/2 wheeler/pickup coil/RP195%20%20Pick%20Up%20Coil%20For%20LML%20Vespa%20Scooter%20Two%20Wheeler%20Spare%20Parts%20Scooter%20Parts%20(1).png",
-      "thumbnail": "/2 wheeler/pickup coil/RP195%20%20Pick%20Up%20Coil%20For%20LML%20Vespa%20Scooter%20Two%20Wheeler%20Spare%20Parts%20Scooter%20Parts%20(1).png"
+      "image": "/2 wheeler/pickup coil/RP195%20%20Pick%20Up%20Coil%20For%20LML%20Vespa%20Scooter%20Two%20Wheeler%20Spare%20Parts%20Scooter%20Parts%20(1).webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP195%20%20Pick%20Up%20Coil%20For%20LML%20Vespa%20Scooter%20Two%20Wheeler%20Spare%20Parts%20Scooter%20Parts%20(1).webp"
     },
     {
       "partNumber": "RP196",
@@ -872,8 +872,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "LML VESPA STAR",
       "description": "LML VESPA STAR",
-      "image": "/2 wheeler/pickup coil/RP196%20Ignition%20Pick%20up%20Coil%20For%20Lml%20Vespa%20Star%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP196%20Ignition%20Pick%20up%20Coil%20For%20Lml%20Vespa%20Star%20.png"
+      "image": "/2 wheeler/pickup coil/RP196%20Ignition%20Pick%20up%20Coil%20For%20Lml%20Vespa%20Star%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP196%20Ignition%20Pick%20up%20Coil%20For%20Lml%20Vespa%20Star%20.webp"
     },
     {
       "partNumber": "RP196LP",
@@ -881,8 +881,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "LML VESPA 4S LATEST (BLUE)",
       "description": "LML VESPA 4S LATEST (BLUE)",
-      "image": "/2 wheeler/pickup coil/RP196LP%20Ignition%20Pickup%20Coil%20For%20Lml%20Vespa%204s%20latest%20blue%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP196LP%20Ignition%20Pickup%20Coil%20For%20Lml%20Vespa%204s%20latest%20blue%20.png"
+      "image": "/2 wheeler/pickup coil/RP196LP%20Ignition%20Pickup%20Coil%20For%20Lml%20Vespa%204s%20latest%20blue%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP196LP%20Ignition%20Pickup%20Coil%20For%20Lml%20Vespa%204s%20latest%20blue%20.webp"
     },
     {
       "partNumber": "RP197",
@@ -890,8 +890,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "LML ENERGY / FX / FREEDOM",
       "description": "LML ENERGY / FX / FREEDOM",
-      "image": "/2 wheeler/pickup coil/RP197%20Ignition%20Pickup%20Coil%20For%20Lml%20Energy%20Fx%20Freedom%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP197%20Ignition%20Pickup%20Coil%20For%20Lml%20Energy%20Fx%20Freedom%20.png"
+      "image": "/2 wheeler/pickup coil/RP197%20Ignition%20Pickup%20Coil%20For%20Lml%20Energy%20Fx%20Freedom%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP197%20Ignition%20Pickup%20Coil%20For%20Lml%20Energy%20Fx%20Freedom%20.webp"
     },
     {
       "partNumber": "RP197ZX",
@@ -899,8 +899,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "LML FREEDOM CRD /PRIMA",
       "description": "LML FREEDOM CRD /PRIMA",
-      "image": "/2 wheeler/pickup coil/RP197ZX%20Ignition%20Pickup%20Coil%20For%20Lml%20Freedom%20Crd%20Prima%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP197ZX%20Ignition%20Pickup%20Coil%20For%20Lml%20Freedom%20Crd%20Prima%20.png"
+      "image": "/2 wheeler/pickup coil/RP197ZX%20Ignition%20Pickup%20Coil%20For%20Lml%20Freedom%20Crd%20Prima%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP197ZX%20Ignition%20Pickup%20Coil%20For%20Lml%20Freedom%20Crd%20Prima%20.webp"
     },
     {
       "partNumber": "RP198",
@@ -908,8 +908,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "HERO SPLENDOR NXG",
       "description": "HERO SPLENDOR NXG",
-      "image": "/2 wheeler/pickup coil/RP198%20Ignition%20Pick%20up%20Coil%20For%20Hero%20Splendor%20Nxg%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP198%20Ignition%20Pick%20up%20Coil%20For%20Hero%20Splendor%20Nxg%20.png"
+      "image": "/2 wheeler/pickup coil/RP198%20Ignition%20Pick%20up%20Coil%20For%20Hero%20Splendor%20Nxg%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP198%20Ignition%20Pick%20up%20Coil%20For%20Hero%20Splendor%20Nxg%20.webp"
     },
     {
       "partNumber": "RP198RA",
@@ -917,8 +917,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "HERO PLEASURE / MAESTRO / MAESTRO EDGE 110 / 125 BS3 & BS4 / HERO DUET BS4",
       "description": "HERO PLEASURE / MAESTRO / MAESTRO EDGE 110 / 125 BS3 & BS4 / HERO DUET BS4",
-      "image": "/2 wheeler/pickup coil/RP198RA Ignition Pickup Coil For Hero Pleasure Maestro Edge 110 125 bs3 bs4 Hero Duet bs4 10 .png",
-      "thumbnail": "/2 wheeler/pickup coil/RP198RA Ignition Pickup Coil For Hero Pleasure Maestro Edge 110 125 bs3 bs4 Hero Duet bs4 10 .png"
+      "image": "/2 wheeler/pickup coil/RP198RA Ignition Pickup Coil For Hero Pleasure Maestro Edge 110 125 bs3 bs4 Hero Duet bs4 10 .webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP198RA Ignition Pickup Coil For Hero Pleasure Maestro Edge 110 125 bs3 bs4 Hero Duet bs4 10 .webp"
     },
     {
       "partNumber": "RP198RO",
@@ -926,8 +926,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "HERO CBZ XT / ACHIEVER / HUNK",
       "description": "HERO CBZ XT / ACHIEVER / HUNK",
-      "image": "/2 wheeler/pickup coil/RP198RO%20Ignition%20Pickup%20Coil%20For%20Hero%20Cbz%20Xt%20Achiever%20Hunk%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP198RO%20Ignition%20Pickup%20Coil%20For%20Hero%20Cbz%20Xt%20Achiever%20Hunk%20.png"
+      "image": "/2 wheeler/pickup coil/RP198RO%20Ignition%20Pickup%20Coil%20For%20Hero%20Cbz%20Xt%20Achiever%20Hunk%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP198RO%20Ignition%20Pickup%20Coil%20For%20Hero%20Cbz%20Xt%20Achiever%20Hunk%20.webp"
     },
     {
       "partNumber": "RP198DB",
@@ -935,8 +935,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "HERO SPLENDOR O/M",
       "description": "HERO SPLENDOR O/M",
-      "image": "/2 wheeler/pickup coil/RP198DB%20Ignition%20Pickup%20Coil%20For%20Hero%20Splendor%20om%20.jpg",
-      "thumbnail": "/2 wheeler/pickup coil/RP198DB%20Ignition%20Pickup%20Coil%20For%20Hero%20Splendor%20om%20.jpg"
+      "image": "/2 wheeler/pickup coil/RP198DB%20Ignition%20Pickup%20Coil%20For%20Hero%20Splendor%20om%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP198DB%20Ignition%20Pickup%20Coil%20For%20Hero%20Splendor%20om%20.webp"
     },
     {
       "partNumber": "RP198DR",
@@ -944,8 +944,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "HERO SPLENDOR N/M/ SPL PLUS",
       "description": "HERO SPLENDOR N/M/ SPL PLUS",
-      "image": "/2 wheeler/pickup coil/RP198DR%20Ignition%20Pickup%20Coil%20For%20Hero%20Splendor%20nm%20spl%20plus%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP198DR%20Ignition%20Pickup%20Coil%20For%20Hero%20Splendor%20nm%20spl%20plus%20.png"
+      "image": "/2 wheeler/pickup coil/RP198DR%20Ignition%20Pickup%20Coil%20For%20Hero%20Splendor%20nm%20spl%20plus%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP198DR%20Ignition%20Pickup%20Coil%20For%20Hero%20Splendor%20nm%20spl%20plus%20.webp"
     },
     {
       "partNumber": "RP199",
@@ -953,8 +953,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "HERO AMBITION",
       "description": "HERO AMBITION",
-      "image": "/2 wheeler/pickup coil/RP199%20Ignition%20Pick%20up%20Coil%20For%20Hero%20Ambition%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP199%20Ignition%20Pick%20up%20Coil%20For%20Hero%20Ambition%20.png"
+      "image": "/2 wheeler/pickup coil/RP199%20Ignition%20Pick%20up%20Coil%20For%20Hero%20Ambition%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP199%20Ignition%20Pick%20up%20Coil%20For%20Hero%20Ambition%20.webp"
     },
     {
       "partNumber": "RP199AX",
@@ -962,8 +962,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "HERO CD DAWN N/M",
       "description": "HERO CD DAWN N/M",
-      "image": "/2 wheeler/pickup coil/RP199AX%20Ignition%20Pickup%20Coil%20For%20Hero%20Cd%20Dawn%20nm%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP199AX%20Ignition%20Pickup%20Coil%20For%20Hero%20Cd%20Dawn%20nm%20.png"
+      "image": "/2 wheeler/pickup coil/RP199AX%20Ignition%20Pickup%20Coil%20For%20Hero%20Cd%20Dawn%20nm%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP199AX%20Ignition%20Pickup%20Coil%20For%20Hero%20Cd%20Dawn%20nm%20.webp"
     },
     {
       "partNumber": "RP200",
@@ -971,8 +971,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "HERO HONDA CBZ O/M",
       "description": "HERO HONDA CBZ O/M",
-      "image": "/2 wheeler/pickup coil/RP200%20Ignition%20Pickup%20Coil%20For%20Hero%20Honda%20Cbz%20om%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP200%20Ignition%20Pickup%20Coil%20For%20Hero%20Honda%20Cbz%20om%20.png"
+      "image": "/2 wheeler/pickup coil/RP200%20Ignition%20Pickup%20Coil%20For%20Hero%20Honda%20Cbz%20om%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP200%20Ignition%20Pickup%20Coil%20For%20Hero%20Honda%20Cbz%20om%20.webp"
     },
     {
       "partNumber": "RP202",
@@ -980,8 +980,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "HERO HONDA CD-100",
       "description": "HERO HONDA CD-100",
-      "image": "/2 wheeler/pickup coil/RP202%20Ignition%20Pickup%20Coil%20For%20Hero%20Honda%20Cd%20100%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP202%20Ignition%20Pickup%20Coil%20For%20Hero%20Honda%20Cd%20100%20.png"
+      "image": "/2 wheeler/pickup coil/RP202%20Ignition%20Pickup%20Coil%20For%20Hero%20Honda%20Cd%20100%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP202%20Ignition%20Pickup%20Coil%20For%20Hero%20Honda%20Cd%20100%20.webp"
     },
     {
       "partNumber": "RP203",
@@ -989,8 +989,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "HERO HONDA SS / KINETIC BOSS / NOVA / CHALLENGER",
       "description": "HERO HONDA SS / KINETIC BOSS / NOVA / CHALLENGER",
-      "image": "/2 wheeler/pickup coil/RP203%20Ignition%20Pickup%20Coil%20For%20Hero%20Honda%20ss%20kinetic%20boss%20nova%20challenger%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP203%20Ignition%20Pickup%20Coil%20For%20Hero%20Honda%20ss%20kinetic%20boss%20nova%20challenger%20.png"
+      "image": "/2 wheeler/pickup coil/RP203%20Ignition%20Pickup%20Coil%20For%20Hero%20Honda%20ss%20kinetic%20boss%20nova%20challenger%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP203%20Ignition%20Pickup%20Coil%20For%20Hero%20Honda%20ss%20kinetic%20boss%20nova%20challenger%20.webp"
     },
     {
       "partNumber": "RP204",
@@ -998,8 +998,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "HERO HONDA SPLENDOR NXG",
       "description": "HERO HONDA SPLENDOR NXG",
-      "image": "/2 wheeler/pickup coil/RP204%20Ignition%20Pickup%20Coil%20For%20Hero%20Honda%20Splendor%20nxg%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP204%20Ignition%20Pickup%20Coil%20For%20Hero%20Honda%20Splendor%20nxg%20.png"
+      "image": "/2 wheeler/pickup coil/RP204%20Ignition%20Pickup%20Coil%20For%20Hero%20Honda%20Splendor%20nxg%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP204%20Ignition%20Pickup%20Coil%20For%20Hero%20Honda%20Splendor%20nxg%20.webp"
     },
     {
       "partNumber": "RP204BN",
@@ -1007,8 +1007,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "HERO CD DELUXE / BS3 & BS4 / HF DAWN / BS3 & BS4 / HF DLX ECO / BS3 & BS4 / PASSION PRO / BS3 & BS4 / SPLENDOR PLUS BS4 / SPLENDOR Ismart BS3",
       "description": "HERO CD DELUXE / BS3 & BS4 / HF DAWN / BS3 & BS4 / HF DLX ECO / BS3 & BS4 / PASSION PRO / BS3 & BS4 / SPLENDOR PLUS BS4 / SPLENDOR Ismart BS3",
-      "image": "/2 wheeler/pickup coil/RP204BN%20Ignition%20Pickup%20Coil%20For%20Hero%20Cd%20Dawn%20Hf%20Dawn%20Hf%20Dlx%20Eco%20Passion%20Pro%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP204BN%20Ignition%20Pickup%20Coil%20For%20Hero%20Cd%20Dawn%20Hf%20Dawn%20Hf%20Dlx%20Eco%20Passion%20Pro%20.png"
+      "image": "/2 wheeler/pickup coil/RP204BN%20Ignition%20Pickup%20Coil%20For%20Hero%20Cd%20Dawn%20Hf%20Dawn%20Hf%20Dlx%20Eco%20Passion%20Pro%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP204BN%20Ignition%20Pickup%20Coil%20For%20Hero%20Cd%20Dawn%20Hf%20Dawn%20Hf%20Dlx%20Eco%20Passion%20Pro%20.webp"
     },
     {
       "partNumber": "RP205",
@@ -1016,8 +1016,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "HERO SPLENDOR PLUS / PASSION",
       "description": "HERO SPLENDOR PLUS / PASSION",
-      "image": "/2 wheeler/pickup coil/RP205%20Ignition%20Pickup%20Coil%20For%20Hero%20Splendor%20Plus%20Passion%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP205%20Ignition%20Pickup%20Coil%20For%20Hero%20Splendor%20Plus%20Passion%20.png"
+      "image": "/2 wheeler/pickup coil/RP205%20Ignition%20Pickup%20Coil%20For%20Hero%20Splendor%20Plus%20Passion%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP205%20Ignition%20Pickup%20Coil%20For%20Hero%20Splendor%20Plus%20Passion%20.webp"
     },
     {
       "partNumber": "RP205RX",
@@ -1025,8 +1025,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "HERO SUPER SPLENDOR/ GLAMOUR N/M (12 POLE) N/M",
       "description": "HERO SUPER SPLENDOR/ GLAMOUR N/M (12 POLE) N/M",
-      "image": "/2 wheeler/pickup coil/RP205RX%20Ignition%20Pickup%20Coil%20For%20Hero%20Super%20Splendor%20Glamour%20nm%2012%20pole%20nm%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP205RX%20Ignition%20Pickup%20Coil%20For%20Hero%20Super%20Splendor%20Glamour%20nm%2012%20pole%20nm%20.png"
+      "image": "/2 wheeler/pickup coil/RP205RX%20Ignition%20Pickup%20Coil%20For%20Hero%20Super%20Splendor%20Glamour%20nm%2012%20pole%20nm%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP205RX%20Ignition%20Pickup%20Coil%20For%20Hero%20Super%20Splendor%20Glamour%20nm%2012%20pole%20nm%20.webp"
     },
     {
       "partNumber": "RP205JL",
@@ -1034,8 +1034,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "HERO SUPER SPLENDOR / BS3 & BS4 / HERO GLAMOUR / BS3 & BS4",
       "description": "HERO SUPER SPLENDOR / BS3 & BS4 / HERO GLAMOUR / BS3 & BS4",
-      "image": "/2 wheeler/pickup coil/RP205Jl Hero Super Splendor Bs3 Bs4 Glamour .png",
-      "thumbnail": "/2 wheeler/pickup coil/RP205Jl Hero Super Splendor Bs3 Bs4 Glamour .png"
+      "image": "/2 wheeler/pickup coil/RP205Jl Hero Super Splendor Bs3 Bs4 Glamour .webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP205Jl Hero Super Splendor Bs3 Bs4 Glamour .webp"
     },
     {
       "partNumber": "RP206",
@@ -1043,8 +1043,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "HERO MAESTRO",
       "description": "HERO MAESTRO",
-      "image": "/2 wheeler/pickup coil/RP206%20Ignition%20Pickup%20Coil%20For%20Hero%20Maestro%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP206%20Ignition%20Pickup%20Coil%20For%20Hero%20Maestro%20.png"
+      "image": "/2 wheeler/pickup coil/RP206%20Ignition%20Pickup%20Coil%20For%20Hero%20Maestro%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP206%20Ignition%20Pickup%20Coil%20For%20Hero%20Maestro%20.webp"
     },
     {
       "partNumber": "RP206AD",
@@ -1052,8 +1052,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "HERO HONDA SPLENDOR PRO",
       "description": "HERO HONDA SPLENDOR PRO",
-      "image": "/2 wheeler/pickup coil/RP206AD%20Ignition%20Pickup%20Coil%20For%20Hero%20Honda%20Splendor%20Pro%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP206AD%20Ignition%20Pickup%20Coil%20For%20Hero%20Honda%20Splendor%20Pro%20.png"
+      "image": "/2 wheeler/pickup coil/RP206AD%20Ignition%20Pickup%20Coil%20For%20Hero%20Honda%20Splendor%20Pro%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP206AD%20Ignition%20Pickup%20Coil%20For%20Hero%20Honda%20Splendor%20Pro%20.webp"
     },
     {
       "partNumber": "RP206EA",
@@ -1061,8 +1061,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "HERO HONDA PASSION PRO / SPLENDOR PRO",
       "description": "HERO HONDA PASSION PRO / SPLENDOR PRO",
-      "image": "/2 wheeler/pickup coil/RP206EA%20Pick%20Up%20Coil%20For%20Hero%20Honda%20Splendor%20Pro%20Passion%20Pro%20Two%20Wheeler%20spare%20parts%20.jpg",
-      "thumbnail": "/2 wheeler/pickup coil/RP206EA%20Pick%20Up%20Coil%20For%20Hero%20Honda%20Splendor%20Pro%20Passion%20Pro%20Two%20Wheeler%20spare%20parts%20.jpg"
+      "image": "/2 wheeler/pickup coil/RP206EA%20Pick%20Up%20Coil%20For%20Hero%20Honda%20Splendor%20Pro%20Passion%20Pro%20Two%20Wheeler%20spare%20parts%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP206EA%20Pick%20Up%20Coil%20For%20Hero%20Honda%20Splendor%20Pro%20Passion%20Pro%20Two%20Wheeler%20spare%20parts%20.webp"
     },
     {
       "partNumber": "RP206RR",
@@ -1079,8 +1079,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "KINETIC HONDA / MARVEL / YAMAHA RXZ",
       "description": "KINETIC HONDA / MARVEL / YAMAHA RXZ",
-      "image": "/2 wheeler/pickup coil/RP207%20Kinetic%20Honda%20Marvel%20Yamaha%20Rxz%20(9).png",
-      "thumbnail": "/2 wheeler/pickup coil/RP207%20Kinetic%20Honda%20Marvel%20Yamaha%20Rxz%20(9).png"
+      "image": "/2 wheeler/pickup coil/RP207%20Kinetic%20Honda%20Marvel%20Yamaha%20Rxz%20(9).webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP207%20Kinetic%20Honda%20Marvel%20Yamaha%20Rxz%20(9).webp"
     },
     {
       "partNumber": "RP208",
@@ -1088,8 +1088,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "HONDA ACTIVA O/M",
       "description": "HONDA ACTIVA O/M",
-      "image": "/2 wheeler/pickup coil/RP208%20Ignition%20Pickup%20Coil%20For%20Honda%20Activa%20o%20m%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP208%20Ignition%20Pickup%20Coil%20For%20Honda%20Activa%20o%20m%20.png"
+      "image": "/2 wheeler/pickup coil/RP208%20Ignition%20Pickup%20Coil%20For%20Honda%20Activa%20o%20m%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP208%20Ignition%20Pickup%20Coil%20For%20Honda%20Activa%20o%20m%20.webp"
     },
     {
       "partNumber": "RP208OP",
@@ -1097,17 +1097,17 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "HONDA ACTIVA HET 2013 / 3G / ACTIVA i / ACTIVA 4G",
       "description": "HONDA ACTIVA HET 2013 / 3G / ACTIVA i / ACTIVA 4G",
-      "image": "/2 wheeler/pickup coil/RP208OP  Pick Up Coil For Honda Activa HET 2013 3G 4G Scooter Spare Parts .png",
-      "thumbnail": "/2 wheeler/pickup coil/RP208OP  Pick Up Coil For Honda Activa HET 2013 3G 4G Scooter Spare Parts .png"
+      "image": "/2 wheeler/pickup coil/RP208OP  Pick Up Coil For Honda Activa HET 2013 3G 4G Scooter Spare Parts .webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP208OP  Pick Up Coil For Honda Activa HET 2013 3G 4G Scooter Spare Parts .webp"
     },
     {
       "partNumber": "RP208OM",
       "referenceNumber": null,
       "name": "Pick Up Coil (Pulsar)",
-      "vehicle": "HONDA TWISTER / DREAM YUGA / HONDA CB SHINE-125 BS4",
-      "description": "HONDA TWISTER / DREAM YUGA / HONDA CB SHINE-125 BS4",
-      "image": "/2 wheeler/pickup coil/RP208OM%20%20Pick%20Up%20Coil%20For%20Honda%20Twister%20Dream%20Yuga%20CB%20Shine%20125%20Bike%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP208OM%20%20Pick%20Up%20Coil%20For%20Honda%20Twister%20Dream%20Yuga%20CB%20Shine%20125%20Bike%20.png"
+      "vehicle": "HONDA TWISTER / DREAM YUGA / HONDA CB SHINE- 125 BS4 /",
+      "description": "HONDA TWISTER / DREAM YUGA / HONDA CB SHINE- 125 BS4 /",
+      "image": "/2 wheeler/pickup coil/RP208OM%20%20Pick%20Up%20Coil%20For%20Honda%20Twister%20Dream%20Yuga%20CB%20Shine%20125%20Bike%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP208OM%20%20Pick%20Up%20Coil%20For%20Honda%20Twister%20Dream%20Yuga%20CB%20Shine%20125%20Bike%20.webp"
     },
     {
       "partNumber": "RP208OJ",
@@ -1115,8 +1115,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "HONDA DAZZLER",
       "description": "HONDA DAZZLER",
-      "image": "/2 wheeler/pickup coil/RP208OJ  Pick Up Coil For Honda Dazzler Bike .png",
-      "thumbnail": "/2 wheeler/pickup coil/RP208OJ  Pick Up Coil For Honda Dazzler Bike .png"
+      "image": "/2 wheeler/pickup coil/RP208OJ  Pick Up Coil For Honda Dazzler Bike .webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP208OJ  Pick Up Coil For Honda Dazzler Bike .webp"
     },
     {
       "partNumber": "RP208OD",
@@ -1124,8 +1124,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "HONDA CBF STUNNER",
       "description": "HONDA CBF STUNNER",
-      "image": "/2 wheeler/pickup coil/RP208OD%20%20Pick%20Up%20Coil%20For%20Honda%20CBF%20Stunner%20Bike%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP208OD%20%20Pick%20Up%20Coil%20For%20Honda%20CBF%20Stunner%20Bike%20.png"
+      "image": "/2 wheeler/pickup coil/RP208OD%20%20Pick%20Up%20Coil%20For%20Honda%20CBF%20Stunner%20Bike%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP208OD%20%20Pick%20Up%20Coil%20For%20Honda%20CBF%20Stunner%20Bike%20.webp"
     },
     {
       "partNumber": "RP209",
@@ -1133,8 +1133,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "HONDA ETERNO",
       "description": "HONDA ETERNO",
-      "image": "/2 wheeler/pickup coil/RP209%20%20Pick%20Up%20Coil%20For%20Honda%20Eterno%20Scooter%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP209%20%20Pick%20Up%20Coil%20For%20Honda%20Eterno%20Scooter%20.png"
+      "image": "/2 wheeler/pickup coil/RP209%20%20Pick%20Up%20Coil%20For%20Honda%20Eterno%20Scooter%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP209%20%20Pick%20Up%20Coil%20For%20Honda%20Eterno%20Scooter%20.webp"
     },
     {
       "partNumber": "RP209AU",
@@ -1142,8 +1142,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "HONDA ACTIVA N/M / DIO 110CC",
       "description": "HONDA ACTIVA N/M / DIO 110CC",
-      "image": "/2 wheeler/pickup coil/RP209AU%20%20Pick%20Up%20Coil%20For%20Honda%20Activa%20NM%20Dio%20110cc%20Scooter%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP209AU%20%20Pick%20Up%20Coil%20For%20Honda%20Activa%20NM%20Dio%20110cc%20Scooter%20.png"
+      "image": "/2 wheeler/pickup coil/RP209AU%20%20Pick%20Up%20Coil%20For%20Honda%20Activa%20NM%20Dio%20110cc%20Scooter%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP209AU%20%20Pick%20Up%20Coil%20For%20Honda%20Activa%20NM%20Dio%20110cc%20Scooter%20.webp"
     },
     {
       "partNumber": "RP210",
@@ -1151,8 +1151,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "HONDA UNICORN",
       "description": "HONDA UNICORN",
-      "image": "/2 wheeler/pickup coil/RP210%20%20Pick%20Up%20Coil%20For%20Honda%20Unicorn%20Bike%20Two%20Wheeler%20Spare%20Parts%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP210%20%20Pick%20Up%20Coil%20For%20Honda%20Unicorn%20Bike%20Two%20Wheeler%20Spare%20Parts%20.png"
+      "image": "/2 wheeler/pickup coil/RP210%20%20Pick%20Up%20Coil%20For%20Honda%20Unicorn%20Bike%20Two%20Wheeler%20Spare%20Parts%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP210%20%20Pick%20Up%20Coil%20For%20Honda%20Unicorn%20Bike%20Two%20Wheeler%20Spare%20Parts%20.webp"
     },
     {
       "partNumber": "RP210AB",
@@ -1160,8 +1160,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "HONDA SHINE",
       "description": "HONDA SHINE",
-      "image": "/2 wheeler/pickup coil/RP210AB%20%20Pick%20Up%20Coil%20For%20Honda%20Shine%20Bike%20Two%20Wheeler%20Spare%20Parts%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP210AB%20%20Pick%20Up%20Coil%20For%20Honda%20Shine%20Bike%20Two%20Wheeler%20Spare%20Parts%20.png"
+      "image": "/2 wheeler/pickup coil/RP210AB%20%20Pick%20Up%20Coil%20For%20Honda%20Shine%20Bike%20Two%20Wheeler%20Spare%20Parts%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP210AB%20%20Pick%20Up%20Coil%20For%20Honda%20Shine%20Bike%20Two%20Wheeler%20Spare%20Parts%20.webp"
     },
     {
       "partNumber": "RP210ER",
@@ -1169,8 +1169,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "HONDA ACTIVA 125CC / BS3 & BS4",
       "description": "HONDA ACTIVA 125CC / BS3 & BS4",
-      "image": "/2 wheeler/pickup coil/RP210ER%20%20Pick%20Up%20Coil%20For%20Honda%20Activa%20125cc%20BS3%20BS4%20Scooter%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP210ER%20%20Pick%20Up%20Coil%20For%20Honda%20Activa%20125cc%20BS3%20BS4%20Scooter%20.png"
+      "image": "/2 wheeler/pickup coil/RP210ER%20%20Pick%20Up%20Coil%20For%20Honda%20Activa%20125cc%20BS3%20BS4%20Scooter%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP210ER%20%20Pick%20Up%20Coil%20For%20Honda%20Activa%20125cc%20BS3%20BS4%20Scooter%20.webp"
     },
     {
       "partNumber": "RP211",
@@ -1178,8 +1178,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "HONDA SHINE N/M / UNICORN N/M / CBZ-XT N/M (12 POLE ASSLY)",
       "description": "HONDA SHINE N/M / UNICORN N/M / CBZ-XT N/M (12 POLE ASSLY)",
-      "image": "/2 wheeler/pickup coil/RP211%20%20Pick%20Up%20Coil%20For%20Honda%20Shine%20NM%20Unicorn%20NM%20CBZ%20XT%2012%20Pole%20Spare%20Parts%20.jpg",
-      "thumbnail": "/2 wheeler/pickup coil/RP211%20%20Pick%20Up%20Coil%20For%20Honda%20Shine%20NM%20Unicorn%20NM%20CBZ%20XT%2012%20Pole%20Spare%20Parts%20.jpg"
+      "image": "/2 wheeler/pickup coil/RP211%20%20Pick%20Up%20Coil%20For%20Honda%20Shine%20NM%20Unicorn%20NM%20CBZ%20XT%2012%20Pole%20Spare%20Parts%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP211%20%20Pick%20Up%20Coil%20For%20Honda%20Shine%20NM%20Unicorn%20NM%20CBZ%20XT%2012%20Pole%20Spare%20Parts%20.webp"
     },
     {
       "partNumber": "RP211AN",
@@ -1196,8 +1196,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "YAMAHA CRUX OLD / LIBERO / ALBA",
       "description": "YAMAHA CRUX OLD / LIBERO / ALBA",
-      "image": "/2 wheeler/pickup coil/RP212%20%20Pick%20Up%20Coil%20For%20Yamaha%20Crux%20Old%20Libero%20Alba%20Bike%20.jpg",
-      "thumbnail": "/2 wheeler/pickup coil/RP212%20%20Pick%20Up%20Coil%20For%20Yamaha%20Crux%20Old%20Libero%20Alba%20Bike%20.jpg"
+      "image": "/2 wheeler/pickup coil/RP212%20%20Pick%20Up%20Coil%20For%20Yamaha%20Crux%20Old%20Libero%20Alba%20Bike%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP212%20%20Pick%20Up%20Coil%20For%20Yamaha%20Crux%20Old%20Libero%20Alba%20Bike%20.webp"
     },
     {
       "partNumber": "RP213",
@@ -1205,17 +1205,17 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "YAMAHA CRUX N/M / GLADIATOR",
       "description": "YAMAHA CRUX N/M / GLADIATOR",
-      "image": "/2 wheeler/pickup coil/RP213%20Pick%20Up%20Coil%20For%20Yamaha%20Crux%20NM%20Gladiator%20Bike%20.jpg",
-      "thumbnail": "/2 wheeler/pickup coil/RP213%20Pick%20Up%20Coil%20For%20Yamaha%20Crux%20NM%20Gladiator%20Bike%20.jpg"
+      "image": "/2 wheeler/pickup coil/RP213%20Pick%20Up%20Coil%20For%20Yamaha%20Crux%20NM%20Gladiator%20Bike%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP213%20Pick%20Up%20Coil%20For%20Yamaha%20Crux%20NM%20Gladiator%20Bike%20.webp"
     },
     {
       "partNumber": "RP213RD",
       "referenceNumber": null,
       "name": "Pick Up Coil (Pulsar)",
-      "vehicle": "YAMAHA YBR-110",
-      "description": "YAMAHA YBR-110",
-      "image": "/2 wheeler/pickup coil/RP213RD%20Pickup%20Coil%20For%20Ymh%20Ybr%20110%20%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP213RD%20Pickup%20Coil%20For%20Ymh%20Ybr%20110%20%20.png"
+      "vehicle": "YAMAHA YBR -110",
+      "description": "YAMAHA YBR -110",
+      "image": "/2 wheeler/pickup coil/RP213RD%20Pickup%20Coil%20For%20Ymh%20Ybr%20110%20%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP213RD%20Pickup%20Coil%20For%20Ymh%20Ybr%20110%20%20.webp"
     },
     {
       "partNumber": "RP213PR",
@@ -1223,8 +1223,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "YAMAHA YBR-125 / SS-125",
       "description": "YAMAHA YBR-125 / SS-125",
-      "image": "/2 wheeler/pickup coil/RP213PR%20orado%20%20Pick%20Up%20Coil%20For%20Yamaha%20YBR%20125%20SS%20125%20Bike%20.jpg",
-      "thumbnail": "/2 wheeler/pickup coil/RP213PR%20orado%20%20Pick%20Up%20Coil%20For%20Yamaha%20YBR%20125%20SS%20125%20Bike%20.jpg"
+      "image": "/2 wheeler/pickup coil/RP213PR%20orado%20%20Pick%20Up%20Coil%20For%20Yamaha%20YBR%20125%20SS%20125%20Bike%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP213PR%20orado%20%20Pick%20Up%20Coil%20For%20Yamaha%20YBR%20125%20SS%20125%20Bike%20.webp"
     },
     {
       "partNumber": "RP213ZP",
@@ -1232,8 +1232,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "YAMAHA FAZER / FZ -16 / FZ-S",
       "description": "YAMAHA FAZER / FZ -16 / FZ-S",
-      "image": "/2 wheeler/pickup coil/RP213ZP%20Pick%20Up%20Coil%20For%20Yamaha%20Fazer%20FZ16%20FZ-S%20Bike%20.jpg",
-      "thumbnail": "/2 wheeler/pickup coil/RP213ZP%20Pick%20Up%20Coil%20For%20Yamaha%20Fazer%20FZ16%20FZ-S%20Bike%20.jpg"
+      "image": "/2 wheeler/pickup coil/RP213ZP%20Pick%20Up%20Coil%20For%20Yamaha%20Fazer%20FZ16%20FZ-S%20Bike%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP213ZP%20Pick%20Up%20Coil%20For%20Yamaha%20Fazer%20FZ16%20FZ-S%20Bike%20.webp"
     },
     {
       "partNumber": "RP214",
@@ -1241,8 +1241,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "TVS STAR CITY / CENTRA / STAR DLX",
       "description": "TVS STAR CITY / CENTRA / STAR DLX",
-      "image": "/2 wheeler/pickup coil/RP214%20%20Pick%20Up%20Coil%20For%20TVS%20Star%20City%20Centra%20Star%20DLX%20Bike%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP214%20%20Pick%20Up%20Coil%20For%20TVS%20Star%20City%20Centra%20Star%20DLX%20Bike%20.png"
+      "image": "/2 wheeler/pickup coil/RP214%20%20Pick%20Up%20Coil%20For%20TVS%20Star%20City%20Centra%20Star%20DLX%20Bike%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP214%20%20Pick%20Up%20Coil%20For%20TVS%20Star%20City%20Centra%20Star%20DLX%20Bike%20.webp"
     },
     {
       "partNumber": "RP214DD",
@@ -1250,8 +1250,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "TVS STAR CITY SELF START",
       "description": "TVS STAR CITY SELF START",
-      "image": "/2 wheeler/pickup coil/RP214DD%20%20Pick%20Up%20Coil%20For%20TVS%20Star%20City%20Self%20Start%20Bike%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP214DD%20%20Pick%20Up%20Coil%20For%20TVS%20Star%20City%20Self%20Start%20Bike%20.png"
+      "image": "/2 wheeler/pickup coil/RP214DD%20%20Pick%20Up%20Coil%20For%20TVS%20Star%20City%20Self%20Start%20Bike%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP214DD%20%20Pick%20Up%20Coil%20For%20TVS%20Star%20City%20Self%20Start%20Bike%20.webp"
     },
     {
       "partNumber": "RP214DL",
@@ -1259,8 +1259,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "TVS SCOOTY PEP",
       "description": "TVS SCOOTY PEP",
-      "image": "/2 wheeler/pickup coil/RP214DL%20%20Pick%20Up%20Coil%20For%20TVS%20Scooty%20Pep%20Scooter%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP214DL%20%20Pick%20Up%20Coil%20For%20TVS%20Scooty%20Pep%20Scooter%20.png"
+      "image": "/2 wheeler/pickup coil/RP214DL%20%20Pick%20Up%20Coil%20For%20TVS%20Scooty%20Pep%20Scooter%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP214DL%20%20Pick%20Up%20Coil%20For%20TVS%20Scooty%20Pep%20Scooter%20.webp"
     },
     {
       "partNumber": "RP214DM",
@@ -1268,8 +1268,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "TVS FLAME / JIVE",
       "description": "TVS FLAME / JIVE",
-      "image": "/2 wheeler/pickup coil/RP214DM%20%20Pick%20Up%20Coil%20For%20TVS%20Flame%20Jive%20Bike%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP214DM%20%20Pick%20Up%20Coil%20For%20TVS%20Flame%20Jive%20Bike%20.png"
+      "image": "/2 wheeler/pickup coil/RP214DM%20%20Pick%20Up%20Coil%20For%20TVS%20Flame%20Jive%20Bike%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP214DM%20%20Pick%20Up%20Coil%20For%20TVS%20Flame%20Jive%20Bike%20.webp"
     },
     {
       "partNumber": "RP214AD",
@@ -1277,8 +1277,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "TVS APACHE",
       "description": "TVS APACHE",
-      "image": "/2 wheeler/pickup coil/RP214AD%20Pick%20Up%20Coil%20For%20TVS%20Apache%20Bike%20%20(1).png",
-      "thumbnail": "/2 wheeler/pickup coil/RP214AD%20Pick%20Up%20Coil%20For%20TVS%20Apache%20Bike%20%20(1).png"
+      "image": "/2 wheeler/pickup coil/RP214AD%20Pick%20Up%20Coil%20For%20TVS%20Apache%20Bike%20%20(1).webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP214AD%20Pick%20Up%20Coil%20For%20TVS%20Apache%20Bike%20%20(1).webp"
     },
     {
       "partNumber": "RP214AB",
@@ -1286,8 +1286,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "TVS APACHE RTR-160 / RTR-180 /",
       "description": "TVS APACHE RTR-160 / RTR-180 /",
-      "image": "/2 wheeler/pickup coil/RP214AB%20%20Pick%20Up%20Coil%20For%20TVS%20Apache%20RTR%20160%20RTR%20180%20Bike%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP214AB%20%20Pick%20Up%20Coil%20For%20TVS%20Apache%20RTR%20160%20RTR%20180%20Bike%20.png"
+      "image": "/2 wheeler/pickup coil/RP214AB%20%20Pick%20Up%20Coil%20For%20TVS%20Apache%20RTR%20160%20RTR%20180%20Bike%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP214AB%20%20Pick%20Up%20Coil%20For%20TVS%20Apache%20RTR%20160%20RTR%20180%20Bike%20.webp"
     },
     {
       "partNumber": "RP214CK",
@@ -1295,8 +1295,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "TVS PHOENIX /STAR CITY PLUS",
       "description": "TVS PHOENIX /STAR CITY PLUS",
-      "image": "/2 wheeler/pickup coil/RP214CK%20Ignition%20Pickup%20Coil%20For%20Tvs%20Phoenix%20Star%20City%20Plus%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP214CK%20Ignition%20Pickup%20Coil%20For%20Tvs%20Phoenix%20Star%20City%20Plus%20.png"
+      "image": "/2 wheeler/pickup coil/RP214CK%20Ignition%20Pickup%20Coil%20For%20Tvs%20Phoenix%20Star%20City%20Plus%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP214CK%20Ignition%20Pickup%20Coil%20For%20Tvs%20Phoenix%20Star%20City%20Plus%20.webp"
     },
     {
       "partNumber": "RP215",
@@ -1304,8 +1304,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "TVS FIERO",
       "description": "TVS FIERO",
-      "image": "/2 wheeler/pickup coil/RP215%20Ignition%20Pickup%20Coil%20For%20Tvs%20Fiero%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP215%20Ignition%20Pickup%20Coil%20For%20Tvs%20Fiero%20.png"
+      "image": "/2 wheeler/pickup coil/RP215%20Ignition%20Pickup%20Coil%20For%20Tvs%20Fiero%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP215%20Ignition%20Pickup%20Coil%20For%20Tvs%20Fiero%20.webp"
     },
     {
       "partNumber": "RP215MD",
@@ -1313,8 +1313,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "TVS FIERO F2",
       "description": "TVS FIERO F2",
-      "image": "/2 wheeler/pickup coil/RP215MD%20%20Pick%20Up%20Coil%20For%20TVS%20Fiero%20F2%20Bike%20Two%20Wheeler%20Spare%20Parts%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP215MD%20%20Pick%20Up%20Coil%20For%20TVS%20Fiero%20F2%20Bike%20Two%20Wheeler%20Spare%20Parts%20.png"
+      "image": "/2 wheeler/pickup coil/RP215MD%20%20Pick%20Up%20Coil%20For%20TVS%20Fiero%20F2%20Bike%20Two%20Wheeler%20Spare%20Parts%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP215MD%20%20Pick%20Up%20Coil%20For%20TVS%20Fiero%20F2%20Bike%20Two%20Wheeler%20Spare%20Parts%20.webp"
     },
     {
       "partNumber": "RP215MK",
@@ -1322,8 +1322,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "TVS STAR CITY 110CC",
       "description": "TVS STAR CITY 110CC",
-      "image": "/2 wheeler/pickup coil/RP215MK%20%20Pick%20Up%20Coil%20For%20TVS%20Star%20City%20110cc%20Bike%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP215MK%20%20Pick%20Up%20Coil%20For%20TVS%20Star%20City%20110cc%20Bike%20.png"
+      "image": "/2 wheeler/pickup coil/RP215MK%20%20Pick%20Up%20Coil%20For%20TVS%20Star%20City%20110cc%20Bike%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP215MK%20%20Pick%20Up%20Coil%20For%20TVS%20Star%20City%20110cc%20Bike%20.webp"
     },
     {
       "partNumber": "RP216",
@@ -1331,8 +1331,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "TVS VICTOR/GL/GX / SCOOTY PEP /TVS WEGO / SLEEK /JUPITER ",
       "description": "TVS VICTOR/GL/GX / SCOOTY PEP /TVS WEGO / SLEEK /JUPITER ",
-      "image": "/2 wheeler/pickup coil/RP216%20%20%20Pick%20Up%20Coil%20For%20TVS%20Victor%20GX%20Scooty%20Pep%20Wego%20Sleek%20Spare%20Parts%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP216%20%20%20Pick%20Up%20Coil%20For%20TVS%20Victor%20GX%20Scooty%20Pep%20Wego%20Sleek%20Spare%20Parts%20.png"
+      "image": "/2 wheeler/pickup coil/RP216%20%20%20Pick%20Up%20Coil%20For%20TVS%20Victor%20GX%20Scooty%20Pep%20Wego%20Sleek%20Spare%20Parts%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP216%20%20%20Pick%20Up%20Coil%20For%20TVS%20Victor%20GX%20Scooty%20Pep%20Wego%20Sleek%20Spare%20Parts%20.webp"
     },
     {
       "partNumber": "RP216MS",
@@ -1340,8 +1340,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "SUZUKI HEAT",
       "description": "SUZUKI HEAT",
-      "image": "/2 wheeler/pickup coil/RP216MS%20Ignition%20Pickup%20Coil%20For%20Tvs%20Victor%20Gl%20Gx%20Scooty%20pep%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP216MS%20Ignition%20Pickup%20Coil%20For%20Tvs%20Victor%20Gl%20Gx%20Scooty%20pep%20.png"
+      "image": "/2 wheeler/pickup coil/RP216MS%20Ignition%20Pickup%20Coil%20For%20Tvs%20Victor%20Gl%20Gx%20Scooty%20pep%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP216MS%20Ignition%20Pickup%20Coil%20For%20Tvs%20Victor%20Gl%20Gx%20Scooty%20pep%20.webp"
     },
     {
       "partNumber": "RP216KV",
@@ -1358,8 +1358,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "SUZUKI ZEUS",
       "description": "SUZUKI ZEUS",
-      "image": "/2 wheeler/pickup coil/RP216NZ%20%20Pick%20Up%20Coil%20For%20Suzuki%20Zeus%20Bike%20%20.jpg",
-      "thumbnail": "/2 wheeler/pickup coil/RP216NZ%20%20Pick%20Up%20Coil%20For%20Suzuki%20Zeus%20Bike%20%20.jpg"
+      "image": "/2 wheeler/pickup coil/RP216NZ%20%20Pick%20Up%20Coil%20For%20Suzuki%20Zeus%20Bike%20%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP216NZ%20%20Pick%20Up%20Coil%20For%20Suzuki%20Zeus%20Bike%20%20.webp"
     },
     {
       "partNumber": "RP216MT",
@@ -1367,8 +1367,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "SUZUKI ACCESS-125 (12 POLE ASSLY)",
       "description": "SUZUKI ACCESS-125 (12 POLE ASSLY)",
-      "image": "/2 wheeler/pickup coil/RP216MT%20Suzuki%20Access%20125%2012%20Pole%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP216MT%20Suzuki%20Access%20125%2012%20Pole%20.png"
+      "image": "/2 wheeler/pickup coil/RP216MT%20Suzuki%20Access%20125%2012%20Pole%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP216MT%20Suzuki%20Access%20125%2012%20Pole%20.webp"
     },
     {
       "partNumber": "RP216SR",
@@ -1376,8 +1376,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "TVS XL SUPER -100",
       "description": "TVS XL SUPER -100",
-      "image": "/2 wheeler/pickup coil/RP216SR%20%20Pick%20Up%20Coil%20For%20TVS%20XL%20Super%20100%20Moped%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP216SR%20%20Pick%20Up%20Coil%20For%20TVS%20XL%20Super%20100%20Moped%20.png"
+      "image": "/2 wheeler/pickup coil/RP216SR%20%20Pick%20Up%20Coil%20For%20TVS%20XL%20Super%20100%20Moped%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP216SR%20%20Pick%20Up%20Coil%20For%20TVS%20XL%20Super%20100%20Moped%20.webp"
     },
     {
       "partNumber": "RP216AB",
@@ -1385,8 +1385,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "SUZUKI ACCESS (8 POLE ASSLY)",
       "description": "SUZUKI ACCESS (8 POLE ASSLY)",
-      "image": "/2 wheeler/pickup coil/RP216AB%20Pickup%20Coil%20For%20Suzuki%20Access%208%20Pole%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP216AB%20Pickup%20Coil%20For%20Suzuki%20Access%208%20Pole%20.png"
+      "image": "/2 wheeler/pickup coil/RP216AB%20Pickup%20Coil%20For%20Suzuki%20Access%208%20Pole%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP216AB%20Pickup%20Coil%20For%20Suzuki%20Access%208%20Pole%20.webp"
     },
     {
       "partNumber": "RP217",
@@ -1394,8 +1394,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "HERO PUCH / TVS SCOOTY / XL SUPER",
       "description": "HERO PUCH / TVS SCOOTY / XL SUPER",
-      "image": "/2 wheeler/pickup coil/RP217%20%20Pick%20Up%20Coil%20For%20Hero%20Puch%20TVS%20Scooty%20XL%20Super%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP217%20%20Pick%20Up%20Coil%20For%20Hero%20Puch%20TVS%20Scooty%20XL%20Super%20.png"
+      "image": "/2 wheeler/pickup coil/RP217%20%20Pick%20Up%20Coil%20For%20Hero%20Puch%20TVS%20Scooty%20XL%20Super%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP217%20%20Pick%20Up%20Coil%20For%20Hero%20Puch%20TVS%20Scooty%20XL%20Super%20.webp"
     },
     {
       "partNumber": "RP218",
@@ -1403,8 +1403,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "HERO GIZMO / PANTHER",
       "description": "HERO GIZMO / PANTHER",
-      "image": "/2 wheeler/pickup coil/RP218%20Ignition%20Pickup%20Coil%20For%20Hero%20Gizmo%20Panther%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP218%20Ignition%20Pickup%20Coil%20For%20Hero%20Gizmo%20Panther%20.png"
+      "image": "/2 wheeler/pickup coil/RP218%20Ignition%20Pickup%20Coil%20For%20Hero%20Gizmo%20Panther%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP218%20Ignition%20Pickup%20Coil%20For%20Hero%20Gizmo%20Panther%20.webp"
     },
     {
       "partNumber": "RP219",
@@ -1412,8 +1412,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "MAHINDRA CENTURO",
       "description": "MAHINDRA CENTURO",
-      "image": "/2 wheeler/pickup coil/RP219%20%20Pick%20Up%20Coil%20For%20Mahindra%20Centuro%20Bike%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP219%20%20Pick%20Up%20Coil%20For%20Mahindra%20Centuro%20Bike%20.png"
+      "image": "/2 wheeler/pickup coil/RP219%20%20Pick%20Up%20Coil%20For%20Mahindra%20Centuro%20Bike%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP219%20%20Pick%20Up%20Coil%20For%20Mahindra%20Centuro%20Bike%20.webp"
     },
     {
       "partNumber": "RP219D",
@@ -1421,8 +1421,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "MAHINDRA DURO / FLYTE",
       "description": "MAHINDRA DURO / FLYTE",
-      "image": "/2 wheeler/pickup coil/RP219D%20Ignition%20Pickup%20Coil%20For%20Mahindra%20Duro%20Flyte%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP219D%20Ignition%20Pickup%20Coil%20For%20Mahindra%20Duro%20Flyte%20.png"
+      "image": "/2 wheeler/pickup coil/RP219D%20Ignition%20Pickup%20Coil%20For%20Mahindra%20Duro%20Flyte%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP219D%20Ignition%20Pickup%20Coil%20For%20Mahindra%20Duro%20Flyte%20.webp"
     },
     {
       "partNumber": "RP219CM",
@@ -1430,8 +1430,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "MAHINDRA GUSTO",
       "description": "MAHINDRA GUSTO",
-      "image": "/2 wheeler/pickup coil/RP219CM%20Pick%20Up%20Coil%20For%20Mahindra%20Gusto%20Scooter%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP219CM%20Pick%20Up%20Coil%20For%20Mahindra%20Gusto%20Scooter%20.png"
+      "image": "/2 wheeler/pickup coil/RP219CM%20Pick%20Up%20Coil%20For%20Mahindra%20Gusto%20Scooter%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP219CM%20Pick%20Up%20Coil%20For%20Mahindra%20Gusto%20Scooter%20.webp"
     }
   ],
   "2-wheeler-parts-cdi-unit": [
@@ -1441,8 +1441,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "BAJAJ CHETAK 12V",
       "description": "BAJAJ CHETAK 12V",
-      "image": "/2 wheeler/cdi unit/RP220 CDI Unit For Bajaj Chetak 12V 5 Pin Scooter Two Wheeler Spare Parts .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP220 CDI Unit For Bajaj Chetak 12V 5 Pin Scooter Two Wheeler Spare Parts .png"
+      "image": "/2 wheeler/cdi unit/RP220 CDI Unit For Bajaj Chetak 12V 5 Pin Scooter Two Wheeler Spare Parts .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP220 CDI Unit For Bajaj Chetak 12V 5 Pin Scooter Two Wheeler Spare Parts .webp"
     },
     {
       "partNumber": "RP221",
@@ -1450,8 +1450,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "BAJAJ CHETAK 99 / BRAVO / CLASSIC SL",
       "description": "BAJAJ CHETAK 99 / BRAVO / CLASSIC SL",
-      "image": "/2 wheeler/cdi unit/RP221 Cdi Unit For Bajaj Chetak 99 Bravo Classic sl .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP221 Cdi Unit For Bajaj Chetak 99 Bravo Classic sl .png"
+      "image": "/2 wheeler/cdi unit/RP221 Cdi Unit For Bajaj Chetak 99 Bravo Classic sl .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP221 Cdi Unit For Bajaj Chetak 99 Bravo Classic sl .webp"
     },
     {
       "partNumber": "RP222",
@@ -1459,8 +1459,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "BAJAJ BRAVO SELF START / BAJAJ CHETAK SL",
       "description": "BAJAJ BRAVO SELF START / BAJAJ CHETAK SL",
-      "image": "/2 wheeler/cdi unit/RP222 Cdi Unit For Bajaj bravo self start Bajaj chetak sl .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP222 Cdi Unit For Bajaj bravo self start Bajaj chetak sl .png"
+      "image": "/2 wheeler/cdi unit/RP222 Cdi Unit For Bajaj bravo self start Bajaj chetak sl .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP222 Cdi Unit For Bajaj bravo self start Bajaj chetak sl .webp"
     },
     {
       "partNumber": "RP222ZZ",
@@ -1502,10 +1502,10 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP222F",
       "referenceNumber": "DH111011/19/DJ111008/DS111003",
       "name": "C.D.I. Unit",
-      "vehicle": "BAJAJ PULSAR-150 DTSI / 180 DTSI / DIS 125 DTSI O/M (WITHOUT DIGITAL METER) /180(UG1)",
-      "description": "BAJAJ PULSAR-150 DTSI / 180 DTSI / DIS 125 DTSI O/M (WITHOUT DIGITAL METER) /180(UG1)",
-      "image": "/2 wheeler/cdi unit/RP222F Cdi Unit For Bajaj pulsar 150 180 dtsi with out digital meter .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP222F Cdi Unit For Bajaj pulsar 150 180 dtsi with out digital meter .png"
+      "vehicle": "BAJAJ PULSAR -150 DTSI / 180 DTSI / DIS 125 DTSI O/M (WITHOUT DIGITAL METER) /180(UG1)",
+      "description": "BAJAJ PULSAR -150 DTSI / 180 DTSI / DIS 125 DTSI O/M (WITHOUT DIGITAL METER) /180(UG1)",
+      "image": "/2 wheeler/cdi unit/RP222F Cdi Unit For Bajaj pulsar 150 180 dtsi with out digital meter .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP222F Cdi Unit For Bajaj pulsar 150 180 dtsi with out digital meter .webp"
     },
     {
       "partNumber": "RP222FO",
@@ -1513,17 +1513,17 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "BAJAJ PULSAR-150 / 180 / 200 / UG3 DTSI (WITH DIGITAL METER)",
       "description": "BAJAJ PULSAR-150 / 180 / 200 / UG3 DTSI (WITH DIGITAL METER)",
-      "image": "/2 wheeler/cdi unit/RP222FO Cdi Unit For Bajaj Pulsar 150 180 200 Ug3 Dtsi with digital meter .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP222FO Cdi Unit For Bajaj Pulsar 150 180 200 Ug3 Dtsi with digital meter .png"
+      "image": "/2 wheeler/cdi unit/RP222FO Cdi Unit For Bajaj Pulsar 150 180 200 Ug3 Dtsi with digital meter .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP222FO Cdi Unit For Bajaj Pulsar 150 180 200 Ug3 Dtsi with digital meter .webp"
     },
     {
       "partNumber": "RP222FA",
       "referenceNumber": "DH111072/DJ111092",
       "name": "C.D.I. Unit",
-      "vehicle": "BAJAJ PULSAR-150 / 180 DTSI-UG4",
-      "description": "BAJAJ PULSAR-150 / 180 DTSI-UG4",
-      "image": "/2 wheeler/cdi unit/RP222FA Cdi Unit For Bajaj Pulsar 150 180 Dtsi Ug4 .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP222FA Cdi Unit For Bajaj Pulsar 150 180 Dtsi Ug4 .png"
+      "vehicle": "BAJAJ PULSAR -150 / 180 DTSI-UG4",
+      "description": "BAJAJ PULSAR -150 / 180 DTSI-UG4",
+      "image": "/2 wheeler/cdi unit/RP222FA Cdi Unit For Bajaj Pulsar 150 180 Dtsi Ug4 .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP222FA Cdi Unit For Bajaj Pulsar 150 180 Dtsi Ug4 .webp"
     },
     {
       "partNumber": "RP222FJ",
@@ -1540,8 +1540,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "BAJAJ PLATINA 125 DTSI KS ES (2008 MODEL)",
       "description": "BAJAJ PLATINA 125 DTSI KS ES (2008 MODEL)",
-      "image": "/2 wheeler/cdi unit/RP222FM Cdi Unit For Bajaj platina 125 dtsi ks es 2008 model .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP222FM Cdi Unit For Bajaj platina 125 dtsi ks es 2008 model .png"
+      "image": "/2 wheeler/cdi unit/RP222FM Cdi Unit For Bajaj platina 125 dtsi ks es 2008 model .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP222FM Cdi Unit For Bajaj platina 125 dtsi ks es 2008 model .webp"
     },
     {
       "partNumber": "RP222CF",
@@ -1584,7 +1584,7 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "referenceNumber": "JE351257",
       "name": "C.D.I. Unit",
       "vehicle": "BAJAJ PULSAR NS125 BS4",
-      "description": "BAJAJ PULSAR NS125 BS4",
+      "description": "BAJAJ PULSAR NS 125 BS4",
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP222CN+BAJAJ+PULSAR+NS125+BS4",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP222CN+BAJAJ+PULSAR+NS125+BS4"
     },
@@ -1594,8 +1594,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "BAJAJ PULSAR 220 / 220S /220F WITH AUTO CHOKE (GREEN)",
       "description": "BAJAJ PULSAR 220 / 220S /220F WITH AUTO CHOKE (GREEN)",
-      "image": "/2 wheeler/cdi unit/RP222FC Cdi Unit For Bajaj Pulsar 220 220s 220f with auto choke green .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP222FC Cdi Unit For Bajaj Pulsar 220 220s 220f with auto choke green .png"
+      "image": "/2 wheeler/cdi unit/RP222FC Cdi Unit For Bajaj Pulsar 220 220s 220f with auto choke green .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP222FC Cdi Unit For Bajaj Pulsar 220 220s 220f with auto choke green .webp"
     },
     {
       "partNumber": "RP222CU",
@@ -1700,10 +1700,10 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP222FR",
       "referenceNumber": "DH111019/DJ111008/DS111003",
       "name": "C.D.I. Unit",
-      "vehicle": "BAJAJ PULSAR DTSI-150/ 180 / DISCOVER 125DTSI O/M W/O DIGITAL METER",
-      "description": "BAJAJ PULSAR DTSI-150/ 180 / DISCOVER 125DTSI O/M W/O DIGITAL METER",
-      "image": "/2 wheeler/cdi unit/RP222FR CDI Unit For Bajaj Pulsar Discover 125 150 180 DTSI OM Digital Meter Parts .jpg",
-      "thumbnail": "/2 wheeler/cdi unit/RP222FR CDI Unit For Bajaj Pulsar Discover 125 150 180 DTSI OM Digital Meter Parts .jpg"
+      "vehicle": "BAJAJ PULSAR DTSI-150/180 / DISCOVER 125DTSI O/M W/O DIGITAL METER",
+      "description": "BAJAJ PULSAR DTSI-150/180 / DISCOVER 125DTSI O/M W/O DIGITAL METER",
+      "image": "/2 wheeler/cdi unit/RP222FR CDI Unit For Bajaj Pulsar Discover 125 150 180 DTSI OM Digital Meter Parts .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP222FR CDI Unit For Bajaj Pulsar Discover 125 150 180 DTSI OM Digital Meter Parts .webp"
     },
     {
       "partNumber": "RP223",
@@ -1711,8 +1711,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "BAJAJ M-80",
       "description": "BAJAJ M-80",
-      "image": "/2 wheeler/cdi unit/RP223 Cdi Unit For Bajaj M80  .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP223 Cdi Unit For Bajaj M80  .png"
+      "image": "/2 wheeler/cdi unit/RP223 Cdi Unit For Bajaj M80  .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP223 Cdi Unit For Bajaj M80  .webp"
     },
     {
       "partNumber": "RP226",
@@ -1720,8 +1720,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "BAJAJ WIND 125",
       "description": "BAJAJ WIND 125",
-      "image": "/2 wheeler/cdi unit/RP226 Cdi Unit For Bajaj Wind 125 .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP226 Cdi Unit For Bajaj Wind 125 .png"
+      "image": "/2 wheeler/cdi unit/RP226 Cdi Unit For Bajaj Wind 125 .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP226 Cdi Unit For Bajaj Wind 125 .webp"
     },
     {
       "partNumber": "RP226AQ",
@@ -1729,15 +1729,15 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "BAJAJ DISCOVER-150 WITH AUTO CHOKE",
       "description": "BAJAJ DISCOVER-150 WITH AUTO CHOKE",
-      "image": "/2 wheeler/cdi unit/RP226AQ Cdi Unit For Bajaj discover 150 with auto choke .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP226AQ Cdi Unit For Bajaj discover 150 with auto choke .png"
+      "image": "/2 wheeler/cdi unit/RP226AQ Cdi Unit For Bajaj discover 150 with auto choke .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP226AQ Cdi Unit For Bajaj discover 150 with auto choke .webp"
     },
     {
       "partNumber": "RP226MZ",
       "referenceNumber": "PA351206",
       "name": "C.D.I. Unit",
-      "vehicle": "BAJAJ DISCOVER-100T (D102B) 12-PIN COUPLER",
-      "description": "BAJAJ DISCOVER-100T (D102B) 12-PIN COUPLER",
+      "vehicle": "BAJAJ DISCOVER 100T (D102B) 12-PIN COUPLER",
+      "description": "BAJAJ DISCOVER 100T (D102B) 12-PIN COUPLER",
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP226MZ+BAJAJ+DISCOVER+100T+D102B+12+PIN+COUPLER",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP226MZ+BAJAJ+DISCOVER+100T+D102B+12+PIN+COUPLER"
     },
@@ -1747,15 +1747,15 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "BAJAJ DISCOVER-100M AC DC",
       "description": "BAJAJ DISCOVER-100M AC DC",
-      "image": "/2 wheeler/cdi unit/RP226MT Cdi Unit For Bajaj Discover 100m ac dc .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP226MT Cdi Unit For Bajaj Discover 100m ac dc .png"
+      "image": "/2 wheeler/cdi unit/RP226MT Cdi Unit For Bajaj Discover 100m ac dc .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP226MT Cdi Unit For Bajaj Discover 100m ac dc .webp"
     },
     {
       "partNumber": "RP226AB",
       "referenceNumber": "PA351215",
       "name": "C.D.I. Unit",
-      "vehicle": "BAJAJ DISCOVER-100M DC WITH AUTO CHOKE 12-PIN COUPLER PINK",
-      "description": "BAJAJ DISCOVER-100M DC WITH AUTO CHOKE 12-PIN COUPLER PINK",
+      "vehicle": "BAJAJ DISCOVER 100M DC WITH AUTO CHOKE 12-PIN COUPLER PINK",
+      "description": "BAJAJ DISCOVER 100M DC WITH AUTO CHOKE 12-PIN COUPLER PINK",
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP226AB+BAJAJ+DISCOVER+100M+DC+WITH+AUTO+CHOKE+12+PIN+COUPLER+P",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP226AB+BAJAJ+DISCOVER+100M+DC+WITH+AUTO+CHOKE+12+PIN+COUPLER+P"
     },
@@ -1763,8 +1763,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP226AT",
       "referenceNumber": "PA351217",
       "name": "C.D.I. Unit",
-      "vehicle": "BAJAJ DISCOVER-100M UG 12-PIN COUPLER",
-      "description": "BAJAJ DISCOVER-100M UG 12-PIN COUPLER",
+      "vehicle": "BAJAJ DISCOVER 100M UG 12-PIN COUPLER",
+      "description": "BAJAJ DISCOVER 100M UG 12-PIN COUPLER",
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP226AT+BAJAJ+DISCOVER+100M+UG+12+PIN+COUPLER",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP226AT+BAJAJ+DISCOVER+100M+UG+12+PIN+COUPLER"
     },
@@ -1781,8 +1781,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP226AR",
       "referenceNumber": "JE351207",
       "name": "C.D.I. Unit",
-      "vehicle": "BAJAJ DISCOVER-125T 12-PIN COUPLER",
-      "description": "BAJAJ DISCOVER-125T 12-PIN COUPLER",
+      "vehicle": "BAJAJ DISCOVER 125T 12-PIN COUPLER",
+      "description": "BAJAJ DISCOVER 125T 12-PIN COUPLER",
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP226AR+BAJAJ+DISCOVER+125T+12+PIN+COUPLER",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP226AR+BAJAJ+DISCOVER+125T+12+PIN+COUPLER"
     },
@@ -1790,8 +1790,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP226AU",
       "referenceNumber": "JE351206",
       "name": "C.D.I. Unit",
-      "vehicle": "BAJAJ DISCOVER-125ST (D102C) 12-PIN COUPLER",
-      "description": "BAJAJ DISCOVER-125ST (D102C) 12-PIN COUPLER",
+      "vehicle": "BAJAJ DISCOVER 125ST (D102C) 12-PIN COUPLER",
+      "description": "BAJAJ DISCOVER 125ST (D102C) 12-PIN COUPLER",
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP226AU+BAJAJ+DISCOVER+125ST+D102C+12+PIN+COUPLER",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP226AU+BAJAJ+DISCOVER+125ST+D102C+12+PIN+COUPLER"
     },
@@ -1846,8 +1846,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "BAJAJ DISCOVER-100CC 4G",
       "description": "BAJAJ DISCOVER-100CC 4G",
-      "image": "/2 wheeler/cdi unit/RP226Z Cdi Unit For Bajaj discover discover 100cc 4g .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP226Z Cdi Unit For Bajaj discover discover 100cc 4g .png"
+      "image": "/2 wheeler/cdi unit/RP226Z Cdi Unit For Bajaj discover discover 100cc 4g .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP226Z Cdi Unit For Bajaj discover discover 100cc 4g .webp"
     },
     {
       "partNumber": "RP226AZ",
@@ -1855,15 +1855,15 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "BAJAJ DISCOVER-100CC WITH AUTO CHOKE",
       "description": "BAJAJ DISCOVER-100CC WITH AUTO CHOKE",
-      "image": "/2 wheeler/cdi unit/RP226AZ Cdi Unit For Bajaj discover 100cc with auto choke .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP226AZ Cdi Unit For Bajaj discover 100cc with auto choke .png"
+      "image": "/2 wheeler/cdi unit/RP226AZ Cdi Unit For Bajaj discover 100cc with auto choke .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP226AZ Cdi Unit For Bajaj discover 100cc with auto choke .webp"
     },
     {
       "partNumber": "RP226AP",
       "referenceNumber": "JZ351208",
       "name": "C.D.I. Unit",
-      "vehicle": "BAJAJ DISCOVER-150M / 150S 12-PIN COUPLER",
-      "description": "BAJAJ DISCOVER-150M / 150S 12-PIN COUPLER",
+      "vehicle": "BAJAJ DISCOVER 150M / 150S 12-PIN COUPLER",
+      "description": "BAJAJ DISCOVER 150M / 150S 12-PIN COUPLER",
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP226AP+BAJAJ+DISCOVER+150M+150S+12+PIN+COUPLER",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP226AP+BAJAJ+DISCOVER+150M+150S+12+PIN+COUPLER"
     },
@@ -1873,8 +1873,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "BAJAJ KB-4S / CALIBER / BOXER / CT / PULSAR 150 / BYK",
       "description": "BAJAJ KB-4S / CALIBER / BOXER / CT / PULSAR 150 / BYK",
-      "image": "/2 wheeler/cdi unit/RP226RM Cdi Unit For Bajaj kb 4s caliber boxer ct pulsar 150 byk .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP226RM Cdi Unit For Bajaj kb 4s caliber boxer ct pulsar 150 byk .png"
+      "image": "/2 wheeler/cdi unit/RP226RM Cdi Unit For Bajaj kb 4s caliber boxer ct pulsar 150 byk .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP226RM Cdi Unit For Bajaj kb 4s caliber boxer ct pulsar 150 byk .webp"
     },
     {
       "partNumber": "RP227AR",
@@ -1882,8 +1882,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "BAJAJ XCD-135",
       "description": "BAJAJ XCD-135",
-      "image": "/2 wheeler/cdi unit/RP227AR Cdi Unit For Bajaj xcd 135 .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP227AR Cdi Unit For Bajaj xcd 135 .png"
+      "image": "/2 wheeler/cdi unit/RP227AR Cdi Unit For Bajaj xcd 135 .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP227AR Cdi Unit For Bajaj xcd 135 .webp"
     },
     {
       "partNumber": "RP227AW",
@@ -1900,8 +1900,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "BAJAJ CT-100 / PLATINA-100CC / CALIBER-115 / DISCOVER-112",
       "description": "BAJAJ CT-100 / PLATINA-100CC / CALIBER-115 / DISCOVER-112",
-      "image": "/2 wheeler/cdi unit/RP227AG Cdi Unit For Bajaj ct 100 platina 100cc caliber 115 discover 112 .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP227AG Cdi Unit For Bajaj ct 100 platina 100cc caliber 115 discover 112 .png"
+      "image": "/2 wheeler/cdi unit/RP227AG Cdi Unit For Bajaj ct 100 platina 100cc caliber 115 discover 112 .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP227AG Cdi Unit For Bajaj ct 100 platina 100cc caliber 115 discover 112 .webp"
     },
     {
       "partNumber": "RP227AT",
@@ -1918,8 +1918,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "BAJAJ PLATINA 100ES AC (GREEN)",
       "description": "BAJAJ PLATINA 100ES AC (GREEN)",
-      "image": "/2 wheeler/cdi unit/RP227AE Cdi Unit For Bajaj platina 100 es ac green .jpg",
-      "thumbnail": "/2 wheeler/cdi unit/RP227AE Cdi Unit For Bajaj platina 100 es ac green .jpg"
+      "image": "/2 wheeler/cdi unit/RP227AE Cdi Unit For Bajaj platina 100 es ac green .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP227AE Cdi Unit For Bajaj platina 100 es ac green .webp"
     },
     {
       "partNumber": "RP227AK",
@@ -1927,8 +1927,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "BAJAJ PLATINA-100 (COMFORTEC) DC BLUE",
       "description": "BAJAJ PLATINA-100 (COMFORTEC) DC BLUE",
-      "image": "/2 wheeler/cdi unit/RP227AK Cdi Unit For B ajaj Platina 100 Comfotec Dc Blue .jpg",
-      "thumbnail": "/2 wheeler/cdi unit/RP227AK Cdi Unit For B ajaj Platina 100 Comfotec Dc Blue .jpg"
+      "image": "/2 wheeler/cdi unit/RP227AK Cdi Unit For B ajaj Platina 100 Comfotec Dc Blue .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP227AK Cdi Unit For B ajaj Platina 100 Comfotec Dc Blue .webp"
     },
     {
       "partNumber": "RP227AY",
@@ -1945,8 +1945,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "BAJAJ PLATINA-125",
       "description": "BAJAJ PLATINA-125",
-      "image": "/2 wheeler/cdi unit/RP227AZ Cdi Unit For Bajaj Platina 125 .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP227AZ Cdi Unit For Bajaj Platina 125 .png"
+      "image": "/2 wheeler/cdi unit/RP227AZ Cdi Unit For Bajaj Platina 125 .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP227AZ Cdi Unit For Bajaj Platina 125 .webp"
     },
     {
       "partNumber": "RP227IP",
@@ -1981,8 +1981,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "ROYAL ENFIELD 350CC THREE PHASE (BLACK BOX)",
       "description": "ROYAL ENFIELD 350CC THREE PHASE (BLACK BOX)",
-      "image": "/2 wheeler/cdi unit/RP227JK Cdi Unit For Royal Enfield 350cc Three Phase Black box .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP227JK Cdi Unit For Royal Enfield 350cc Three Phase Black box .png"
+      "image": "/2 wheeler/cdi unit/RP227JK Cdi Unit For Royal Enfield 350cc Three Phase Black box .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP227JK Cdi Unit For Royal Enfield 350cc Three Phase Black box .webp"
     },
     {
       "partNumber": "RP227PW",
@@ -1990,8 +1990,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "ROYAL ENFIELD 350CC (BLUE BOX)",
       "description": "ROYAL ENFIELD 350CC (BLUE BOX)",
-      "image": "/2 wheeler/cdi unit/RP227PW Cdi Unit For Royal Enfield 350cc Blue box .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP227PW Cdi Unit For Royal Enfield 350cc Blue box .png"
+      "image": "/2 wheeler/cdi unit/RP227PW Cdi Unit For Royal Enfield 350cc Blue box .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP227PW Cdi Unit For Royal Enfield 350cc Blue box .webp"
     },
     {
       "partNumber": "RP227PX",
@@ -1999,8 +1999,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "ROYAL ENFIELD 350CC THUNDER BIRD (GREEN BOX)",
       "description": "ROYAL ENFIELD 350CC THUNDER BIRD (GREEN BOX)",
-      "image": "/2 wheeler/cdi unit/RP227PX Cdi Unit For Royal Enf 350cc Thunder Bird Green box .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP227PX Cdi Unit For Royal Enf 350cc Thunder Bird Green box .png"
+      "image": "/2 wheeler/cdi unit/RP227PX Cdi Unit For Royal Enf 350cc Thunder Bird Green box .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP227PX Cdi Unit For Royal Enf 350cc Thunder Bird Green box .webp"
     },
     {
       "partNumber": "RP231",
@@ -2008,8 +2008,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "LML VESPA XE / 150 CC O/M (GREY)",
       "description": "LML VESPA XE / 150 CC O/M (GREY)",
-      "image": "/2 wheeler/cdi unit/RP231 Cdi Unit For Lml vespa xe150cc om grey 4 pins .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP231 Cdi Unit For Lml vespa xe150cc om grey 4 pins .png"
+      "image": "/2 wheeler/cdi unit/RP231 Cdi Unit For Lml vespa xe150cc om grey 4 pins .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP231 Cdi Unit For Lml vespa xe150cc om grey 4 pins .webp"
     },
     {
       "partNumber": "RP232",
@@ -2017,8 +2017,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "LML VESPA T-5 / SELECT / SELECT ES",
       "description": "LML VESPA T-5 / SELECT / SELECT ES",
-      "image": "/2 wheeler/cdi unit/RP232 Cdi Unit For Lml Vespa T5 Select es 4 pins .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP232 Cdi Unit For Lml Vespa T5 Select es 4 pins .png"
+      "image": "/2 wheeler/cdi unit/RP232 Cdi Unit For Lml Vespa T5 Select es 4 pins .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP232 Cdi Unit For Lml Vespa T5 Select es 4 pins .webp"
     },
     {
       "partNumber": "RP232DM",
@@ -2026,8 +2026,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "LML VESPA 4S NEW MODEL",
       "description": "LML VESPA 4S NEW MODEL",
-      "image": "/2 wheeler/cdi unit/RP232DM Cdi Unit For Lml Vespa 4s new model .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP232DM Cdi Unit For Lml Vespa 4s new model .png"
+      "image": "/2 wheeler/cdi unit/RP232DM Cdi Unit For Lml Vespa 4s new model .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP232DM Cdi Unit For Lml Vespa 4s new model .webp"
     },
     {
       "partNumber": "RP236",
@@ -2035,8 +2035,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "TVS SUZUKI-100 / SHOGUN / SAMURAI / MAX 100",
       "description": "TVS SUZUKI-100 / SHOGUN / SAMURAI / MAX 100",
-      "image": "/2 wheeler/cdi unit/RP236 Cdi Unit For Tvs Suzuki 100 Shogun Samurai max 100 .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP236 Cdi Unit For Tvs Suzuki 100 Shogun Samurai max 100 .png"
+      "image": "/2 wheeler/cdi unit/RP236 Cdi Unit For Tvs Suzuki 100 Shogun Samurai max 100 .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP236 Cdi Unit For Tvs Suzuki 100 Shogun Samurai max 100 .webp"
     },
     {
       "partNumber": "RP236AA",
@@ -2044,8 +2044,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "TVS FIERO DC",
       "description": "TVS FIERO DC",
-      "image": "/2 wheeler/cdi unit/RP236AA Cdi Unit For Tvs fiero dc .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP236AA Cdi Unit For Tvs fiero dc .png"
+      "image": "/2 wheeler/cdi unit/RP236AA Cdi Unit For Tvs fiero dc .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP236AA Cdi Unit For Tvs fiero dc .webp"
     },
     {
       "partNumber": "RP236AB",
@@ -2053,8 +2053,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "TVS FIERO - F2",
       "description": "TVS FIERO - F2",
-      "image": "/2 wheeler/cdi unit/RP236AB Cdi Unit For Tvs Fiero F2 .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP236AB Cdi Unit For Tvs Fiero F2 .png"
+      "image": "/2 wheeler/cdi unit/RP236AB Cdi Unit For Tvs Fiero F2 .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP236AB Cdi Unit For Tvs Fiero F2 .webp"
     },
     {
       "partNumber": "RP236AR",
@@ -2062,8 +2062,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "TVS VICTOR",
       "description": "TVS VICTOR",
-      "image": "/2 wheeler/cdi unit/RP236AR Cdi Unit For Tvs Victor .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP236AR Cdi Unit For Tvs Victor .png"
+      "image": "/2 wheeler/cdi unit/RP236AR Cdi Unit For Tvs Victor .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP236AR Cdi Unit For Tvs Victor .webp"
     },
     {
       "partNumber": "RP236AS",
@@ -2071,8 +2071,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "TVS VICTOR GL ( WITH FLASHER )",
       "description": "TVS VICTOR GL ( WITH FLASHER )",
-      "image": "/2 wheeler/cdi unit/RP236AS Cdi Unit For Tvs Victor Gl with flasher .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP236AS Cdi Unit For Tvs Victor Gl with flasher .png"
+      "image": "/2 wheeler/cdi unit/RP236AS Cdi Unit For Tvs Victor Gl with flasher .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP236AS Cdi Unit For Tvs Victor Gl with flasher .webp"
     },
     {
       "partNumber": "RP236AG",
@@ -2080,8 +2080,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "TVS VICTOR GLX",
       "description": "TVS VICTOR GLX",
-      "image": "/2 wheeler/cdi unit/RP236AG Cdi Unit For Tvs Victor Glx .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP236AG Cdi Unit For Tvs Victor Glx .png"
+      "image": "/2 wheeler/cdi unit/RP236AG Cdi Unit For Tvs Victor Glx .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP236AG Cdi Unit For Tvs Victor Glx .webp"
     },
     {
       "partNumber": "RP236AZ",
@@ -2107,8 +2107,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "TVS VICTOR N/M TCI",
       "description": "TVS VICTOR N/M TCI",
-      "image": "/2 wheeler/cdi unit/RP236OT Cdi Unit For Tvs Victor nm Tci 14 pins .jpg",
-      "thumbnail": "/2 wheeler/cdi unit/RP236OT Cdi Unit For Tvs Victor nm Tci 14 pins .jpg"
+      "image": "/2 wheeler/cdi unit/RP236OT Cdi Unit For Tvs Victor nm Tci 14 pins .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP236OT Cdi Unit For Tvs Victor nm Tci 14 pins .webp"
     },
     {
       "partNumber": "RP236OJ",
@@ -2134,8 +2134,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "TVS CENTRA",
       "description": "TVS CENTRA",
-      "image": "/2 wheeler/cdi unit/RP236AD Cdi Unit For Tvs Centra .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP236AD Cdi Unit For Tvs Centra .png"
+      "image": "/2 wheeler/cdi unit/RP236AD Cdi Unit For Tvs Centra .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP236AD Cdi Unit For Tvs Centra .webp"
     },
     {
       "partNumber": "RP236AM",
@@ -2143,8 +2143,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "TVS APACHE-150 BLACK 10-WIRE",
       "description": "TVS APACHE-150 BLACK 10-WIRE",
-      "image": "/2 wheeler/cdi unit/RP236AM Cdi Unit For Tvs Apache 150 Black 10 wire .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP236AM Cdi Unit For Tvs Apache 150 Black 10 wire .png"
+      "image": "/2 wheeler/cdi unit/RP236AM Cdi Unit For Tvs Apache 150 Black 10 wire .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP236AM Cdi Unit For Tvs Apache 150 Black 10 wire .webp"
     },
     {
       "partNumber": "RP236KP",
@@ -2168,8 +2168,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP236SZ",
       "referenceNumber": "N9060930",
       "name": "C.D.I. Unit",
-      "vehicle": "TVS APACHE RTR-180 BS4 (GREEN) 8-WIRE",
-      "description": "TVS APACHE RTR-180 BS4 (GREEN) 8-WIRE",
+      "vehicle": "TVS APACHE RTR -180 BS4 (GREEN) 8-WIRE",
+      "description": "TVS APACHE RTR -180 BS4 (GREEN) 8-WIRE",
       "image": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP236SZ+TVS+APACHE+RTR+180+BS4+GREEN+8+WIRE",
       "thumbnail": "https://placehold.co/900x900/FFFFFF/102747.png?text=RP236SZ+TVS+APACHE+RTR+180+BS4+GREEN+8+WIRE"
     },
@@ -2179,8 +2179,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "TVS PHOENIX-125 12-WIRE",
       "description": "TVS PHOENIX-125 12-WIRE",
-      "image": "/2 wheeler/cdi unit/RP236ZZ Cdi Unit For Tvs phoenix 125 12 wire .jpg",
-      "thumbnail": "/2 wheeler/cdi unit/RP236ZZ Cdi Unit For Tvs phoenix 125 12 wire .jpg"
+      "image": "/2 wheeler/cdi unit/RP236ZZ Cdi Unit For Tvs phoenix 125 12 wire .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP236ZZ Cdi Unit For Tvs phoenix 125 12 wire .webp"
     },
     {
       "partNumber": "RP236SW",
@@ -2215,8 +2215,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "TVS JUPITER",
       "description": "TVS JUPITER",
-      "image": "/2 wheeler/cdi unit/RP236Z Cdi Unit For Tvs Jupiter .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP236Z Cdi Unit For Tvs Jupiter .png"
+      "image": "/2 wheeler/cdi unit/RP236Z Cdi Unit For Tvs Jupiter .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP236Z Cdi Unit For Tvs Jupiter .webp"
     },
     {
       "partNumber": "RP236X",
@@ -2233,8 +2233,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "SUZUKI ACCESS-125",
       "description": "SUZUKI ACCESS-125",
-      "image": "/2 wheeler/cdi unit/RP236AV Cdi Unit For Suzuki Access pins .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP236AV Cdi Unit For Suzuki Access pins .png"
+      "image": "/2 wheeler/cdi unit/RP236AV Cdi Unit For Suzuki Access pins .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP236AV Cdi Unit For Suzuki Access pins .webp"
     },
     {
       "partNumber": "RP236LM",
@@ -2251,8 +2251,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "SUZUKI ACCESS-125 NEW TCI",
       "description": "SUZUKI ACCESS-125 NEW TCI",
-      "image": "/2 wheeler/cdi unit/RP236LX Cdi Unit For Suzuki Access 125 New Tci .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP236LX Cdi Unit For Suzuki Access 125 New Tci .png"
+      "image": "/2 wheeler/cdi unit/RP236LX Cdi Unit For Suzuki Access 125 New Tci .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP236LX Cdi Unit For Suzuki Access 125 New Tci .webp"
     },
     {
       "partNumber": "RP236BX",
@@ -2276,10 +2276,10 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "partNumber": "RP236ZR",
       "referenceNumber": "K3060330",
       "name": "C.D.I. Unit",
-      "vehicle": "TVS SCOOTY PEP 7 WIRE 3-SOCKET",
-      "description": "TVS SCOOTY PEP 7 WIRE 3-SOCKET",
-      "image": "/2 wheeler/cdi unit/RP236ZR Cdi Unit For Tvs Scooty pep plus 7 wire 3 socket .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP236ZR Cdi Unit For Tvs Scooty pep plus 7 wire 3 socket .png"
+      "vehicle": "TVS SCOOTY PEP 7 WIRE 3- SOCKET",
+      "description": "TVS SCOOTY PEP 7 WIRE 3- SOCKET",
+      "image": "/2 wheeler/cdi unit/RP236ZR Cdi Unit For Tvs Scooty pep plus 7 wire 3 socket .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP236ZR Cdi Unit For Tvs Scooty pep plus 7 wire 3 socket .webp"
     },
     {
       "partNumber": "RP236RZ",
@@ -2296,8 +2296,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "TVS SCOOTY PEP PLUS 11- WIRE / STREAK",
       "description": "TVS SCOOTY PEP PLUS 11- WIRE / STREAK",
-      "image": "/2 wheeler/cdi unit/RP236ZN CDI Unit Fit for TVS Scooty Pep Plus Streak 11 Wire Scooter Two Wheeler Parts .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP236ZN CDI Unit Fit for TVS Scooty Pep Plus Streak 11 Wire Scooter Two Wheeler Parts .png"
+      "image": "/2 wheeler/cdi unit/RP236ZN CDI Unit Fit for TVS Scooty Pep Plus Streak 11 Wire Scooter Two Wheeler Parts .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP236ZN CDI Unit Fit for TVS Scooty Pep Plus Streak 11 Wire Scooter Two Wheeler Parts .webp"
     },
     {
       "partNumber": "RP236ZE",
@@ -2323,8 +2323,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "HERO HONDA CD-100 /SS / KINETIC CHALLENGER",
       "description": "HERO HONDA CD-100 /SS / KINETIC CHALLENGER",
-      "image": "/2 wheeler/cdi unit/RP238 Cdi Unit For Hero Hnd Cd 100 ss Kinetic Challenger 5 pins .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP238 Cdi Unit For Hero Hnd Cd 100 ss Kinetic Challenger 5 pins .png"
+      "image": "/2 wheeler/cdi unit/RP238 Cdi Unit For Hero Hnd Cd 100 ss Kinetic Challenger 5 pins .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP238 Cdi Unit For Hero Hnd Cd 100 ss Kinetic Challenger 5 pins .webp"
     },
     {
       "partNumber": "RP238AA",
@@ -2332,8 +2332,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "HERO HONDA AMBITION (DIGITAL)",
       "description": "HERO HONDA AMBITION (DIGITAL)",
-      "image": "/2 wheeler/cdi unit/RP238AA Cdi Unit For Hero Honda ambition digital .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP238AA Cdi Unit For Hero Honda ambition digital .png"
+      "image": "/2 wheeler/cdi unit/RP238AA Cdi Unit For Hero Honda ambition digital .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP238AA Cdi Unit For Hero Honda ambition digital .webp"
     },
     {
       "partNumber": "RP238AI",
@@ -2341,8 +2341,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "HERO HUNK / HONDA UNICORN / CBZ X-TREME / ACHIEVER / CBF-150",
       "description": "HERO HUNK / HONDA UNICORN / CBZ X-TREME / ACHIEVER / CBF-150",
-      "image": "/2 wheeler/cdi unit/RP238AI Cdi Unit For Hero Hunk Honda Unicorn cbz x treme achiever cbf 150 .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP238AI Cdi Unit For Hero Hunk Honda Unicorn cbz x treme achiever cbf 150 .png"
+      "image": "/2 wheeler/cdi unit/RP238AI Cdi Unit For Hero Hunk Honda Unicorn cbz x treme achiever cbf 150 .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP238AI Cdi Unit For Hero Hunk Honda Unicorn cbz x treme achiever cbf 150 .webp"
     },
     {
       "partNumber": "RP238AX",
@@ -2377,8 +2377,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "HERO GLAMOUR/HERO SUPER SPLENDOR 6-PIN SOCKET",
       "description": "HERO GLAMOUR/HERO SUPER SPLENDOR 6-PIN SOCKET",
-      "image": "/2 wheeler/cdi unit/RP238DD Cdi Unit For Hero Hero glamour hero super splendor 6 pin socket .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP238DD Cdi Unit For Hero Hero glamour hero super splendor 6 pin socket .png"
+      "image": "/2 wheeler/cdi unit/RP238DD Cdi Unit For Hero Hero glamour hero super splendor 6 pin socket .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP238DD Cdi Unit For Hero Hero glamour hero super splendor 6 pin socket .webp"
     },
     {
       "partNumber": "RP238BD",
@@ -2395,8 +2395,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "HERO SPLENDOR PRO (2010 TO 2012 MODEL)PASSION PRO(2008 TO 2012 MODEL) HF DAWN(2012M)HF DELUXE (2012M)/CD DELUXE(2010M)CD DAWN (2010M)/SPLENDOR NXG(2010 TO 2012M) / PASSION PRO TR",
       "description": "HERO SPLENDOR PRO (2010 TO 2012 MODEL)PASSION PRO(2008 TO 2012 MODEL) HF DAWN(2012M)HF DELUXE (2012M)/CD DELUXE(2010M)CD DAWN (2010M)/SPLENDOR NXG(2010 TO 2012M) / PASSION PRO TR",
-      "image": "/2 wheeler/cdi unit/RP238EG Cdi Unit For Hero splendor pro 2010 to 2012 model passion pro hf dawn .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP238EG Cdi Unit For Hero splendor pro 2010 to 2012 model passion pro hf dawn .png"
+      "image": "/2 wheeler/cdi unit/RP238EG Cdi Unit For Hero splendor pro 2010 to 2012 model passion pro hf dawn .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP238EG Cdi Unit For Hero splendor pro 2010 to 2012 model passion pro hf dawn .webp"
     },
     {
       "partNumber": "RP239",
@@ -2404,8 +2404,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "HERO HONDA SPLENDOR P-17 / PASSION / LML ENERGY / ADRENO / FREEDOM/ SPL PLUS",
       "description": "HERO HONDA SPLENDOR P-17 / PASSION / LML ENERGY / ADRENO / FREEDOM/ SPL PLUS",
-      "image": "/2 wheeler/cdi unit/RP239 Cdi Unit For Hero Honda Splendor p17 passion .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP239 Cdi Unit For Hero Honda Splendor p17 passion .png"
+      "image": "/2 wheeler/cdi unit/RP239 Cdi Unit For Hero Honda Splendor p17 passion .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP239 Cdi Unit For Hero Honda Splendor p17 passion .webp"
     },
     {
       "partNumber": "RP239SR",
@@ -2422,8 +2422,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "HERO HF DELUXE / PASSION PRO 13S (2017)",
       "description": "HERO HF DELUXE / PASSION PRO 13S (2017)",
-      "image": "/2 wheeler/cdi unit/RP239SW Cdi Unit For Hero hf deluxe passion pro 13s 2017 .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP239SW Cdi Unit For Hero hf deluxe passion pro 13s 2017 .png"
+      "image": "/2 wheeler/cdi unit/RP239SW Cdi Unit For Hero hf deluxe passion pro 13s 2017 .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP239SW Cdi Unit For Hero hf deluxe passion pro 13s 2017 .webp"
     },
     {
       "partNumber": "RP239EM",
@@ -2440,8 +2440,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "HERO PASSION X-PRO TCI",
       "description": "HERO PASSION X-PRO TCI",
-      "image": "/2 wheeler/cdi unit/RP239EC Cdi Unit For Hero Passion x pro TCI .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP239EC Cdi Unit For Hero Passion x pro TCI .png"
+      "image": "/2 wheeler/cdi unit/RP239EC Cdi Unit For Hero Passion x pro TCI .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP239EC Cdi Unit For Hero Passion x pro TCI .webp"
     },
     {
       "partNumber": "RP239BC",
@@ -2449,8 +2449,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "HERO CD - DAWN / CD DELUXE ( O / M )",
       "description": "HERO CD - DAWN / CD DELUXE ( O / M )",
-      "image": "/2 wheeler/cdi unit/RP239BC Cdi Unit For Hero cd dawn cd deluxe om .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP239BC Cdi Unit For Hero cd dawn cd deluxe om .png"
+      "image": "/2 wheeler/cdi unit/RP239BC Cdi Unit For Hero cd dawn cd deluxe om .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP239BC Cdi Unit For Hero cd dawn cd deluxe om .webp"
     },
     {
       "partNumber": "RP239CZ",
@@ -2458,8 +2458,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "HERO CD-DELUXE NEW DC / NXG / ECO DELUX",
       "description": "HERO CD-DELUXE NEW DC / NXG / ECO DELUX",
-      "image": "/2 wheeler/cdi unit/RP239CZ Cdi Unit For Hero cd deluxe new dc nxg eco deluxe 4 pins .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP239CZ Cdi Unit For Hero cd deluxe new dc nxg eco deluxe 4 pins .png"
+      "image": "/2 wheeler/cdi unit/RP239CZ Cdi Unit For Hero cd deluxe new dc nxg eco deluxe 4 pins .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP239CZ Cdi Unit For Hero cd deluxe new dc nxg eco deluxe 4 pins .webp"
     },
     {
       "partNumber": "RP240",
@@ -2467,8 +2467,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "HERO GIZMO",
       "description": "HERO GIZMO",
-      "image": "/2 wheeler/cdi unit/RP240 Cdi Unit For Hero Gizmo .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP240 Cdi Unit For Hero Gizmo .png"
+      "image": "/2 wheeler/cdi unit/RP240 Cdi Unit For Hero Gizmo .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP240 Cdi Unit For Hero Gizmo .webp"
     },
     {
       "partNumber": "RP240G",
@@ -2494,8 +2494,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "HERO PUCH",
       "description": "HERO PUCH",
-      "image": "/2 wheeler/cdi unit/RP241 Cdi Unit For Hero puch .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP241 Cdi Unit For Hero puch .png"
+      "image": "/2 wheeler/cdi unit/RP241 Cdi Unit For Hero puch .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP241 Cdi Unit For Hero puch .webp"
     },
     {
       "partNumber": "RP242",
@@ -2503,8 +2503,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "HONDA ETERNO",
       "description": "HONDA ETERNO",
-      "image": "/2 wheeler/cdi unit/RP242 Cdi Unit For Honda Eterno .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP242 Cdi Unit For Honda Eterno .png"
+      "image": "/2 wheeler/cdi unit/RP242 Cdi Unit For Honda Eterno .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP242 Cdi Unit For Honda Eterno .webp"
     },
     {
       "partNumber": "RP242AH",
@@ -2512,8 +2512,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "HONDA UNICORN (DIGITAL)",
       "description": "HONDA UNICORN (DIGITAL)",
-      "image": "/2 wheeler/cdi unit/RP242AH CDI Unit Fit for Honda Unicorn Digital .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP242AH CDI Unit Fit for Honda Unicorn Digital .png"
+      "image": "/2 wheeler/cdi unit/RP242AH CDI Unit Fit for Honda Unicorn Digital .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP242AH CDI Unit Fit for Honda Unicorn Digital .webp"
     },
     {
       "partNumber": "RP242AU",
@@ -2548,8 +2548,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "HONDA SHINE / CB SHINE",
       "description": "HONDA SHINE / CB SHINE",
-      "image": "/2 wheeler/cdi unit/RP242AS Cdi Unit For Honda shine cb shine .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP242AS Cdi Unit For Honda shine cb shine .png"
+      "image": "/2 wheeler/cdi unit/RP242AS Cdi Unit For Honda shine cb shine .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP242AS Cdi Unit For Honda shine cb shine .webp"
     },
     {
       "partNumber": "RP242AG",
@@ -2566,8 +2566,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "HONDA ACTIVA ( 10 PIN) N/M",
       "description": "HONDA ACTIVA ( 10 PIN) N/M",
-      "image": "/2 wheeler/cdi unit/RP243 Cdi Unit For Honda Activa 10 pin nm .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP243 Cdi Unit For Honda Activa 10 pin nm .png"
+      "image": "/2 wheeler/cdi unit/RP243 Cdi Unit For Honda Activa 10 pin nm .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP243 Cdi Unit For Honda Activa 10 pin nm .webp"
     },
     {
       "partNumber": "RP244",
@@ -2575,8 +2575,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "HONDA ACTIVA (9 PIN) O/M",
       "description": "HONDA ACTIVA (9 PIN) O/M",
-      "image": "/2 wheeler/cdi unit/RP244 Cdi Unit For Hnd Activa 9 pin om .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP244 Cdi Unit For Hnd Activa 9 pin om .png"
+      "image": "/2 wheeler/cdi unit/RP244 Cdi Unit For Hnd Activa 9 pin om .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP244 Cdi Unit For Hnd Activa 9 pin om .webp"
     },
     {
       "partNumber": "RP244CF",
@@ -2593,8 +2593,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "HONDA ACTIVA 10-PIN HET 110CC",
       "description": "HONDA ACTIVA 10-PIN HET 110CC",
-      "image": "/2 wheeler/cdi unit/RP244RW Cdi Unit For Hnd Activa 10 pin het 110cc .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP244RW Cdi Unit For Hnd Activa 10 pin het 110cc .png"
+      "image": "/2 wheeler/cdi unit/RP244RW Cdi Unit For Hnd Activa 10 pin het 110cc .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP244RW Cdi Unit For Hnd Activa 10 pin het 110cc .webp"
     },
     {
       "partNumber": "RP244WL",
@@ -2602,8 +2602,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "HONDA ACTIVA 7-PIN HET 5G BS4 (2018)",
       "description": "HONDA ACTIVA 7-PIN HET 5G BS4 (2018)",
-      "image": "/2 wheeler/cdi unit/RP244WL Cdi Unit For Honda Activa 7 pin Het 5g Bs4 2018 .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP244WL Cdi Unit For Honda Activa 7 pin Het 5g Bs4 2018 .png"
+      "image": "/2 wheeler/cdi unit/RP244WL Cdi Unit For Honda Activa 7 pin Het 5g Bs4 2018 .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP244WL Cdi Unit For Honda Activa 7 pin Het 5g Bs4 2018 .webp"
     },
     {
       "partNumber": "RP244MR",
@@ -2611,8 +2611,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "HONDA ACTIVA 110CC 10-PIN / MAESTRO O/M / DIO HET",
       "description": "HONDA ACTIVA 110CC 10-PIN / MAESTRO O/M / DIO HET",
-      "image": "/2 wheeler/cdi unit/RP244MR Cdi Unit For Honda Activa 110cc 10 pin Maestro o m dio het .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP244MR Cdi Unit For Honda Activa 110cc 10 pin Maestro o m dio het .png"
+      "image": "/2 wheeler/cdi unit/RP244MR Cdi Unit For Honda Activa 110cc 10 pin Maestro o m dio het .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP244MR Cdi Unit For Honda Activa 110cc 10 pin Maestro o m dio het .webp"
     },
     {
       "partNumber": "RP244DR",
@@ -2620,8 +2620,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "HONDA ACTIVA HET 3G 7- PIN",
       "description": "HONDA ACTIVA HET 3G 7- PIN",
-      "image": "/2 wheeler/cdi unit/RP244DR Cdi Unit For Honda Activa Het 3g 7 pin .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP244DR Cdi Unit For Honda Activa Het 3g 7 pin .png"
+      "image": "/2 wheeler/cdi unit/RP244DR Cdi Unit For Honda Activa Het 3g 7 pin .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP244DR Cdi Unit For Honda Activa Het 3g 7 pin .webp"
     },
     {
       "partNumber": "RP244L",
@@ -2638,8 +2638,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "HONDA DREAM NEO (HET) DREAM YUGA (HET)",
       "description": "HONDA DREAM NEO (HET) DREAM YUGA (HET)",
-      "image": "/2 wheeler/cdi unit/RP244MT Cdi Unit For Honda Dream Neo Het Dream Yuga het .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP244MT Cdi Unit For Honda Dream Neo Het Dream Yuga het .png"
+      "image": "/2 wheeler/cdi unit/RP244MT Cdi Unit For Honda Dream Neo Het Dream Yuga het .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP244MT Cdi Unit For Honda Dream Neo Het Dream Yuga het .webp"
     },
     {
       "partNumber": "RP244Z",
@@ -2647,8 +2647,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "HONDA ACTIVA HET 125- 10 PIN",
       "description": "HONDA ACTIVA HET 125- 10 PIN",
-      "image": "/2 wheeler/cdi unit/RP244Z Cdi Unit For Honda Activa het 125 10 pin .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP244Z Cdi Unit For Honda Activa het 125 10 pin .png"
+      "image": "/2 wheeler/cdi unit/RP244Z Cdi Unit For Honda Activa het 125 10 pin .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP244Z Cdi Unit For Honda Activa het 125 10 pin .webp"
     },
     {
       "partNumber": "RP244YK",
@@ -2683,8 +2683,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "YAMAHA CRUX / LIBERO / YD-110",
       "description": "YAMAHA CRUX / LIBERO / YD-110",
-      "image": "/2 wheeler/cdi unit/RP245 Cdi Unit For Yamaha Crux libero yd 110 6 pins .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP245 Cdi Unit For Yamaha Crux libero yd 110 6 pins .png"
+      "image": "/2 wheeler/cdi unit/RP245 Cdi Unit For Yamaha Crux libero yd 110 6 pins .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP245 Cdi Unit For Yamaha Crux libero yd 110 6 pins .webp"
     },
     {
       "partNumber": "RP245WW",
@@ -2692,8 +2692,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "YAMAHA CRUX-R / ENTICER-SELF START",
       "description": "YAMAHA CRUX-R / ENTICER-SELF START",
-      "image": "/2 wheeler/cdi unit/RP245WW CDI Unit for Yamaha Crux R Enticer Self Start 6 Pin Two Wheeler Bike Spare Parts .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP245WW CDI Unit for Yamaha Crux R Enticer Self Start 6 Pin Two Wheeler Bike Spare Parts .png"
+      "image": "/2 wheeler/cdi unit/RP245WW CDI Unit for Yamaha Crux R Enticer Self Start 6 Pin Two Wheeler Bike Spare Parts .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP245WW CDI Unit for Yamaha Crux R Enticer Self Start 6 Pin Two Wheeler Bike Spare Parts .webp"
     },
     {
       "partNumber": "RP245W",
@@ -2719,8 +2719,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "YAMAHA YBX 7-WIRE",
       "description": "YAMAHA YBX 7-WIRE",
-      "image": "/2 wheeler/cdi unit/RP245RM Cdi Unit For Yamaha Ybx 7 wire .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP245RM Cdi Unit For Yamaha Ybx 7 wire .png"
+      "image": "/2 wheeler/cdi unit/RP245RM Cdi Unit For Yamaha Ybx 7 wire .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP245RM Cdi Unit For Yamaha Ybx 7 wire .webp"
     },
     {
       "partNumber": "RP245RZ",
@@ -2728,8 +2728,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "YAMAHA YBX 8-WIRE",
       "description": "YAMAHA YBX 8-WIRE",
-      "image": "/2 wheeler/cdi unit/RP245RZ Cdi Unit For Yamaha Ybx 8 wire .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP245RZ Cdi Unit For Yamaha Ybx 8 wire .png"
+      "image": "/2 wheeler/cdi unit/RP245RZ Cdi Unit For Yamaha Ybx 8 wire .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP245RZ Cdi Unit For Yamaha Ybx 8 wire .webp"
     },
     {
       "partNumber": "RP245WO",
@@ -2737,8 +2737,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "YAMAHA FZ-16 / FZ-S /FAZER N/M 8+4-PIN",
       "description": "YAMAHA FZ-16 / FZ-S /FAZER N/M 8+4-PIN",
-      "image": "/2 wheeler/cdi unit/RP245WO Cdi Unit For Yamaha Fz 16 Fzs Fazer n m .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP245WO Cdi Unit For Yamaha Fz 16 Fzs Fazer n m .png"
+      "image": "/2 wheeler/cdi unit/RP245WO Cdi Unit For Yamaha Fz 16 Fzs Fazer n m .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP245WO Cdi Unit For Yamaha Fz 16 Fzs Fazer n m .webp"
     },
     {
       "partNumber": "RP245WM",
@@ -2746,8 +2746,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "YAMAHA SZ-R WITH RPM METER",
       "description": "YAMAHA SZ-R WITH RPM METER",
-      "image": "/2 wheeler/cdi unit/RP245WM Cdi Unit For Yamaha Szr with rpm meter .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP245WM Cdi Unit For Yamaha Szr with rpm meter .png"
+      "image": "/2 wheeler/cdi unit/RP245WM Cdi Unit For Yamaha Szr with rpm meter .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP245WM Cdi Unit For Yamaha Szr with rpm meter .webp"
     },
     {
       "partNumber": "RP245WD",
@@ -2773,8 +2773,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "YAMAHA RX-100",
       "description": "YAMAHA RX-100",
-      "image": "/2 wheeler/cdi unit/RP245XO Cdi Unit For Yamaha Rx 100 .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP245XO Cdi Unit For Yamaha Rx 100 .png"
+      "image": "/2 wheeler/cdi unit/RP245XO Cdi Unit For Yamaha Rx 100 .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP245XO Cdi Unit For Yamaha Rx 100 .webp"
     },
     {
       "partNumber": "RP245XP",
@@ -2782,8 +2782,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "C.D.I. Unit",
       "vehicle": "YAMAHA RXG 12V",
       "description": "YAMAHA RXG 12V",
-      "image": "/2 wheeler/cdi unit/RP245XP Cdi Unit For Yamaha Rxg 12v .png",
-      "thumbnail": "/2 wheeler/cdi unit/RP245XP Cdi Unit For Yamaha Rxg 12v .png"
+      "image": "/2 wheeler/cdi unit/RP245XP Cdi Unit For Yamaha Rxg 12v .webp",
+      "thumbnail": "/2 wheeler/cdi unit/RP245XP Cdi Unit For Yamaha Rxg 12v .webp"
     }
   ],
   "2-wheeler-parts-ac-regulator": [
@@ -2793,8 +2793,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "A.C. Regulator",
       "vehicle": "LML SELECT-II / NV SPL / SELECT- II EXPRESS-5 / TRENDY",
       "description": "LML SELECT-II / NV SPL / SELECT- II EXPRESS-5 / TRENDY",
-      "image": "/2 wheeler/ac regulator/rp246%20AC%20Regulator%20For%20Lml%20Select%20nv%20Spl%20express%205%20trendy%20%20(5).png",
-      "thumbnail": "/2 wheeler/ac regulator/rp246%20AC%20Regulator%20For%20Lml%20Select%20nv%20Spl%20express%205%20trendy%20%20(5).png"
+      "image": "/2 wheeler/ac regulator/rp246%20AC%20Regulator%20For%20Lml%20Select%20nv%20Spl%20express%205%20trendy%20%20(5).webp",
+      "thumbnail": "/2 wheeler/ac regulator/rp246%20AC%20Regulator%20For%20Lml%20Select%20nv%20Spl%20express%205%20trendy%20%20(5).webp"
     },
     {
       "partNumber": "RP247",
@@ -2802,8 +2802,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "A.C. Regulator",
       "vehicle": "BAJAJ 12V / SUNNY / SUPPER FE / YEZDI 12V",
       "description": "BAJAJ 12V / SUNNY / SUPPER FE / YEZDI 12V",
-      "image": "/2 wheeler/ac regulator/RP247%20AC%20Regulator%20for%20Bajaj%20Sunny%20Super%20FE%20Yezdi%2012V%20Scooter%20Two%20Wheeler%20Spare%20Parts%20(2).png",
-      "thumbnail": "/2 wheeler/ac regulator/RP247%20AC%20Regulator%20for%20Bajaj%20Sunny%20Super%20FE%20Yezdi%2012V%20Scooter%20Two%20Wheeler%20Spare%20Parts%20(2).png"
+      "image": "/2 wheeler/ac regulator/RP247%20AC%20Regulator%20for%20Bajaj%20Sunny%20Super%20FE%20Yezdi%2012V%20Scooter%20Two%20Wheeler%20Spare%20Parts%20(2).webp",
+      "thumbnail": "/2 wheeler/ac regulator/RP247%20AC%20Regulator%20for%20Bajaj%20Sunny%20Super%20FE%20Yezdi%2012V%20Scooter%20Two%20Wheeler%20Spare%20Parts%20(2).webp"
     },
     {
       "partNumber": "RP249SS",
@@ -2820,8 +2820,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "A.C. Regulator",
       "vehicle": "TVS XL-SUPER (WITH FLASHER)",
       "description": "TVS XL-SUPER (WITH FLASHER)",
-      "image": "/2 wheeler/ac regulator/RP249SH%20AC%20Regulator%20for%20TVS%20XL%20Super%20with%20Flasher%20Scooter%20Two%20Wheeler%20Parts%20(5).png",
-      "thumbnail": "/2 wheeler/ac regulator/RP249SH%20AC%20Regulator%20for%20TVS%20XL%20Super%20with%20Flasher%20Scooter%20Two%20Wheeler%20Parts%20(5).png"
+      "image": "/2 wheeler/ac regulator/RP249SH%20AC%20Regulator%20for%20TVS%20XL%20Super%20with%20Flasher%20Scooter%20Two%20Wheeler%20Parts%20(5).webp",
+      "thumbnail": "/2 wheeler/ac regulator/RP249SH%20AC%20Regulator%20for%20TVS%20XL%20Super%20with%20Flasher%20Scooter%20Two%20Wheeler%20Parts%20(5).webp"
     }
   ],
   "2-wheeler-parts-electronic-flasher": [
@@ -2831,8 +2831,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Electronic Flasher",
       "vehicle": "BAJAJ 12V AC",
       "description": "BAJAJ 12V AC",
-      "image": "/2 wheeler/electronic flasher/RP250%20Electronic%20Flasher%20for%20Bajaj%2012V%20AC%20Scooter%20Two%20Wheeler%20Spare%20Parts%20(1).png",
-      "thumbnail": "/2 wheeler/electronic flasher/RP250%20Electronic%20Flasher%20for%20Bajaj%2012V%20AC%20Scooter%20Two%20Wheeler%20Spare%20Parts%20(1).png"
+      "image": "/2 wheeler/electronic flasher/RP250%20Electronic%20Flasher%20for%20Bajaj%2012V%20AC%20Scooter%20Two%20Wheeler%20Spare%20Parts%20(1).webp",
+      "thumbnail": "/2 wheeler/electronic flasher/RP250%20Electronic%20Flasher%20for%20Bajaj%2012V%20AC%20Scooter%20Two%20Wheeler%20Spare%20Parts%20(1).webp"
     },
     {
       "partNumber": "RP251",
@@ -2840,8 +2840,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Electronic Flasher",
       "vehicle": "BAJAJ CLASSIC - SL / CHETAK 99 BRAVO / BOXER AT",
       "description": "BAJAJ CLASSIC - SL / CHETAK 99 BRAVO / BOXER AT",
-      "image": "/2 wheeler/electronic flasher/RP251%20%20Electronic%20Flasher%20for%20Bajaj%20Chetak%2099%20Bravo%20Boxer%20AT%20Scooter%20Parts%20(1).png",
-      "thumbnail": "/2 wheeler/electronic flasher/RP251%20%20Electronic%20Flasher%20for%20Bajaj%20Chetak%2099%20Bravo%20Boxer%20AT%20Scooter%20Parts%20(1).png"
+      "image": "/2 wheeler/electronic flasher/RP251%20%20Electronic%20Flasher%20for%20Bajaj%20Chetak%2099%20Bravo%20Boxer%20AT%20Scooter%20Parts%20(1).webp",
+      "thumbnail": "/2 wheeler/electronic flasher/RP251%20%20Electronic%20Flasher%20for%20Bajaj%20Chetak%2099%20Bravo%20Boxer%20AT%20Scooter%20Parts%20(1).webp"
     },
     {
       "partNumber": "RP252",
@@ -2849,8 +2849,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Electronic Flasher",
       "vehicle": "VESPA XE / 150 CC O/M (PIN TYPE)",
       "description": "VESPA XE / 150 CC O/M (PIN TYPE)",
-      "image": "/2 wheeler/electronic flasher/RP252  Electronic Flasher for Vespa XE 150cc OM Pin Type Two Wheeler Spare Pats (1).png",
-      "thumbnail": "/2 wheeler/electronic flasher/RP252  Electronic Flasher for Vespa XE 150cc OM Pin Type Two Wheeler Spare Pats (1).png"
+      "image": "/2 wheeler/electronic flasher/RP252  Electronic Flasher for Vespa XE 150cc OM Pin Type Two Wheeler Spare Pats (1).webp",
+      "thumbnail": "/2 wheeler/electronic flasher/RP252  Electronic Flasher for Vespa XE 150cc OM Pin Type Two Wheeler Spare Pats (1).webp"
     },
     {
       "partNumber": "RP253",
@@ -2858,8 +2858,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Electronic Flasher",
       "vehicle": "VESPA T-5 / SELECT (COUPLER TYPE)",
       "description": "VESPA T-5 / SELECT (COUPLER TYPE)",
-      "image": "/2 wheeler/electronic flasher/RP253  Electronic Flasher for Vespa T 5 Select Coupler Type Two Wheelers Scooter Parts (1).png",
-      "thumbnail": "/2 wheeler/electronic flasher/RP253  Electronic Flasher for Vespa T 5 Select Coupler Type Two Wheelers Scooter Parts (1).png"
+      "image": "/2 wheeler/electronic flasher/RP253  Electronic Flasher for Vespa T 5 Select Coupler Type Two Wheelers Scooter Parts (1).webp",
+      "thumbnail": "/2 wheeler/electronic flasher/RP253  Electronic Flasher for Vespa T 5 Select Coupler Type Two Wheelers Scooter Parts (1).webp"
     },
     {
       "partNumber": "RP253GH",
@@ -2867,8 +2867,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Electronic Flasher",
       "vehicle": "UNIVERSAL 12-V DC WITH BUZZER (2 PIN)",
       "description": "UNIVERSAL 12-V DC WITH BUZZER (2 PIN)",
-      "image": "/2 wheeler/electronic flasher/RP.253GH%20%20Electronic%20Flasher%20for%20Universal%2012v%20Dc%20with%20Buzzer%20Pin%202%20Pin%20Two%20Wheelers%20Parts%20(1).png",
-      "thumbnail": "/2 wheeler/electronic flasher/RP.253GH%20%20Electronic%20Flasher%20for%20Universal%2012v%20Dc%20with%20Buzzer%20Pin%202%20Pin%20Two%20Wheelers%20Parts%20(1).png"
+      "image": "/2 wheeler/electronic flasher/RP.253GH%20%20Electronic%20Flasher%20for%20Universal%2012v%20Dc%20with%20Buzzer%20Pin%202%20Pin%20Two%20Wheelers%20Parts%20(1).webp",
+      "thumbnail": "/2 wheeler/electronic flasher/RP.253GH%20%20Electronic%20Flasher%20for%20Universal%2012v%20Dc%20with%20Buzzer%20Pin%202%20Pin%20Two%20Wheelers%20Parts%20(1).webp"
     },
     {
       "partNumber": "RP253GI",
@@ -2876,8 +2876,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Electronic Flasher",
       "vehicle": "UNIVERSAL 12-V DC WITH FLASHER (3 PIN)",
       "description": "UNIVERSAL 12-V DC WITH FLASHER (3 PIN)",
-      "image": "/2 wheeler/electronic flasher/RP253gi%20Universal%2012v%20Dc%20with%20Flasher%20(5).png",
-      "thumbnail": "/2 wheeler/electronic flasher/RP253gi%20Universal%2012v%20Dc%20with%20Flasher%20(5).png"
+      "image": "/2 wheeler/electronic flasher/RP253gi%20Universal%2012v%20Dc%20with%20Flasher%20(5).webp",
+      "thumbnail": "/2 wheeler/electronic flasher/RP253gi%20Universal%2012v%20Dc%20with%20Flasher%20(5).webp"
     },
     {
       "partNumber": "RP254",
@@ -2885,8 +2885,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Electronic Flasher",
       "vehicle": "HERO HONDA DC UNIVERSAL",
       "description": "HERO HONDA DC UNIVERSAL",
-      "image": "/2 wheeler/electronic flasher/RP254%20Hero%20Honda%20Dc%20Universal%20(4).png",
-      "thumbnail": "/2 wheeler/electronic flasher/RP254%20Hero%20Honda%20Dc%20Universal%20(4).png"
+      "image": "/2 wheeler/electronic flasher/RP254%20Hero%20Honda%20Dc%20Universal%20(4).webp",
+      "thumbnail": "/2 wheeler/electronic flasher/RP254%20Hero%20Honda%20Dc%20Universal%20(4).webp"
     },
     {
       "partNumber": "RP255",
@@ -2903,8 +2903,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Electronic Flasher",
       "vehicle": "BAJAJ PULSAR 150 / 180 / DISCOVER DTSI ( SMALL RED)",
       "description": "BAJAJ PULSAR 150 / 180 / DISCOVER DTSI ( SMALL RED)",
-      "image": "/2 wheeler/electronic flasher/RP.255dk%20%20Electronic%20Flasher%20for%20Bajaj%20Pulsar%20150%20180%20Discover%20DTSi%20%20Bike%20Spare%20Parts%20(1).png",
-      "thumbnail": "/2 wheeler/electronic flasher/RP.255dk%20%20Electronic%20Flasher%20for%20Bajaj%20Pulsar%20150%20180%20Discover%20DTSi%20%20Bike%20Spare%20Parts%20(1).png"
+      "image": "/2 wheeler/electronic flasher/RP.255dk%20%20Electronic%20Flasher%20for%20Bajaj%20Pulsar%20150%20180%20Discover%20DTSi%20%20Bike%20Spare%20Parts%20(1).webp",
+      "thumbnail": "/2 wheeler/electronic flasher/RP.255dk%20%20Electronic%20Flasher%20for%20Bajaj%20Pulsar%20150%20180%20Discover%20DTSi%20%20Bike%20Spare%20Parts%20(1).webp"
     },
     {
       "partNumber": "RP255SD",
@@ -2923,8 +2923,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "LML VESPA SELECT SELF START / SELECT II ( 5 PIN)",
       "description": "LML VESPA SELECT SELF START / SELECT II ( 5 PIN)",
-      "image": "/2 wheeler/regulator rectifier/RP256 Lml Vespa Select Self Start Select II 5 Pin.png",
-      "thumbnail": "/2 wheeler/regulator rectifier/RP256 Lml Vespa Select Self Start Select II 5 Pin.png"
+      "image": "/2 wheeler/regulator rectifier/RP256 Lml Vespa Select Self Start Select II 5 Pin.webp",
+      "thumbnail": "/2 wheeler/regulator rectifier/RP256 Lml Vespa Select Self Start Select II 5 Pin.webp"
     },
     {
       "partNumber": "RP256AX",
@@ -2932,8 +2932,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "LML FREEDOM",
       "description": "LML FREEDOM",
-      "image": "/2 wheeler/regulator rectifier/RP256AX Regulator Rectifier for LML Freedom Two Wheeler Bike Spare Parts.png",
-      "thumbnail": "/2 wheeler/regulator rectifier/RP256AX Regulator Rectifier for LML Freedom Two Wheeler Bike Spare Parts.png"
+      "image": "/2 wheeler/regulator rectifier/RP256AX Regulator Rectifier for LML Freedom Two Wheeler Bike Spare Parts.webp",
+      "thumbnail": "/2 wheeler/regulator rectifier/RP256AX Regulator Rectifier for LML Freedom Two Wheeler Bike Spare Parts.webp"
     },
     {
       "partNumber": "RP257",
@@ -2941,8 +2941,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "HERO HONDA CD-100 / CD DAWN / KINETIC HONDA",
       "description": "HERO HONDA CD-100 / CD DAWN / KINETIC HONDA",
-      "image": "/2 wheeler/regulator rectifier/RP257 Regulator Rectifier for Hero Honda Cd 100 Cd Dawn Kinetic Two Wheeler Spare Part.png",
-      "thumbnail": "/2 wheeler/regulator rectifier/RP257 Regulator Rectifier for Hero Honda Cd 100 Cd Dawn Kinetic Two Wheeler Spare Part.png"
+      "image": "/2 wheeler/regulator rectifier/RP257 Regulator Rectifier for Hero Honda Cd 100 Cd Dawn Kinetic Two Wheeler Spare Part.webp",
+      "thumbnail": "/2 wheeler/regulator rectifier/RP257 Regulator Rectifier for Hero Honda Cd 100 Cd Dawn Kinetic Two Wheeler Spare Part.webp"
     },
     {
       "partNumber": "RP258",
@@ -2950,8 +2950,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "HERO HONDA SPLENDOR / PASSION/ CBZ/CD DLX",
       "description": "HERO HONDA SPLENDOR / PASSION/ CBZ/CD DLX",
-      "image": "/2 wheeler/regulator rectifier/RP258 Regulator Rectifier for Hero Honda Splendor Passion CBZ CD Two Wheeler Parts.png",
-      "thumbnail": "/2 wheeler/regulator rectifier/RP258 Regulator Rectifier for Hero Honda Splendor Passion CBZ CD Two Wheeler Parts.png"
+      "image": "/2 wheeler/regulator rectifier/RP258 Regulator Rectifier for Hero Honda Splendor Passion CBZ CD Two Wheeler Parts.webp",
+      "thumbnail": "/2 wheeler/regulator rectifier/RP258 Regulator Rectifier for Hero Honda Splendor Passion CBZ CD Two Wheeler Parts.webp"
     },
     {
       "partNumber": "RP258DD",
@@ -2959,8 +2959,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "HERO HONDA SUPER SPLENDOR / GLAMOUR/PASSION PRO/PASSION PRO TR/SPL NXG/HF DLX/HF DAWN/CD DLX/CD DAWN/SPL I SMART/SPL PRO/IMPULSE/PASSION X-PRO/HUNK/ XTM SPORTS BS4/HF DLX BS4/SPL PRO BS4/HUNK BS4/HF DAWN BS4/MAHINDRA CENTURO",
       "description": "HERO HONDA SUPER SPLENDOR / GLAMOUR/PASSION PRO/PASSION PRO TR/SPL NXG/HF DLX/HF DAWN/CD DLX/CD DAWN/SPL I SMART/SPL PRO/IMPULSE/PASSION X-PRO/HUNK/ XTM SPORTS BS4/HF DLX BS4/SPL PRO BS4/HUNK BS4/HF DAWN BS4/MAHINDRA CENTURO",
-      "image": "/2 wheeler/regulator rectifier/RP258DD Regulator Rectifier for Hero Honda Super Splendor Glamour Two Wheelers Parts.png",
-      "thumbnail": "/2 wheeler/regulator rectifier/RP258DD Regulator Rectifier for Hero Honda Super Splendor Glamour Two Wheelers Parts.png"
+      "image": "/2 wheeler/regulator rectifier/RP258DD Regulator Rectifier for Hero Honda Super Splendor Glamour Two Wheelers Parts.webp",
+      "thumbnail": "/2 wheeler/regulator rectifier/RP258DD Regulator Rectifier for Hero Honda Super Splendor Glamour Two Wheelers Parts.webp"
     },
     {
       "partNumber": "RP259",
@@ -2968,8 +2968,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "HONDA ACTIVA 100 O/M",
       "description": "HONDA ACTIVA 100 O/M",
-      "image": "/2 wheeler/regulator rectifier/RP259  Regulator Rectifier for Honda Activa 100 Om Two Wheelers Scooter Spare Parts.png",
-      "thumbnail": "/2 wheeler/regulator rectifier/RP259  Regulator Rectifier for Honda Activa 100 Om Two Wheelers Scooter Spare Parts.png"
+      "image": "/2 wheeler/regulator rectifier/RP259  Regulator Rectifier for Honda Activa 100 Om Two Wheelers Scooter Spare Parts.webp",
+      "thumbnail": "/2 wheeler/regulator rectifier/RP259  Regulator Rectifier for Honda Activa 100 Om Two Wheelers Scooter Spare Parts.webp"
     },
     {
       "partNumber": "RP259HH",
@@ -2977,8 +2977,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "HONDA ACTIVA HET-110 / AVIATOR / ACTIVA I 110 / ACTIVA- 125 /ACTIVA 3G -110 / ACTIVA 4G-110",
       "description": "HONDA ACTIVA HET-110 / AVIATOR / ACTIVA I 110 / ACTIVA- 125 /ACTIVA 3G -110 / ACTIVA 4G-110",
-      "image": "/2 wheeler/regulator rectifier/RP259HH  Regulator Rectifier for Honda Activa Het 110 Aviator 125 3g Two Wheelers Parts.png",
-      "thumbnail": "/2 wheeler/regulator rectifier/RP259HH  Regulator Rectifier for Honda Activa Het 110 Aviator 125 3g Two Wheelers Parts.png"
+      "image": "/2 wheeler/regulator rectifier/RP259HH  Regulator Rectifier for Honda Activa Het 110 Aviator 125 3g Two Wheelers Parts.webp",
+      "thumbnail": "/2 wheeler/regulator rectifier/RP259HH  Regulator Rectifier for Honda Activa Het 110 Aviator 125 3g Two Wheelers Parts.webp"
     },
     {
       "partNumber": "RP259X",
@@ -2995,8 +2995,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "HERO PLEASURE",
       "description": "HERO PLEASURE",
-      "image": "/2 wheeler/regulator rectifier/RP259P Regulator Rectifier for Hero Pleasure Two Wheelers Bike Spare Parts.png",
-      "thumbnail": "/2 wheeler/regulator rectifier/RP259P Regulator Rectifier for Hero Pleasure Two Wheelers Bike Spare Parts.png"
+      "image": "/2 wheeler/regulator rectifier/RP259P Regulator Rectifier for Hero Pleasure Two Wheelers Bike Spare Parts.webp",
+      "thumbnail": "/2 wheeler/regulator rectifier/RP259P Regulator Rectifier for Hero Pleasure Two Wheelers Bike Spare Parts.webp"
     },
     {
       "partNumber": "RP260",
@@ -3004,8 +3004,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "BAJAJ KB-4S",
       "description": "BAJAJ KB-4S",
-      "image": "/2 wheeler/regulator rectifier/RP260 Regulator rectifier for Bajaj kb 4s Two wheelers Bike Spare parts.png",
-      "thumbnail": "/2 wheeler/regulator rectifier/RP260 Regulator rectifier for Bajaj kb 4s Two wheelers Bike Spare parts.png"
+      "image": "/2 wheeler/regulator rectifier/RP260 Regulator rectifier for Bajaj kb 4s Two wheelers Bike Spare parts.webp",
+      "thumbnail": "/2 wheeler/regulator rectifier/RP260 Regulator rectifier for Bajaj kb 4s Two wheelers Bike Spare parts.webp"
     },
     {
       "partNumber": "RP260AD",
@@ -3013,8 +3013,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "BAJAJ BOXER-AT",
       "description": "BAJAJ BOXER-AT",
-      "image": "/2 wheeler/regulator rectifier/RP260AD Bajaj Boxer at.png",
-      "thumbnail": "/2 wheeler/regulator rectifier/RP260AD Bajaj Boxer at.png"
+      "image": "/2 wheeler/regulator rectifier/RP260AD Bajaj Boxer at.webp",
+      "thumbnail": "/2 wheeler/regulator rectifier/RP260AD Bajaj Boxer at.webp"
     },
     {
       "partNumber": "RP260AS",
@@ -3022,8 +3022,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "BAJAJ CALIBER 115 CC 4+1 WIRE",
       "description": "BAJAJ CALIBER 115 CC 4+1 WIRE",
-      "image": "/2 wheeler/regulator rectifier/RP260AS Regulator Rectifier for Bajaj Caliber 115cc Two Wheelers Parts.png",
-      "thumbnail": "/2 wheeler/regulator rectifier/RP260AS Regulator Rectifier for Bajaj Caliber 115cc Two Wheelers Parts.png"
+      "image": "/2 wheeler/regulator rectifier/RP260AS Regulator Rectifier for Bajaj Caliber 115cc Two Wheelers Parts.webp",
+      "thumbnail": "/2 wheeler/regulator rectifier/RP260AS Regulator Rectifier for Bajaj Caliber 115cc Two Wheelers Parts.webp"
     },
     {
       "partNumber": "RP261",
@@ -3031,8 +3031,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "BAJAJ PULSAR 180ES / PULSAR-150 ES",
       "description": "BAJAJ PULSAR 180ES / PULSAR-150 ES",
-      "image": "/2 wheeler/regulator rectifier/RP261 Regulator Rectifier for Bajaj Pulsar 180es Pulsar 150 Es Two Wheelers Parts.png",
-      "thumbnail": "/2 wheeler/regulator rectifier/RP261 Regulator Rectifier for Bajaj Pulsar 180es Pulsar 150 Es Two Wheelers Parts.png"
+      "image": "/2 wheeler/regulator rectifier/RP261 Regulator Rectifier for Bajaj Pulsar 180es Pulsar 150 Es Two Wheelers Parts.webp",
+      "thumbnail": "/2 wheeler/regulator rectifier/RP261 Regulator Rectifier for Bajaj Pulsar 180es Pulsar 150 Es Two Wheelers Parts.webp"
     },
     {
       "partNumber": "RP263",
@@ -3040,8 +3040,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "BAJAJ CT-100 /DISCOVER 112/ PLATINA / DISCOVER-112 / CT- 100 BS4",
       "description": "BAJAJ CT-100 /DISCOVER 112/ PLATINA / DISCOVER-112 / CT- 100 BS4",
-      "image": "/2 wheeler/regulator rectifier/RP263 Regulator Rectifier for Bajaj Ct 100 Discover 112 Platina Bs4 Two Wheelers Parts.png",
-      "thumbnail": "/2 wheeler/regulator rectifier/RP263 Regulator Rectifier for Bajaj Ct 100 Discover 112 Platina Bs4 Two Wheelers Parts.png"
+      "image": "/2 wheeler/regulator rectifier/RP263 Regulator Rectifier for Bajaj Ct 100 Discover 112 Platina Bs4 Two Wheelers Parts.webp",
+      "thumbnail": "/2 wheeler/regulator rectifier/RP263 Regulator Rectifier for Bajaj Ct 100 Discover 112 Platina Bs4 Two Wheelers Parts.webp"
     },
     {
       "partNumber": "RP263AN",
@@ -3058,8 +3058,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "BAJAJ PLATINA 125 / DISCOVER 100CC / DISCOVER 150",
       "description": "BAJAJ PLATINA 125 / DISCOVER 100CC / DISCOVER 150",
-      "image": "/2 wheeler/regulator rectifier/RP263GD Regulator Rectifier for Bajaj Platina 125 Discover 100cc 150 Two Wheelers Parts.png",
-      "thumbnail": "/2 wheeler/regulator rectifier/RP263GD Regulator Rectifier for Bajaj Platina 125 Discover 100cc 150 Two Wheelers Parts.png"
+      "image": "/2 wheeler/regulator rectifier/RP263GD Regulator Rectifier for Bajaj Platina 125 Discover 100cc 150 Two Wheelers Parts.webp",
+      "thumbnail": "/2 wheeler/regulator rectifier/RP263GD Regulator Rectifier for Bajaj Platina 125 Discover 100cc 150 Two Wheelers Parts.webp"
     },
     {
       "partNumber": "RP264",
@@ -3067,8 +3067,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "BAJAJ XCD 125 / 135 / PULSAR 135 / PULSAR-125 NS / PULSAR- 135 LS BS4 / DISCOVER-110 BS4",
       "description": "BAJAJ XCD 125 / 135 / PULSAR 135 / PULSAR-125 NS / PULSAR- 135 LS BS4 / DISCOVER-110 BS4",
-      "image": "/2 wheeler/regulator rectifier/RP264 orado Regulator Rectifier for Bajaj Xcd 125 Pulsar 135 Discover 110 Two Wheelers Parts.jpg",
-      "thumbnail": "/2 wheeler/regulator rectifier/RP264 orado Regulator Rectifier for Bajaj Xcd 125 Pulsar 135 Discover 110 Two Wheelers Parts.jpg"
+      "image": "/2 wheeler/regulator rectifier/RP264 orado Regulator Rectifier for Bajaj Xcd 125 Pulsar 135 Discover 110 Two Wheelers Parts.webp",
+      "thumbnail": "/2 wheeler/regulator rectifier/RP264 orado Regulator Rectifier for Bajaj Xcd 125 Pulsar 135 Discover 110 Two Wheelers Parts.webp"
     },
     {
       "partNumber": "RP265",
@@ -3076,8 +3076,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "BAJAJ DISCOVER DTSI 125 / DISCOVER 135 ES",
       "description": "BAJAJ DISCOVER DTSI 125 / DISCOVER 135 ES",
-      "image": "/2 wheeler/regulator rectifier/RP265  Regulator Rectifier for Bajaj Discover Dts I 125 Discover 135 Two Wheelers Parts.png",
-      "thumbnail": "/2 wheeler/regulator rectifier/RP265  Regulator Rectifier for Bajaj Discover Dts I 125 Discover 135 Two Wheelers Parts.png"
+      "image": "/2 wheeler/regulator rectifier/RP265  Regulator Rectifier for Bajaj Discover Dts I 125 Discover 135 Two Wheelers Parts.webp",
+      "thumbnail": "/2 wheeler/regulator rectifier/RP265  Regulator Rectifier for Bajaj Discover Dts I 125 Discover 135 Two Wheelers Parts.webp"
     },
     {
       "partNumber": "RP266",
@@ -3085,8 +3085,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "BAJAJ PULSAR 180 / 150 (DTSI) GREEN",
       "description": "BAJAJ PULSAR 180 / 150 (DTSI) GREEN",
-      "image": "/2 wheeler/regulator rectifier/RP266 Regulator Rectifier for Bajaj Pulsar 180 150 Dtsi Green Two Wheelers Parts.png",
-      "thumbnail": "/2 wheeler/regulator rectifier/RP266 Regulator Rectifier for Bajaj Pulsar 180 150 Dtsi Green Two Wheelers Parts.png"
+      "image": "/2 wheeler/regulator rectifier/RP266 Regulator Rectifier for Bajaj Pulsar 180 150 Dtsi Green Two Wheelers Parts.webp",
+      "thumbnail": "/2 wheeler/regulator rectifier/RP266 Regulator Rectifier for Bajaj Pulsar 180 150 Dtsi Green Two Wheelers Parts.webp"
     },
     {
       "partNumber": "RP269",
@@ -3094,8 +3094,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "BAJAJ PULSAR 150/180/UG4/220(CDI MODEL)GREY WITH CAPACITOR",
       "description": "BAJAJ PULSAR 150/180/UG4/220(CDI MODEL)GREY WITH CAPACITOR",
-      "image": "/2 wheeler/regulator rectifier/RP269 Bajaj Pulsar 150 180  Ug4 220.png",
-      "thumbnail": "/2 wheeler/regulator rectifier/RP269 Bajaj Pulsar 150 180  Ug4 220.png"
+      "image": "/2 wheeler/regulator rectifier/RP269 Bajaj Pulsar 150 180  Ug4 220.webp",
+      "thumbnail": "/2 wheeler/regulator rectifier/RP269 Bajaj Pulsar 150 180  Ug4 220.webp"
     },
     {
       "partNumber": "RP260KK",
@@ -3103,8 +3103,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "BAJAJ DISCOVER-100 4-GEAR / PLATINA-100 ES / BOXER BM- 100 / CT-100 / BM-150",
       "description": "BAJAJ DISCOVER-100 4-GEAR / PLATINA-100 ES / BOXER BM- 100 / CT-100 / BM-150",
-      "image": "/2 wheeler/regulator rectifier/rp260kk Bajaj Discover 100 4 Gear Platina 100 Es Boxer Bm 100 Ct 100.png",
-      "thumbnail": "/2 wheeler/regulator rectifier/rp260kk Bajaj Discover 100 4 Gear Platina 100 Es Boxer Bm 100 Ct 100.png"
+      "image": "/2 wheeler/regulator rectifier/rp260kk Bajaj Discover 100 4 Gear Platina 100 Es Boxer Bm 100 Ct 100.webp",
+      "thumbnail": "/2 wheeler/regulator rectifier/rp260kk Bajaj Discover 100 4 Gear Platina 100 Es Boxer Bm 100 Ct 100.webp"
     },
     {
       "partNumber": "RP269TT",
@@ -3112,8 +3112,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "BAJAJ DISCOVER 125 ST(2012 MODEL ONWARDS)DISCOVER 100M/DISCOVER 100T/DISCOVER 125 T/DISCOVER 150 S(2014 MODEL)DISCOVER 150 F(2014 MODEL)",
       "description": "BAJAJ DISCOVER 125 ST(2012 MODEL ONWARDS)DISCOVER 100M/DISCOVER 100T/DISCOVER 125 T/DISCOVER 150 S(2014 MODEL)DISCOVER 150 F(2014 MODEL)",
-      "image": "/2 wheeler/regulator rectifier/RP269TT Regulator Rectifier for Bajaj Discover 125 St 2012 Model Two Wheelers Parts.png",
-      "thumbnail": "/2 wheeler/regulator rectifier/RP269TT Regulator Rectifier for Bajaj Discover 125 St 2012 Model Two Wheelers Parts.png"
+      "image": "/2 wheeler/regulator rectifier/RP269TT Regulator Rectifier for Bajaj Discover 125 St 2012 Model Two Wheelers Parts.webp",
+      "thumbnail": "/2 wheeler/regulator rectifier/RP269TT Regulator Rectifier for Bajaj Discover 125 St 2012 Model Two Wheelers Parts.webp"
     },
     {
       "partNumber": "RP269C",
@@ -3121,8 +3121,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "BAJAJ DISCOVER 100M(2014 MODEL)",
       "description": "BAJAJ DISCOVER 100M(2014 MODEL)",
-      "image": "/2 wheeler/regulator rectifier/RP269C orado Regulator Rectifier for Bajaj Discover 100m 2014 Model Two Wheelers Bike Parts.jpg",
-      "thumbnail": "/2 wheeler/regulator rectifier/RP269C orado Regulator Rectifier for Bajaj Discover 100m 2014 Model Two Wheelers Bike Parts.jpg"
+      "image": "/2 wheeler/regulator rectifier/RP269C orado Regulator Rectifier for Bajaj Discover 100m 2014 Model Two Wheelers Bike Parts.webp",
+      "thumbnail": "/2 wheeler/regulator rectifier/RP269C orado Regulator Rectifier for Bajaj Discover 100m 2014 Model Two Wheelers Bike Parts.webp"
     },
     {
       "partNumber": "RP270",
@@ -3130,8 +3130,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "BAJAJ WIND 125CC",
       "description": "BAJAJ WIND 125CC",
-      "image": "/2 wheeler/regulator rectifier/RP270 Regulator Rectifier for Bajaj Wind 125cc Two Wheelers Bike Spare Parts.png",
-      "thumbnail": "/2 wheeler/regulator rectifier/RP270 Regulator Rectifier for Bajaj Wind 125cc Two Wheelers Bike Spare Parts.png"
+      "image": "/2 wheeler/regulator rectifier/RP270 Regulator Rectifier for Bajaj Wind 125cc Two Wheelers Bike Spare Parts.webp",
+      "thumbnail": "/2 wheeler/regulator rectifier/RP270 Regulator Rectifier for Bajaj Wind 125cc Two Wheelers Bike Spare Parts.webp"
     },
     {
       "partNumber": "RP272",
@@ -3139,8 +3139,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "TVS APACHE/RTR / STAR CITY ES",
       "description": "TVS APACHE/RTR / STAR CITY ES",
-      "image": "/2 wheeler/regulator rectifier/RP272 Regulator Rectifier for Tvs Apache Rtr Star City Es Two Wheelers Parts.png",
-      "thumbnail": "/2 wheeler/regulator rectifier/RP272 Regulator Rectifier for Tvs Apache Rtr Star City Es Two Wheelers Parts.png"
+      "image": "/2 wheeler/regulator rectifier/RP272 Regulator Rectifier for Tvs Apache Rtr Star City Es Two Wheelers Parts.webp",
+      "thumbnail": "/2 wheeler/regulator rectifier/RP272 Regulator Rectifier for Tvs Apache Rtr Star City Es Two Wheelers Parts.webp"
     },
     {
       "partNumber": "RP272MX",
@@ -3166,8 +3166,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "TVS SUZUKI SAMURAI 5-PIN",
       "description": "TVS SUZUKI SAMURAI 5-PIN",
-      "image": "/2 wheeler/regulator rectifier/RP273 Regulator Rectifier for Tvs Suzuki Samurai 5 Pin Two Wheelers Bike Spare Parts.png",
-      "thumbnail": "/2 wheeler/regulator rectifier/RP273 Regulator Rectifier for Tvs Suzuki Samurai 5 Pin Two Wheelers Bike Spare Parts.png"
+      "image": "/2 wheeler/regulator rectifier/RP273 Regulator Rectifier for Tvs Suzuki Samurai 5 Pin Two Wheelers Bike Spare Parts.webp",
+      "thumbnail": "/2 wheeler/regulator rectifier/RP273 Regulator Rectifier for Tvs Suzuki Samurai 5 Pin Two Wheelers Bike Spare Parts.webp"
     },
     {
       "partNumber": "RP274",
@@ -3175,8 +3175,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "TVS VICTOR GL /GX/ GLX / FIERO / F2 /TVS SPORT/TVS STAR SPORT/CENTRA /SCOOTY PEP / PEP PLUS (5 WIRE )",
       "description": "TVS VICTOR GL /GX/ GLX / FIERO / F2 /TVS SPORT/TVS STAR SPORT/CENTRA /SCOOTY PEP / PEP PLUS (5 WIRE )",
-      "image": "/2 wheeler/regulator rectifier/RP274  Regulator Rectifier for TVS Victor GL GX Fiero Sports Two Wheeler Spare Parts.png",
-      "thumbnail": "/2 wheeler/regulator rectifier/RP274  Regulator Rectifier for TVS Victor GL GX Fiero Sports Two Wheeler Spare Parts.png"
+      "image": "/2 wheeler/regulator rectifier/RP274  Regulator Rectifier for TVS Victor GL GX Fiero Sports Two Wheeler Spare Parts.webp",
+      "thumbnail": "/2 wheeler/regulator rectifier/RP274  Regulator Rectifier for TVS Victor GL GX Fiero Sports Two Wheeler Spare Parts.webp"
     },
     {
       "partNumber": "RP275",
@@ -3184,8 +3184,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "TVS VICTOR / STAR /STAR CITY ( 4 WIRE )",
       "description": "TVS VICTOR / STAR /STAR CITY ( 4 WIRE )",
-      "image": "/2 wheeler/regulator rectifier/RP275  Regulator Rectifier for Tvs Victor Star City 4 Wire Two Wheelers Bike Parts.png",
-      "thumbnail": "/2 wheeler/regulator rectifier/RP275  Regulator Rectifier for Tvs Victor Star City 4 Wire Two Wheelers Bike Parts.png"
+      "image": "/2 wheeler/regulator rectifier/RP275  Regulator Rectifier for Tvs Victor Star City 4 Wire Two Wheelers Bike Parts.webp",
+      "thumbnail": "/2 wheeler/regulator rectifier/RP275  Regulator Rectifier for Tvs Victor Star City 4 Wire Two Wheelers Bike Parts.webp"
     },
     {
       "partNumber": "RP275UK",
@@ -3247,8 +3247,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "SUZUKI ACCESS-125",
       "description": "SUZUKI ACCESS-125",
-      "image": "/2 wheeler/regulator rectifier/RP275MH Regulator Rectifier for Suzuki Access 125 Two Wheelers Scooter Spare Parts.png",
-      "thumbnail": "/2 wheeler/regulator rectifier/RP275MH Regulator Rectifier for Suzuki Access 125 Two Wheelers Scooter Spare Parts.png"
+      "image": "/2 wheeler/regulator rectifier/RP275MH Regulator Rectifier for Suzuki Access 125 Two Wheelers Scooter Spare Parts.webp",
+      "thumbnail": "/2 wheeler/regulator rectifier/RP275MH Regulator Rectifier for Suzuki Access 125 Two Wheelers Scooter Spare Parts.webp"
     },
     {
       "partNumber": "RP276",
@@ -3256,8 +3256,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "YAMAHA CRUX / RXG / YBX",
       "description": "YAMAHA CRUX / RXG / YBX",
-      "image": "/2 wheeler/regulator rectifier/RP276  Regulator Rectifier for Yamaha Crux RXG YBX Two Wheeler Bike Spare Parts.png",
-      "thumbnail": "/2 wheeler/regulator rectifier/RP276  Regulator Rectifier for Yamaha Crux RXG YBX Two Wheeler Bike Spare Parts.png"
+      "image": "/2 wheeler/regulator rectifier/RP276  Regulator Rectifier for Yamaha Crux RXG YBX Two Wheeler Bike Spare Parts.webp",
+      "thumbnail": "/2 wheeler/regulator rectifier/RP276  Regulator Rectifier for Yamaha Crux RXG YBX Two Wheeler Bike Spare Parts.webp"
     },
     {
       "partNumber": "RP276VS",
@@ -3265,8 +3265,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "YAMAHA SZ-R 4-PIN COUPLER",
       "description": "YAMAHA SZ-R 4-PIN COUPLER",
-      "image": "/2 wheeler/regulator rectifier/RP276VS  Regulator Rectifier for Yamaha Sz R 4 Pin Coupler Two Wheelers Parts.jpg",
-      "thumbnail": "/2 wheeler/regulator rectifier/RP276VS  Regulator Rectifier for Yamaha Sz R 4 Pin Coupler Two Wheelers Parts.jpg"
+      "image": "/2 wheeler/regulator rectifier/RP276VS  Regulator Rectifier for Yamaha Sz R 4 Pin Coupler Two Wheelers Parts.webp",
+      "thumbnail": "/2 wheeler/regulator rectifier/RP276VS  Regulator Rectifier for Yamaha Sz R 4 Pin Coupler Two Wheelers Parts.webp"
     },
     {
       "partNumber": "RP276OP",
@@ -3274,8 +3274,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "YAMAHA RXG-12.8V",
       "description": "YAMAHA RXG-12.8V",
-      "image": "/2 wheeler/regulator rectifier/RP276OP Regulator Rectifier for Yamaha Rxg 12.8V Two Wheelers Bike Spare Parts.png",
-      "thumbnail": "/2 wheeler/regulator rectifier/RP276OP Regulator Rectifier for Yamaha Rxg 12.8V Two Wheelers Bike Spare Parts.png"
+      "image": "/2 wheeler/regulator rectifier/RP276OP Regulator Rectifier for Yamaha Rxg 12.8V Two Wheelers Bike Spare Parts.webp",
+      "thumbnail": "/2 wheeler/regulator rectifier/RP276OP Regulator Rectifier for Yamaha Rxg 12.8V Two Wheelers Bike Spare Parts.webp"
     },
     {
       "partNumber": "RP276MO",
@@ -3283,8 +3283,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "YAMAHA RX-100 6.4V",
       "description": "YAMAHA RX-100 6.4V",
-      "image": "/2 wheeler/regulator rectifier/RP276MO Regulator Rectifier for Yamaha Rx100 6.4V Two Wheelers Bike Spare Parts.png",
-      "thumbnail": "/2 wheeler/regulator rectifier/RP276MO Regulator Rectifier for Yamaha Rx100 6.4V Two Wheelers Bike Spare Parts.png"
+      "image": "/2 wheeler/regulator rectifier/RP276MO Regulator Rectifier for Yamaha Rx100 6.4V Two Wheelers Bike Spare Parts.webp",
+      "thumbnail": "/2 wheeler/regulator rectifier/RP276MO Regulator Rectifier for Yamaha Rx100 6.4V Two Wheelers Bike Spare Parts.webp"
     },
     {
       "partNumber": "RP276AN",
@@ -3292,8 +3292,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "YAMAHA RX-100 12.8V",
       "description": "YAMAHA RX-100 12.8V",
-      "image": "/2 wheeler/regulator rectifier/RP276MO Regulator Rectifier for Yamaha Rx100 6.4V Two Wheelers Bike Spare Parts.png",
-      "thumbnail": "/2 wheeler/regulator rectifier/RP276MO Regulator Rectifier for Yamaha Rx100 6.4V Two Wheelers Bike Spare Parts.png"
+      "image": "/2 wheeler/regulator rectifier/RP276MO Regulator Rectifier for Yamaha Rx100 6.4V Two Wheelers Bike Spare Parts.webp",
+      "thumbnail": "/2 wheeler/regulator rectifier/RP276MO Regulator Rectifier for Yamaha Rx100 6.4V Two Wheelers Bike Spare Parts.webp"
     },
     {
       "partNumber": "RP276GM",
@@ -3301,8 +3301,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Regulator Rectifier",
       "vehicle": "YAMAHA FZ (5-PIN COUPLER)",
       "description": "YAMAHA FZ (5-PIN COUPLER)",
-      "image": "/2 wheeler/regulator rectifier/RP276GM orado Two wheelers parts Regulator rectifier for Yamaha fz 5 pin coupler.jpg",
-      "thumbnail": "/2 wheeler/regulator rectifier/RP276GM orado Two wheelers parts Regulator rectifier for Yamaha fz 5 pin coupler.jpg"
+      "image": "/2 wheeler/regulator rectifier/RP276GM orado Two wheelers parts Regulator rectifier for Yamaha fz 5 pin coupler.webp",
+      "thumbnail": "/2 wheeler/regulator rectifier/RP276GM orado Two wheelers parts Regulator rectifier for Yamaha fz 5 pin coupler.webp"
     }
   ],
   "2-wheeler-parts-rectifier": [
@@ -3312,8 +3312,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Rectifier",
       "vehicle": "HERO HONDA CD-100 / DAWN / KINETIC HONDA",
       "description": "HERO HONDA CD-100 / DAWN / KINETIC HONDA",
-      "image": "/2 wheeler/rectifier/RP277 Regulator Rectifier For Hero Honda Cd 100 Dawn Kinetic Honda (3).png",
-      "thumbnail": "/2 wheeler/rectifier/RP277 Regulator Rectifier For Hero Honda Cd 100 Dawn Kinetic Honda (3).png"
+      "image": "/2 wheeler/rectifier/RP277 Regulator Rectifier For Hero Honda Cd 100 Dawn Kinetic Honda (3).webp",
+      "thumbnail": "/2 wheeler/rectifier/RP277 Regulator Rectifier For Hero Honda Cd 100 Dawn Kinetic Honda (3).webp"
     },
     {
       "partNumber": "RP278",
@@ -3321,8 +3321,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Rectifier",
       "vehicle": "HERO HONDA SPLENDOR / PASSION",
       "description": "HERO HONDA SPLENDOR / PASSION",
-      "image": "/2 wheeler/rectifier/RP278.jpg",
-      "thumbnail": "/2 wheeler/rectifier/RP278.jpg"
+      "image": "/2 wheeler/rectifier/RP278.webp",
+      "thumbnail": "/2 wheeler/rectifier/RP278.webp"
     },
     {
       "partNumber": "RP279",
@@ -3397,8 +3397,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ CHETAK 6V POINT TYPE",
       "description": "BAJAJ CHETAK 6V POINT TYPE",
-      "image": "/2 wheeler/coil plate assembly/Orado rp283 Stator Coil Plate Assembly For Bajaj chetak 6v point type (1).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp283 Stator Coil Plate Assembly For Bajaj chetak 6v point type (1).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp283 Stator Coil Plate Assembly For Bajaj chetak 6v point type (1).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp283 Stator Coil Plate Assembly For Bajaj chetak 6v point type (1).webp"
     },
     {
       "partNumber": "RP284",
@@ -3406,8 +3406,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ CHETAK 12V ELECTRONIC",
       "description": "BAJAJ CHETAK 12V ELECTRONIC",
-      "image": "/2 wheeler/coil plate assembly/Orado rp284 Stator Coil Plate Assembly For Bajaj chetak 12v electronic (2).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp284 Stator Coil Plate Assembly For Bajaj chetak 12v electronic (2).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp284 Stator Coil Plate Assembly For Bajaj chetak 12v electronic (2).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp284 Stator Coil Plate Assembly For Bajaj chetak 12v electronic (2).webp"
     },
     {
       "partNumber": "RP284AJ",
@@ -3415,8 +3415,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ CLASSIC SL",
       "description": "BAJAJ CLASSIC SL",
-      "image": "/2 wheeler/coil plate assembly/Orado rp284aj Stator Coil Plate Assembly For Bajaj classic sl (1).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp284aj Stator Coil Plate Assembly For Bajaj classic sl (1).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp284aj Stator Coil Plate Assembly For Bajaj classic sl (1).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp284aj Stator Coil Plate Assembly For Bajaj classic sl (1).webp"
     },
     {
       "partNumber": "RP287",
@@ -3424,8 +3424,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "LML VESPA NV TERMINAL TYPE",
       "description": "LML VESPA NV TERMINAL TYPE",
-      "image": "/2 wheeler/coil plate assembly/Orado rp287 Stator Coil Plate Assembly For Lml vespa nv terminal type (14).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp287 Stator Coil Plate Assembly For Lml vespa nv terminal type (14).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp287 Stator Coil Plate Assembly For Lml vespa nv terminal type (14).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp287 Stator Coil Plate Assembly For Lml vespa nv terminal type (14).webp"
     },
     {
       "partNumber": "RP288",
@@ -3433,8 +3433,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "LML VESPA T-5 / SELECT(SOCKET TYPE)",
       "description": "LML VESPA T-5 / SELECT(SOCKET TYPE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp288 Stator  Coil Plate Assembly For Lml vespa nv terminal type (10).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp288 Stator  Coil Plate Assembly For Lml vespa nv terminal type (10).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp288 Stator  Coil Plate Assembly For Lml vespa nv terminal type (10).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp288 Stator  Coil Plate Assembly For Lml vespa nv terminal type (10).webp"
     },
     {
       "partNumber": "RP288JZ",
@@ -3442,8 +3442,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "LML VESPA (WITH 3 SOCKET ) N/M",
       "description": "LML VESPA (WITH 3 SOCKET ) N/M",
-      "image": "/2 wheeler/coil plate assembly/Orado rp288jz Stator Coil Plate Assembly For Lml vespa 3 socket n m (8).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp288jz Stator Coil Plate Assembly For Lml vespa 3 socket n m (8).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp288jz Stator Coil Plate Assembly For Lml vespa 3 socket n m (8).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp288jz Stator Coil Plate Assembly For Lml vespa 3 socket n m (8).webp"
     },
     {
       "partNumber": "RP288JS",
@@ -3451,8 +3451,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "VESPA (4 STROKE) N/M",
       "description": "VESPA (4 STROKE) N/M",
-      "image": "/2 wheeler/coil plate assembly/Orado rp288js Stator Coil Plate Assembly For Vespa 4 stroke n m (5).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp288js Stator Coil Plate Assembly For Vespa 4 stroke n m (5).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp288js Stator Coil Plate Assembly For Vespa 4 stroke n m (5).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp288js Stator Coil Plate Assembly For Vespa 4 stroke n m (5).webp"
     },
     {
       "partNumber": "RP289",
@@ -3460,8 +3460,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HONDA ACTIVA -100 O/M / DIO-100",
       "description": "HONDA ACTIVA -100 O/M / DIO-100",
-      "image": "/2 wheeler/coil plate assembly/rp289 Copper Coil Stator Assembly with Cable Harness copy.png",
-      "thumbnail": "/2 wheeler/coil plate assembly/rp289 Copper Coil Stator Assembly with Cable Harness copy.png"
+      "image": "/2 wheeler/coil plate assembly/rp289 Copper Coil Stator Assembly with Cable Harness copy.webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/rp289 Copper Coil Stator Assembly with Cable Harness copy.webp"
     },
     {
       "partNumber": "RP290",
@@ -3469,8 +3469,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HONDA ETERNO",
       "description": "HONDA ETERNO",
-      "image": "/2 wheeler/coil plate assembly/Orado rp290 Stator Coil Plate Assembly  For Honda eterno (3).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp290 Stator Coil Plate Assembly  For Honda eterno (3).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp290 Stator Coil Plate Assembly  For Honda eterno (3).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp290 Stator Coil Plate Assembly  For Honda eterno (3).webp"
     },
     {
       "partNumber": "RP291",
@@ -3478,8 +3478,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HONDA ACTIVA NEW (DIO) / PLEASURE / MAESTRO",
       "description": "HONDA ACTIVA NEW (DIO) / PLEASURE / MAESTRO",
-      "image": "/2 wheeler/coil plate assembly/Orado rp291 Stator Coil Plate Assembly For Honda active new dio pleasure maestro (1).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp291 Stator Coil Plate Assembly For Honda active new dio pleasure maestro (1).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp291 Stator Coil Plate Assembly For Honda active new dio pleasure maestro (1).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp291 Stator Coil Plate Assembly For Honda active new dio pleasure maestro (1).webp"
     },
     {
       "partNumber": "RP291AN",
@@ -3487,8 +3487,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HONDA ACTIVA ( LATEST ) DIO 110 CC",
       "description": "HONDA ACTIVA ( LATEST ) DIO 110 CC",
-      "image": "/2 wheeler/coil plate assembly/RP291AN Stator Coil Plate Assembly For Honda active latest dio 110cc.png",
-      "thumbnail": "/2 wheeler/coil plate assembly/RP291AN Stator Coil Plate Assembly For Honda active latest dio 110cc.png"
+      "image": "/2 wheeler/coil plate assembly/RP291AN Stator Coil Plate Assembly For Honda active latest dio 110cc.webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/RP291AN Stator Coil Plate Assembly For Honda active latest dio 110cc.webp"
     },
     {
       "partNumber": "RP291MM",
@@ -3496,8 +3496,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HONDA ACTIVA 125CC (12 POLE)",
       "description": "HONDA ACTIVA 125CC (12 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp291mm Stator Coil Plate Assembly For Honda activa active 125cc 12 pole (3).jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp291mm Stator Coil Plate Assembly For Honda activa active 125cc 12 pole (3).jpg"
+      "image": "/2 wheeler/coil plate assembly/Orado rp291mm Stator Coil Plate Assembly For Honda activa active 125cc 12 pole (3).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp291mm Stator Coil Plate Assembly For Honda activa active 125cc 12 pole (3).webp"
     },
     {
       "partNumber": "RP291AV",
@@ -3505,8 +3505,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HONDA AVIATOR O/M",
       "description": "HONDA AVIATOR O/M",
-      "image": "/2 wheeler/coil plate assembly/Orado rp291av Stator Coil Plate Assembly For Honda aviator o m (3).jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp291av Stator Coil Plate Assembly For Honda aviator o m (3).jpg"
+      "image": "/2 wheeler/coil plate assembly/Orado rp291av Stator Coil Plate Assembly For Honda aviator o m (3).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp291av Stator Coil Plate Assembly For Honda aviator o m (3).webp"
     },
     {
       "partNumber": "RP291AB",
@@ -3514,8 +3514,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HONDA AVIATOR N/M",
       "description": "HONDA AVIATOR N/M",
-      "image": "/2 wheeler/coil plate assembly/Orado rp291ab Stator Coil Plate Assembly For Honda aviator n m (3).jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp291ab Stator Coil Plate Assembly For Honda aviator n m (3).jpg"
+      "image": "/2 wheeler/coil plate assembly/Orado rp291ab Stator Coil Plate Assembly For Honda aviator n m (3).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp291ab Stator Coil Plate Assembly For Honda aviator n m (3).webp"
     },
     {
       "partNumber": "RP291BZ",
@@ -3523,8 +3523,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HONDA ACTIVA HET 2013 MODEL (12 POLE) / 3G / I MODEL/ 4G/ 5G",
       "description": "HONDA ACTIVA HET 2013 MODEL (12 POLE) / 3G / I MODEL/ 4G/ 5G",
-      "image": "/2 wheeler/coil plate assembly/Orado rp291bz Stator Coil Plate Assembly For Honda activa het 2013 model 12 pole 3g 1 model  (4).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp291bz Stator Coil Plate Assembly For Honda activa het 2013 model 12 pole 3g 1 model  (4).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp291bz Stator Coil Plate Assembly For Honda activa het 2013 model 12 pole 3g 1 model  (4).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp291bz Stator Coil Plate Assembly For Honda activa het 2013 model 12 pole 3g 1 model  (4).webp"
     },
     {
       "partNumber": "RP291BK",
@@ -3532,8 +3532,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HONDA TWISTER / DREAM YUGA (12 POLE)",
       "description": "HONDA TWISTER / DREAM YUGA (12 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp291bk Stator Coil Plate Assembly For Honda twister dream yuga 12 pole (3).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp291bk Stator Coil Plate Assembly For Honda twister dream yuga 12 pole (3).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp291bk Stator Coil Plate Assembly For Honda twister dream yuga 12 pole (3).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp291bk Stator Coil Plate Assembly For Honda twister dream yuga 12 pole (3).webp"
     },
     {
       "partNumber": "RP291BO",
@@ -3541,8 +3541,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HONDA UNICORN DAZZLER (12 P0LE) / CBF 150MB BS4",
       "description": "HONDA UNICORN DAZZLER (12 P0LE) / CBF 150MB BS4",
-      "image": "/2 wheeler/coil plate assembly/Orado rp291bo Stator Coil Plate Assembly For Honda unicorn dazzler 12 pole cbf 150 mb bs4 (3).jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp291bo Stator Coil Plate Assembly For Honda unicorn dazzler 12 pole cbf 150 mb bs4 (3).jpg"
+      "image": "/2 wheeler/coil plate assembly/Orado rp291bo Stator Coil Plate Assembly For Honda unicorn dazzler 12 pole cbf 150 mb bs4 (3).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp291bo Stator Coil Plate Assembly For Honda unicorn dazzler 12 pole cbf 150 mb bs4 (3).webp"
     },
     {
       "partNumber": "RP291WS",
@@ -3559,8 +3559,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HONDA UNICORN / HONDA CBF-125 (8 POLE)",
       "description": "HONDA UNICORN / HONDA CBF-125 (8 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp292 Stator Coil Plate Assembly For Honda activa unicorn honda cbf 125 8 pole (3).jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp292 Stator Coil Plate Assembly For Honda activa unicorn honda cbf 125 8 pole (3).jpg"
+      "image": "/2 wheeler/coil plate assembly/Orado rp292 Stator Coil Plate Assembly For Honda activa unicorn honda cbf 125 8 pole (3).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp292 Stator Coil Plate Assembly For Honda activa unicorn honda cbf 125 8 pole (3).webp"
     },
     {
       "partNumber": "RP292WW",
@@ -3568,8 +3568,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HONDA CB SHINE-125 BS4 (12 POLE)",
       "description": "HONDA CB SHINE-125 BS4 (12 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp292ww Stator Coil Plate Assembly For Hnd Cb Shine 125 bs4 12 pole (8).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp292ww Stator Coil Plate Assembly For Hnd Cb Shine 125 bs4 12 pole (8).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp292ww Stator Coil Plate Assembly For Hnd Cb Shine 125 bs4 12 pole (8).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp292ww Stator Coil Plate Assembly For Hnd Cb Shine 125 bs4 12 pole (8).webp"
     },
     {
       "partNumber": "RP292RW",
@@ -3577,8 +3577,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HONDA SHINE / HONDA STUNNER-125 (8 POLE)",
       "description": "HONDA SHINE / HONDA STUNNER-125 (8 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp292rw Stator Coil Plate Assembly For Hnd Shine Hnd Stunner 125 8 pole (7).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp292rw Stator Coil Plate Assembly For Hnd Shine Hnd Stunner 125 8 pole (7).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp292rw Stator Coil Plate Assembly For Hnd Shine Hnd Stunner 125 8 pole (7).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp292rw Stator Coil Plate Assembly For Hnd Shine Hnd Stunner 125 8 pole (7).webp"
     },
     {
       "partNumber": "RP292SK",
@@ -3586,8 +3586,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HONDA UNICORN 160CC (12 POLE)",
       "description": "HONDA UNICORN 160CC (12 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp292sk Stator Coil Plate Assembly For Honda unicorn 160cc 12 pole (3).jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp292sk Stator Coil Plate Assembly For Honda unicorn 160cc 12 pole (3).jpg"
+      "image": "/2 wheeler/coil plate assembly/Orado rp292sk Stator Coil Plate Assembly For Honda unicorn 160cc 12 pole (3).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp292sk Stator Coil Plate Assembly For Honda unicorn 160cc 12 pole (3).webp"
     },
     {
       "partNumber": "RP292PS",
@@ -3595,8 +3595,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HONDA NEO / PASSION X-PRO BS3 BS4 (12 POLE)",
       "description": "HONDA NEO / PASSION X-PRO BS3 BS4 (12 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp292ps Stator Coil Plate Assembly For Honda activa neo passion x pro bs3 bs4 12 pole (4).jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp292ps Stator Coil Plate Assembly For Honda activa neo passion x pro bs3 bs4 12 pole (4).jpg"
+      "image": "/2 wheeler/coil plate assembly/Orado rp292ps Stator Coil Plate Assembly For Honda activa neo passion x pro bs3 bs4 12 pole (4).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp292ps Stator Coil Plate Assembly For Honda activa neo passion x pro bs3 bs4 12 pole (4).webp"
     },
     {
       "partNumber": "RP293",
@@ -3604,8 +3604,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "LML FREEDOM/ADRENO",
       "description": "LML FREEDOM/ADRENO",
-      "image": "/2 wheeler/coil plate assembly/Orado rp293 Stator Coil Plate Assembly For Lml Freedom Adreno Two Wheeler (3).jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp293 Stator Coil Plate Assembly For Lml Freedom Adreno Two Wheeler (3).jpg"
+      "image": "/2 wheeler/coil plate assembly/Orado rp293 Stator Coil Plate Assembly For Lml Freedom Adreno Two Wheeler (3).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp293 Stator Coil Plate Assembly For Lml Freedom Adreno Two Wheeler (3).webp"
     },
     {
       "partNumber": "RP294",
@@ -3613,8 +3613,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "LML FREEDOM PRIMA / LML TOPPER",
       "description": "LML FREEDOM PRIMA / LML TOPPER",
-      "image": "/2 wheeler/coil plate assembly/Orado rp294 Stator Coil Plate Assembly For Lml freedom prima lml toper (3).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp294 Stator Coil Plate Assembly For Lml freedom prima lml toper (3).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp294 Stator Coil Plate Assembly For Lml freedom prima lml toper (3).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp294 Stator Coil Plate Assembly For Lml freedom prima lml toper (3).webp"
     },
     {
       "partNumber": "RP295",
@@ -3622,8 +3622,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "LML FREEDOM CRD",
       "description": "LML FREEDOM CRD",
-      "image": "/2 wheeler/coil plate assembly/Orado rp295 Stator Coil Plate Assembly For Lml freedom crd (1).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp295 Stator Coil Plate Assembly For Lml freedom crd (1).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp295 Stator Coil Plate Assembly For Lml freedom crd (1).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp295 Stator Coil Plate Assembly For Lml freedom crd (1).webp"
     },
     {
       "partNumber": "RP296",
@@ -3631,8 +3631,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "TVS STAR CITY KS / CENTRA KS / TVS SPORT KS",
       "description": "TVS STAR CITY KS / CENTRA KS / TVS SPORT KS",
-      "image": "/2 wheeler/coil plate assembly/Orado rp296 Stator Coil Plate Assembly For Tvs star city ks centra ks tvs sport ks (6).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp296 Stator Coil Plate Assembly For Tvs star city ks centra ks tvs sport ks (6).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp296 Stator Coil Plate Assembly For Tvs star city ks centra ks tvs sport ks (6).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp296 Stator Coil Plate Assembly For Tvs star city ks centra ks tvs sport ks (6).webp"
     },
     {
       "partNumber": "RP297",
@@ -3640,8 +3640,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "TVS STAR CITY SELF START / STAR SPORTS",
       "description": "TVS STAR CITY SELF START / STAR SPORTS",
-      "image": "/2 wheeler/coil plate assembly/Orado rp297 Stator Coil Plate Assembly For Tvs star city self start star sport (5).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp297 Stator Coil Plate Assembly For Tvs star city self start star sport (5).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp297 Stator Coil Plate Assembly For Tvs star city self start star sport (5).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp297 Stator Coil Plate Assembly For Tvs star city self start star sport (5).webp"
     },
     {
       "partNumber": "RP297DZ",
@@ -3649,8 +3649,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "TVS STAR CITY 110CC (7 POLE)",
       "description": "TVS STAR CITY 110CC (7 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp297dz Stator Coil Plate Assembly For Tvs star city 110cc 7 pole (8).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp297dz Stator Coil Plate Assembly For Tvs star city 110cc 7 pole (8).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp297dz Stator Coil Plate Assembly For Tvs star city 110cc 7 pole (8).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp297dz Stator Coil Plate Assembly For Tvs star city 110cc 7 pole (8).webp"
     },
     {
       "partNumber": "RP297KZ",
@@ -3658,8 +3658,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "TVS STAR CITY 110CC KICK START (6 POLE)",
       "description": "TVS STAR CITY 110CC KICK START (6 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp297kz Stator Coil Plate Assembly For Tvs star city 110cc kick start 6 pole (13).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp297kz Stator Coil Plate Assembly For Tvs star city 110cc kick start 6 pole (13).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp297kz Stator Coil Plate Assembly For Tvs star city 110cc kick start 6 pole (13).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp297kz Stator Coil Plate Assembly For Tvs star city 110cc kick start 6 pole (13).webp"
     },
     {
       "partNumber": "RP297LP",
@@ -3685,8 +3685,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "TVS PHOENIX (12 POLE) BS4 / STAR CITY PLUS 110 BS4 / TVS VICTOR BS4 / RADEON 110 BS4",
       "description": "TVS PHOENIX (12 POLE) BS4 / STAR CITY PLUS 110 BS4 / TVS VICTOR BS4 / RADEON 110 BS4",
-      "image": "/2 wheeler/coil plate assembly/Orado rp297l Stator Coil Plate Assembly For Tvs phoenix 12 pole bs4 start city plus 110 bs4 Tvs victor bs4 radeon 110 bs4 (6).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp297l Stator Coil Plate Assembly For Tvs phoenix 12 pole bs4 start city plus 110 bs4 Tvs victor bs4 radeon 110 bs4 (6).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp297l Stator Coil Plate Assembly For Tvs phoenix 12 pole bs4 start city plus 110 bs4 Tvs victor bs4 radeon 110 bs4 (6).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp297l Stator Coil Plate Assembly For Tvs phoenix 12 pole bs4 start city plus 110 bs4 Tvs victor bs4 radeon 110 bs4 (6).webp"
     },
     {
       "partNumber": "RP298",
@@ -3694,8 +3694,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "TVS VICTOR O/M WITH PICK UP COIL",
       "description": "TVS VICTOR O/M WITH PICK UP COIL",
-      "image": "/2 wheeler/coil plate assembly/RP298 Tvs victor o m with pick up coil  (3).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/RP298 Tvs victor o m with pick up coil  (3).png"
+      "image": "/2 wheeler/coil plate assembly/RP298 Tvs victor o m with pick up coil  (3).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/RP298 Tvs victor o m with pick up coil  (3).webp"
     },
     {
       "partNumber": "RP298NZ",
@@ -3703,8 +3703,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "TVS SCOOTY PEP",
       "description": "TVS SCOOTY PEP",
-      "image": "/2 wheeler/coil plate assembly/Orado rp298nz Tvs Scooty Pep (13).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp298nz Tvs Scooty Pep (13).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp298nz Tvs Scooty Pep (13).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp298nz Tvs Scooty Pep (13).webp"
     },
     {
       "partNumber": "RP298PX",
@@ -3730,8 +3730,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "TVS VICTOR GL / GX (8 POLE)",
       "description": "TVS VICTOR GL / GX (8 POLE)",
-      "image": "/2 wheeler/coil plate assembly/RP 298OX Motorcycle Stator and Wiring Harness Assembly (1).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/RP 298OX Motorcycle Stator and Wiring Harness Assembly (1).png"
+      "image": "/2 wheeler/coil plate assembly/RP 298OX Motorcycle Stator and Wiring Harness Assembly (1).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/RP 298OX Motorcycle Stator and Wiring Harness Assembly (1).webp"
     },
     {
       "partNumber": "RP298XL",
@@ -3739,8 +3739,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "TVS VICTOR N/M (12 POLE)",
       "description": "TVS VICTOR N/M (12 POLE)",
-      "image": "/2 wheeler/coil plate assembly/rp298xl orado Tvs Victor nm 12 Pole (8).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/rp298xl orado Tvs Victor nm 12 Pole (8).png"
+      "image": "/2 wheeler/coil plate assembly/rp298xl orado Tvs Victor nm 12 Pole (8).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/rp298xl orado Tvs Victor nm 12 Pole (8).webp"
     },
     {
       "partNumber": "RP299",
@@ -3748,8 +3748,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "TVS APACHE (7 POLE)",
       "description": "TVS APACHE (7 POLE)",
-      "image": "/2 wheeler/coil plate assembly/RP299 Tvs Apache 7 Pole.png",
-      "thumbnail": "/2 wheeler/coil plate assembly/RP299 Tvs Apache 7 Pole.png"
+      "image": "/2 wheeler/coil plate assembly/RP299 Tvs Apache 7 Pole.webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/RP299 Tvs Apache 7 Pole.webp"
     },
     {
       "partNumber": "RP300",
@@ -3757,8 +3757,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "TVS RTR 160CC / 150 (8 POLE)",
       "description": "TVS RTR 160CC / 150 (8 POLE)",
-      "image": "/2 wheeler/coil plate assembly/RP300 Tvs rtr 160cc 150 8 pole copy (1).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/RP300 Tvs rtr 160cc 150 8 pole copy (1).png"
+      "image": "/2 wheeler/coil plate assembly/RP300 Tvs rtr 160cc 150 8 pole copy (1).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/RP300 Tvs rtr 160cc 150 8 pole copy (1).webp"
     },
     {
       "partNumber": "RP300YZ",
@@ -3775,8 +3775,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "TVS RTR 180CC (8 POLE)",
       "description": "TVS RTR 180CC (8 POLE)",
-      "image": "/2 wheeler/coil plate assembly/RP300KB Tvs rtr 180cc 8 pole copy (5).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/RP300KB Tvs rtr 180cc 8 pole copy (5).png"
+      "image": "/2 wheeler/coil plate assembly/RP300KB Tvs rtr 180cc 8 pole copy (5).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/RP300KB Tvs rtr 180cc 8 pole copy (5).webp"
     },
     {
       "partNumber": "RP300ZN",
@@ -3784,8 +3784,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "SCOOTY PEP PLUS BS4 / TVS JUPITER / TVS NTORQ 125 BS4 / TVS ZEST 110 BS4 (12 POLE)",
       "description": "SCOOTY PEP PLUS BS4 / TVS JUPITER / TVS NTORQ 125 BS4 / TVS ZEST 110 BS4 (12 POLE)",
-      "image": "/2 wheeler/coil plate assembly/RP300ZN Scooty pep plus bs4 tvs jupitor tvs n torq 125 bs4 tvs zest 110 bs4 12 pole copy.jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/RP300ZN Scooty pep plus bs4 tvs jupitor tvs n torq 125 bs4 tvs zest 110 bs4 12 pole copy.jpg"
+      "image": "/2 wheeler/coil plate assembly/RP300ZN Scooty pep plus bs4 tvs jupitor tvs n torq 125 bs4 tvs zest 110 bs4 12 pole copy.webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/RP300ZN Scooty pep plus bs4 tvs jupitor tvs n torq 125 bs4 tvs zest 110 bs4 12 pole copy.webp"
     },
     {
       "partNumber": "RP300ZK",
@@ -3793,8 +3793,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "TVS STREAK / WEGO / PEP PLUS (8 POLE)",
       "description": "TVS STREAK / WEGO / PEP PLUS (8 POLE)",
-      "image": "/2 wheeler/coil plate assembly/RP300ZK Tvs streak wego pep plus 8 copy (1).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/RP300ZK Tvs streak wego pep plus 8 copy (1).png"
+      "image": "/2 wheeler/coil plate assembly/RP300ZK Tvs streak wego pep plus 8 copy (1).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/RP300ZK Tvs streak wego pep plus 8 copy (1).webp"
     },
     {
       "partNumber": "RP300ZM",
@@ -3802,8 +3802,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "TVS JUPITER (7 POLE)",
       "description": "TVS JUPITER (7 POLE)",
-      "image": "/2 wheeler/coil plate assembly/RP300ZM Copper Coil Stator Assembly Flat Lay copy.png",
-      "thumbnail": "/2 wheeler/coil plate assembly/RP300ZM Copper Coil Stator Assembly Flat Lay copy.png"
+      "image": "/2 wheeler/coil plate assembly/RP300ZM Copper Coil Stator Assembly Flat Lay copy.webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/RP300ZM Copper Coil Stator Assembly Flat Lay copy.webp"
     },
     {
       "partNumber": "RP300DS",
@@ -3820,8 +3820,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "TVS XL SUPER / SUPER HD",
       "description": "TVS XL SUPER / SUPER HD",
-      "image": "/2 wheeler/coil plate assembly/Orado rp300az Stator Coil Plate Assembly For Tvs xl super hd (13).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp300az Stator Coil Plate Assembly For Tvs xl super hd (13).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp300az Stator Coil Plate Assembly For Tvs xl super hd (13).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp300az Stator Coil Plate Assembly For Tvs xl super hd (13).webp"
     },
     {
       "partNumber": "RP300AO",
@@ -3829,8 +3829,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "TVS FLAME / JIVE (8 POLE)",
       "description": "TVS FLAME / JIVE (8 POLE)",
-      "image": "/2 wheeler/coil plate assembly/RP300AO Electrical Stator and Wiring Harness (1) copy.png",
-      "thumbnail": "/2 wheeler/coil plate assembly/RP300AO Electrical Stator and Wiring Harness (1) copy.png"
+      "image": "/2 wheeler/coil plate assembly/RP300AO Electrical Stator and Wiring Harness (1) copy.webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/RP300AO Electrical Stator and Wiring Harness (1) copy.webp"
     },
     {
       "partNumber": "RP300ZE",
@@ -3838,8 +3838,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "TVS FIERO F2 (8 POLE)",
       "description": "TVS FIERO F2 (8 POLE)",
-      "image": "/2 wheeler/coil plate assembly/RP300ZE Clean Motorcycle Stator and Wiring Harness (1) copy.png",
-      "thumbnail": "/2 wheeler/coil plate assembly/RP300ZE Clean Motorcycle Stator and Wiring Harness (1) copy.png"
+      "image": "/2 wheeler/coil plate assembly/RP300ZE Clean Motorcycle Stator and Wiring Harness (1) copy.webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/RP300ZE Clean Motorcycle Stator and Wiring Harness (1) copy.webp"
     },
     {
       "partNumber": "RP300ZP",
@@ -3847,8 +3847,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "TVS FIERO (7 POLE)",
       "description": "TVS FIERO (7 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp300zp Stator Coil Plate Assembly For Tvs fiero 7 pole (5).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp300zp Stator Coil Plate Assembly For Tvs fiero 7 pole (5).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp300zp Stator Coil Plate Assembly For Tvs fiero 7 pole (5).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp300zp Stator Coil Plate Assembly For Tvs fiero 7 pole (5).webp"
     },
     {
       "partNumber": "RP300ZZ",
@@ -3856,8 +3856,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "TVS SUZUKI MAX-100 / SUZUKI SAMURAI",
       "description": "TVS SUZUKI MAX-100 / SUZUKI SAMURAI",
-      "image": "/2 wheeler/coil plate assembly/RP300ZZ Tvs Suzuki Max 100 Samurai.jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/RP300ZZ Tvs Suzuki Max 100 Samurai.jpg"
+      "image": "/2 wheeler/coil plate assembly/RP300ZZ Tvs Suzuki Max 100 Samurai.webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/RP300ZZ Tvs Suzuki Max 100 Samurai.webp"
     },
     {
       "partNumber": "RP300UP",
@@ -3865,8 +3865,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "TVS XL SUPER -100",
       "description": "TVS XL SUPER -100",
-      "image": "/2 wheeler/coil plate assembly/Orado rp300up Stator Coil Plate Assembly For Tvs xl super 100 (2).jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp300up Stator Coil Plate Assembly For Tvs xl super 100 (2).jpg"
+      "image": "/2 wheeler/coil plate assembly/Orado rp300up Stator Coil Plate Assembly For Tvs xl super 100 (2).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp300up Stator Coil Plate Assembly For Tvs xl super 100 (2).webp"
     },
     {
       "partNumber": "RP301",
@@ -3874,8 +3874,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ PULSAR 150 (8 POLE)",
       "description": "BAJAJ PULSAR 150 (8 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp301 Stator Coil Plate Assembly For Bajaj Pulsar 150 8 pole (1).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp301 Stator Coil Plate Assembly For Bajaj Pulsar 150 8 pole (1).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp301 Stator Coil Plate Assembly For Bajaj Pulsar 150 8 pole (1).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp301 Stator Coil Plate Assembly For Bajaj Pulsar 150 8 pole (1).webp"
     },
     {
       "partNumber": "RP301KA",
@@ -3892,8 +3892,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ CALIBER CROMA",
       "description": "BAJAJ CALIBER CROMA",
-      "image": "/2 wheeler/coil plate assembly/Orado rp301kj Stator Coil Plate Assembly For Bajaj caliber croma  (1).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp301kj Stator Coil Plate Assembly For Bajaj caliber croma  (1).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp301kj Stator Coil Plate Assembly For Bajaj caliber croma  (1).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp301kj Stator Coil Plate Assembly For Bajaj caliber croma  (1).webp"
     },
     {
       "partNumber": "RP301KZ",
@@ -3901,8 +3901,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ CALIBER UPGRADE",
       "description": "BAJAJ CALIBER UPGRADE",
-      "image": "/2 wheeler/coil plate assembly/Orado rp301kz Stator Coil Plate Assembly For Bajaj caliber upgrade (3).jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp301kz Stator Coil Plate Assembly For Bajaj caliber upgrade (3).jpg"
+      "image": "/2 wheeler/coil plate assembly/Orado rp301kz Stator Coil Plate Assembly For Bajaj caliber upgrade (3).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp301kz Stator Coil Plate Assembly For Bajaj caliber upgrade (3).webp"
     },
     {
       "partNumber": "RP301KM",
@@ -3910,8 +3910,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ BOXER - AT",
       "description": "BAJAJ BOXER - AT",
-      "image": "/2 wheeler/coil plate assembly/Orado rp301km Stator Coil Plate Assembly For Bajaj Boxer At (3).jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp301km Stator Coil Plate Assembly For Bajaj Boxer At (3).jpg"
+      "image": "/2 wheeler/coil plate assembly/Orado rp301km Stator Coil Plate Assembly For Bajaj Boxer At (3).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp301km Stator Coil Plate Assembly For Bajaj Boxer At (3).webp"
     },
     {
       "partNumber": "RP301KD",
@@ -3919,8 +3919,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ KB-4S NEW MODEL",
       "description": "BAJAJ KB-4S NEW MODEL",
-      "image": "/2 wheeler/coil plate assembly/Orado rp301kd Stator Coil Plate Assembly For Bajaj kb 4s new model (1).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp301kd Stator Coil Plate Assembly For Bajaj kb 4s new model (1).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp301kd Stator Coil Plate Assembly For Bajaj kb 4s new model (1).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp301kd Stator Coil Plate Assembly For Bajaj kb 4s new model (1).webp"
     },
     {
       "partNumber": "RP301KP",
@@ -3928,8 +3928,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ KB-4S O/M",
       "description": "BAJAJ KB-4S O/M",
-      "image": "/2 wheeler/coil plate assembly/Orado rp301kp Stator Coil Plate Assembly For Bajaj kb 4s o m (1).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp301kp Stator Coil Plate Assembly For Bajaj kb 4s o m (1).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp301kp Stator Coil Plate Assembly For Bajaj kb 4s o m (1).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp301kp Stator Coil Plate Assembly For Bajaj kb 4s o m (1).webp"
     },
     {
       "partNumber": "RP301KC",
@@ -3937,8 +3937,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ BOXER CT / AT UPGRADE",
       "description": "BAJAJ BOXER CT / AT UPGRADE",
-      "image": "/2 wheeler/coil plate assembly/Orado rp301kc Stator Coil Plate Assembly For Bajaj boxer ct at upgrade (1).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp301kc Stator Coil Plate Assembly For Bajaj boxer ct at upgrade (1).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp301kc Stator Coil Plate Assembly For Bajaj boxer ct at upgrade (1).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp301kc Stator Coil Plate Assembly For Bajaj boxer ct at upgrade (1).webp"
     },
     {
       "partNumber": "RP302",
@@ -3946,8 +3946,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ PULSAR 150 / 180 ES (DIGITAL METER) / DISCOVER-135 DTSI ES (8 POLE)",
       "description": "BAJAJ PULSAR 150 / 180 ES (DIGITAL METER) / DISCOVER-135 DTSI ES (8 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp302 Stator Coil Plate Assembly For Bajaj Pulsar 150 180 es digital meter Discover 135 dtsi es 8 pole (3).jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp302 Stator Coil Plate Assembly For Bajaj Pulsar 150 180 es digital meter Discover 135 dtsi es 8 pole (3).jpg"
+      "image": "/2 wheeler/coil plate assembly/Orado rp302 Stator Coil Plate Assembly For Bajaj Pulsar 150 180 es digital meter Discover 135 dtsi es 8 pole (3).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp302 Stator Coil Plate Assembly For Bajaj Pulsar 150 180 es digital meter Discover 135 dtsi es 8 pole (3).webp"
     },
     {
       "partNumber": "RP302DW",
@@ -3955,8 +3955,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ PULSAR 135CC / DIS-100 / 125 ST / 135 /150 KKS /ES / PLATINA-125 DTSI KS (8 POLE)",
       "description": "BAJAJ PULSAR 135CC / DIS-100 / 125 ST / 135 /150 KKS /ES / PLATINA-125 DTSI KS (8 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp302dw Stator Coil Plate Assembly For Bajaj pulsar 135cc dis 100 125 st 150 kks platina 125 dts i ks 8 pole (12).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp302dw Stator Coil Plate Assembly For Bajaj pulsar 135cc dis 100 125 st 150 kks platina 125 dts i ks 8 pole (12).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp302dw Stator Coil Plate Assembly For Bajaj pulsar 135cc dis 100 125 st 150 kks platina 125 dts i ks 8 pole (12).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp302dw Stator Coil Plate Assembly For Bajaj pulsar 135cc dis 100 125 st 150 kks platina 125 dts i ks 8 pole (12).webp"
     },
     {
       "partNumber": "RP302CL",
@@ -3964,8 +3964,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ 150 / 180 DTSI / DISCOVER ES (8 POLE)",
       "description": "BAJAJ 150 / 180 DTSI / DISCOVER ES (8 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp302cl Stator Coil Plate Assembly For Bajaj 150 180 dtsi Discover es 8 pole (4).jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp302cl Stator Coil Plate Assembly For Bajaj 150 180 dtsi Discover es 8 pole (4).jpg"
+      "image": "/2 wheeler/coil plate assembly/Orado rp302cl Stator Coil Plate Assembly For Bajaj 150 180 dtsi Discover es 8 pole (4).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp302cl Stator Coil Plate Assembly For Bajaj 150 180 dtsi Discover es 8 pole (4).webp"
     },
     {
       "partNumber": "RP302LM",
@@ -3982,8 +3982,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ PULSAR-150 UG3 (2006 MODEL) 8 POLE",
       "description": "BAJAJ PULSAR-150 UG3 (2006 MODEL) 8 POLE",
-      "image": "/2 wheeler/coil plate assembly/Orado rp302cm Stator Coil Plate Assembly For Bajaj Pulsar 150 ug3 2006 model 8 pole (1).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp302cm Stator Coil Plate Assembly For Bajaj Pulsar 150 ug3 2006 model 8 pole (1).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp302cm Stator Coil Plate Assembly For Bajaj Pulsar 150 ug3 2006 model 8 pole (1).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp302cm Stator Coil Plate Assembly For Bajaj Pulsar 150 ug3 2006 model 8 pole (1).webp"
     },
     {
       "partNumber": "RP302AB",
@@ -3991,8 +3991,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ XCD 135 SELF START (8 POLE)",
       "description": "BAJAJ XCD 135 SELF START (8 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp302ab Stator Coil Plate Assembly For Bajaj xcd 135 self start 8 pole (1).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp302ab Stator Coil Plate Assembly For Bajaj xcd 135 self start 8 pole (1).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp302ab Stator Coil Plate Assembly For Bajaj xcd 135 self start 8 pole (1).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp302ab Stator Coil Plate Assembly For Bajaj xcd 135 self start 8 pole (1).webp"
     },
     {
       "partNumber": "RP302AM",
@@ -4000,8 +4000,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ DISCOVER - 100M / 125M / 150S / 150F / 125 T (12 POLE)",
       "description": "BAJAJ DISCOVER - 100M / 125M / 150S / 150F / 125 T (12 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp302am Stator Coil Plate Assembly For Bajaj Discover 100m 125m 150s 150f 125t 12 pole (3).jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp302am Stator Coil Plate Assembly For Bajaj Discover 100m 125m 150s 150f 125t 12 pole (3).jpg"
+      "image": "/2 wheeler/coil plate assembly/Orado rp302am Stator Coil Plate Assembly For Bajaj Discover 100m 125m 150s 150f 125t 12 pole (3).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp302am Stator Coil Plate Assembly For Bajaj Discover 100m 125m 150s 150f 125t 12 pole (3).webp"
     },
     {
       "partNumber": "RP302PF",
@@ -4009,8 +4009,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ DISCOVER 100T / DISCOVER 4G / BOXER BM-100 / PLATINA-100 ES BS4 (8 POLE)",
       "description": "BAJAJ DISCOVER 100T / DISCOVER 4G / BOXER BM-100 / PLATINA-100 ES BS4 (8 POLE)",
-      "image": "/2 wheeler/coil plate assembly/RP302PF  Bajaj Discover 100t Boxer Bm 100 Platina 100 Es 8 Pole.png",
-      "thumbnail": "/2 wheeler/coil plate assembly/RP302PF  Bajaj Discover 100t Boxer Bm 100 Platina 100 Es 8 Pole.png"
+      "image": "/2 wheeler/coil plate assembly/RP302PF  Bajaj Discover 100t Boxer Bm 100 Platina 100 Es 8 Pole.webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/RP302PF  Bajaj Discover 100t Boxer Bm 100 Platina 100 Es 8 Pole.webp"
     },
     {
       "partNumber": "RP302AW",
@@ -4045,8 +4045,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ PULSAR 150 / 180 UG4 / UG5 / PULSAR 180 DTSI UG2 / UG3 (8 POLE)",
       "description": "BAJAJ PULSAR 150 / 180 UG4 / UG5 / PULSAR 180 DTSI UG2 / UG3 (8 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp302ay Stator Coil Plate Assembly For Bajaj pulsar 150 180 ug4 ug5 pulsar 180 dtsi ug2 ug3 8 pole (1).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp302ay Stator Coil Plate Assembly For Bajaj pulsar 150 180 ug4 ug5 pulsar 180 dtsi ug2 ug3 8 pole (1).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp302ay Stator Coil Plate Assembly For Bajaj pulsar 150 180 ug4 ug5 pulsar 180 dtsi ug2 ug3 8 pole (1).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp302ay Stator Coil Plate Assembly For Bajaj pulsar 150 180 ug4 ug5 pulsar 180 dtsi ug2 ug3 8 pole (1).webp"
     },
     {
       "partNumber": "RP302AQ",
@@ -4054,8 +4054,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ PULSAR 200CC (8 POLE)",
       "description": "BAJAJ PULSAR 200CC (8 POLE)",
-      "image": "/2 wheeler/coil plate assembly/RP302AQ Motorcycle Stator and Wiring Harness copy.png",
-      "thumbnail": "/2 wheeler/coil plate assembly/RP302AQ Motorcycle Stator and Wiring Harness copy.png"
+      "image": "/2 wheeler/coil plate assembly/RP302AQ Motorcycle Stator and Wiring Harness copy.webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/RP302AQ Motorcycle Stator and Wiring Harness copy.webp"
     },
     {
       "partNumber": "RP302ZL",
@@ -4072,8 +4072,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ PULSAR 220CC / AVENGER (18 POLE)",
       "description": "BAJAJ PULSAR 220CC / AVENGER (18 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp302co Stator Coil Plate Assembly For Bajaj pulsar 220cc avenger 12 pole (4).jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp302co Stator Coil Plate Assembly For Bajaj pulsar 220cc avenger 12 pole (4).jpg"
+      "image": "/2 wheeler/coil plate assembly/Orado rp302co Stator Coil Plate Assembly For Bajaj pulsar 220cc avenger 12 pole (4).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp302co Stator Coil Plate Assembly For Bajaj pulsar 220cc avenger 12 pole (4).webp"
     },
     {
       "partNumber": "RP302CF",
@@ -4090,8 +4090,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ PULSAR-160 NS (12 POLE)",
       "description": "BAJAJ PULSAR-160 NS (12 POLE)",
-      "image": "/2 wheeler/coil plate assembly/rp302xt orado (3).jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/rp302xt orado (3).jpg"
+      "image": "/2 wheeler/coil plate assembly/rp302xt orado (3).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/rp302xt orado (3).webp"
     },
     {
       "partNumber": "RP302MF",
@@ -4108,8 +4108,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ PULSAR -150 UG5 BS4 (DK84) 12 POLE",
       "description": "BAJAJ PULSAR -150 UG5 BS4 (DK84) 12 POLE",
-      "image": "/2 wheeler/coil plate assembly/Orado rp302fd Stator Coil Plate Assembly For Bajaj Pulsar 150 ug5 bs4 DK84 12 pole (1).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp302fd Stator Coil Plate Assembly For Bajaj Pulsar 150 ug5 bs4 DK84 12 pole (1).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp302fd Stator Coil Plate Assembly For Bajaj Pulsar 150 ug5 bs4 DK84 12 pole (1).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp302fd Stator Coil Plate Assembly For Bajaj Pulsar 150 ug5 bs4 DK84 12 pole (1).webp"
     },
     {
       "partNumber": "RP302TW",
@@ -4135,8 +4135,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ WIND 125 (8 POLE)",
       "description": "BAJAJ WIND 125 (8 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp303 Stator Coil Plate Assembly For Bajaj Wind 125 8 Pole (5).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp303 Stator Coil Plate Assembly For Bajaj Wind 125 8 Pole (5).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp303 Stator Coil Plate Assembly For Bajaj Wind 125 8 Pole (5).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp303 Stator Coil Plate Assembly For Bajaj Wind 125 8 Pole (5).webp"
     },
     {
       "partNumber": "RP303DB",
@@ -4144,8 +4144,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ XCD 125 KS / ES (8 POLE)",
       "description": "BAJAJ XCD 125 KS / ES (8 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp303db Stator Coil Plate Assembly For Bajaj xcd 125 ks es 8 pole (1).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp303db Stator Coil Plate Assembly For Bajaj xcd 125 ks es 8 pole (1).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp303db Stator Coil Plate Assembly For Bajaj xcd 125 ks es 8 pole (1).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp303db Stator Coil Plate Assembly For Bajaj xcd 125 ks es 8 pole (1).webp"
     },
     {
       "partNumber": "RP303DJ",
@@ -4153,8 +4153,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ CT-100 KS BS3 / PLATINA-100 KS BS3 / BAJAJ CT-100 KS BS4",
       "description": "BAJAJ CT-100 KS BS3 / PLATINA-100 KS BS3 / BAJAJ CT-100 KS BS4",
-      "image": "/2 wheeler/coil plate assembly/Orado rp303dj Stator Coil Plate Assembly For Bajaj ct 100 ks bs3 platina 100 ks bs3 b ajaj ct 100 ks (2).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp303dj Stator Coil Plate Assembly For Bajaj ct 100 ks bs3 platina 100 ks bs3 b ajaj ct 100 ks (2).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp303dj Stator Coil Plate Assembly For Bajaj ct 100 ks bs3 platina 100 ks bs3 b ajaj ct 100 ks (2).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp303dj Stator Coil Plate Assembly For Bajaj ct 100 ks bs3 platina 100 ks bs3 b ajaj ct 100 ks (2).webp"
     },
     {
       "partNumber": "RP303ZM",
@@ -4162,8 +4162,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ PLATINA-100 ES PF24 (12 POLE) / PLATINA KS BS4-100",
       "description": "BAJAJ PLATINA-100 ES PF24 (12 POLE) / PLATINA KS BS4-100",
-      "image": "/2 wheeler/coil plate assembly/Orado rp303zm Stator Coil Plate Assembly For Bajaj Platina 100 es pf24 12 pole platina ks bs4 100 (3).jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp303zm Stator Coil Plate Assembly For Bajaj Platina 100 es pf24 12 pole platina ks bs4 100 (3).jpg"
+      "image": "/2 wheeler/coil plate assembly/Orado rp303zm Stator Coil Plate Assembly For Bajaj Platina 100 es pf24 12 pole platina ks bs4 100 (3).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp303zm Stator Coil Plate Assembly For Bajaj Platina 100 es pf24 12 pole platina ks bs4 100 (3).webp"
     },
     {
       "partNumber": "RP303ZS",
@@ -4171,8 +4171,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ PLATINA KS PF33 (12 POLE)",
       "description": "BAJAJ PLATINA KS PF33 (12 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp303zs Stator Coil Plate Assembly For Bajaj Platina ks pf33 12 pole (5).jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp303zs Stator Coil Plate Assembly For Bajaj Platina ks pf33 12 pole (5).jpg"
+      "image": "/2 wheeler/coil plate assembly/Orado rp303zs Stator Coil Plate Assembly For Bajaj Platina ks pf33 12 pole (5).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp303zs Stator Coil Plate Assembly For Bajaj Platina ks pf33 12 pole (5).webp"
     },
     {
       "partNumber": "RP303BL",
@@ -4180,8 +4180,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ PLATINA 125 ES (8 POLE)",
       "description": "BAJAJ PLATINA 125 ES (8 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp303bl Stator Coil Plate Assembly For Bajaj Platina 125 es 8 pole (5).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp303bl Stator Coil Plate Assembly For Bajaj Platina 125 es 8 pole (5).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp303bl Stator Coil Plate Assembly For Bajaj Platina 125 es 8 pole (5).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp303bl Stator Coil Plate Assembly For Bajaj Platina 125 es 8 pole (5).webp"
     },
     {
       "partNumber": "RP303HW",
@@ -4189,8 +4189,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BOXER BM-150 BS3 / BS4 / BAJAJ CT-100 / 110 ES BS4 / PLATINA-100 ES BS4 / DISCOVER-100 (4 GEAR) (8 POLE)",
       "description": "BOXER BM-150 BS3 / BS4 / BAJAJ CT-100 / 110 ES BS4 / PLATINA-100 ES BS4 / DISCOVER-100 (4 GEAR) (8 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp303hw Stator Coil Plate Assembly For Boxer bm 150 bs3 bs4 Bajaj ct 100 110 es bs4 Platina 100 es bs4 discover 100 4 gear 8 pole (6).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp303hw Stator Coil Plate Assembly For Boxer bm 150 bs3 bs4 Bajaj ct 100 110 es bs4 Platina 100 es bs4 discover 100 4 gear 8 pole (6).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp303hw Stator Coil Plate Assembly For Boxer bm 150 bs3 bs4 Bajaj ct 100 110 es bs4 Platina 100 es bs4 discover 100 4 gear 8 pole (6).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp303hw Stator Coil Plate Assembly For Boxer bm 150 bs3 bs4 Bajaj ct 100 110 es bs4 Platina 100 es bs4 discover 100 4 gear 8 pole (6).webp"
     },
     {
       "partNumber": "RP303ZA",
@@ -4207,8 +4207,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BAJAJ VIKRANT V-15 BS4 (12 POLE)",
       "description": "BAJAJ VIKRANT V-15 BS4 (12 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp303bx Stator Coil Plate Assembly For Bajaj Vikrant V 15 bs4 12 pole (6).jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp303bx Stator Coil Plate Assembly For Bajaj Vikrant V 15 bs4 12 pole (6).jpg"
+      "image": "/2 wheeler/coil plate assembly/Orado rp303bx Stator Coil Plate Assembly For Bajaj Vikrant V 15 bs4 12 pole (6).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp303bx Stator Coil Plate Assembly For Bajaj Vikrant V 15 bs4 12 pole (6).webp"
     },
     {
       "partNumber": "RP303LO",
@@ -4225,8 +4225,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "KINETIC NOVA 115",
       "description": "KINETIC NOVA 115",
-      "image": "/2 wheeler/coil plate assembly/Orado rp304 Stator Coil Plate Assembly For Kinetic nova 115 (3).jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp304 Stator Coil Plate Assembly For Kinetic nova 115 (3).jpg"
+      "image": "/2 wheeler/coil plate assembly/Orado rp304 Stator Coil Plate Assembly For Kinetic nova 115 (3).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp304 Stator Coil Plate Assembly For Kinetic nova 115 (3).webp"
     },
     {
       "partNumber": "RP305",
@@ -4234,8 +4234,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "KINETIC NOVA CHALLENGER",
       "description": "KINETIC NOVA CHALLENGER",
-      "image": "/2 wheeler/coil plate assembly/Orado rp305 Stator Coil Plate Assembly For Kinetic nova challenger .jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp305 Stator Coil Plate Assembly For Kinetic nova challenger .jpg"
+      "image": "/2 wheeler/coil plate assembly/Orado rp305 Stator Coil Plate Assembly For Kinetic nova challenger .webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp305 Stator Coil Plate Assembly For Kinetic nova challenger .webp"
     },
     {
       "partNumber": "RP306",
@@ -4243,8 +4243,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HERO HONDA SUPER SPLENDOR / GLAMOUR / N/M (2HOLE)",
       "description": "HERO HONDA SUPER SPLENDOR / GLAMOUR / N/M (2HOLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado 306 Stator Coil Plate Assembly For Hero Honda super splendor glamour n m 2 hole (5).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado 306 Stator Coil Plate Assembly For Hero Honda super splendor glamour n m 2 hole (5).png"
+      "image": "/2 wheeler/coil plate assembly/Orado 306 Stator Coil Plate Assembly For Hero Honda super splendor glamour n m 2 hole (5).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado 306 Stator Coil Plate Assembly For Hero Honda super splendor glamour n m 2 hole (5).webp"
     },
     {
       "partNumber": "RP306HT",
@@ -4252,8 +4252,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HERO HONDA GLAMOUR-FI (8 POLE)",
       "description": "HERO HONDA GLAMOUR-FI (8 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp306ht Stator Coil Plate Assembly For Hero Honda Glamour fi 8 pole (6).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp306ht Stator Coil Plate Assembly For Hero Honda Glamour fi 8 pole (6).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp306ht Stator Coil Plate Assembly For Hero Honda Glamour fi 8 pole (6).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp306ht Stator Coil Plate Assembly For Hero Honda Glamour fi 8 pole (6).webp"
     },
     {
       "partNumber": "RP306KD",
@@ -4261,8 +4261,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HERO HONDA CD DELUXE (8 POLE)",
       "description": "HERO HONDA CD DELUXE (8 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp306kd Stator Coil Plate Assembly For Hero Honda cd deluxe 8 pole (3).jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp306kd Stator Coil Plate Assembly For Hero Honda cd deluxe 8 pole (3).jpg"
+      "image": "/2 wheeler/coil plate assembly/Orado rp306kd Stator Coil Plate Assembly For Hero Honda cd deluxe 8 pole (3).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp306kd Stator Coil Plate Assembly For Hero Honda cd deluxe 8 pole (3).webp"
     },
     {
       "partNumber": "RP306MK",
@@ -4270,8 +4270,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HERO HONDA PLEASURE",
       "description": "HERO HONDA PLEASURE",
-      "image": "/2 wheeler/coil plate assembly/Orado rp306mk Stator Coil Plate Assembly For Hero Honda Pleasure (3).jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp306mk Stator Coil Plate Assembly For Hero Honda Pleasure (3).jpg"
+      "image": "/2 wheeler/coil plate assembly/Orado rp306mk Stator Coil Plate Assembly For Hero Honda Pleasure (3).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp306mk Stator Coil Plate Assembly For Hero Honda Pleasure (3).webp"
     },
     {
       "partNumber": "RP306KK",
@@ -4279,8 +4279,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HERO HONDA CBZ XT / X-TREME / ACHIEVER / HUNK (8 POLE)",
       "description": "HERO HONDA CBZ XT / X-TREME / ACHIEVER / HUNK (8 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp306kk Stator Coil Plate Assembly For Hero Honda cbz xt xtreme achiever hunk 8 pole (3).jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp306kk Stator Coil Plate Assembly For Hero Honda cbz xt xtreme achiever hunk 8 pole (3).jpg"
+      "image": "/2 wheeler/coil plate assembly/Orado rp306kk Stator Coil Plate Assembly For Hero Honda cbz xt xtreme achiever hunk 8 pole (3).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp306kk Stator Coil Plate Assembly For Hero Honda cbz xt xtreme achiever hunk 8 pole (3).webp"
     },
     {
       "partNumber": "RP306KX",
@@ -4288,8 +4288,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HERO IMPULSE / HUNK / X-TREME (12 POLE)",
       "description": "HERO IMPULSE / HUNK / X-TREME (12 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp306kx Stator Coil Plate Assembly For Hero Impulse Hunk xtreme 12 pole (5).jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp306kx Stator Coil Plate Assembly For Hero Impulse Hunk xtreme 12 pole (5).jpg"
+      "image": "/2 wheeler/coil plate assembly/Orado rp306kx Stator Coil Plate Assembly For Hero Impulse Hunk xtreme 12 pole (5).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp306kx Stator Coil Plate Assembly For Hero Impulse Hunk xtreme 12 pole (5).webp"
     },
     {
       "partNumber": "RP306KZ",
@@ -4306,8 +4306,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HERO HONDA SUPER SPLENDOR N/M / GLAMOUR N/M, (12 POLE)",
       "description": "HERO HONDA SUPER SPLENDOR N/M / GLAMOUR N/M, (12 POLE)",
-      "image": "/2 wheeler/coil plate assembly/RP306PP  Hero Honda Super Splendor Glamour New Model 12 pole.png",
-      "thumbnail": "/2 wheeler/coil plate assembly/RP306PP  Hero Honda Super Splendor Glamour New Model 12 pole.png"
+      "image": "/2 wheeler/coil plate assembly/RP306PP  Hero Honda Super Splendor Glamour New Model 12 pole.webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/RP306PP  Hero Honda Super Splendor Glamour New Model 12 pole.webp"
     },
     {
       "partNumber": "RP307",
@@ -4315,8 +4315,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HERO HONDA AMBITION (12 POLE)",
       "description": "HERO HONDA AMBITION (12 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp307 Stator Coil Plate Assembly For Hero Honda Ambition 12 pole (3).jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp307 Stator Coil Plate Assembly For Hero Honda Ambition 12 pole (3).jpg"
+      "image": "/2 wheeler/coil plate assembly/Orado rp307 Stator Coil Plate Assembly For Hero Honda Ambition 12 pole (3).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp307 Stator Coil Plate Assembly For Hero Honda Ambition 12 pole (3).webp"
     },
     {
       "partNumber": "RP307DX",
@@ -4324,8 +4324,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HERO HONDA KARIZMA",
       "description": "HERO HONDA KARIZMA",
-      "image": "/2 wheeler/coil plate assembly/Orado rp307dx Stator Coil Plate Assembly For Hero Honda Karizma (3).jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp307dx Stator Coil Plate Assembly For Hero Honda Karizma (3).jpg"
+      "image": "/2 wheeler/coil plate assembly/Orado rp307dx Stator Coil Plate Assembly For Hero Honda Karizma (3).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp307dx Stator Coil Plate Assembly For Hero Honda Karizma (3).webp"
     },
     {
       "partNumber": "RP307XO",
@@ -4333,8 +4333,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HERO HONDA NXG O/M (8 POLE)",
       "description": "HERO HONDA NXG O/M (8 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp307xo Stator Coil Plate Assembly For Hero Honda nxg o m 8 pole (3).jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp307xo Stator Coil Plate Assembly For Hero Honda nxg o m 8 pole (3).jpg"
+      "image": "/2 wheeler/coil plate assembly/Orado rp307xo Stator Coil Plate Assembly For Hero Honda nxg o m 8 pole (3).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp307xo Stator Coil Plate Assembly For Hero Honda nxg o m 8 pole (3).webp"
     },
     {
       "partNumber": "RP307AH",
@@ -4342,8 +4342,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HERO HONDA SPLENDOR PRO (8 POLE)",
       "description": "HERO HONDA SPLENDOR PRO (8 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp307ah Stator Coil Plate Assembly For Hero Honda splendor pro 8 pole (6).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp307ah Stator Coil Plate Assembly For Hero Honda splendor pro 8 pole (6).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp307ah Stator Coil Plate Assembly For Hero Honda splendor pro 8 pole (6).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp307ah Stator Coil Plate Assembly For Hero Honda splendor pro 8 pole (6).webp"
     },
     {
       "partNumber": "RP307DH",
@@ -4351,8 +4351,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HERO PASSION PRO / HF DLX /HF DAWN / HF DLX ECO / PASSION PRO TR / SPL NXG N/M (8 POLE)",
       "description": "HERO PASSION PRO / HF DLX /HF DAWN / HF DLX ECO / PASSION PRO TR / SPL NXG N/M (8 POLE)",
-      "image": "/2 wheeler/coil plate assembly/RP307DH Copper Coil Stator and Wiring Harness copy.png",
-      "thumbnail": "/2 wheeler/coil plate assembly/RP307DH Copper Coil Stator and Wiring Harness copy.png"
+      "image": "/2 wheeler/coil plate assembly/RP307DH Copper Coil Stator and Wiring Harness copy.webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/RP307DH Copper Coil Stator and Wiring Harness copy.webp"
     },
     {
       "partNumber": "RP307NC",
@@ -4396,8 +4396,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HERO SPLENDOR PLUS BS4 / HERO HF DLX BS4 / PASSION PRO BS4 (8 POLE)",
       "description": "HERO SPLENDOR PLUS BS4 / HERO HF DLX BS4 / PASSION PRO BS4 (8 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp307dx Stator Coil Plate Assembly For Hero Honda Karizma (3).jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp307dx Stator Coil Plate Assembly For Hero Honda Karizma (3).jpg"
+      "image": "/2 wheeler/coil plate assembly/Orado rp307dx Stator Coil Plate Assembly For Hero Honda Karizma (3).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp307dx Stator Coil Plate Assembly For Hero Honda Karizma (3).webp"
     },
     {
       "partNumber": "RP308",
@@ -4405,8 +4405,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HERO HONDA SPLENDOR NEW MODEL",
       "description": "HERO HONDA SPLENDOR NEW MODEL",
-      "image": "/2 wheeler/coil plate assembly/Orado rp308 Stator Coil Plate Assembly For Hero Honda splendor new model (4).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp308 Stator Coil Plate Assembly For Hero Honda splendor new model (4).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp308 Stator Coil Plate Assembly For Hero Honda splendor new model (4).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp308 Stator Coil Plate Assembly For Hero Honda splendor new model (4).webp"
     },
     {
       "partNumber": "RP308DD",
@@ -4414,8 +4414,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HERO HONDA SPLENDOR PLUS",
       "description": "HERO HONDA SPLENDOR PLUS",
-      "image": "/2 wheeler/coil plate assembly/Orado rp308dd Stator Coil Plate Assembly For Hero Honda Splendor Plus (1).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp308dd Stator Coil Plate Assembly For Hero Honda Splendor Plus (1).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp308dd Stator Coil Plate Assembly For Hero Honda Splendor Plus (1).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp308dd Stator Coil Plate Assembly For Hero Honda Splendor Plus (1).webp"
     },
     {
       "partNumber": "RP309",
@@ -4423,8 +4423,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HERO HONDA SPLENDOR OLD MODEL",
       "description": "HERO HONDA SPLENDOR OLD MODEL",
-      "image": "/2 wheeler/coil plate assembly/Orado rp309 Stator Coil Plate Assembly For Hero Honda Splendor Old Model (3).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp309 Stator Coil Plate Assembly For Hero Honda Splendor Old Model (3).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp309 Stator Coil Plate Assembly For Hero Honda Splendor Old Model (3).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp309 Stator Coil Plate Assembly For Hero Honda Splendor Old Model (3).webp"
     },
     {
       "partNumber": "RP310",
@@ -4432,8 +4432,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HERO HONDA SS",
       "description": "HERO HONDA SS",
-      "image": "/2 wheeler/coil plate assembly/Orado rp310 Stator Coil Plate Assembly For Hero Honda Ss (3).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp310 Stator Coil Plate Assembly For Hero Honda Ss (3).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp310 Stator Coil Plate Assembly For Hero Honda Ss (3).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp310 Stator Coil Plate Assembly For Hero Honda Ss (3).webp"
     },
     {
       "partNumber": "RP311",
@@ -4441,8 +4441,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HERO HONDA CD-100",
       "description": "HERO HONDA CD-100",
-      "image": "/2 wheeler/coil plate assembly/Orado rp311 Stator Coil Plate Assembly For Hero Honda Cd 100 (1).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp311 Stator Coil Plate Assembly For Hero Honda Cd 100 (1).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp311 Stator Coil Plate Assembly For Hero Honda Cd 100 (1).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp311 Stator Coil Plate Assembly For Hero Honda Cd 100 (1).webp"
     },
     {
       "partNumber": "RP312",
@@ -4450,8 +4450,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HERO HONDA PASSION / PASSION PLUS",
       "description": "HERO HONDA PASSION / PASSION PLUS",
-      "image": "/2 wheeler/coil plate assembly/Orado rp312 Stator Coil Plate Assembly For Hero Honda Passion Passion plus (7).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp312 Stator Coil Plate Assembly For Hero Honda Passion Passion plus (7).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp312 Stator Coil Plate Assembly For Hero Honda Passion Passion plus (7).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp312 Stator Coil Plate Assembly For Hero Honda Passion Passion plus (7).webp"
     },
     {
       "partNumber": "RP312DW",
@@ -4459,8 +4459,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HERO HONDA CD- DAWN N/M ( 8 POLE)",
       "description": "HERO HONDA CD- DAWN N/M ( 8 POLE)",
-      "image": "/2 wheeler/coil plate assembly/RP312DW Electrical Motorcycle Stator Assembly (1) copy.png",
-      "thumbnail": "/2 wheeler/coil plate assembly/RP312DW Electrical Motorcycle Stator Assembly (1) copy.png"
+      "image": "/2 wheeler/coil plate assembly/RP312DW Electrical Motorcycle Stator Assembly (1) copy.webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/RP312DW Electrical Motorcycle Stator Assembly (1) copy.webp"
     },
     {
       "partNumber": "RP312MM",
@@ -4468,8 +4468,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HERO HONDA CBZ O/M 12-POLE",
       "description": "HERO HONDA CBZ O/M 12-POLE",
-      "image": "/2 wheeler/coil plate assembly/Orado rp312mm Stator Coil Plate Assembly For Hero Honda cbz o m 12 pole (2).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp312mm Stator Coil Plate Assembly For Hero Honda cbz o m 12 pole (2).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp312mm Stator Coil Plate Assembly For Hero Honda cbz o m 12 pole (2).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp312mm Stator Coil Plate Assembly For Hero Honda cbz o m 12 pole (2).webp"
     },
     {
       "partNumber": "RP312MZ",
@@ -4477,8 +4477,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "HERO EDGE / DUET BS4 (12 POLE)",
       "description": "HERO EDGE / DUET BS4 (12 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp312mz Stator Coil Plate Assembly For Hero Edge Duet bs4 12 pole (3).jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp312mz Stator Coil Plate Assembly For Hero Edge Duet bs4 12 pole (3).jpg"
+      "image": "/2 wheeler/coil plate assembly/Orado rp312mz Stator Coil Plate Assembly For Hero Edge Duet bs4 12 pole (3).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp312mz Stator Coil Plate Assembly For Hero Edge Duet bs4 12 pole (3).webp"
     },
     {
       "partNumber": "RP313",
@@ -4486,8 +4486,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BULLET CITI BIKE / MACHISMO ( 4 WIRE )",
       "description": "BULLET CITI BIKE / MACHISMO ( 4 WIRE )",
-      "image": "/2 wheeler/coil plate assembly/Orado rp313 Stator Coil Plate Assembly For Bullet Citi Bike Machismo 4 wire (10).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp313 Stator Coil Plate Assembly For Bullet Citi Bike Machismo 4 wire (10).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp313 Stator Coil Plate Assembly For Bullet Citi Bike Machismo 4 wire (10).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp313 Stator Coil Plate Assembly For Bullet Citi Bike Machismo 4 wire (10).webp"
     },
     {
       "partNumber": "RP313DS",
@@ -4495,8 +4495,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BULLET ELECTRA",
       "description": "BULLET ELECTRA",
-      "image": "/2 wheeler/coil plate assembly/Orado rp313ds Stator Coil Plate Assembly For Bullet Electra (7).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp313ds Stator Coil Plate Assembly For Bullet Electra (7).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp313ds Stator Coil Plate Assembly For Bullet Electra (7).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp313ds Stator Coil Plate Assembly For Bullet Electra (7).webp"
     },
     {
       "partNumber": "RP313XL",
@@ -4513,8 +4513,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "BULLET ENFIELD (3 WIRE)",
       "description": "BULLET ENFIELD (3 WIRE)",
-      "image": "/2 wheeler/coil plate assembly/RP313JS Bullet enfield 3 wire.jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/RP313JS Bullet enfield 3 wire.jpg"
+      "image": "/2 wheeler/coil plate assembly/RP313JS Bullet enfield 3 wire.webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/RP313JS Bullet enfield 3 wire.webp"
     },
     {
       "partNumber": "RP313KP",
@@ -4522,8 +4522,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "YAMAHA YBR 110CC (12 POLE)",
       "description": "YAMAHA YBR 110CC (12 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp313kp Stator Coil Plate Assembly For Yamaha Ybr 110cc 12 pole (1) - Copy.png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp313kp Stator Coil Plate Assembly For Yamaha Ybr 110cc 12 pole (1) - Copy.png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp313kp Stator Coil Plate Assembly For Yamaha Ybr 110cc 12 pole (1) - Copy.webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp313kp Stator Coil Plate Assembly For Yamaha Ybr 110cc 12 pole (1) - Copy.webp"
     },
     {
       "partNumber": "RP313KL",
@@ -4531,8 +4531,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "YAMAHA FZ (12 POLE)",
       "description": "YAMAHA FZ (12 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp313kl Stator Coil Plate Assembly For Yamaha Fz 12 pole (1).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp313kl Stator Coil Plate Assembly For Yamaha Fz 12 pole (1).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp313kl Stator Coil Plate Assembly For Yamaha Fz 12 pole (1).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp313kl Stator Coil Plate Assembly For Yamaha Fz 12 pole (1).webp"
     },
     {
       "partNumber": "RP313PO",
@@ -4540,8 +4540,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "YAMAHA FZ-16 / FZ-S (12 POLE)",
       "description": "YAMAHA FZ-16 / FZ-S (12 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp313po Stator Coil Plate Assembly For Yamaha Fz 16 Fz s 12 pole (3).jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp313po Stator Coil Plate Assembly For Yamaha Fz 16 Fz s 12 pole (3).jpg"
+      "image": "/2 wheeler/coil plate assembly/Orado rp313po Stator Coil Plate Assembly For Yamaha Fz 16 Fz s 12 pole (3).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp313po Stator Coil Plate Assembly For Yamaha Fz 16 Fz s 12 pole (3).webp"
     },
     {
       "partNumber": "RP313PS",
@@ -4549,8 +4549,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "YAMAHA YBR-125CC (12 POLE)",
       "description": "YAMAHA YBR-125CC (12 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp313ps Stator Coil Plate Assembly For Yamaha Ybr 125cc 12 pole (26).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp313ps Stator Coil Plate Assembly For Yamaha Ybr 125cc 12 pole (26).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp313ps Stator Coil Plate Assembly For Yamaha Ybr 125cc 12 pole (26).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp313ps Stator Coil Plate Assembly For Yamaha Ybr 125cc 12 pole (26).webp"
     },
     {
       "partNumber": "RP313SK",
@@ -4558,8 +4558,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "YAMAHA SS-125CC (12 POLE)",
       "description": "YAMAHA SS-125CC (12 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp313sk Stator Coil Plate Assembly For Yamaha ss 125cc 12 pole (4).jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp313sk Stator Coil Plate Assembly For Yamaha ss 125cc 12 pole (4).jpg"
+      "image": "/2 wheeler/coil plate assembly/Orado rp313sk Stator Coil Plate Assembly For Yamaha ss 125cc 12 pole (4).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp313sk Stator Coil Plate Assembly For Yamaha ss 125cc 12 pole (4).webp"
     },
     {
       "partNumber": "RP313ZZ",
@@ -4567,8 +4567,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "YAMAHA CRUX ( 12 POLE ) N/M / LIBERO",
       "description": "YAMAHA CRUX ( 12 POLE ) N/M / LIBERO",
-      "image": "/2 wheeler/coil plate assembly/Orado rp313zz Stator Coil Plate Assembly For Yamaha Crux 12 pole nm libero (6).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp313zz Stator Coil Plate Assembly For Yamaha Crux 12 pole nm libero (6).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp313zz Stator Coil Plate Assembly For Yamaha Crux 12 pole nm libero (6).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp313zz Stator Coil Plate Assembly For Yamaha Crux 12 pole nm libero (6).webp"
     },
     {
       "partNumber": "RP313ZU",
@@ -4576,8 +4576,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "YAMAHA CRUX (8 POLE) O/M",
       "description": "YAMAHA CRUX (8 POLE) O/M",
-      "image": "/2 wheeler/coil plate assembly/Orado rp313zu Stator Coil Plate Assembly For Yamaha Crux 8 pole o m (4).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp313zu Stator Coil Plate Assembly For Yamaha Crux 8 pole o m (4).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp313zu Stator Coil Plate Assembly For Yamaha Crux 8 pole o m (4).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp313zu Stator Coil Plate Assembly For Yamaha Crux 8 pole o m (4).webp"
     },
     {
       "partNumber": "RP313UB",
@@ -4585,8 +4585,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "YAMAHA LIBERO (8 POLE)",
       "description": "YAMAHA LIBERO (8 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp313ub Stator Coil Plate Assembly For Yamaha Libero 8 pole (2).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp313ub Stator Coil Plate Assembly For Yamaha Libero 8 pole (2).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp313ub Stator Coil Plate Assembly For Yamaha Libero 8 pole (2).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp313ub Stator Coil Plate Assembly For Yamaha Libero 8 pole (2).webp"
     },
     {
       "partNumber": "RP313XB",
@@ -4603,8 +4603,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "YAMAHA ALBA",
       "description": "YAMAHA ALBA",
-      "image": "/2 wheeler/coil plate assembly/Orado rp313ar Stator Coil Plate Assembly For Yamaha Alba (6).jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp313ar Stator Coil Plate Assembly For Yamaha Alba (6).jpg"
+      "image": "/2 wheeler/coil plate assembly/Orado rp313ar Stator Coil Plate Assembly For Yamaha Alba (6).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp313ar Stator Coil Plate Assembly For Yamaha Alba (6).webp"
     },
     {
       "partNumber": "RP313HD",
@@ -4612,8 +4612,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "YAMAHA GLADIATOR (12 POLE )",
       "description": "YAMAHA GLADIATOR (12 POLE )",
-      "image": "/2 wheeler/coil plate assembly/Orado rp313hd Stator Coil Plate Assembly For Yamaha Gladiator 12 pole (16).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp313hd Stator Coil Plate Assembly For Yamaha Gladiator 12 pole (16).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp313hd Stator Coil Plate Assembly For Yamaha Gladiator 12 pole (16).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp313hd Stator Coil Plate Assembly For Yamaha Gladiator 12 pole (16).webp"
     },
     {
       "partNumber": "RP313CM",
@@ -4621,8 +4621,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "YAMAHA FAZER (12 POLE )",
       "description": "YAMAHA FAZER (12 POLE )",
-      "image": "/2 wheeler/coil plate assembly/Orado rp313cm  Stator Coil Plate Assembly For Yamaha fazer 12 pole (1).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp313cm  Stator Coil Plate Assembly For Yamaha fazer 12 pole (1).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp313cm  Stator Coil Plate Assembly For Yamaha fazer 12 pole (1).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp313cm  Stator Coil Plate Assembly For Yamaha fazer 12 pole (1).webp"
     },
     {
       "partNumber": "RP313MK",
@@ -4639,8 +4639,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "SUZUKI ACCESS-125 (12POLE)",
       "description": "SUZUKI ACCESS-125 (12POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp313jj Stator Coil Plate Assembly For Suzuki Access 125 12 pole (4).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp313jj Stator Coil Plate Assembly For Suzuki Access 125 12 pole (4).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp313jj Stator Coil Plate Assembly For Suzuki Access 125 12 pole (4).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp313jj Stator Coil Plate Assembly For Suzuki Access 125 12 pole (4).webp"
     },
     {
       "partNumber": "RP313JB",
@@ -4648,8 +4648,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "SUZUKI ACCESS (8 POLE)",
       "description": "SUZUKI ACCESS (8 POLE)",
-      "image": "/2 wheeler/coil plate assembly/RP313JB Copper Stator Assembly with Wiring Harness (2) copy.png",
-      "thumbnail": "/2 wheeler/coil plate assembly/RP313JB Copper Stator Assembly with Wiring Harness (2) copy.png"
+      "image": "/2 wheeler/coil plate assembly/RP313JB Copper Stator Assembly with Wiring Harness (2) copy.webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/RP313JB Copper Stator Assembly with Wiring Harness (2) copy.webp"
     },
     {
       "partNumber": "RP313JH",
@@ -4657,8 +4657,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "SUZUKI HEAT (8 POLE)",
       "description": "SUZUKI HEAT (8 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp313jh Stator Coil Plate Assembly For Suzuki Heat 8 pole (2).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp313jh Stator Coil Plate Assembly For Suzuki Heat 8 pole (2).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp313jh Stator Coil Plate Assembly For Suzuki Heat 8 pole (2).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp313jh Stator Coil Plate Assembly For Suzuki Heat 8 pole (2).webp"
     },
     {
       "partNumber": "RP313JX",
@@ -4675,8 +4675,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "SUZUKI SLING SHOT (8 POLE)",
       "description": "SUZUKI SLING SHOT (8 POLE)",
-      "image": "/2 wheeler/coil plate assembly/RP313JS Bullet enfield 3 wire.jpg",
-      "thumbnail": "/2 wheeler/coil plate assembly/RP313JS Bullet enfield 3 wire.jpg"
+      "image": "/2 wheeler/coil plate assembly/RP313JS Bullet enfield 3 wire.webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/RP313JS Bullet enfield 3 wire.webp"
     },
     {
       "partNumber": "RP313DK",
@@ -4684,8 +4684,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "SUZUKI ZEUS (8 POLE)",
       "description": "SUZUKI ZEUS (8 POLE)",
-      "image": "/2 wheeler/coil plate assembly/Orado rp313dk Stator Coil Plate Assembly For Suzuki zeus 8 pole (2).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp313dk Stator Coil Plate Assembly For Suzuki zeus 8 pole (2).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp313dk Stator Coil Plate Assembly For Suzuki zeus 8 pole (2).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp313dk Stator Coil Plate Assembly For Suzuki zeus 8 pole (2).webp"
     },
     {
       "partNumber": "RP314NC",
@@ -4693,8 +4693,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "MAHINDRA DURO",
       "description": "MAHINDRA DURO",
-      "image": "/2 wheeler/coil plate assembly/RP313NC Stator Coil Plate Assembly For Mahindra Duro.png",
-      "thumbnail": "/2 wheeler/coil plate assembly/RP313NC Stator Coil Plate Assembly For Mahindra Duro.png"
+      "image": "/2 wheeler/coil plate assembly/RP313NC Stator Coil Plate Assembly For Mahindra Duro.webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/RP313NC Stator Coil Plate Assembly For Mahindra Duro.webp"
     },
     {
       "partNumber": "RP314NO",
@@ -4702,8 +4702,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "MAHINDRA FLYTE",
       "description": "MAHINDRA FLYTE",
-      "image": "/2 wheeler/coil plate assembly/Orado rp314no Stator Coil Plate Assembly For Mahindra Flyte (1).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp314no Stator Coil Plate Assembly For Mahindra Flyte (1).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp314no Stator Coil Plate Assembly For Mahindra Flyte (1).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp314no Stator Coil Plate Assembly For Mahindra Flyte (1).webp"
     },
     {
       "partNumber": "RP314NP",
@@ -4711,8 +4711,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "MAHINDRA CENTURO",
       "description": "MAHINDRA CENTURO",
-      "image": "/2 wheeler/coil plate assembly/RP314NP Clean Stator Coil and Wiring Harness copy.png",
-      "thumbnail": "/2 wheeler/coil plate assembly/RP314NP Clean Stator Coil and Wiring Harness copy.png"
+      "image": "/2 wheeler/coil plate assembly/RP314NP Clean Stator Coil and Wiring Harness copy.webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/RP314NP Clean Stator Coil and Wiring Harness copy.webp"
     },
     {
       "partNumber": "RP314PB",
@@ -4720,8 +4720,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Coil Plate Assembly",
       "vehicle": "MAHINDRA GUSTO",
       "description": "MAHINDRA GUSTO",
-      "image": "/2 wheeler/coil plate assembly/Orado rp314pb Stator Coil Plate Assembly For Mahindra Gusto (2).png",
-      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp314pb Stator Coil Plate Assembly For Mahindra Gusto (2).png"
+      "image": "/2 wheeler/coil plate assembly/Orado rp314pb Stator Coil Plate Assembly For Mahindra Gusto (2).webp",
+      "thumbnail": "/2 wheeler/coil plate assembly/Orado rp314pb Stator Coil Plate Assembly For Mahindra Gusto (2).webp"
     }
   ],
   "2-wheeler-parts-ht-coils": [
@@ -4731,8 +4731,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "H.T. Coils",
       "vehicle": "BAJAJ CHETAK 6V",
       "description": "BAJAJ CHETAK 6V",
-      "image": "/2 wheeler/ht coil/RP315.jpg",
-      "thumbnail": "/2 wheeler/ht coil/RP315.jpg"
+      "image": "/2 wheeler/ht coil/RP315.webp",
+      "thumbnail": "/2 wheeler/ht coil/RP315.webp"
     },
     {
       "partNumber": "RP316",
@@ -4740,8 +4740,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "H.T. Coils",
       "vehicle": "BAJAJ CHETAK 12V (O/M) OE TYPE",
       "description": "BAJAJ CHETAK 12V (O/M) OE TYPE",
-      "image": "/2 wheeler/ht coil/RP316 Bajaj Chetak 12 Volt (6).png",
-      "thumbnail": "/2 wheeler/ht coil/RP316 Bajaj Chetak 12 Volt (6).png"
+      "image": "/2 wheeler/ht coil/RP316 Bajaj Chetak 12 Volt (6).webp",
+      "thumbnail": "/2 wheeler/ht coil/RP316 Bajaj Chetak 12 Volt (6).webp"
     },
     {
       "partNumber": "RP317",
@@ -4749,8 +4749,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "H.T. Coils",
       "vehicle": "BAJAJ CLASSIC / BRAVO / 99 MODEL (WITH BKTS)",
       "description": "BAJAJ CLASSIC / BRAVO / 99 MODEL (WITH BKTS)",
-      "image": "/2 wheeler/ht coil/RP317 Bajaj Ignition Coil Poster copy.png",
-      "thumbnail": "/2 wheeler/ht coil/RP317 Bajaj Ignition Coil Poster copy.png"
+      "image": "/2 wheeler/ht coil/RP317 Bajaj Ignition Coil Poster copy.webp",
+      "thumbnail": "/2 wheeler/ht coil/RP317 Bajaj Ignition Coil Poster copy.webp"
     },
     {
       "partNumber": "RP318",
@@ -4758,8 +4758,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "H.T. Coils",
       "vehicle": "BAJAJ M-80 / M-50",
       "description": "BAJAJ M-80 / M-50",
-      "image": "/2 wheeler/ht coil/RP318 Bajaj m80 m50 (1).png",
-      "thumbnail": "/2 wheeler/ht coil/RP318 Bajaj m80 m50 (1).png"
+      "image": "/2 wheeler",
+      "thumbnail": "/2 wheeler/ht coil/RP318 Bajaj m80 m50 (1).webp"
     },
     {
       "partNumber": "RP319",
@@ -4776,8 +4776,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "H.T. Coils",
       "vehicle": "BAJAJ KB-100 / KB-4S / CALIBER",
       "description": "BAJAJ KB-100 / KB-4S / CALIBER",
-      "image": "/2 wheeler/ht coil/RP322 Bajaj Kb 100 Kb 4s Caliber (3).jpg",
-      "thumbnail": "/2 wheeler/ht coil/RP322 Bajaj Kb 100 Kb 4s Caliber (3).jpg"
+      "image": "/2 wheeler/ht coil/RP322 Bajaj Kb 100 Kb 4s Caliber (3).webp",
+      "thumbnail": "/2 wheeler/ht coil/RP322 Bajaj Kb 100 Kb 4s Caliber (3).webp"
     },
     {
       "partNumber": "RP323",
@@ -4785,8 +4785,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "H.T. Coils",
       "vehicle": "BAJAJ BOXER CT / HERO MAESTRO / HONDA ACTIVA / AVIATOR",
       "description": "BAJAJ BOXER CT / HERO MAESTRO / HONDA ACTIVA / AVIATOR",
-      "image": "/2 wheeler/ht coil/RP323 Bajaj Boxer Ct Hero Maestro Honda Activa Aviator (3).jpg",
-      "thumbnail": "/2 wheeler/ht coil/RP323 Bajaj Boxer Ct Hero Maestro Honda Activa Aviator (3).jpg"
+      "image": "/2 wheeler/ht coil/RP323 Bajaj Boxer Ct Hero Maestro Honda Activa Aviator (3).webp",
+      "thumbnail": "/2 wheeler/ht coil/RP323 Bajaj Boxer Ct Hero Maestro Honda Activa Aviator (3).webp"
     },
     {
       "partNumber": "RP324",
@@ -4803,8 +4803,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "H.T. Coils",
       "vehicle": "BAJAJ DISCOVER-100 / DISI 135 DTSI / DIS-150 / DIS-150S / DIS-150F / PULSAR-150 DTSI / PULSAR-180- DTSI UG1 / UG2 / UG3 / UG4 / UG4.5 / DIS-125 ST / PLATINA-100 / 125 L& R",
       "description": "BAJAJ DISCOVER-100 / DISI 135 DTSI / DIS-150 / DIS-150S / DIS-150F / PULSAR-150 DTSI / PULSAR-180- DTSI UG1 / UG2 / UG3 / UG4 / UG4.5 / DIS-125 ST / PLATINA-100 / 125 L& R",
-      "image": "/2 wheeler/ht coil/RP328 Bajaj Discover 100 Dis 135 Pulsar 150 dtsi Platina 100 (2).png",
-      "thumbnail": "/2 wheeler/ht coil/RP328 Bajaj Discover 100 Dis 135 Pulsar 150 dtsi Platina 100 (2).png"
+      "image": "/2 wheeler/ht coil/RP328 Bajaj Discover 100 Dis 135 Pulsar 150 dtsi Platina 100 (2).webp",
+      "thumbnail": "/2 wheeler/ht coil/RP328 Bajaj Discover 100 Dis 135 Pulsar 150 dtsi Platina 100 (2).webp"
     },
     {
       "partNumber": "RP329",
@@ -4812,8 +4812,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "H.T. Coils",
       "vehicle": "BAJAJ PULSAR 135 / PULSAR 135 LS / BAJAJ XCD 125 / DISCOVER 125 / AVENGER 180 L& R",
       "description": "BAJAJ PULSAR 135 / PULSAR 135 LS / BAJAJ XCD 125 / DISCOVER 125 / AVENGER 180 L& R",
-      "image": "/2 wheeler/ht coil/RP329  Bajaj Pulsar 135 Pulsar 135 ls Bajaj Xcd 125 Discover 125 Avenger 180 Avenger 180 (2).png",
-      "thumbnail": "/2 wheeler/ht coil/RP329  Bajaj Pulsar 135 Pulsar 135 ls Bajaj Xcd 125 Discover 125 Avenger 180 Avenger 180 (2).png"
+      "image": "/2 wheeler/ht coil/RP329  Bajaj Pulsar 135 Pulsar 135 ls Bajaj Xcd 125 Discover 125 Avenger 180 Avenger 180 (2).webp",
+      "thumbnail": "/2 wheeler/ht coil/RP329  Bajaj Pulsar 135 Pulsar 135 ls Bajaj Xcd 125 Discover 125 Avenger 180 Avenger 180 (2).webp"
     },
     {
       "partNumber": "RP330",
@@ -4821,8 +4821,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "H.T. Coils",
       "vehicle": "BAJAJ BOXER BM-100 / BM 150",
       "description": "BAJAJ BOXER BM-100 / BM 150",
-      "image": "/2 wheeler/ht coil/RP330 Bajaj Boxer bm 100 bm 150 (1).png",
-      "thumbnail": "/2 wheeler/ht coil/RP330 Bajaj Boxer bm 100 bm 150 (1).png"
+      "image": "/2 wheeler/ht coil/RP330 Bajaj Boxer bm 100 bm 150 (1).webp",
+      "thumbnail": "/2 wheeler/ht coil/RP330 Bajaj Boxer bm 100 bm 150 (1).webp"
     },
     {
       "partNumber": "RP332",
@@ -4830,8 +4830,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "H.T. Coils",
       "vehicle": "BAJAJ PULSAR 200 / BAJAJ PLATINA / CT-100",
       "description": "BAJAJ PULSAR 200 / BAJAJ PLATINA / CT-100",
-      "image": "/2 wheeler/ht coil/RP332 Bajaj Pulsar 200 Bajaj Platina Ct 100 (2).png",
-      "thumbnail": "/2 wheeler/ht coil/RP332 Bajaj Pulsar 200 Bajaj Platina Ct 100 (2).png"
+      "image": "/2 wheeler/ht coil/RP332 Bajaj Pulsar 200 Bajaj Platina Ct 100 (2).webp",
+      "thumbnail": "/2 wheeler/ht coil/RP332 Bajaj Pulsar 200 Bajaj Platina Ct 100 (2).webp"
     },
     {
       "partNumber": "RP333",
@@ -4857,8 +4857,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "H.T. Coils",
       "vehicle": "HERO HONDA CD-100 / SS / KINETIC CHALLENGER",
       "description": "HERO HONDA CD-100 / SS / KINETIC CHALLENGER",
-      "image": "/2 wheeler/ht coil/RP335 Hero Honda cd 100 ss kinetic challanger   (4).png",
-      "thumbnail": "/2 wheeler/ht coil/RP335 Hero Honda cd 100 ss kinetic challanger   (4).png"
+      "image": "/2 wheeler/ht coil/RP335 Hero Honda cd 100 ss kinetic challanger   (4).webp",
+      "thumbnail": "/2 wheeler/ht coil/RP335 Hero Honda cd 100 ss kinetic challanger   (4).webp"
     },
     {
       "partNumber": "RP336",
@@ -4866,8 +4866,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "H.T. Coils",
       "vehicle": "HERO SUPER SPLENDOR / GLAMOUR / SUZUKI ACCESS- 125 ES / SWISH",
       "description": "HERO SUPER SPLENDOR / GLAMOUR / SUZUKI ACCESS- 125 ES / SWISH",
-      "image": "/2 wheeler/ht coil/RP336 vHero Super Splendor Glamour Suzuki Access 125  es.png",
-      "thumbnail": "/2 wheeler/ht coil/RP336 vHero Super Splendor Glamour Suzuki Access 125  es.png"
+      "image": "/2 wheeler/ht coil/RP336 vHero Super Splendor Glamour Suzuki Access 125  es.webp",
+      "thumbnail": "/2 wheeler/ht coil/RP336 vHero Super Splendor Glamour Suzuki Access 125  es.webp"
     },
     {
       "partNumber": "RP336KO",
@@ -4875,8 +4875,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "H.T. Coils",
       "vehicle": "HERO CD DELUXE / PASSION PRO/SPL PRO/ CD DAWN",
       "description": "HERO CD DELUXE / PASSION PRO/SPL PRO/ CD DAWN",
-      "image": "/2 wheeler/ht coil/RP336ko Hero Cd Deluxe Passion Pro Spl Pro Cd Dawn (1).png",
-      "thumbnail": "/2 wheeler/ht coil/RP336ko Hero Cd Deluxe Passion Pro Spl Pro Cd Dawn (1).png"
+      "image": "/2 wheeler/ht coil/RP336ko Hero Cd Deluxe Passion Pro Spl Pro Cd Dawn (1).webp",
+      "thumbnail": "/2 wheeler/ht coil/RP336ko Hero Cd Deluxe Passion Pro Spl Pro Cd Dawn (1).webp"
     },
     {
       "partNumber": "RP336GN",
@@ -4893,8 +4893,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "H.T. Coils",
       "vehicle": "HERO HONDA SPLENDOR / PASSION / CBZ / CD DLX / CD DAWN",
       "description": "HERO HONDA SPLENDOR / PASSION / CBZ / CD DLX / CD DAWN",
-      "image": "/2 wheeler/ht coil/RP337 Hero Honda Splendor Passion Cbz Cd Dlx Cd Dawn (1).png",
-      "thumbnail": "/2 wheeler/ht coil/RP337 Hero Honda Splendor Passion Cbz Cd Dlx Cd Dawn (1).png"
+      "image": "/2 wheeler/ht coil/RP337 Hero Honda Splendor Passion Cbz Cd Dlx Cd Dawn (1).webp",
+      "thumbnail": "/2 wheeler/ht coil/RP337 Hero Honda Splendor Passion Cbz Cd Dlx Cd Dawn (1).webp"
     },
     {
       "partNumber": "RP337PK",
@@ -4956,8 +4956,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "H.T. Coils",
       "vehicle": "HONDA ACTIVA 100CM2 / 100 CMS /110-B / AVIATOR 100F3 / 100 F5 /100 F9 /100 G /100 C / 100 D",
       "description": "HONDA ACTIVA 100CM2 / 100 CMS /110-B / AVIATOR 100F3 / 100 F5 /100 F9 /100 G /100 C / 100 D",
-      "image": "/2 wheeler/ht coil/RP340 Honda Activa 100 cm2 100  cms Aviator 100F3 F 5 F9 (1).png",
-      "thumbnail": "/2 wheeler/ht coil/RP340 Honda Activa 100 cm2 100  cms Aviator 100F3 F 5 F9 (1).png"
+      "image": "/2 wheeler/ht coil/RP340 Honda Activa 100 cm2 100  cms Aviator 100F3 F 5 F9 (1).webp",
+      "thumbnail": "/2 wheeler/ht coil/RP340 Honda Activa 100 cm2 100  cms Aviator 100F3 F 5 F9 (1).webp"
     },
     {
       "partNumber": "RP340A",
@@ -4965,8 +4965,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "H.T. Coils",
       "vehicle": "HONDA ACTIVA i / ACTIVA 125 / HET / ACTIVA 110 D / AVIATOR 110 GD / 110 FD / DREAM YUGA O/M / NEO 14A",
       "description": "HONDA ACTIVA i / ACTIVA 125 / HET / ACTIVA 110 D / AVIATOR 110 GD / 110 FD / DREAM YUGA O/M / NEO 14A",
-      "image": "/2 wheeler/ht coil/RP340A Honda Activa i Activa 125 Het Aviator Dream Yuga (12).png",
-      "thumbnail": "/2 wheeler/ht coil/RP340A Honda Activa i Activa 125 Het Aviator Dream Yuga (12).png"
+      "image": "/2 wheeler/ht coil/RP340A Honda Activa i Activa 125 Het Aviator Dream Yuga (12).webp",
+      "thumbnail": "/2 wheeler/ht coil/RP340A Honda Activa i Activa 125 Het Aviator Dream Yuga (12).webp"
     },
     {
       "partNumber": "RP340B",
@@ -4992,8 +4992,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "H.T. Coils",
       "vehicle": "YAMAHA 12V / RXG 12V",
       "description": "YAMAHA 12V / RXG 12V",
-      "image": "/2 wheeler/ht coil/RP342 Yamaha 12 volt rxg 12 volt (3).jpg",
-      "thumbnail": "/2 wheeler/ht coil/RP342 Yamaha 12 volt rxg 12 volt (3).jpg"
+      "image": "/2 wheeler/ht coil/RP342 Yamaha 12 volt rxg 12 volt (3).webp",
+      "thumbnail": "/2 wheeler/ht coil/RP342 Yamaha 12 volt rxg 12 volt (3).webp"
     },
     {
       "partNumber": "RP343",
@@ -5010,8 +5010,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "H.T. Coils",
       "vehicle": "YAMAHA CRUX / CRUX-R / LIBERO",
       "description": "YAMAHA CRUX / CRUX-R / LIBERO",
-      "image": "/2 wheeler/ht coil/RP343KK Yamaha Crux Crux R Libero (2).png",
-      "thumbnail": "/2 wheeler/ht coil/RP343KK Yamaha Crux Crux R Libero (2).png"
+      "image": "/2 wheeler/ht coil/RP343KK Yamaha Crux Crux R Libero (2).webp",
+      "thumbnail": "/2 wheeler/ht coil/RP343KK Yamaha Crux Crux R Libero (2).webp"
     },
     {
       "partNumber": "RP344",
@@ -5037,8 +5037,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "H.T. Coils",
       "vehicle": "TVS SUZUKI / MAX-100 / SAMURAI",
       "description": "TVS SUZUKI / MAX-100 / SAMURAI",
-      "image": "/2 wheeler/ht coil/RP347 Tvs Suzuki max 100 samurai (3).jpg",
-      "thumbnail": "/2 wheeler/ht coil/RP347 Tvs Suzuki max 100 samurai (3).jpg"
+      "image": "/2 wheeler/ht coil/RP347 Tvs Suzuki max 100 samurai (3).webp",
+      "thumbnail": "/2 wheeler/ht coil/RP347 Tvs Suzuki max 100 samurai (3).webp"
     },
     {
       "partNumber": "RP347SK",
@@ -5055,8 +5055,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "H.T. Coils",
       "vehicle": "TVS APACHE / RTR-160 /RTR-180 / RTR-150 / TVS FLAME- 125",
       "description": "TVS APACHE / RTR-160 /RTR-180 / RTR-150 / TVS FLAME- 125",
-      "image": "/2 wheeler/ht coil/RP347SP Tvs Apache rtr 160 180 150 Tvs flame 125 (2).png",
-      "thumbnail": "/2 wheeler/ht coil/RP347SP Tvs Apache rtr 160 180 150 Tvs flame 125 (2).png"
+      "image": "/2 wheeler/ht coil/RP347SP Tvs Apache rtr 160 180 150 Tvs flame 125 (2).webp",
+      "thumbnail": "/2 wheeler/ht coil/RP347SP Tvs Apache rtr 160 180 150 Tvs flame 125 (2).webp"
     },
     {
       "partNumber": "RP347SN",
@@ -5064,8 +5064,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "H.T. Coils",
       "vehicle": "TVS CENTRA",
       "description": "TVS CENTRA",
-      "image": "/2 wheeler/ht coil/RP347SN Tvs Centra (2).jpg",
-      "thumbnail": "/2 wheeler/ht coil/RP347SN Tvs Centra (2).jpg"
+      "image": "/2 wheeler/ht coil/RP347SN Tvs Centra (2).webp",
+      "thumbnail": "/2 wheeler/ht coil/RP347SN Tvs Centra (2).webp"
     },
     {
       "partNumber": "RP347RU",
@@ -5082,8 +5082,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "H.T. Coils",
       "vehicle": "TVS VICTOR / GL / GX / SCOOTY PEP PLUS",
       "description": "TVS VICTOR / GL / GX / SCOOTY PEP PLUS",
-      "image": "/2 wheeler/ht coil/RP348 Tvs Victor gl gx scooty pep plus (1).png",
-      "thumbnail": "/2 wheeler/ht coil/RP348 Tvs Victor gl gx scooty pep plus (1).png"
+      "image": "/2 wheeler/ht coil/RP348 Tvs Victor gl gx scooty pep plus (1).webp",
+      "thumbnail": "/2 wheeler/ht coil/RP348 Tvs Victor gl gx scooty pep plus (1).webp"
     },
     {
       "partNumber": "RP349",
@@ -5091,8 +5091,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "H.T. Coils",
       "vehicle": "TVS FIERO",
       "description": "TVS FIERO",
-      "image": "/2 wheeler/ht coil/RP349 Tvs Fiero (2).png",
-      "thumbnail": "/2 wheeler/ht coil/RP349 Tvs Fiero (2).png"
+      "image": "/2 wheeler/ht coil/RP349 Tvs Fiero (2).webp",
+      "thumbnail": "/2 wheeler/ht coil/RP349 Tvs Fiero (2).webp"
     },
     {
       "partNumber": "RP350",
@@ -5118,8 +5118,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "H.T. Coils",
       "vehicle": "LML FREEDOM / ENERGY FX / CRD /PRIMA",
       "description": "LML FREEDOM / ENERGY FX / CRD /PRIMA",
-      "image": "/2 wheeler/ht coil/RP353 Lml Freedom energy fx crd prima (2).png",
-      "thumbnail": "/2 wheeler/ht coil/RP353 Lml Freedom energy fx crd prima (2).png"
+      "image": "/2 wheeler/ht coil/RP353 Lml Freedom energy fx crd prima (2).webp",
+      "thumbnail": "/2 wheeler/ht coil/RP353 Lml Freedom energy fx crd prima (2).webp"
     },
     {
       "partNumber": "RP354",
@@ -5127,8 +5127,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "H.T. Coils",
       "vehicle": "HERO GIZMO",
       "description": "HERO GIZMO",
-      "image": "/2 wheeler/ht coil/RP354 Hero Gizmo (1).png",
-      "thumbnail": "/2 wheeler/ht coil/RP354 Hero Gizmo (1).png"
+      "image": "/2 wheeler/ht coil/RP354 Hero Gizmo (1).webp",
+      "thumbnail": "/2 wheeler/ht coil/RP354 Hero Gizmo (1).webp"
     },
     {
       "partNumber": "RP355",
@@ -5165,8 +5165,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Igniters",
       "vehicle": "LML VESPA 12V (FOR EXPORT)",
       "description": "LML VESPA 12V (FOR EXPORT)",
-      "image": "/2 wheeler/igniters/rp358 Ignition coil Igniters For Lml  V espa 12V  (4).png",
-      "thumbnail": "/2 wheeler/igniters/rp358 Ignition coil Igniters For Lml  V espa 12V  (4).png"
+      "image": "/2 wheeler/igniters/rp358 Ignition coil Igniters For Lml  V espa 12V  (4).webp",
+      "thumbnail": "/2 wheeler/igniters/rp358 Ignition coil Igniters For Lml  V espa 12V  (4).webp"
     },
     {
       "partNumber": "RP359",
@@ -5174,8 +5174,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Igniters",
       "vehicle": "HERO PANTHER / VIP / GIZMO",
       "description": "HERO PANTHER / VIP / GIZMO",
-      "image": "/2 wheeler/igniters/rp359 Hero Panther Vip Gizmo  (1).png",
-      "thumbnail": "/2 wheeler/igniters/rp359 Hero Panther Vip Gizmo  (1).png"
+      "image": "/2 wheeler/igniters/rp359 Hero Panther Vip Gizmo  (1).webp",
+      "thumbnail": "/2 wheeler/igniters/rp359 Hero Panther Vip Gizmo  (1).webp"
     },
     {
       "partNumber": "RP360",
@@ -5183,8 +5183,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Igniters",
       "vehicle": "TVS SUZUKI MAX-100 / SAMURAI",
       "description": "TVS SUZUKI MAX-100 / SAMURAI",
-      "image": "/2 wheeler/igniters/RP360 Tvs Suzuki Max 100 Samurai (1).png",
-      "thumbnail": "/2 wheeler/igniters/RP360 Tvs Suzuki Max 100 Samurai (1).png"
+      "image": "/2 wheeler/igniters/RP360 Tvs Suzuki Max 100 Samurai (1).webp",
+      "thumbnail": "/2 wheeler/igniters/RP360 Tvs Suzuki Max 100 Samurai (1).webp"
     },
     {
       "partNumber": "RP362",
@@ -5192,8 +5192,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Igniters",
       "vehicle": "TVS STAR CITY / DLX ( 6WIRE )",
       "description": "TVS STAR CITY / DLX ( 6WIRE )",
-      "image": "/2 wheeler/igniters/RP362  Tvs Star City Dlx 6 wire (7).png",
-      "thumbnail": "/2 wheeler/igniters/RP362  Tvs Star City Dlx 6 wire (7).png"
+      "image": "/2 wheeler/igniters/RP362  Tvs Star City Dlx 6 wire (7).webp",
+      "thumbnail": "/2 wheeler/igniters/RP362  Tvs Star City Dlx 6 wire (7).webp"
     },
     {
       "partNumber": "RP363",
@@ -5210,8 +5210,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Igniters",
       "vehicle": "TVS STAR CITY- KS ES / STAR SPORT ( 7-WIRE )",
       "description": "TVS STAR CITY- KS ES / STAR SPORT ( 7-WIRE )",
-      "image": "/2 wheeler/igniters/RP363ZK Tvs Star City ks es Star sport 7 wire (1).png",
-      "thumbnail": "/2 wheeler/igniters/RP363ZK Tvs Star City ks es Star sport 7 wire (1).png"
+      "image": "/2 wheeler/igniters/RP363ZK Tvs Star City ks es Star sport 7 wire (1).webp",
+      "thumbnail": "/2 wheeler/igniters/RP363ZK Tvs Star City ks es Star sport 7 wire (1).webp"
     },
     {
       "partNumber": "RP363ZM",
@@ -5246,8 +5246,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Igniters",
       "vehicle": "TVS SUZUKI MAX-100 / SAMURAI WITH CLAMP",
       "description": "TVS SUZUKI MAX-100 / SAMURAI WITH CLAMP",
-      "image": "/2 wheeler/igniters/RP365 Tvs Suzuki Max 100 Samurai with clamp (2).png",
-      "thumbnail": "/2 wheeler/igniters/RP365 Tvs Suzuki Max 100 Samurai with clamp (2).png"
+      "image": "/2 wheeler/igniters/RP365 Tvs Suzuki Max 100 Samurai with clamp (2).webp",
+      "thumbnail": "/2 wheeler/igniters/RP365 Tvs Suzuki Max 100 Samurai with clamp (2).webp"
     },
     {
       "partNumber": "RP365DM",
@@ -5255,8 +5255,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Igniters",
       "vehicle": "TVS SUPER XL HD",
       "description": "TVS SUPER XL HD",
-      "image": "/2 wheeler/igniters/RP365D M Tvs Super xl hd (1).png",
-      "thumbnail": "/2 wheeler/igniters/RP365D M Tvs Super xl hd (1).png"
+      "image": "/2 wheeler/igniters/RP365D M Tvs Super xl hd (1).webp",
+      "thumbnail": "/2 wheeler/igniters/RP365D M Tvs Super xl hd (1).webp"
     },
     {
       "partNumber": "RP365K",
@@ -5264,8 +5264,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Igniters",
       "vehicle": "TVS SUPER XL-100 BS3 BS4",
       "description": "TVS SUPER XL-100 BS3 BS4",
-      "image": "/2 wheeler/igniters/RP365K Tvs Super xl 100 bs3 bs4 (2).png",
-      "thumbnail": "/2 wheeler/igniters/RP365K Tvs Super xl 100 bs3 bs4 (2).png"
+      "image": "/2 wheeler/igniters/RP365K Tvs Super xl 100 bs3 bs4 (2).webp",
+      "thumbnail": "/2 wheeler/igniters/RP365K Tvs Super xl 100 bs3 bs4 (2).webp"
     },
     {
       "partNumber": "RP365CZ",
@@ -5273,8 +5273,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Igniters",
       "vehicle": "TVS JUPITER / TVS WEGO WITH EXTRA WIRE (AFTER MAY 2016) BS3 7-WIRE",
       "description": "TVS JUPITER / TVS WEGO WITH EXTRA WIRE (AFTER MAY 2016) BS3 7-WIRE",
-      "image": "/2 wheeler/igniters/RP365cz Ignition coil Igniters For Tvs Jupiter Tvs Wego (5).jpg",
-      "thumbnail": "/2 wheeler/igniters/RP365cz Ignition coil Igniters For Tvs Jupiter Tvs Wego (5).jpg"
+      "image": "/2 wheeler/igniters/RP365cz Ignition coil Igniters For Tvs Jupiter Tvs Wego (5).webp",
+      "thumbnail": "/2 wheeler/igniters/RP365cz Ignition coil Igniters For Tvs Jupiter Tvs Wego (5).webp"
     },
     {
       "partNumber": "RP365CB",
@@ -5282,8 +5282,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Igniters",
       "vehicle": "TVS JUPITER / TVS WEGO (COMBINED IDI & IGNITION COIL) AFTER APR 2017 BS4 8-PIN",
       "description": "TVS JUPITER / TVS WEGO (COMBINED IDI & IGNITION COIL) AFTER APR 2017 BS4 8-PIN",
-      "image": "/2 wheeler/igniters/RP365CB  Tvs Jupiter Tvs wego combined idi ignition coil after apr 2017 bs4 (6).jpg",
-      "thumbnail": "/2 wheeler/igniters/RP365CB  Tvs Jupiter Tvs wego combined idi ignition coil after apr 2017 bs4 (6).jpg"
+      "image": "/2 wheeler/igniters/RP365CB  Tvs Jupiter Tvs wego combined idi ignition coil after apr 2017 bs4 (6).webp",
+      "thumbnail": "/2 wheeler/igniters/RP365CB  Tvs Jupiter Tvs wego combined idi ignition coil after apr 2017 bs4 (6).webp"
     },
     {
       "partNumber": "RP365CA",
@@ -5302,8 +5302,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Battery Wire",
       "vehicle": "BAJAJ PULSAR 150/180 DTSI ES (UG-3 MODEL) (POSITIVE) OE TYPE",
       "description": "BAJAJ PULSAR 150/180 DTSI ES (UG-3 MODEL) (POSITIVE) OE TYPE",
-      "image": "/2 wheeler/battery-wire/RP379-positive.png",
-      "thumbnail": "/2 wheeler/battery-wire/RP379-positive.png"
+      "image": "/2 wheeler/battery-wire/RP379-positive.webp",
+      "thumbnail": "/2 wheeler/battery-wire/RP379-positive.webp"
     },
     {
       "partNumber": "RP379G",
@@ -5311,8 +5311,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Battery Wire",
       "vehicle": "BAJAJ PULSAR 150/180 DTSI ES (UG-3 MODEL) (NEGATIVE) OE TYPE",
       "description": "BAJAJ PULSAR 150/180 DTSI ES (UG-3 MODEL) (NEGATIVE) OE TYPE",
-      "image": "/2 wheeler/battery-wire/RP379-negative.png",
-      "thumbnail": "/2 wheeler/battery-wire/RP379-negative.png"
+      "image": "/2 wheeler/battery-wire/RP379-negative.webp",
+      "thumbnail": "/2 wheeler/battery-wire/RP379-negative.webp"
     },
     {
       "partNumber": "RP379F",
@@ -5320,8 +5320,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Battery Wire",
       "vehicle": "TO RELAY BAJAJ PULSAR 150/180 DTSI ES UG-3(DIGITAL METER (2008 M) / 150/180 DTSI ES UG-4 (POSITIVE)",
       "description": "TO RELAY BAJAJ PULSAR 150/180 DTSI ES UG-3(DIGITAL METER (2008 M) / 150/180 DTSI ES UG-4 (POSITIVE)",
-      "image": "/2 wheeler/battery-wire/RP379F-relay.png",
-      "thumbnail": "/2 wheeler/battery-wire/RP379F-relay.png"
+      "image": "/2 wheeler/battery-wire/RP379F-relay.webp",
+      "thumbnail": "/2 wheeler/battery-wire/RP379F-relay.webp"
     },
     {
       "partNumber": "RP379S",
@@ -5329,8 +5329,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Battery Wire",
       "vehicle": "BAJAJ PULSAR 150 / 180 DTSI ES UG-3 DIGITAL METER (NEGATIVE) OE TYPE",
       "description": "BAJAJ PULSAR 150 / 180 DTSI ES UG-3 DIGITAL METER (NEGATIVE) OE TYPE",
-      "image": "/2 wheeler/battery-wire/RP379S-negative.png",
-      "thumbnail": "/2 wheeler/battery-wire/RP379S-negative.png"
+      "image": "/2 wheeler/battery-wire/RP379S-negative.webp",
+      "thumbnail": "/2 wheeler/battery-wire/RP379S-negative.webp"
     },
     {
       "partNumber": "RP380",
@@ -5347,8 +5347,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Battery Wire",
       "vehicle": "TO RELAY BAJAJ PULSAR DTSI LS 135CC ES (DIGITAL METER 2010-2011 M) POSITIVE",
       "description": "TO RELAY BAJAJ PULSAR DTSI LS 135CC ES (DIGITAL METER 2010-2011 M) POSITIVE",
-      "image": "/2 wheeler/battery-wire/RP381-relay.png",
-      "thumbnail": "/2 wheeler/battery-wire/RP381-relay.png"
+      "image": "/2 wheeler/battery-wire/RP381-relay.webp",
+      "thumbnail": "/2 wheeler/battery-wire/RP381-relay.webp"
     },
     {
       "partNumber": "RP382",
@@ -5365,8 +5365,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Battery Wire",
       "vehicle": "BAJAJ DISCOVER DTSI ES 150CC (NEGATIVE)",
       "description": "BAJAJ DISCOVER DTSI ES 150CC (NEGATIVE)",
-      "image": "/2 wheeler/battery-wire/RP382D-negative.png",
-      "thumbnail": "/2 wheeler/battery-wire/RP382D-negative.png"
+      "image": "/2 wheeler/battery-wire/RP382D-negative.webp",
+      "thumbnail": "/2 wheeler/battery-wire/RP382D-negative.webp"
     },
     {
       "partNumber": "RP383",
@@ -5374,8 +5374,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Battery Wire",
       "vehicle": "HERO HONDA SUPER SPLENDOR/GLAMOUR (NEGATIVE)",
       "description": "HERO HONDA SUPER SPLENDOR/GLAMOUR (NEGATIVE)",
-      "image": "/2 wheeler/battery-wire/RP383-shine.png",
-      "thumbnail": "/2 wheeler/battery-wire/RP383-shine.png"
+      "image": "/2 wheeler/battery-wire/RP383-shine.webp",
+      "thumbnail": "/2 wheeler/battery-wire/RP383-shine.webp"
     },
     {
       "partNumber": "RP383A",
@@ -5383,8 +5383,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Battery Wire",
       "vehicle": "TO RELAY BAJAJ DISCOVER DTSI ES 135CC / 135CC DISC BRAKE / DTSI 125CC ES (POSITIVE)",
       "description": "TO RELAY BAJAJ DISCOVER DTSI ES 135CC / 135CC DISC BRAKE / DTSI 125CC ES (POSITIVE)",
-      "image": "/2 wheeler/battery-wire/RP383A-relay.png",
-      "thumbnail": "/2 wheeler/battery-wire/RP383A-relay.png"
+      "image": "/2 wheeler/battery-wire/RP383A-relay.webp",
+      "thumbnail": "/2 wheeler/battery-wire/RP383A-relay.webp"
     },
     {
       "partNumber": "RP383Z",
@@ -5392,8 +5392,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Battery Wire",
       "vehicle": "BAJAJ DISCOVER DTSI 135CC ES /DTSI 135CC ES DISC BRAKE / DTSI 125CC ES (NEGATIVE)",
       "description": "BAJAJ DISCOVER DTSI 135CC ES /DTSI 135CC ES DISC BRAKE / DTSI 125CC ES (NEGATIVE)",
-      "image": "/2 wheeler/battery-wire/RP383Z Bajaj Discover dts i 135cc es disc break positive.png",
-      "thumbnail": "/2 wheeler/battery-wire/RP383Z Bajaj Discover dts i 135cc es disc break positive.png"
+      "image": "/2 wheeler/battery-wire/RP383Z Bajaj Discover dts i 135cc es disc break positive.webp",
+      "thumbnail": "/2 wheeler/battery-wire/RP383Z Bajaj Discover dts i 135cc es disc break positive.webp"
     },
     {
       "partNumber": "RP383K",
@@ -5419,8 +5419,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Battery Wire",
       "vehicle": "HONDA ACTIVA N/M NEGATIVE & POSITIVE PAIR",
       "description": "HONDA ACTIVA N/M NEGATIVE & POSITIVE PAIR",
-      "image": "/2 wheeler/battery-wire/RP383MT-activa.png",
-      "thumbnail": "/2 wheeler/battery-wire/RP383MT-activa.png"
+      "image": "/2 wheeler/battery-wire/RP383MT-activa.webp",
+      "thumbnail": "/2 wheeler/battery-wire/RP383MT-activa.webp"
     },
     {
       "partNumber": "RP383AP",
@@ -5446,8 +5446,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Battery Wire",
       "vehicle": "HONDA SHINE 125CC ES / UNICORN (POSITIVE)",
       "description": "HONDA SHINE 125CC ES / UNICORN (POSITIVE)",
-      "image": "/2 wheeler/battery-wire/RP383P Honda Shine 125cc es unicorn positive.png",
-      "thumbnail": "/2 wheeler/battery-wire/RP383P Honda Shine 125cc es unicorn positive.png"
+      "image": "/2 wheeler/battery-wire/RP383P Honda Shine 125cc es unicorn positive.webp",
+      "thumbnail": "/2 wheeler/battery-wire/RP383P Honda Shine 125cc es unicorn positive.webp"
     },
     {
       "partNumber": "RP383TN",
@@ -5536,8 +5536,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Battery Wire",
       "vehicle": "TO RELAY HERO HONDA GLAMOUR ES / SUPER SPLENDOR ES (POSITIVE)",
       "description": "TO RELAY HERO HONDA GLAMOUR ES / SUPER SPLENDOR ES (POSITIVE)",
-      "image": "/2 wheeler/battery-wire/RP383RL-relay.png",
-      "thumbnail": "/2 wheeler/battery-wire/RP383RL-relay.png"
+      "image": "/2 wheeler/battery-wire/RP383RL-relay.webp",
+      "thumbnail": "/2 wheeler/battery-wire/RP383RL-relay.webp"
     },
     {
       "partNumber": "RP383ZM",
@@ -5545,8 +5545,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Battery Wire",
       "vehicle": "TO RELAY HERO HONDA HUNK 150 ES / CBZ X-TREME 150 ES (POSITIVE)",
       "description": "TO RELAY HERO HONDA HUNK 150 ES / CBZ X-TREME 150 ES (POSITIVE)",
-      "image": "/2 wheeler/battery-wire/RP383ZM-relay.png",
-      "thumbnail": "/2 wheeler/battery-wire/RP383ZM-relay.png"
+      "image": "/2 wheeler/battery-wire/RP383ZM-relay.webp",
+      "thumbnail": "/2 wheeler/battery-wire/RP383ZM-relay.webp"
     },
     {
       "partNumber": "RP383DM",
@@ -5565,8 +5565,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "HERO HONDA SPLENDOR / PASSION",
       "description": "HERO HONDA SPLENDOR / PASSION",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP384%20Ignition%20switch%20Lock%20For%20Hero%20Hnd%20Splendor%20Passion%20(3).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP384%20Ignition%20switch%20Lock%20For%20Hero%20Hnd%20Splendor%20Passion%20(3).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP384%20Ignition%20switch%20Lock%20For%20Hero%20Hnd%20Splendor%20Passion%20(3).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP384%20Ignition%20switch%20Lock%20For%20Hero%20Hnd%20Splendor%20Passion%20(3).webp"
     },
     {
       "partNumber": "RP384AO",
@@ -5574,8 +5574,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "HERO SPLENDOR / SPLENDOR PLUS BS6",
       "description": "HERO SPLENDOR / SPLENDOR PLUS BS6",
-      "image": "/2 wheeler/Ignition Switch Cum Steering Lock/RP384ao Ignition switch Lock For Hero Splendor Splendor Plus Bs6.png",
-      "thumbnail": "/2 wheeler/Ignition Switch Cum Steering Lock/RP384ao Ignition switch Lock For Hero Splendor Splendor Plus Bs6.png"
+      "image": "/2 wheeler/Ignition Switch Cum Steering Lock/RP384ao Ignition switch Lock For Hero Splendor Splendor Plus Bs6.webp",
+      "thumbnail": "/2 wheeler/Ignition Switch Cum Steering Lock/RP384ao Ignition switch Lock For Hero Splendor Splendor Plus Bs6.webp"
     },
     {
       "partNumber": "RP384BZ",
@@ -5583,8 +5583,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "HERO HF DELUXE BS6",
       "description": "HERO HF DELUXE BS6",
-      "image": "/2 wheeler/Ignition Switch Cum Steering Lock/RP384bz Ignition switch Lock For Hero Hf Deluxe Bs6.png",
-      "thumbnail": "/2 wheeler/Ignition Switch Cum Steering Lock/RP384bz Ignition switch Lock For Hero Hf Deluxe Bs6.png"
+      "image": "/2 wheeler/Ignition Switch Cum Steering Lock/RP384bz Ignition switch Lock For Hero Hf Deluxe Bs6.webp",
+      "thumbnail": "/2 wheeler/Ignition Switch Cum Steering Lock/RP384bz Ignition switch Lock For Hero Hf Deluxe Bs6.webp"
     },
     {
       "partNumber": "RP385",
@@ -5592,8 +5592,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "HERO HONDA SPLENDOR+",
       "description": "HERO HONDA SPLENDOR+",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP385%20Hero%20Honda%20Splendor%20Plus%20(1).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP385%20Hero%20Honda%20Splendor%20Plus%20(1).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP385%20Hero%20Honda%20Splendor%20Plus%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP385%20Hero%20Honda%20Splendor%20Plus%20(1).webp"
     },
     {
       "partNumber": "RP386",
@@ -5601,8 +5601,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "HERO HONDA CD-100 / SS / SLEEK / SHINE 4 WIRE",
       "description": "HERO HONDA CD-100 / SS / SLEEK / SHINE 4 WIRE",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP386%20Hero%20Hnd%20cd%20100%20ss%20sleek%20shine%204%20wire%20(1).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP386%20Hero%20Hnd%20cd%20100%20ss%20sleek%20shine%204%20wire%20(1).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP386%20Hero%20Hnd%20cd%20100%20ss%20sleek%20shine%204%20wire%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP386%20Hero%20Hnd%20cd%20100%20ss%20sleek%20shine%204%20wire%20(1).webp"
     },
     {
       "partNumber": "RP387",
@@ -5610,8 +5610,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "HERO HONDA CD DAWN",
       "description": "HERO HONDA CD DAWN",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP387%20Hero%20Honda%20cd%20dawn%20(1).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP387%20Hero%20Honda%20cd%20dawn%20(1).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP387%20Hero%20Honda%20cd%20dawn%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP387%20Hero%20Honda%20cd%20dawn%20(1).webp"
     },
     {
       "partNumber": "RP388",
@@ -5619,8 +5619,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "HERO HONDA CD DAWN DLX (WITH COUPLER) 2- WIRE",
       "description": "HERO HONDA CD DAWN DLX (WITH COUPLER) 2- WIRE",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP388%20Hero%20Honda%20cd%20dawn%20dlx%20with%20coupler%202%20wire.png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP388%20Hero%20Honda%20cd%20dawn%20dlx%20with%20coupler%202%20wire.png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP388%20Hero%20Honda%20cd%20dawn%20dlx%20with%20coupler%202%20wire.webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP388%20Hero%20Honda%20cd%20dawn%20dlx%20with%20coupler%202%20wire.webp"
     },
     {
       "partNumber": "RP390",
@@ -5628,8 +5628,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "HERO HONDA CBZ",
       "description": "HERO HONDA CBZ",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP390%20Hero%20Honda%20Cbz%20(1).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP390%20Hero%20Honda%20Cbz%20(1).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP390%20Hero%20Honda%20Cbz%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP390%20Hero%20Honda%20Cbz%20(1).webp"
     },
     {
       "partNumber": "RP391",
@@ -5637,8 +5637,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "HERO HONDA CBZ X-TREME N/M",
       "description": "HERO HONDA CBZ X-TREME N/M",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP391%20Hero%20Honda%20Cbz%20X%20treme%20nm%20(1).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP391%20Hero%20Honda%20Cbz%20X%20treme%20nm%20(1).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP391%20Hero%20Honda%20Cbz%20X%20treme%20nm%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP391%20Hero%20Honda%20Cbz%20X%20treme%20nm%20(1).webp"
     },
     {
       "partNumber": "RP392",
@@ -5646,8 +5646,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "HERO HONDA HUNK / HERO IMPULSE / CBZ O/M",
       "description": "HERO HONDA HUNK / HERO IMPULSE / CBZ O/M",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP392%20Hero%20Honda%20Hunk%20Hero%20Impulse%20Cbz%20o%20m%20(1).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP392%20Hero%20Honda%20Hunk%20Hero%20Impulse%20Cbz%20o%20m%20(1).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP392%20Hero%20Honda%20Hunk%20Hero%20Impulse%20Cbz%20o%20m%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP392%20Hero%20Honda%20Hunk%20Hero%20Impulse%20Cbz%20o%20m%20(1).webp"
     },
     {
       "partNumber": "RP393",
@@ -5655,8 +5655,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "HERO HONDA PASSION PRO ES",
       "description": "HERO HONDA PASSION PRO ES",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP393%20Hero%20Honda%20Passion%20Pro%20es%20(1).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP393%20Hero%20Honda%20Passion%20Pro%20es%20(1).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP393%20Hero%20Honda%20Passion%20Pro%20es%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP393%20Hero%20Honda%20Passion%20Pro%20es%20(1).webp"
     },
     {
       "partNumber": "RP394",
@@ -5664,8 +5664,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "HERO HONDA AMBITION",
       "description": "HERO HONDA AMBITION",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP394%20%20Hero%20Honda%20Ambition%20(1).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP394%20%20Hero%20Honda%20Ambition%20(1).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP394%20%20Hero%20Honda%20Ambition%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP394%20%20Hero%20Honda%20Ambition%20(1).webp"
     },
     {
       "partNumber": "RP395",
@@ -5673,8 +5673,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "HERO HONDA SPLENDOR NXG / CD DELUXE 2 WIRE",
       "description": "HERO HONDA SPLENDOR NXG / CD DELUXE 2 WIRE",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP395%20%20Hero%20Honda%20Splendor%20Nxg%20Cd%20Deluxe%202%20wire%20(1).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP395%20%20Hero%20Honda%20Splendor%20Nxg%20Cd%20Deluxe%202%20wire%20(1).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP395%20%20Hero%20Honda%20Splendor%20Nxg%20Cd%20Deluxe%202%20wire%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP395%20%20Hero%20Honda%20Splendor%20Nxg%20Cd%20Deluxe%202%20wire%20(1).webp"
     },
     {
       "partNumber": "RP396",
@@ -5682,8 +5682,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "HERO HONDA SPLENDOR PRO",
       "description": "HERO HONDA SPLENDOR PRO",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP396%20Hero%20Honda%20Splendor%20pro%20(1).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP396%20Hero%20Honda%20Splendor%20pro%20(1).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP396%20Hero%20Honda%20Splendor%20pro%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP396%20Hero%20Honda%20Splendor%20pro%20(1).webp"
     },
     {
       "partNumber": "RP397",
@@ -5691,8 +5691,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "HERO HONDA CD DELUX NEW (4 WIRE)/SPLENDOR N/M",
       "description": "HERO HONDA CD DELUX NEW (4 WIRE)/SPLENDOR N/M",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP397%20Hero%20Honda%20Cd%20Deluxe%20new%204%20wire%20splendor%20n%20m%20(1).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP397%20Hero%20Honda%20Cd%20Deluxe%20new%204%20wire%20splendor%20n%20m%20(1).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP397%20Hero%20Honda%20Cd%20Deluxe%20new%204%20wire%20splendor%20n%20m%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP397%20Hero%20Honda%20Cd%20Deluxe%20new%204%20wire%20splendor%20n%20m%20(1).webp"
     },
     {
       "partNumber": "RP398",
@@ -5700,8 +5700,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "HERO HONDA SPLENDOR+ (2011 MODEL)",
       "description": "HERO HONDA SPLENDOR+ (2011 MODEL)",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP398%20Hero%20Honda%20Splendor%20Plus%202011%20(1).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP398%20Hero%20Honda%20Splendor%20Plus%202011%20(1).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP398%20Hero%20Honda%20Splendor%20Plus%202011%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP398%20Hero%20Honda%20Splendor%20Plus%202011%20(1).webp"
     },
     {
       "partNumber": "RP398AI",
@@ -5709,8 +5709,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "HERO SUPER SPLENDOR N/M",
       "description": "HERO SUPER SPLENDOR N/M",
-      "image": "/2 wheeler/Ignition Switch Cum Steering Lock/RP398ai Ignition switch Lock For Hero Super Splendor nm.png",
-      "thumbnail": "/2 wheeler/Ignition Switch Cum Steering Lock/RP398ai Ignition switch Lock For Hero Super Splendor nm.png"
+      "image": "/2 wheeler/Ignition Switch Cum Steering Lock/RP398ai Ignition switch Lock For Hero Super Splendor nm.webp",
+      "thumbnail": "/2 wheeler/Ignition Switch Cum Steering Lock/RP398ai Ignition switch Lock For Hero Super Splendor nm.webp"
     },
     {
       "partNumber": "RP399",
@@ -5718,8 +5718,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "HERO HONDA SUPER SPLENDOR",
       "description": "HERO HONDA SUPER SPLENDOR",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP399%20Hero%20Honda%20Super%20Splendor%20(1).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP399%20Hero%20Honda%20Super%20Splendor%20(1).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP399%20Hero%20Honda%20Super%20Splendor%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP399%20Hero%20Honda%20Super%20Splendor%20(1).webp"
     },
     {
       "partNumber": "RP400",
@@ -5727,8 +5727,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "HERO HONDA KARIZMA",
       "description": "HERO HONDA KARIZMA",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP400%20%20Hero%20Honda%20Karizma%20(2).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP400%20%20Hero%20Honda%20Karizma%20(2).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP400%20%20Hero%20Honda%20Karizma%20(2).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP400%20%20Hero%20Honda%20Karizma%20(2).webp"
     },
     {
       "partNumber": "RP401",
@@ -5736,8 +5736,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "HERO HONDA KARIZMA-ZMR",
       "description": "HERO HONDA KARIZMA-ZMR",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP401%20Hero%20Honda%20Karizma%20Zmr%20(1).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP401%20Hero%20Honda%20Karizma%20Zmr%20(1).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP401%20Hero%20Honda%20Karizma%20Zmr%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP401%20Hero%20Honda%20Karizma%20Zmr%20(1).webp"
     },
     {
       "partNumber": "RP402",
@@ -5745,8 +5745,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "HERO HONDA GLAMOUR",
       "description": "HERO HONDA GLAMOUR",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP402%20Hero%20Honda%20Glamour%20(1).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP402%20Hero%20Honda%20Glamour%20(1).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP402%20Hero%20Honda%20Glamour%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP402%20Hero%20Honda%20Glamour%20(1).webp"
     },
     {
       "partNumber": "RP403",
@@ -5754,8 +5754,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "HERO HONDA GLAMOUR 125CC ES",
       "description": "HERO HONDA GLAMOUR 125CC ES",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP403%20Hero%20Honda%20Glamour%20125cc%20es%20(1).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP403%20Hero%20Honda%20Glamour%20125cc%20es%20(1).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP403%20Hero%20Honda%20Glamour%20125cc%20es%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP403%20Hero%20Honda%20Glamour%20125cc%20es%20(1).webp"
     },
     {
       "partNumber": "RP404",
@@ -5790,8 +5790,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "YAMAHA CRUX-R",
       "description": "YAMAHA CRUX-R",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP407%20Yamaha%20Crux%20R%20(1).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP407%20Yamaha%20Crux%20R%20(1).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP407%20Yamaha%20Crux%20R%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP407%20Yamaha%20Crux%20R%20(1).webp"
     },
     {
       "partNumber": "RP407F",
@@ -5799,8 +5799,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "YAMAHA CRUX (4 WIRE)",
       "description": "YAMAHA CRUX (4 WIRE)",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP407F%20Yamaha%20Crux%204%20wire%20(1).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP407F%20Yamaha%20Crux%204%20wire%20(1).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP407F%20Yamaha%20Crux%204%20wire%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP407F%20Yamaha%20Crux%204%20wire%20(1).webp"
     },
     {
       "partNumber": "RP408",
@@ -5808,8 +5808,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "YAMAHA LIBERO",
       "description": "YAMAHA LIBERO",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP408%20Yamaha%20Libero%20(1).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP408%20Yamaha%20Libero%20(1).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP408%20Yamaha%20Libero%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP408%20Yamaha%20Libero%20(1).webp"
     },
     {
       "partNumber": "RP409",
@@ -5817,8 +5817,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "YAMAHA FAZER",
       "description": "YAMAHA FAZER",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP409%20Yamaha%20Fazer%20(3).jpg",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP409%20Yamaha%20Fazer%20(3).jpg"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP409%20Yamaha%20Fazer%20(3).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP409%20Yamaha%20Fazer%20(3).webp"
     },
     {
       "partNumber": "RP410",
@@ -5844,8 +5844,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "YAMAHA FZ",
       "description": "YAMAHA FZ",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP412%20Yamaha%20Fz%20(1).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP412%20Yamaha%20Fz%20(1).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP412%20Yamaha%20Fz%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP412%20Yamaha%20Fz%20(1).webp"
     },
     {
       "partNumber": "RP414",
@@ -5853,8 +5853,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "LML FREEDOM / PRIMA-110 / 125 / TOPPER",
       "description": "LML FREEDOM / PRIMA-110 / 125 / TOPPER",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP414%20Lml%20Freedom%20Prima%20110%20125%20topper%20(15).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP414%20Lml%20Freedom%20Prima%20110%20125%20topper%20(15).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP414%20Lml%20Freedom%20Prima%20110%20125%20topper%20(15).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP414%20Lml%20Freedom%20Prima%20110%20125%20topper%20(15).webp"
     },
     {
       "partNumber": "RP415",
@@ -5871,8 +5871,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "BAJAJ KB-4S",
       "description": "BAJAJ KB-4S",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP416%20Bajaj%20Kb%204s%20(3).jpg",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP416%20Bajaj%20Kb%204s%20(3).jpg"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP416%20Bajaj%20Kb%204s%20(3).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP416%20Bajaj%20Kb%204s%20(3).webp"
     },
     {
       "partNumber": "RP417",
@@ -5880,8 +5880,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "BAJAJ WIND",
       "description": "BAJAJ WIND",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP417%20Bajaj%20Wind%20(1).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP417%20Bajaj%20Wind%20(1).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP417%20Bajaj%20Wind%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP417%20Bajaj%20Wind%20(1).webp"
     },
     {
       "partNumber": "RP418",
@@ -5889,8 +5889,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "BAJAJ CALIBER O/M",
       "description": "BAJAJ CALIBER O/M",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP418%20Bajaj%20Caliber%20o%20m%20(3).jpg",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP418%20Bajaj%20Caliber%20o%20m%20(3).jpg"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP418%20Bajaj%20Caliber%20o%20m%20(3).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP418%20Bajaj%20Caliber%20o%20m%20(3).webp"
     },
     {
       "partNumber": "RP419",
@@ -5898,8 +5898,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "BAJAJ CALIBER UPGRADE BOXER CT (6WIRES) / CALIBER 115",
       "description": "BAJAJ CALIBER UPGRADE BOXER CT (6WIRES) / CALIBER 115",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP419%20Bajaj%20Caliber%20Upgrade%20Boxer%20ct%206%20wires%20caliber%20115%20(2).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP419%20Bajaj%20Caliber%20Upgrade%20Boxer%20ct%206%20wires%20caliber%20115%20(2).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP419%20Bajaj%20Caliber%20Upgrade%20Boxer%20ct%206%20wires%20caliber%20115%20(2).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP419%20Bajaj%20Caliber%20Upgrade%20Boxer%20ct%206%20wires%20caliber%20115%20(2).webp"
     },
     {
       "partNumber": "RP420",
@@ -5907,8 +5907,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "BAJAJ CALIBER CROMA / BOXER-CT DLX / CT-100 (4 WIRES)",
       "description": "BAJAJ CALIBER CROMA / BOXER-CT DLX / CT-100 (4 WIRES)",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP420%20Bajaj%20Caliber%20Croma%20Boxer%20ct%20dlx%20ct%20100%204%20wires%20%20.png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP420%20Bajaj%20Caliber%20Croma%20Boxer%20ct%20dlx%20ct%20100%204%20wires%20%20.png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP420%20Bajaj%20Caliber%20Croma%20Boxer%20ct%20dlx%20ct%20100%204%20wires%20%20.webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP420%20Bajaj%20Caliber%20Croma%20Boxer%20ct%20dlx%20ct%20100%204%20wires%20%20.webp"
     },
     {
       "partNumber": "RP421",
@@ -5916,8 +5916,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "BAJAJ KB-4S BOXER-AT / CT / AR (W/O BATTERY)",
       "description": "BAJAJ KB-4S BOXER-AT / CT / AR (W/O BATTERY)",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP421%20Bajaj%20kb%204s%20boxer%20at%20ct%20ar%20wo%20battery%20%20%20.png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP421%20Bajaj%20kb%204s%20boxer%20at%20ct%20ar%20wo%20battery%20%20%20.png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP421%20Bajaj%20kb%204s%20boxer%20at%20ct%20ar%20wo%20battery%20%20%20.webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP421%20Bajaj%20kb%204s%20boxer%20at%20ct%20ar%20wo%20battery%20%20%20.webp"
     },
     {
       "partNumber": "RP422",
@@ -5925,8 +5925,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "BAJAJ CT-100 DLX / BAJAJ PLATINA",
       "description": "BAJAJ CT-100 DLX / BAJAJ PLATINA",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP422%20Bajaj%20Ct%20100%20%20Dlx%20Platina%20(10).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP422%20Bajaj%20Ct%20100%20%20Dlx%20Platina%20(10).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP422%20Bajaj%20Ct%20100%20%20Dlx%20Platina%20(10).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP422%20Bajaj%20Ct%20100%20%20Dlx%20Platina%20(10).webp"
     },
     {
       "partNumber": "RP422KJ",
@@ -5943,8 +5943,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "BAJAJ XCD-125",
       "description": "BAJAJ XCD-125",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP423%20Bajaj%20Xcd%20125%20(1).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP423%20Bajaj%20Xcd%20125%20(1).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP423%20Bajaj%20Xcd%20125%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP423%20Bajaj%20Xcd%20125%20(1).webp"
     },
     {
       "partNumber": "RP424",
@@ -5952,8 +5952,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "BAJAJ PULSAR",
       "description": "BAJAJ PULSAR",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP424%20Bajaj%20Pulsar%20(1).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP424%20Bajaj%20Pulsar%20(1).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP424%20Bajaj%20Pulsar%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP424%20Bajaj%20Pulsar%20(1).webp"
     },
     {
       "partNumber": "RP425",
@@ -5961,8 +5961,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "BAJAJ PULSAR 135",
       "description": "BAJAJ PULSAR 135",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP425%20Bajaj%20Pulsar%20135%20(1).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP425%20Bajaj%20Pulsar%20135%20(1).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP425%20Bajaj%20Pulsar%20135%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP425%20Bajaj%20Pulsar%20135%20(1).webp"
     },
     {
       "partNumber": "RP426",
@@ -5970,8 +5970,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "BAJAJ PULSAR 180 DTSI UG3 / DISCOVER 100",
       "description": "BAJAJ PULSAR 180 DTSI UG3 / DISCOVER 100",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP426%20-%20Bajaj%20Pulsar%20180%20dtsi%20ug3%20discover%20100%20(1).jpg",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP426%20-%20Bajaj%20Pulsar%20180%20dtsi%20ug3%20discover%20100%20(1).jpg"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP426%20-%20Bajaj%20Pulsar%20180%20dtsi%20ug3%20discover%20100%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP426%20-%20Bajaj%20Pulsar%20180%20dtsi%20ug3%20discover%20100%20(1).webp"
     },
     {
       "partNumber": "RP427",
@@ -5979,8 +5979,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "BAJAJ PULSAR 180 DTSI UG4 / DISCOVER 125",
       "description": "BAJAJ PULSAR 180 DTSI UG4 / DISCOVER 125",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP427%20-%20Bajaj%20Pulsar%20180%20dtsi%20ug4%20discover%20125%20(1).jpg",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP427%20-%20Bajaj%20Pulsar%20180%20dtsi%20ug4%20discover%20125%20(1).jpg"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP427%20-%20Bajaj%20Pulsar%20180%20dtsi%20ug4%20discover%20125%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP427%20-%20Bajaj%20Pulsar%20180%20dtsi%20ug4%20discover%20125%20(1).webp"
     },
     {
       "partNumber": "RP428",
@@ -5988,8 +5988,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "BAJAJ PULSAR 180 & 220CC (2 WIRES)",
       "description": "BAJAJ PULSAR 180 & 220CC (2 WIRES)",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP428%20-%20Bajaj%20Pulsar%20180%20220cc%20(1).jpg",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP428%20-%20Bajaj%20Pulsar%20180%20220cc%20(1).jpg"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP428%20-%20Bajaj%20Pulsar%20180%20220cc%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP428%20-%20Bajaj%20Pulsar%20180%20220cc%20(1).webp"
     },
     {
       "partNumber": "RP429",
@@ -5997,8 +5997,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "BAJAJ DISCOVER / DTSI / PULSAR 2005 MODEL / PULSAR 200CC / DISCOVER 135CC (4 WIRES)",
       "description": "BAJAJ DISCOVER / DTSI / PULSAR 2005 MODEL / PULSAR 200CC / DISCOVER 135CC (4 WIRES)",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP429%20Bajaj%20Discover%20dts%20i%20Pulsar%202005%20model%20pulsar%20200cc%20discover%20135cc%204%20wires%20(1).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP429%20Bajaj%20Discover%20dts%20i%20Pulsar%202005%20model%20pulsar%20200cc%20discover%20135cc%204%20wires%20(1).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP429%20Bajaj%20Discover%20dts%20i%20Pulsar%202005%20model%20pulsar%20200cc%20discover%20135cc%204%20wires%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP429%20Bajaj%20Discover%20dts%20i%20Pulsar%202005%20model%20pulsar%20200cc%20discover%20135cc%204%20wires%20(1).webp"
     },
     {
       "partNumber": "RP430",
@@ -6015,8 +6015,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "TVS SUZUKI 12V DC (8 WIRES)",
       "description": "TVS SUZUKI 12V DC (8 WIRES)",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP431%20Tvs%20Suzuki%2012%20Volt%20dc%208%20wires%20%20.png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP431%20Tvs%20Suzuki%2012%20Volt%20dc%208%20wires%20%20.png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP431%20Tvs%20Suzuki%2012%20Volt%20dc%208%20wires%20%20.webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP431%20Tvs%20Suzuki%2012%20Volt%20dc%208%20wires%20%20.webp"
     },
     {
       "partNumber": "RP431M",
@@ -6024,8 +6024,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "TVS SUZUKI MAX-100 DLX",
       "description": "TVS SUZUKI MAX-100 DLX",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP431M%20Tvs%20Suzuki%20Max%20100%20Dlx%20(1).jpg",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP431M%20Tvs%20Suzuki%20Max%20100%20Dlx%20(1).jpg"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP431M%20Tvs%20Suzuki%20Max%20100%20Dlx%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP431M%20Tvs%20Suzuki%20Max%20100%20Dlx%20(1).webp"
     },
     {
       "partNumber": "RP432",
@@ -6042,8 +6042,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "TVS MAX-100 (2 WIRES)",
       "description": "TVS MAX-100 (2 WIRES)",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP433%20Tvs%20Max%20100%202%20wires%20%20.png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP433%20Tvs%20Max%20100%202%20wires%20%20.png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP433%20Tvs%20Max%20100%202%20wires%20%20.webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP433%20Tvs%20Max%20100%202%20wires%20%20.webp"
     },
     {
       "partNumber": "RP434",
@@ -6051,8 +6051,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "TVS MAX-100 / R (4 WIRES)",
       "description": "TVS MAX-100 / R (4 WIRES)",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP434%20Tvs%20Max%20100%20R%204%20wires%20(2).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP434%20Tvs%20Max%20100%20R%204%20wires%20(2).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP434%20Tvs%20Max%20100%20R%204%20wires%20(2).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP434%20Tvs%20Max%20100%20R%204%20wires%20(2).webp"
     },
     {
       "partNumber": "RP435",
@@ -6060,8 +6060,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "TVS VICTOR",
       "description": "TVS VICTOR",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP435%20Tvs%20Victor%20(3).jpg",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP435%20Tvs%20Victor%20(3).jpg"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP435%20Tvs%20Victor%20(3).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP435%20Tvs%20Victor%20(3).webp"
     },
     {
       "partNumber": "RP436",
@@ -6078,8 +6078,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "TVS FIERO F2 / VICTOR GLX",
       "description": "TVS FIERO F2 / VICTOR GLX",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP437%20Tvs%20Fiero%20F2%20Victor%20Glx%20(1).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP437%20Tvs%20Fiero%20F2%20Victor%20Glx%20(1).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP437%20Tvs%20Fiero%20F2%20Victor%20Glx%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP437%20Tvs%20Fiero%20F2%20Victor%20Glx%20(1).webp"
     },
     {
       "partNumber": "RP438",
@@ -6087,8 +6087,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "TVS APACHE",
       "description": "TVS APACHE",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP438%20Tvs%20Apache%20(1).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP438%20Tvs%20Apache%20(1).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP438%20Tvs%20Apache%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP438%20Tvs%20Apache%20(1).webp"
     },
     {
       "partNumber": "RP439",
@@ -6096,8 +6096,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "TVS STAR / CENTRA / STAR CITY / STAR DLX",
       "description": "TVS STAR / CENTRA / STAR CITY / STAR DLX",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP439%20Tvs%20Star%20Centra%20Star%20City%20Star%20dlx%20(1).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP439%20Tvs%20Star%20Centra%20Star%20City%20Star%20dlx%20(1).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP439%20Tvs%20Star%20Centra%20Star%20City%20Star%20dlx%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP439%20Tvs%20Star%20Centra%20Star%20City%20Star%20dlx%20(1).webp"
     },
     {
       "partNumber": "RP440",
@@ -6105,8 +6105,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "TVS STAR CITY ES / SPORT ES",
       "description": "TVS STAR CITY ES / SPORT ES",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP440%20Tvs%20Star%20City%20es%20sport%20es%20(1).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP440%20Tvs%20Star%20City%20es%20sport%20es%20(1).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP440%20Tvs%20Star%20City%20es%20sport%20es%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP440%20Tvs%20Star%20City%20es%20sport%20es%20(1).webp"
     },
     {
       "partNumber": "RP441",
@@ -6114,8 +6114,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "TVS SCOOTY (2 WIRES)",
       "description": "TVS SCOOTY (2 WIRES)",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP441%20Tvs%20Scooty%202%20wires%20(1).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP441%20Tvs%20Scooty%202%20wires%20(1).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP441%20Tvs%20Scooty%202%20wires%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP441%20Tvs%20Scooty%202%20wires%20(1).webp"
     },
     {
       "partNumber": "RP442",
@@ -6123,8 +6123,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "TVS SCOOTY (4 WIRES)",
       "description": "TVS SCOOTY (4 WIRES)",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP442%20Tvs%20Scooty%204%20wires%20(1).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP442%20Tvs%20Scooty%204%20wires%20(1).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP442%20Tvs%20Scooty%204%20wires%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP442%20Tvs%20Scooty%204%20wires%20(1).webp"
     },
     {
       "partNumber": "RP443",
@@ -6150,8 +6150,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "TVS RTR",
       "description": "TVS RTR",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP445%20Tvs%20Rtr%20(1).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP445%20Tvs%20Rtr%20(1).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP445%20Tvs%20Rtr%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP445%20Tvs%20Rtr%20(1).webp"
     },
     {
       "partNumber": "RP445S",
@@ -6159,8 +6159,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "TVS XL SUPER HEAVY DUTY / XL-100",
       "description": "TVS XL SUPER HEAVY DUTY / XL-100",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP445S%20Tvs%20xl%20super%20heavy%20duty%20xl%20100%20(2).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP445S%20Tvs%20xl%20super%20heavy%20duty%20xl%20100%20(2).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP445S%20Tvs%20xl%20super%20heavy%20duty%20xl%20100%20(2).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP445S%20Tvs%20xl%20super%20heavy%20duty%20xl%20100%20(2).webp"
     },
     {
       "partNumber": "RP445SM",
@@ -6177,8 +6177,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "HONDA TWISTER / DREAM YUGA",
       "description": "HONDA TWISTER / DREAM YUGA",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP448%20Honda%20Twister%20Dream%20Yuga%20(1).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP448%20Honda%20Twister%20Dream%20Yuga%20(1).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP448%20Honda%20Twister%20Dream%20Yuga%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP448%20Honda%20Twister%20Dream%20Yuga%20(1).webp"
     },
     {
       "partNumber": "RP449",
@@ -6195,8 +6195,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "HONDA UNICORN / SHINE",
       "description": "HONDA UNICORN / SHINE",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP452%20-%20Honda%20Unicorn%20Shine%20.jpg",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP452%20-%20Honda%20Unicorn%20Shine%20.jpg"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP452%20-%20Honda%20Unicorn%20Shine%20.webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP452%20-%20Honda%20Unicorn%20Shine%20.webp"
     },
     {
       "partNumber": "RP453",
@@ -6204,8 +6204,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "HONDA STUNNER",
       "description": "HONDA STUNNER",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP453%20Honda%20Stunner%20(3).jpg",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP453%20Honda%20Stunner%20(3).jpg"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP453%20Honda%20Stunner%20(3).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP453%20Honda%20Stunner%20(3).webp"
     },
     {
       "partNumber": "RP454",
@@ -6213,8 +6213,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Ignition Switch Cum Steering Lock / Ignition Switch",
       "vehicle": "SUZUKI HEAT",
       "description": "SUZUKI HEAT",
-      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP454%20Suzuki%20Heat%20(1).png",
-      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP454%20Suzuki%20Heat%20(1).png"
+      "image": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP454%20Suzuki%20Heat%20(1).webp",
+      "thumbnail": "/2 wheeler/Ignition%20Switch%20Cum%20Steering%20Lock/RP454%20Suzuki%20Heat%20(1).webp"
     }
   ],
   "2-wheeler-parts-self-relay": [
@@ -6224,8 +6224,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Self Relay",
       "vehicle": "BAJAJ PLATINA / UG4 / CT-100",
       "description": "BAJAJ PLATINA / UG4 / CT-100",
-      "image": "/2 wheeler/self relay/RP489 Bajaj platina ug4 ct100.png",
-      "thumbnail": "/2 wheeler/self relay/RP489 Bajaj platina ug4 ct100.png"
+      "image": "/2 wheeler/self relay/RP489 Bajaj platina ug4 ct100.webp",
+      "thumbnail": "/2 wheeler/self relay/RP489 Bajaj platina ug4 ct100.webp"
     },
     {
       "partNumber": "RP490",
@@ -6233,8 +6233,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Self Relay",
       "vehicle": "BAJAJ PULSAR / XCD/DISCOVER/UG3,4-PIN WITH PATTI",
       "description": "BAJAJ PULSAR / XCD/DISCOVER/UG3,4-PIN WITH PATTI",
-      "image": "/2 wheeler/self relay/RP490 Bajaj Pulsar Xcd Discover ug3 4 pin with patti.png",
-      "thumbnail": "/2 wheeler/self relay/RP490 Bajaj Pulsar Xcd Discover ug3 4 pin with patti.png"
+      "image": "/2 wheeler/self relay/RP490 Bajaj Pulsar Xcd Discover ug3 4 pin with patti.webp",
+      "thumbnail": "/2 wheeler/self relay/RP490 Bajaj Pulsar Xcd Discover ug3 4 pin with patti.webp"
     },
     {
       "partNumber": "RP491",
@@ -6242,8 +6242,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Self Relay",
       "vehicle": "BAJAJ PULSAR O/M / DISCOVER / DISCOVER-100,WITH PATTI",
       "description": "BAJAJ PULSAR O/M / DISCOVER / DISCOVER-100,WITH PATTI",
-      "image": "/2 wheeler/self relay/RP491 Bajaj Pulsar o m Discover 100 with patti.png",
-      "thumbnail": "/2 wheeler/self relay/RP491 Bajaj Pulsar o m Discover 100 with patti.png"
+      "image": "/2 wheeler/self relay/RP491 Bajaj Pulsar o m Discover 100 with patti.webp",
+      "thumbnail": "/2 wheeler/self relay/RP491 Bajaj Pulsar o m Discover 100 with patti.webp"
     },
     {
       "partNumber": "RP492",
@@ -6251,8 +6251,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Self Relay",
       "vehicle": "BAJAJ DISCOVER N/M 2015 W/O/RUBBER",
       "description": "BAJAJ DISCOVER N/M 2015 W/O/RUBBER",
-      "image": "/2 wheeler/self relay/RP492 Bajaj Discover n m 2015 wo rubber .png",
-      "thumbnail": "/2 wheeler/self relay/RP492 Bajaj Discover n m 2015 wo rubber .png"
+      "image": "/2 wheeler/self relay/RP492 Bajaj Discover n m 2015 wo rubber .webp",
+      "thumbnail": "/2 wheeler/self relay/RP492 Bajaj Discover n m 2015 wo rubber .webp"
     },
     {
       "partNumber": "RP493",
@@ -6260,8 +6260,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Self Relay",
       "vehicle": "BAJAJ DISCOVER N/M 2015 WITH RUBBER",
       "description": "BAJAJ DISCOVER N/M 2015 WITH RUBBER",
-      "image": "/2 wheeler/self relay/RP493 Bajaj Pulsar 200 ns.png",
-      "thumbnail": "/2 wheeler/self relay/RP493 Bajaj Pulsar 200 ns.png"
+      "image": "/2 wheeler/self relay/RP493 Bajaj Pulsar 200 ns.webp",
+      "thumbnail": "/2 wheeler/self relay/RP493 Bajaj Pulsar 200 ns.webp"
     },
     {
       "partNumber": "RP494",
@@ -6269,8 +6269,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Self Relay",
       "vehicle": "HERO SUPER SPLENDOR / HUNK /CBZ /CBZ XT /GLAMOUR",
       "description": "HERO SUPER SPLENDOR / HUNK /CBZ /CBZ XT /GLAMOUR",
-      "image": "/2 wheeler/self relay/RP494 Hero Super Splendor hunk cbz cbz xt glamour.png",
-      "thumbnail": "/2 wheeler/self relay/RP494 Hero Super Splendor hunk cbz cbz xt glamour.png"
+      "image": "/2 wheeler/self relay/RP494 Hero Super Splendor hunk cbz cbz xt glamour.webp",
+      "thumbnail": "/2 wheeler/self relay/RP494 Hero Super Splendor hunk cbz cbz xt glamour.webp"
     },
     {
       "partNumber": "RP495",
@@ -6278,8 +6278,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Self Relay",
       "vehicle": "YAMAHA FAZER",
       "description": "YAMAHA FAZER",
-      "image": "/2 wheeler/self relay/RP495 Yamaha Fazer.png",
-      "thumbnail": "/2 wheeler/self relay/RP495 Yamaha Fazer.png"
+      "image": "/2 wheeler/self relay/RP495 Yamaha Fazer.webp",
+      "thumbnail": "/2 wheeler/self relay/RP495 Yamaha Fazer.webp"
     },
     {
       "partNumber": "RP496",
@@ -6305,8 +6305,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Self Relay",
       "vehicle": "SUZUKI ACCESS / ZEUS/ HEAT/GS-150",
       "description": "SUZUKI ACCESS / ZEUS/ HEAT/GS-150",
-      "image": "/2 wheeler/self relay/RP498 Suzuki Access Zeus Heat gs-150.png",
-      "thumbnail": "/2 wheeler/self relay/RP498 Suzuki Access Zeus Heat gs-150.png"
+      "image": "/2 wheeler/self relay/RP498 Suzuki Access Zeus Heat gs-150.webp",
+      "thumbnail": "/2 wheeler/self relay/RP498 Suzuki Access Zeus Heat gs-150.webp"
     },
     {
       "partNumber": "RP499",
@@ -6314,8 +6314,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Self Relay",
       "vehicle": "HONDA ACTIVA (OE TYPE)",
       "description": "HONDA ACTIVA (OE TYPE)",
-      "image": "/2 wheeler/self relay/RP499 Self Relay For Hnd Activa oe type.png",
-      "thumbnail": "/2 wheeler/self relay/RP499 Self Relay For Hnd Activa oe type.png"
+      "image": "/2 wheeler/self relay/RP499 Self Relay For Hnd Activa oe type.webp",
+      "thumbnail": "/2 wheeler/self relay/RP499 Self Relay For Hnd Activa oe type.webp"
     },
     {
       "partNumber": "RP500",
@@ -6323,8 +6323,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Self Relay",
       "vehicle": "HORN UNIVERSAL RELAY",
       "description": "HORN UNIVERSAL RELAY",
-      "image": "/2 wheeler/self relay/RP500 Horn Universal Relay.png",
-      "thumbnail": "/2 wheeler/self relay/RP500 Horn Universal Relay.png"
+      "image": "/2 wheeler/self relay/RP500 Horn Universal Relay.webp",
+      "thumbnail": "/2 wheeler/self relay/RP500 Horn Universal Relay.webp"
     },
     {
       "partNumber": "RP501",
@@ -6332,8 +6332,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Self Relay",
       "vehicle": "TVS APACHE O/M",
       "description": "TVS APACHE O/M",
-      "image": "/2 wheeler/self relay/RP501 Tvs Apache om.jpg",
-      "thumbnail": "/2 wheeler/self relay/RP501 Tvs Apache om.jpg"
+      "image": "/2 wheeler/self relay/RP501 Tvs Apache om.webp",
+      "thumbnail": "/2 wheeler/self relay/RP501 Tvs Apache om.webp"
     },
     {
       "partNumber": "RP501SD",
@@ -6341,8 +6341,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Self Relay",
       "vehicle": "TVS APACHE OE TYPE (METAL BODY)",
       "description": "TVS APACHE OE TYPE (METAL BODY)",
-      "image": "/2 wheeler/self relay/RP501SD Self Relay For Tvs Apache oe type metal body.png",
-      "thumbnail": "/2 wheeler/self relay/RP501SD Self Relay For Tvs Apache oe type metal body.png"
+      "image": "/2 wheeler/self relay/RP501SD Self Relay For Tvs Apache oe type metal body.webp",
+      "thumbnail": "/2 wheeler/self relay/RP501SD Self Relay For Tvs Apache oe type metal body.webp"
     },
     {
       "partNumber": "RP501RO",
@@ -6350,8 +6350,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Self Relay",
       "vehicle": "TVS STAR CITY O/M",
       "description": "TVS STAR CITY O/M",
-      "image": "/2 wheeler/self relay/RP501RO Tvs Star City om.png",
-      "thumbnail": "/2 wheeler/self relay/RP501RO Tvs Star City om.png"
+      "image": "/2 wheeler/self relay/RP501RO Tvs Star City om.webp",
+      "thumbnail": "/2 wheeler/self relay/RP501RO Tvs Star City om.webp"
     },
     {
       "partNumber": "RP501KM",
@@ -6359,8 +6359,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Self Relay",
       "vehicle": "TVS WEGO/JUPITER/APACHE2013/STAR CITY/ RTR160/RTR180/PHOENIX/STAR CITY PLUS 110",
       "description": "TVS WEGO/JUPITER/APACHE2013/STAR CITY/ RTR160/RTR180/PHOENIX/STAR CITY PLUS 110",
-      "image": "/2 wheeler/self relay/RP501KM Tvs Wego Jupiter Apache 2013 star city rtr 160 Phoenix star city.png",
-      "thumbnail": "/2 wheeler/self relay/RP501KM Tvs Wego Jupiter Apache 2013 star city rtr 160 Phoenix star city.png"
+      "image": "/2 wheeler/self relay/RP501KM Tvs Wego Jupiter Apache 2013 star city rtr 160 Phoenix star city.webp",
+      "thumbnail": "/2 wheeler/self relay/RP501KM Tvs Wego Jupiter Apache 2013 star city rtr 160 Phoenix star city.webp"
     },
     {
       "partNumber": "RP501AX",
@@ -6377,8 +6377,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Self Relay",
       "vehicle": "BULLET CLASSIC 350/500CC O/M CLAMP TYPE",
       "description": "BULLET CLASSIC 350/500CC O/M CLAMP TYPE",
-      "image": "/2 wheeler/self relay/RP502  Bullet Classic 350 500cc om clamp type.png",
-      "thumbnail": "/2 wheeler/self relay/RP502  Bullet Classic 350 500cc om clamp type.png"
+      "image": "/2 wheeler/self relay/RP502  Bullet Classic 350 500cc om clamp type.webp",
+      "thumbnail": "/2 wheeler/self relay/RP502  Bullet Classic 350 500cc om clamp type.webp"
     },
     {
       "partNumber": "RP503",
@@ -6386,8 +6386,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Self Relay",
       "vehicle": "BULLET CLASSIC 350/500CC N/M",
       "description": "BULLET CLASSIC 350/500CC N/M",
-      "image": "/2 wheeler/self relay/RP503 Bullet Classic 350 500cc nm.png",
-      "thumbnail": "/2 wheeler/self relay/RP503 Bullet Classic 350 500cc nm.png"
+      "image": "/2 wheeler/self relay/RP503 Bullet Classic 350 500cc nm.webp",
+      "thumbnail": "/2 wheeler/self relay/RP503 Bullet Classic 350 500cc nm.webp"
     },
     {
       "partNumber": "RP503RL",
@@ -6440,8 +6440,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Self Relay",
       "vehicle": "INTERLOCK RELAY (PASSING RELAY) 4-PIN",
       "description": "INTERLOCK RELAY (PASSING RELAY) 4-PIN",
-      "image": "/2 wheeler/self relay/RP504P Interlock Relay passing relay 4 pin.png",
-      "thumbnail": "/2 wheeler/self relay/RP504P Interlock Relay passing relay 4 pin.png"
+      "image": "/2 wheeler/self relay/RP504P Interlock Relay passing relay 4 pin.webp",
+      "thumbnail": "/2 wheeler/self relay/RP504P Interlock Relay passing relay 4 pin.webp"
     },
     {
       "partNumber": "RP504KR",
@@ -6449,8 +6449,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Self Relay",
       "vehicle": "INTERLOCK RELAY (PASSING RELAY) 5-PIN",
       "description": "INTERLOCK RELAY (PASSING RELAY) 5-PIN",
-      "image": "/2 wheeler/self relay/RP504KR Interlock Relay passing relay 5 pin.png",
-      "thumbnail": "/2 wheeler/self relay/RP504KR Interlock Relay passing relay 5 pin.png"
+      "image": "/2 wheeler/self relay/RP504KR Interlock Relay passing relay 5 pin.webp",
+      "thumbnail": "/2 wheeler/self relay/RP504KR Interlock Relay passing relay 5 pin.webp"
     }
   ],
   "2-wheeler-parts-head-lamp-bulb": [
@@ -6460,8 +6460,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Head Lamp Bulb",
       "vehicle": "HERO HONDA/SS/SLEEK",
       "description": "HERO HONDA/SS/SLEEK",
-      "image": "/2 wheeler/headlamp bulb/RP505 Hero Honda Ss Sleek.png",
-      "thumbnail": "/2 wheeler/headlamp bulb/RP505 Hero Honda Ss Sleek.png",
+      "image": "/2 wheeler/headlamp bulb/RP505 Hero Honda Ss Sleek.webp",
+      "thumbnail": "/2 wheeler/headlamp bulb/RP505 Hero Honda Ss Sleek.webp",
       "voltage": "12V- 35/35W",
       "baseShellDiamm": "P15D.25-1"
     },
@@ -6471,8 +6471,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Head Lamp Bulb",
       "vehicle": "KB-100/TVS SUZUKI/TVS SCOOTY/YAMAHA RX-100/SPLENDOR P-17",
       "description": "KB-100/TVS SUZUKI/TVS SCOOTY/YAMAHA RX-100/SPLENDOR P-17",
-      "image": "/2 wheeler/headlamp bulb/RP506 Kb 100 tvs Suzuki tvs scooty yamaha rx 100 splendor p17.png",
-      "thumbnail": "/2 wheeler/headlamp bulb/RP506 Kb 100 tvs Suzuki tvs scooty yamaha rx 100 splendor p17.png",
+      "image": "/2 wheeler/headlamp bulb/RP506 Kb 100 tvs Suzuki tvs scooty yamaha rx 100 splendor p17.webp",
+      "thumbnail": "/2 wheeler/headlamp bulb/RP506 Kb 100 tvs Suzuki tvs scooty yamaha rx 100 splendor p17.webp",
       "voltage": "12V- 35/35W",
       "baseShellDiamm": "P15D.25-3"
     },
@@ -6482,8 +6482,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Head Lamp Bulb",
       "vehicle": "VESPA XE/NV/CHETAK 12V/H/H PASSION/AMBITION/CBZ/DAWN/KB-4S/TVS SCOOTY/PULSAR/WITHOUT SHIELD",
       "description": "VESPA XE/NV/CHETAK 12V/H/H PASSION/AMBITION/CBZ/DAWN/KB-4S/TVS SCOOTY/PULSAR/WITHOUT SHIELD",
-      "image": "/2 wheeler/headlamp bulb/RP509 Vespa xe nv chetak 12 Volt Passion Ambition cbz dawn with shield.png",
-      "thumbnail": "/2 wheeler/headlamp bulb/RP509 Vespa xe nv chetak 12 Volt Passion Ambition cbz dawn with shield.png",
+      "image": "/2 wheeler/headlamp bulb/RP509 Vespa xe nv chetak 12 Volt Passion Ambition cbz dawn with shield.webp",
+      "thumbnail": "/2 wheeler/headlamp bulb/RP509 Vespa xe nv chetak 12 Volt Passion Ambition cbz dawn with shield.webp",
       "voltage": "12V- 35/35W",
       "baseShellDiamm": "BA20D"
     },
@@ -6493,8 +6493,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Head Lamp Bulb",
       "vehicle": "LML VESPA/XE/NV/BAJAJ CHETAK ELEC./KB-4S/PULSAR/CALIBER CROMA/BOXER CT/HERO HONDA PASSION/AMBITION/CBZ/SPLENDOR/SCOOTY/VICTOR/SUZUKI SAMURAI WITH SHIELD",
       "description": "LML VESPA/XE/NV/BAJAJ CHETAK ELEC./KB-4S/PULSAR/CALIBER CROMA/BOXER CT/HERO HONDA PASSION/AMBITION/CBZ/SPLENDOR/SCOOTY/VICTOR/SUZUKI SAMURAI WITH SHIELD",
-      "image": "/2 wheeler/headlamp bulb/RP510 Lml vespa xe nv Bajaj chetak elec kb 4s pulsar caliber croma.png",
-      "thumbnail": "/2 wheeler/headlamp bulb/RP510 Lml vespa xe nv Bajaj chetak elec kb 4s pulsar caliber croma.png",
+      "image": "/2 wheeler/headlamp bulb/RP510 Lml vespa xe nv Bajaj chetak elec kb 4s pulsar caliber croma.webp",
+      "thumbnail": "/2 wheeler/headlamp bulb/RP510 Lml vespa xe nv Bajaj chetak elec kb 4s pulsar caliber croma.webp",
       "voltage": "12V- 35/35W",
       "baseShellDiamm": "BA20D"
     }
@@ -6506,8 +6506,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Indicator Bulb",
       "vehicle": "1210 HERO HONDA/SS/SLEEK/TVS SUZUKI 12V/ENFIELD 12V/YAMAHA RX100 12V/CHETAK ELECTRONIC FE/CLASSIC",
       "description": "1210 HERO HONDA/SS/SLEEK/TVS SUZUKI 12V/ENFIELD 12V/YAMAHA RX100 12V/CHETAK ELECTRONIC FE/CLASSIC",
-      "image": "/2 wheeler/indicator bulb/RP517 Hero hnd ss sleek Tvs suzuki 12v chetak electronic classic.png",
-      "thumbnail": "/2 wheeler/indicator bulb/RP517 Hero hnd ss sleek Tvs suzuki 12v chetak electronic classic.png",
+      "image": "/2 wheeler/indicator bulb/RP517 Hero hnd ss sleek Tvs suzuki 12v chetak electronic classic.webp",
+      "thumbnail": "/2 wheeler/indicator bulb/RP517 Hero hnd ss sleek Tvs suzuki 12v chetak electronic classic.webp",
       "voltage": "12V- 10W",
       "baseShellDiamm": "BA 15s 18"
     },
@@ -6517,8 +6517,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Indicator Bulb",
       "vehicle": "AMBER/BLUE/RED/YELLOW/GREEN COLOUR",
       "description": "AMBER/BLUE/RED/YELLOW/GREEN COLOUR",
-      "image": "/2 wheeler/indicator bulb/RP518 Amber blue red yellow green colour.png",
-      "thumbnail": "/2 wheeler/indicator bulb/RP518 Amber blue red yellow green colour.png",
+      "image": "/2 wheeler/indicator bulb/RP518 Amber blue red yellow green colour.webp",
+      "thumbnail": "/2 wheeler/indicator bulb/RP518 Amber blue red yellow green colour.webp",
       "voltage": "12V- 10W",
       "baseShellDiamm": "BA 15s 18"
     },
@@ -6539,8 +6539,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Indicator Bulb",
       "vehicle": "(RY-10) AMBER ENFIELD/BAJAJ PLATINA/XCD-125",
       "description": "(RY-10) AMBER ENFIELD/BAJAJ PLATINA/XCD-125",
-      "image": "/2 wheeler/indicator bulb/RP520 Ry 10 Amber Enfield Bajaj Platina xcd 125.png",
-      "thumbnail": "/2 wheeler/indicator bulb/RP520 Ry 10 Amber Enfield Bajaj Platina xcd 125.png",
+      "image": "/2 wheeler/indicator bulb/RP520 Ry 10 Amber Enfield Bajaj Platina xcd 125.webp",
+      "thumbnail": "/2 wheeler/indicator bulb/RP520 Ry 10 Amber Enfield Bajaj Platina xcd 125.webp",
       "voltage": "12V- 10W",
       "baseShellDiamm": "BA15s 18"
     }
@@ -6552,8 +6552,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Tail & Stop Light Bulb",
       "vehicle": "(1215) HERO HONDA/SS/SLEEK/TVS SUZUKI 12V",
       "description": "(1215) HERO HONDA/SS/SLEEK/TVS SUZUKI 12V",
-      "image": "/2 wheeler/tail and stop light bulb/RP521 1215 Hero Hnd ss sleek Tvs Suzuki 12v.png",
-      "thumbnail": "/2 wheeler/tail and stop light bulb/RP521 1215 Hero Hnd ss sleek Tvs Suzuki 12v.png",
+      "image": "/2 wheeler/tail and stop light bulb/RP521 1215 Hero Hnd ss sleek Tvs Suzuki 12v.webp",
+      "thumbnail": "/2 wheeler/tail and stop light bulb/RP521 1215 Hero Hnd ss sleek Tvs Suzuki 12v.webp",
       "voltage": "12V- 10/5W",
       "baseShellDiamm": "BAY 15D.25 OFFSET"
     },
@@ -6563,8 +6563,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Tail & Stop Light Bulb",
       "vehicle": "(1016) KB-100/4S/CHETAK/TVS SUZUKI/MAX-100/SAMURAI/SHOGUN",
       "description": "(1016) KB-100/4S/CHETAK/TVS SUZUKI/MAX-100/SAMURAI/SHOGUN",
-      "image": "/2 wheeler/tail and stop light bulb/RP522 Kb 100 4s chetak tvs suzuki max 100 samurai shogun 1016.png",
-      "thumbnail": "/2 wheeler/tail and stop light bulb/RP522 Kb 100 4s chetak tvs suzuki max 100 samurai shogun 1016.png",
+      "image": "/2 wheeler/tail and stop light bulb/RP522 Kb 100 4s chetak tvs suzuki max 100 samurai shogun 1016.webp",
+      "thumbnail": "/2 wheeler/tail and stop light bulb/RP522 Kb 100 4s chetak tvs suzuki max 100 samurai shogun 1016.webp",
       "voltage": "12V- 21/5W",
       "baseShellDiamm": "BAY 15D.25 OFFSET"
     },
@@ -6585,8 +6585,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Tail & Stop Light Bulb",
       "vehicle": "(12024) STOP LIGHT BULB BAJAJ CHETAK S.C",
       "description": "(12024) STOP LIGHT BULB BAJAJ CHETAK S.C",
-      "image": "/2 wheeler/tail and stop light bulb/RP524 Stop Light Bulb Bajaj Chetak 12024.png",
-      "thumbnail": "/2 wheeler/tail and stop light bulb/RP524 Stop Light Bulb Bajaj Chetak 12024.png",
+      "image": "/2 wheeler/tail and stop light bulb/RP524 Stop Light Bulb Bajaj Chetak 12024.webp",
+      "thumbnail": "/2 wheeler/tail and stop light bulb/RP524 Stop Light Bulb Bajaj Chetak 12024.webp",
       "voltage": "12V- 10W",
       "baseShellDiamm": "BA 15s 25 S.C"
     }
@@ -6598,8 +6598,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Indicator Festoon",
       "vehicle": "(12844) CHETAK 12V/M-80/FE/LML FRONT INDICATOR",
       "description": "(12844) CHETAK 12V/M-80/FE/LML FRONT INDICATOR",
-      "image": "/2 wheeler/indicator festoon/RP525 Chetak 12v m80 fe lml front Indicator.png",
-      "thumbnail": "/2 wheeler/indicator festoon/RP525 Chetak 12v m80 fe lml front Indicator.png",
+      "image": "/2 wheeler/indicator festoon/RP525 Chetak 12v m80 fe lml front Indicator.webp",
+      "thumbnail": "/2 wheeler/indicator festoon/RP525 Chetak 12v m80 fe lml front Indicator.webp",
       "voltage": "12V-5W",
       "baseShellDiamm": "8.5 / 11 / 39"
     },
@@ -6668,8 +6668,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Speedo Meter Bulb",
       "vehicle": "(TD) ENFIELD 12-V/YAMAHA RX-100 12V",
       "description": "(TD) ENFIELD 12-V/YAMAHA RX-100 12V",
-      "image": "/2 wheeler/speedo meter bulb/RP531 Enfield 12v Yamaha rx 100 12v.png",
-      "thumbnail": "/2 wheeler/speedo meter bulb/RP531 Enfield 12v Yamaha rx 100 12v.png",
+      "image": "/2 wheeler/speedo meter bulb/RP531 Enfield 12v Yamaha rx 100 12v.webp",
+      "thumbnail": "/2 wheeler/speedo meter bulb/RP531 Enfield 12v Yamaha rx 100 12v.webp",
       "voltage": "12V-3W",
       "baseShellDiamm": "Ba 9s 8.8"
     },
@@ -6679,8 +6679,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Speedo Meter Bulb",
       "vehicle": "HERO HONDA/ALSO SIDE INDICATOR BULB FOR NEW GENERATION (WEDGE BASE)",
       "description": "HERO HONDA/ALSO SIDE INDICATOR BULB FOR NEW GENERATION (WEDGE BASE)",
-      "image": "/2 wheeler/speedo meter bulb/RP532 Hero Honda Also Side Indi Bulb For New Generation Wedge Base.png",
-      "thumbnail": "/2 wheeler/speedo meter bulb/RP532 Hero Honda Also Side Indi Bulb For New Generation Wedge Base.png",
+      "image": "/2 wheeler/speedo meter bulb/RP532 Hero Honda Also Side Indi Bulb For New Generation Wedge Base.webp",
+      "thumbnail": "/2 wheeler/speedo meter bulb/RP532 Hero Honda Also Side Indi Bulb For New Generation Wedge Base.webp",
       "voltage": "12V- 3.4W",
       "baseShellDiamm": "WEDGE BASE"
     },
@@ -6690,8 +6690,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Speedo Meter Bulb",
       "vehicle": "(WEDGE BASE) AMBER/BLUE/GREEN/RED",
       "description": "(WEDGE BASE) AMBER/BLUE/GREEN/RED",
-      "image": "/2 wheeler/speedo meter bulb/RP533 Amber blue green red wedge base.png",
-      "thumbnail": "/2 wheeler/speedo meter bulb/RP533 Amber blue green red wedge base.png",
+      "image": "/2 wheeler/speedo meter bulb/RP533 Amber blue green red wedge base.webp",
+      "thumbnail": "/2 wheeler/speedo meter bulb/RP533 Amber blue green red wedge base.webp",
       "voltage": "12V- 3.4W",
       "baseShellDiamm": "WEDGE BASE"
     }
@@ -6703,8 +6703,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Halogen Bulb M-5",
       "vehicle": "KB-4S/CHETAK 12V ELEC./PULSAR/CALIBER CROMA/BOXER-CT/HERO HONDA PASSION/AMBITION/CBZ/CD DAWN/SPLENDOR/SCOOTY/VICTOR/SUZUKI SAMURAI/LML VESPA XE/NV",
       "description": "KB-4S/CHETAK 12V ELEC./PULSAR/CALIBER CROMA/BOXER-CT/HERO HONDA PASSION/AMBITION/CBZ/CD DAWN/SPLENDOR/SCOOTY/VICTOR/SUZUKI SAMURAI/LML VESPA XE/NV",
-      "image": "/2 wheeler/halogen bulb m-5/RP534 Kb 4s Chetak 12v pulsar boxer ct Hnd passion lml v espa xe nv.png",
-      "thumbnail": "/2 wheeler/halogen bulb m-5/RP534 Kb 4s Chetak 12v pulsar boxer ct Hnd passion lml v espa xe nv.png",
+      "image": "/2 wheeler/halogen bulb m-5/RP534 Kb 4s Chetak 12v pulsar boxer ct Hnd passion lml v espa xe nv.webp",
+      "thumbnail": "/2 wheeler/halogen bulb m-5/RP534 Kb 4s Chetak 12v pulsar boxer ct Hnd passion lml v espa xe nv.webp",
       "voltage": "12V- 35/35W",
       "baseShellDiamm": "Ba 20D"
     },
@@ -6714,8 +6714,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Halogen Bulb M-5",
       "vehicle": "HERO HONDA/SS/SLEEK",
       "description": "HERO HONDA/SS/SLEEK",
-      "image": "/2 wheeler/halogen bulb m-5/RP535 Hero Honda ss sleek.png",
-      "thumbnail": "/2 wheeler/halogen bulb m-5/RP535 Hero Honda ss sleek.png",
+      "image": "/2 wheeler/halogen bulb m-5/RP535 Hero Honda ss sleek.webp",
+      "thumbnail": "/2 wheeler/halogen bulb m-5/RP535 Hero Honda ss sleek.webp",
       "voltage": "12V- 35/35W",
       "baseShellDiamm": "P15D-25-1"
     },
@@ -6725,8 +6725,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Halogen Bulb M-5",
       "vehicle": "KB-100/TVS SUZUKI/TVS SCOOTY/YAMAHA RX-100/SPLENDOR P-17/KINETIC CHALLENGER",
       "description": "KB-100/TVS SUZUKI/TVS SCOOTY/YAMAHA RX-100/SPLENDOR P-17/KINETIC CHALLENGER",
-      "image": "/2 wheeler/halogen bulb m-5/RP536 Kb 100 Tvs Suzuki tvs scooty ymh rx 100 splendor.png",
-      "thumbnail": "/2 wheeler/halogen bulb m-5/RP536 Kb 100 Tvs Suzuki tvs scooty ymh rx 100 splendor.png",
+      "image": "/2 wheeler/halogen bulb m-5/RP536 Kb 100 Tvs Suzuki tvs scooty ymh rx 100 splendor.webp",
+      "thumbnail": "/2 wheeler/halogen bulb m-5/RP536 Kb 100 Tvs Suzuki tvs scooty ymh rx 100 splendor.webp",
       "voltage": "12V- 35/35W",
       "baseShellDiamm": "P15D 25-3"
     }
@@ -6738,8 +6738,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Halogen Bulb HS 1",
       "vehicle": "BAJAJ CALIBER 115/LML FREEDOM/HERO HONDA/KARIZMA/FIERO F2",
       "description": "BAJAJ CALIBER 115/LML FREEDOM/HERO HONDA/KARIZMA/FIERO F2",
-      "image": "/2 wheeler/halogen bulb hs1/RP542 Bajaj caliber 115 Hs 1 lml freedom hero hnd karizma fiero f2.png",
-      "thumbnail": "/2 wheeler/halogen bulb hs1/RP542 Bajaj caliber 115 Hs 1 lml freedom hero hnd karizma fiero f2.png",
+      "image": "/2 wheeler/halogen bulb hs1/RP542 Bajaj caliber 115 Hs 1 lml freedom hero hnd karizma fiero f2.webp",
+      "thumbnail": "/2 wheeler/halogen bulb hs1/RP542 Bajaj caliber 115 Hs 1 lml freedom hero hnd karizma fiero f2.webp",
       "voltage": "12V- 35/35W",
       "baseShellDiamm": "HS 1 LML PX-43T"
     },
@@ -6749,8 +6749,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Halogen Bulb HS 1",
       "vehicle": "BAJAJ CALIBER 115/LML FREEDOM/KARIZMA/FIERO F2",
       "description": "BAJAJ CALIBER 115/LML FREEDOM/KARIZMA/FIERO F2",
-      "image": "/2 wheeler/halogen bulb hs1/RP543  Bajaj caliber 115 Hs 1 lml freedom hero hnd karizma fiero f2 super white.png",
-      "thumbnail": "/2 wheeler/halogen bulb hs1/RP543  Bajaj caliber 115 Hs 1 lml freedom hero hnd karizma fiero f2 super white.png",
+      "image": "/2 wheeler/halogen bulb hs1/RP543  Bajaj caliber 115 Hs 1 lml freedom hero hnd karizma fiero f2 super white.webp",
+      "thumbnail": "/2 wheeler/halogen bulb hs1/RP543  Bajaj caliber 115 Hs 1 lml freedom hero hnd karizma fiero f2 super white.webp",
       "voltage": "12V- 35/35W",
       "baseShellDiamm": "HS 1 LML PX-43T"
     },
@@ -6784,8 +6784,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush Holder Assly. for Starter",
       "vehicle": "HERO HONDA SUPER SPLENDOR/GLAMOUR/IGNITOR/SHINE N/M/ZEUS/ACCESS N/M",
       "description": "HERO HONDA SUPER SPLENDOR/GLAMOUR/IGNITOR/SHINE N/M/ZEUS/ACCESS N/M",
-      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP546  Hero Honda Super Splendor Glamour Ignitor shine nm zeus acess nm.png",
-      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP546  Hero Honda Super Splendor Glamour Ignitor shine nm zeus acess nm.png"
+      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP546  Hero Honda Super Splendor Glamour Ignitor shine nm zeus acess nm.webp",
+      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP546  Hero Honda Super Splendor Glamour Ignitor shine nm zeus acess nm.webp"
     },
     {
       "partNumber": "RP547",
@@ -6793,8 +6793,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush Holder Assly. for Starter",
       "vehicle": "HERO HONDA CBZ X- TREME/HUNK/ACHIEVER/IMPULSE/STUNNER N.M(SM- 15)/UNICORN/CBR 150CC/GS 150-R",
       "description": "HERO HONDA CBZ X- TREME/HUNK/ACHIEVER/IMPULSE/STUNNER N.M(SM- 15)/UNICORN/CBR 150CC/GS 150-R",
-      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP547 Hero Honda cbz xtreme hunk achiever impulse stunner nm.png",
-      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP547 Hero Honda cbz xtreme hunk achiever impulse stunner nm.png"
+      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP547 Hero Honda cbz xtreme hunk achiever impulse stunner nm.webp",
+      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP547 Hero Honda cbz xtreme hunk achiever impulse stunner nm.webp"
     },
     {
       "partNumber": "RP548",
@@ -6802,8 +6802,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush Holder Assly. for Starter",
       "vehicle": "HERO HONDA PASSION PRO / CD DELUXE/SPLENDOR PRO/SPLENDOR NXG/PASSION X-PRO/KINETIC HONDA/ MARVEL/KINETIC ZOOM/MAHINDRA CENTURO/PANTERO/KINE/DREAM YUGA/DREAM NEO",
       "description": "HERO HONDA PASSION PRO / CD DELUXE/SPLENDOR PRO/SPLENDOR NXG/PASSION X-PRO/KINETIC HONDA/ MARVEL/KINETIC ZOOM/MAHINDRA CENTURO/PANTERO/KINE/DREAM YUGA/DREAM NEO",
-      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP548 Hero Honda Passion Pro Cd Deluxe Splendor Pro Marvel.png",
-      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP548 Hero Honda Passion Pro Cd Deluxe Splendor Pro Marvel.png"
+      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP548 Hero Honda Passion Pro Cd Deluxe Splendor Pro Marvel.webp",
+      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP548 Hero Honda Passion Pro Cd Deluxe Splendor Pro Marvel.webp"
     },
     {
       "partNumber": "RP549",
@@ -6820,8 +6820,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush Holder Assly. for Starter",
       "vehicle": "VARROC,PULSAR O/M SET OF 4/ROYAL ENFIELD-350 TWIN SPARK/ELECTRA TWIN SPARK/BULLET CLASSIC 350/THUNDER 350",
       "description": "VARROC,PULSAR O/M SET OF 4/ROYAL ENFIELD-350 TWIN SPARK/ELECTRA TWIN SPARK/BULLET CLASSIC 350/THUNDER 350",
-      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP550 Varroc Pulsar om set of 4 Royal Enfield 350 twinspark.png",
-      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP550 Varroc Pulsar om set of 4 Royal Enfield 350 twinspark.png"
+      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP550 Varroc Pulsar om set of 4 Royal Enfield 350 twinspark.webp",
+      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP550 Varroc Pulsar om set of 4 Royal Enfield 350 twinspark.webp"
     },
     {
       "partNumber": "RP551",
@@ -6829,8 +6829,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush Holder Assly. for Starter",
       "vehicle": "VARROC, PULSAR 150/180 UG2(SET OF 2)DISCOVER 125 O/M/DISCOVER 135 N/M DTSI/AVENGER 180",
       "description": "VARROC, PULSAR 150/180 UG2(SET OF 2)DISCOVER 125 O/M/DISCOVER 135 N/M DTSI/AVENGER 180",
-      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP551 Varroc Pulsar 150 180 ug2 set of 2 Discover 125 om Avenger.png",
-      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP551 Varroc Pulsar 150 180 ug2 set of 2 Discover 125 om Avenger.png"
+      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP551 Varroc Pulsar 150 180 ug2 set of 2 Discover 125 om Avenger.webp",
+      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP551 Varroc Pulsar 150 180 ug2 set of 2 Discover 125 om Avenger.webp"
     },
     {
       "partNumber": "RP552",
@@ -6838,8 +6838,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush Holder Assly. for Starter",
       "vehicle": "VARROC,PULSAR LATEST/PULSAR 150/180 UG3/PULSAR 150/180 UG4(SET OF 2)PULSAR 135 N/MDISCOVER 100CC N/M /DISCOVER 125/DISCOVER 150 N/M",
       "description": "VARROC,PULSAR LATEST/PULSAR 150/180 UG3/PULSAR 150/180 UG4(SET OF 2)PULSAR 135 N/MDISCOVER 100CC N/M /DISCOVER 125/DISCOVER 150 N/M",
-      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP552 Varroc pulsar latest pulsar 150 180 ug3 pulsar 150 180  ug4 set of 2 pulsar 135 n m discover 100cc discover 125.png",
-      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP552 Varroc pulsar latest pulsar 150 180 ug3 pulsar 150 180  ug4 set of 2 pulsar 135 n m discover 100cc discover 125.png"
+      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP552 Varroc pulsar latest pulsar 150 180 ug3 pulsar 150 180  ug4 set of 2 pulsar 135 n m discover 100cc discover 125.webp",
+      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP552 Varroc pulsar latest pulsar 150 180 ug3 pulsar 150 180  ug4 set of 2 pulsar 135 n m discover 100cc discover 125.webp"
     },
     {
       "partNumber": "RP553",
@@ -6847,8 +6847,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush Holder Assly. for Starter",
       "vehicle": "FLASH,PULSAR 150/180 UG4/PUSAR 135 O/M/PULSAR 135 LS N/M/DISCOVER 100 O/M/DISCOVER 100CC N/M/DISCOVER 125 N/M/DISCOVER 125 LATEST/DISCOVER 150 O/M/DISCOVER N/M/XCD-135 DTSI",
       "description": "FLASH,PULSAR 150/180 UG4/PUSAR 135 O/M/PULSAR 135 LS N/M/DISCOVER 100 O/M/DISCOVER 100CC N/M/DISCOVER 125 N/M/DISCOVER 125 LATEST/DISCOVER 150 O/M/DISCOVER N/M/XCD-135 DTSI",
-      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP553 Flash Pulsar 150 180 ug4 Pulsar 135 om Discover 100 om.png",
-      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP553 Flash Pulsar 150 180 ug4 Pulsar 135 om Discover 100 om.png"
+      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP553 Flash Pulsar 150 180 ug4 Pulsar 135 om Discover 100 om.webp",
+      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP553 Flash Pulsar 150 180 ug4 Pulsar 135 om Discover 100 om.webp"
     },
     {
       "partNumber": "RP554",
@@ -6856,8 +6856,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush Holder Assly. for Starter",
       "vehicle": "LUCAS,PULSAR 135 LS N/M/DISCOVER 100 N/M/DISCOVER 125 LATEST/DISCOVER 150 N/M/XCD-135 DTSI",
       "description": "LUCAS,PULSAR 135 LS N/M/DISCOVER 100 N/M/DISCOVER 125 LATEST/DISCOVER 150 N/M/XCD-135 DTSI",
-      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP554 Lucas Pulsar 135 Ls n m discover 125 latest discover 150 n m xcd 135.png",
-      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP554 Lucas Pulsar 135 Ls n m discover 125 latest discover 150 n m xcd 135.png"
+      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP554 Lucas Pulsar 135 Ls n m discover 125 latest discover 150 n m xcd 135.webp",
+      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP554 Lucas Pulsar 135 Ls n m discover 125 latest discover 150 n m xcd 135.webp"
     },
     {
       "partNumber": "RP555",
@@ -6865,8 +6865,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush Holder Assly. for Starter",
       "vehicle": "APACHE/APACHE RTR/VICTOR GLX/ACCESS LATEST",
       "description": "APACHE/APACHE RTR/VICTOR GLX/ACCESS LATEST",
-      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP555 Apache Rtr Apache Victor Glx Access latest.png",
-      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP555 Apache Rtr Apache Victor Glx Access latest.png"
+      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP555 Apache Rtr Apache Victor Glx Access latest.webp",
+      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP555 Apache Rtr Apache Victor Glx Access latest.webp"
     },
     {
       "partNumber": "RP556",
@@ -6883,8 +6883,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush Holder Assly. for Starter",
       "vehicle": "PULSAR 220 F N/M (SET OF 4)",
       "description": "PULSAR 220 F N/M (SET OF 4)",
-      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP557 Pulsar 220 f n m set of 4.png",
-      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP557 Pulsar 220 f n m set of 4.png"
+      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP557 Pulsar 220 f n m set of 4.webp",
+      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP557 Pulsar 220 f n m set of 4.webp"
     },
     {
       "partNumber": "RP558",
@@ -6892,8 +6892,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush Holder Assly. for Starter",
       "vehicle": "CBZ STAR O/M/ AMBITION",
       "description": "CBZ STAR O/M/ AMBITION",
-      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP558 Cbz Star o m Ambition.png",
-      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP558 Cbz Star o m Ambition.png"
+      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP558 Cbz Star o m Ambition.webp",
+      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP558 Cbz Star o m Ambition.webp"
     },
     {
       "partNumber": "RP559",
@@ -6901,8 +6901,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush Holder Assly. for Starter",
       "vehicle": "HONDA SHINE O/M /STUNNER N/M (SM-14)",
       "description": "HONDA SHINE O/M /STUNNER N/M (SM-14)",
-      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP559 Honda Shine o m Stunner n m Sm 14.png",
-      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP559 Honda Shine o m Stunner n m Sm 14.png"
+      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP559 Honda Shine o m Stunner n m Sm 14.webp",
+      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP559 Honda Shine o m Stunner n m Sm 14.webp"
     },
     {
       "partNumber": "RP560",
@@ -6910,8 +6910,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush Holder Assly. for Starter",
       "vehicle": "KARIZMA / KARIZMA-R",
       "description": "KARIZMA / KARIZMA-R",
-      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP560 Karizma R Karizma.png",
-      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP560 Karizma R Karizma.png"
+      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP560 Karizma R Karizma.webp",
+      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP560 Karizma R Karizma.webp"
     },
     {
       "partNumber": "RP561",
@@ -6919,8 +6919,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush Holder Assly. for Starter",
       "vehicle": "FLAME,PHOENIX/SCOOTY PEP +/SCOOTY STREAK/WEGO/CB TWISTER/ACTIVA 125 LATEST/ DIO 110/STAR CITY PLUS 100CC N/M/KINETIC NOVA 135/ KINETIC 4S/KINETIC STYLE.",
       "description": "FLAME,PHOENIX/SCOOTY PEP +/SCOOTY STREAK/WEGO/CB TWISTER/ACTIVA 125 LATEST/ DIO 110/STAR CITY PLUS 100CC N/M/KINETIC NOVA 135/ KINETIC 4S/KINETIC STYLE.",
-      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP561 .png",
-      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP561 .png"
+      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP561 .webp",
+      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP561 .webp"
     },
     {
       "partNumber": "RP562",
@@ -6928,8 +6928,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush Holder Assly. for Starter",
       "vehicle": "ACTIVA 100CC O/M /ACTIVA 110CC N/M/ACTIVA 3G LATEST/DIO 100CC O/M/AVIATOR 110/SCOOTY PEP/PLEASURE O/M/PLESURE N/M/MAESTRO/GUSTO",
       "description": "ACTIVA 100CC O/M /ACTIVA 110CC N/M/ACTIVA 3G LATEST/DIO 100CC O/M/AVIATOR 110/SCOOTY PEP/PLEASURE O/M/PLESURE N/M/MAESTRO/GUSTO",
-      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP562 Activa 100cc om nm Activa 3g latest dio 100cc o m Aviator Scooty pep Pleasure Maestro Gusto.png",
-      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP562 Activa 100cc om nm Activa 3g latest dio 100cc o m Aviator Scooty pep Pleasure Maestro Gusto.png"
+      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP562 Activa 100cc om nm Activa 3g latest dio 100cc o m Aviator Scooty pep Pleasure Maestro Gusto.webp",
+      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP562 Activa 100cc om nm Activa 3g latest dio 100cc o m Aviator Scooty pep Pleasure Maestro Gusto.webp"
     },
     {
       "partNumber": "RP563",
@@ -6937,8 +6937,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush Holder Assly. for Starter",
       "vehicle": "YAMAHA FAZER 125 O/M / GLADIATOR/ENTICER/ALBA/ LIBERO GS-5/YBR 110/125/SS 125",
       "description": "YAMAHA FAZER 125 O/M / GLADIATOR/ENTICER/ALBA/ LIBERO GS-5/YBR 110/125/SS 125",
-      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP563 Yamaha Fazer 125 o m Gladiator Entiser Alba Libero Gs 5 Ybr 110 ss 125.png",
-      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP563 Yamaha Fazer 125 o m Gladiator Entiser Alba Libero Gs 5 Ybr 110 ss 125.png"
+      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP563 Yamaha Fazer 125 o m Gladiator Entiser Alba Libero Gs 5 Ybr 110 ss 125.webp",
+      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP563 Yamaha Fazer 125 o m Gladiator Entiser Alba Libero Gs 5 Ybr 110 ss 125.webp"
     },
     {
       "partNumber": "RP564",
@@ -6946,8 +6946,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush Holder Assly. for Starter",
       "vehicle": "YAMAHA FAZER 153 O/M /FZ-16 O/M /FZ-S O/M /STAR/ STAR DLX/ STAR CITY 110CC O/M /STAR CITY 110CC O/M /STAR SPORTS DLX/STAR SPORT CVTI",
       "description": "YAMAHA FAZER 153 O/M /FZ-16 O/M /FZ-S O/M /STAR/ STAR DLX/ STAR CITY 110CC O/M /STAR CITY 110CC O/M /STAR SPORTS DLX/STAR SPORT CVTI",
-      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP564 Yamaha Fazer 153 o m Fz 16 o m Star deluxe Star city 110cc om Star Sports dlx Cvti.png",
-      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP564 Yamaha Fazer 153 o m Fz 16 o m Star deluxe Star city 110cc om Star Sports dlx Cvti.png"
+      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP564 Yamaha Fazer 153 o m Fz 16 o m Star deluxe Star city 110cc om Star Sports dlx Cvti.webp",
+      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP564 Yamaha Fazer 153 o m Fz 16 o m Star deluxe Star city 110cc om Star Sports dlx Cvti.webp"
     },
     {
       "partNumber": "RP565",
@@ -6955,8 +6955,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush Holder Assly. for Starter",
       "vehicle": "YAMAHA FAZER 153 N/M / FZ-16 N/M /FZ-S N/M FZ-R/ ALPHA/RAY/RAY-Z/V MAX.",
       "description": "YAMAHA FAZER 153 N/M / FZ-16 N/M /FZ-S N/M FZ-R/ ALPHA/RAY/RAY-Z/V MAX.",
-      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP565 Yamaha fazer 153 n m Fz 16 n m Fz r Alpha Ray z v max.png",
-      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP565 Yamaha fazer 153 n m Fz 16 n m Fz r Alpha Ray z v max.png"
+      "image": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP565 Yamaha fazer 153 n m Fz 16 n m Fz r Alpha Ray z v max.webp",
+      "thumbnail": "/2 wheeler/Carbon Brush Holder Assly. for Starter/RP565 Yamaha fazer 153 n m Fz 16 n m Fz r Alpha Ray z v max.webp"
     },
     {
       "partNumber": "RP566",
@@ -6975,8 +6975,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush for Starter",
       "vehicle": "HERO HOND SUPER SPLENDOR/GLAMOUR/IGNITOR/SHINE N/M/ZUES/ACCESS N/M",
       "description": "HERO HOND SUPER SPLENDOR/GLAMOUR/IGNITOR/SHINE N/M/ZUES/ACCESS N/M",
-      "image": "/2 wheeler/carbon brush for starter/RP567 Hero Honda Super Splendor Glamour Igniter Shine n m Zeus Access n m.png",
-      "thumbnail": "/2 wheeler/carbon brush for starter/RP567 Hero Honda Super Splendor Glamour Igniter Shine n m Zeus Access n m.png"
+      "image": "/2 wheeler/carbon brush for starter/RP567 Hero Honda Super Splendor Glamour Igniter Shine n m Zeus Access n m.webp",
+      "thumbnail": "/2 wheeler/carbon brush for starter/RP567 Hero Honda Super Splendor Glamour Igniter Shine n m Zeus Access n m.webp"
     },
     {
       "partNumber": "RP568",
@@ -6984,8 +6984,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush for Starter",
       "vehicle": "HERO HONDA CBZ X-TREME/HUNK/ACHIEVER/IMPULSE/ STUNNER N/M(SM-15)/UNICORN/CBR 150CC/GS 150-R",
       "description": "HERO HONDA CBZ X-TREME/HUNK/ACHIEVER/IMPULSE/ STUNNER N/M(SM-15)/UNICORN/CBR 150CC/GS 150-R",
-      "image": "/2 wheeler/carbon brush for starter/RP568 Hero Honda Cbz Xtreme Hunk Achiever Impulse Stunner n m sm 15 Unicorn cbr 150cc Gs 150 r.png",
-      "thumbnail": "/2 wheeler/carbon brush for starter/RP568 Hero Honda Cbz Xtreme Hunk Achiever Impulse Stunner n m sm 15 Unicorn cbr 150cc Gs 150 r.png"
+      "image": "/2 wheeler/carbon brush for starter/RP568 Hero Honda Cbz Xtreme Hunk Achiever Impulse Stunner n m sm 15 Unicorn cbr 150cc Gs 150 r.webp",
+      "thumbnail": "/2 wheeler/carbon brush for starter/RP568 Hero Honda Cbz Xtreme Hunk Achiever Impulse Stunner n m sm 15 Unicorn cbr 150cc Gs 150 r.webp"
     },
     {
       "partNumber": "RP569",
@@ -6993,8 +6993,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush for Starter",
       "vehicle": "HERO HONDA PASSION PRO/CD DELUXE/SPLENDOR PRO/SPLENDOR NXG/PASSION X-PRO/KINETIC HONDA/MARVEL/KINETIC ZOOM/MAHINDRA CENTURO/ PANTERO/KINE/DREAM YUGA/DREAM NEO",
       "description": "HERO HONDA PASSION PRO/CD DELUXE/SPLENDOR PRO/SPLENDOR NXG/PASSION X-PRO/KINETIC HONDA/MARVEL/KINETIC ZOOM/MAHINDRA CENTURO/ PANTERO/KINE/DREAM YUGA/DREAM NEO",
-      "image": "/2 wheeler/carbon brush for starter/RP569 Hero Honda Passion pro cd deluxe Splendor pro nxg Passion x pro Kinetic Honda Marvel Mahindra Centuro Pantero Kine Dream Yuga Draem neo.png",
-      "thumbnail": "/2 wheeler/carbon brush for starter/RP569 Hero Honda Passion pro cd deluxe Splendor pro nxg Passion x pro Kinetic Honda Marvel Mahindra Centuro Pantero Kine Dream Yuga Draem neo.png"
+      "image": "/2 wheeler/carbon brush for starter/RP569 Hero Honda Passion pro cd deluxe Splendor pro nxg Passion x pro Kinetic Honda Marvel Mahindra Centuro Pantero Kine Dream Yuga Draem neo.webp",
+      "thumbnail": "/2 wheeler/carbon brush for starter/RP569 Hero Honda Passion pro cd deluxe Splendor pro nxg Passion x pro Kinetic Honda Marvel Mahindra Centuro Pantero Kine Dream Yuga Draem neo.webp"
     },
     {
       "partNumber": "RP570",
@@ -7002,8 +7002,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush for Starter",
       "vehicle": "AGI, (O/M TYPE)PULSAR 150CC (SET OF 2)/NOVA- 115/MAHINDRA RODEO O/M/DURO, O/M/FLYTE O/M/FREEDOM/",
       "description": "AGI, (O/M TYPE)PULSAR 150CC (SET OF 2)/NOVA- 115/MAHINDRA RODEO O/M/DURO, O/M/FLYTE O/M/FREEDOM/",
-      "image": "/2 wheeler/carbon brush for starter/RP570 Agl om type pulsar 150cc set of two nova 115 mahindra radeo o m duro o m flyte o m freedom.png",
-      "thumbnail": "/2 wheeler/carbon brush for starter/RP570 Agl om type pulsar 150cc set of two nova 115 mahindra radeo o m duro o m flyte o m freedom.png"
+      "image": "/2 wheeler/carbon brush for starter/RP570 Agl om type pulsar 150cc set of two nova 115 mahindra radeo o m duro o m flyte o m freedom.webp",
+      "thumbnail": "/2 wheeler/carbon brush for starter/RP570 Agl om type pulsar 150cc set of two nova 115 mahindra radeo o m duro o m flyte o m freedom.webp"
     },
     {
       "partNumber": "RP571",
@@ -7011,8 +7011,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush for Starter",
       "vehicle": "MAHINDRA RODEO N/M /DURO N/M/FLYTE N/M",
       "description": "MAHINDRA RODEO N/M /DURO N/M/FLYTE N/M",
-      "image": "/2 wheeler/carbon brush for starter/RP571 Mahindra radeo n m Duro n m Flyte n m.png",
-      "thumbnail": "/2 wheeler/carbon brush for starter/RP571 Mahindra radeo n m Duro n m Flyte n m.png"
+      "image": "/2 wheeler/carbon brush for starter/RP571 Mahindra radeo n m Duro n m Flyte n m.webp",
+      "thumbnail": "/2 wheeler/carbon brush for starter/RP571 Mahindra radeo n m Duro n m Flyte n m.webp"
     },
     {
       "partNumber": "RP572",
@@ -7020,8 +7020,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush for Starter",
       "vehicle": "VARROC,PULSAR O/M(SET OF 4)ROYAL ENFIELD-350 TWINSPARK/ELECTRA TWIN SPARK/ BULLET CLASSIC 350/THUNDERBIRD 350",
       "description": "VARROC,PULSAR O/M(SET OF 4)ROYAL ENFIELD-350 TWINSPARK/ELECTRA TWIN SPARK/ BULLET CLASSIC 350/THUNDERBIRD 350",
-      "image": "/2 wheeler/carbon brush for starter/RP572 Varroc Pulsar o m set of 4 Royal enfield 350 twinspark Electra Bullet classic 350 thunderbird 350.png",
-      "thumbnail": "/2 wheeler/carbon brush for starter/RP572 Varroc Pulsar o m set of 4 Royal enfield 350 twinspark Electra Bullet classic 350 thunderbird 350.png"
+      "image": "/2 wheeler/carbon brush for starter/RP572 Varroc Pulsar o m set of 4 Royal enfield 350 twinspark Electra Bullet classic 350 thunderbird 350.webp",
+      "thumbnail": "/2 wheeler/carbon brush for starter/RP572 Varroc Pulsar o m set of 4 Royal enfield 350 twinspark Electra Bullet classic 350 thunderbird 350.webp"
     },
     {
       "partNumber": "RP573",
@@ -7029,8 +7029,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush for Starter",
       "vehicle": "VARROC, PULSAR 150/180 UG2(SET OF 2) DISCOVER 125 O/M/DISCOVER 135 N/M DTSI/AVENGER 180",
       "description": "VARROC, PULSAR 150/180 UG2(SET OF 2) DISCOVER 125 O/M/DISCOVER 135 N/M DTSI/AVENGER 180",
-      "image": "/2 wheeler/carbon brush for starter/RP573 Varroc Pulsar 150 180 ug2 set of two Discover 125 o m Discover 135 n m dtsl Avenger 180.png",
-      "thumbnail": "/2 wheeler/carbon brush for starter/RP573 Varroc Pulsar 150 180 ug2 set of two Discover 125 o m Discover 135 n m dtsl Avenger 180.png"
+      "image": "/2 wheeler/carbon brush for starter/RP573 Varroc Pulsar 150 180 ug2 set of two Discover 125 o m Discover 135 n m dtsl Avenger 180.webp",
+      "thumbnail": "/2 wheeler/carbon brush for starter/RP573 Varroc Pulsar 150 180 ug2 set of two Discover 125 o m Discover 135 n m dtsl Avenger 180.webp"
     },
     {
       "partNumber": "RP574",
@@ -7038,8 +7038,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Carbon Brush for Starter",
       "vehicle": "VARROC,PULSAR LATEST(PULSAR 150/180 UG3/PULSAR 150 UG4.5/180 UG4(SET OF 2)/PULSAR 135 N/M/DISCOVER 100 N/M/DISCOVER 125/DISCOVER 150 N/M",
       "description": "VARROC,PULSAR LATEST(PULSAR 150/180 UG3/PULSAR 150 UG4.5/180 UG4(SET OF 2)/PULSAR 135 N/M/DISCOVER 100 N/M/DISCOVER 125/DISCOVER 150 N/M",
-      "image": "/2 wheeler/carbon brush for starter/RP574 Varroc Pulsar Latest Pulsar 150 180 ug3 Pulsar 150 ug5 Pulsar 135 n m Discover 100 n m Discover 125 Discover 150 n m.png",
-      "thumbnail": "/2 wheeler/carbon brush for starter/RP574 Varroc Pulsar Latest Pulsar 150 180 ug3 Pulsar 150 ug5 Pulsar 135 n m Discover 100 n m Discover 125 Discover 150 n m.png"
+      "image": "/2 wheeler/carbon brush for starter/RP574 Varroc Pulsar Latest Pulsar 150 180 ug3 Pulsar 150 ug5 Pulsar 135 n m Discover 100 n m Discover 125 Discover 150 n m.webp",
+      "thumbnail": "/2 wheeler/carbon brush for starter/RP574 Varroc Pulsar Latest Pulsar 150 180 ug3 Pulsar 150 ug5 Pulsar 135 n m Discover 100 n m Discover 125 Discover 150 n m.webp"
     },
     {
       "partNumber": "RP575",
@@ -7184,8 +7184,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Plug Cap",
       "vehicle": "HERO HONDA CD-100/SPLENDOR/PASSION/CD DAWN",
       "description": "HERO HONDA CD-100/SPLENDOR/PASSION/CD DAWN",
-      "image": "/2 wheeler/plug cap/RP588 Hero Honda cd 100 splendor passion cd dawn.png",
-      "thumbnail": "/2 wheeler/plug cap/RP588 Hero Honda cd 100 splendor passion cd dawn.png"
+      "image": "/2 wheeler/plug cap/RP588 Hero Honda cd 100 splendor passion cd dawn.webp",
+      "thumbnail": "/2 wheeler/plug cap/RP588 Hero Honda cd 100 splendor passion cd dawn.webp"
     },
     {
       "partNumber": "RP590",
@@ -7202,8 +7202,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Plug Cap",
       "vehicle": "HERO HONDA HUNK/CBZ X-TREME/IMPULSE (RED)",
       "description": "HERO HONDA HUNK/CBZ X-TREME/IMPULSE (RED)",
-      "image": "/2 wheeler/plug cap/RP591 Hero Honda hunk cbz x treme imulse red.png",
-      "thumbnail": "/2 wheeler/plug cap/RP591 Hero Honda hunk cbz x treme imulse red.png"
+      "image": "/2 wheeler/plug cap/RP591 Hero Honda hunk cbz x treme imulse red.webp",
+      "thumbnail": "/2 wheeler/plug cap/RP591 Hero Honda hunk cbz x treme imulse red.webp"
     },
     {
       "partNumber": "RP592",
@@ -7211,8 +7211,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Plug Cap",
       "vehicle": "HERO HONDA SUPER SPLENDOR-ASFS/CB-UNICORN (BLACK)",
       "description": "HERO HONDA SUPER SPLENDOR-ASFS/CB-UNICORN (BLACK)",
-      "image": "/2 wheeler/plug cap/RP592 Hero Honda super splendor asfs cb unicorn black.png",
-      "thumbnail": "/2 wheeler/plug cap/RP592 Hero Honda super splendor asfs cb unicorn black.png"
+      "image": "/2 wheeler/plug cap/RP592 Hero Honda super splendor asfs cb unicorn black.webp",
+      "thumbnail": "/2 wheeler/plug cap/RP592 Hero Honda super splendor asfs cb unicorn black.webp"
     },
     {
       "partNumber": "RP593",
@@ -7220,8 +7220,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Plug Cap",
       "vehicle": "HERO HONDA GLAMOUR/CD DELUXE/KARIZMA/ACHIEVER/SUPER SPLENDOR O/M",
       "description": "HERO HONDA GLAMOUR/CD DELUXE/KARIZMA/ACHIEVER/SUPER SPLENDOR O/M",
-      "image": "/2 wheeler/plug cap/RP593 Hero Honda glamour cd deluxe karizma achiever super splendor o m.png",
-      "thumbnail": "/2 wheeler/plug cap/RP593 Hero Honda glamour cd deluxe karizma achiever super splendor o m.png"
+      "image": "/2 wheeler/plug cap/RP593 Hero Honda glamour cd deluxe karizma achiever super splendor o m.webp",
+      "thumbnail": "/2 wheeler/plug cap/RP593 Hero Honda glamour cd deluxe karizma achiever super splendor o m.webp"
     },
     {
       "partNumber": "RP594",
@@ -7229,8 +7229,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Plug Cap",
       "vehicle": "HERO HONDA PASSION PRO",
       "description": "HERO HONDA PASSION PRO",
-      "image": "/2 wheeler/plug cap/RP594 Hero Honda passion pro.png",
-      "thumbnail": "/2 wheeler/plug cap/RP594 Hero Honda passion pro.png"
+      "image": "/2 wheeler/plug cap/RP594 Hero Honda passion pro.webp",
+      "thumbnail": "/2 wheeler/plug cap/RP594 Hero Honda passion pro.webp"
     },
     {
       "partNumber": "RP595",
@@ -7238,8 +7238,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Plug Cap",
       "vehicle": "HONDA SHINE/STUNNER/TWISTER/ETERNO/UNICORN",
       "description": "HONDA SHINE/STUNNER/TWISTER/ETERNO/UNICORN",
-      "image": "/2 wheeler/plug cap/RP595 Hero shine stunner twister eterno unicorn.png",
-      "thumbnail": "/2 wheeler/plug cap/RP595 Hero shine stunner twister eterno unicorn.png"
+      "image": "/2 wheeler/plug cap/RP595 Hero shine stunner twister eterno unicorn.webp",
+      "thumbnail": "/2 wheeler/plug cap/RP595 Hero shine stunner twister eterno unicorn.webp"
     },
     {
       "partNumber": "RP596",
@@ -7247,8 +7247,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Plug Cap",
       "vehicle": "HONDA UNICORN/CB 150CC",
       "description": "HONDA UNICORN/CB 150CC",
-      "image": "/2 wheeler/plug cap/RP596 Honda unicorn cb 150cc.png",
-      "thumbnail": "/2 wheeler/plug cap/RP596 Honda unicorn cb 150cc.png"
+      "image": "/2 wheeler/plug cap/RP596 Honda unicorn cb 150cc.webp",
+      "thumbnail": "/2 wheeler/plug cap/RP596 Honda unicorn cb 150cc.webp"
     },
     {
       "partNumber": "RP597",
@@ -7256,8 +7256,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Plug Cap",
       "vehicle": "HONDA ACTIVA/AVIATOR/PLEASURE",
       "description": "HONDA ACTIVA/AVIATOR/PLEASURE",
-      "image": "/2 wheeler/plug cap/RP597 Honda Activa aviator pleasure.png",
-      "thumbnail": "/2 wheeler/plug cap/RP597 Honda Activa aviator pleasure.png"
+      "image": "/2 wheeler/plug cap/RP597 Honda Activa aviator pleasure.webp",
+      "thumbnail": "/2 wheeler/plug cap/RP597 Honda Activa aviator pleasure.webp"
     },
     {
       "partNumber": "RP598",
@@ -7274,8 +7274,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Plug Cap",
       "vehicle": "BAJAJ KB-4S/BOXER/CALIBER/3W CNG O/M",
       "description": "BAJAJ KB-4S/BOXER/CALIBER/3W CNG O/M",
-      "image": "/2 wheeler/plug cap/RP599 Bajaj kb 4s boxer caliber 3w cng o m.png",
-      "thumbnail": "/2 wheeler/plug cap/RP599 Bajaj kb 4s boxer caliber 3w cng o m.png"
+      "image": "/2 wheeler/plug cap/RP599 Bajaj kb 4s boxer caliber 3w cng o m.webp",
+      "thumbnail": "/2 wheeler/plug cap/RP599 Bajaj kb 4s boxer caliber 3w cng o m.webp"
     },
     {
       "partNumber": "RP600",
@@ -7283,8 +7283,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Plug Cap",
       "vehicle": "BAJAJ PLATINA/CT-100/XCD-125/CALIBER-115",
       "description": "BAJAJ PLATINA/CT-100/XCD-125/CALIBER-115",
-      "image": "/2 wheeler/plug cap/RP600 Bajaj platina ct 100 xcd 125 caliber 115.png",
-      "thumbnail": "/2 wheeler/plug cap/RP600 Bajaj platina ct 100 xcd 125 caliber 115.png"
+      "image": "/2 wheeler/plug cap/RP600 Bajaj platina ct 100 xcd 125 caliber 115.webp",
+      "thumbnail": "/2 wheeler/plug cap/RP600 Bajaj platina ct 100 xcd 125 caliber 115.webp"
     },
     {
       "partNumber": "RP601",
@@ -7292,8 +7292,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Plug Cap",
       "vehicle": "BAJAJ PULSAR-DTSI/DISCOVER-DTSI/AVENGER-DTSI",
       "description": "BAJAJ PULSAR-DTSI/DISCOVER-DTSI/AVENGER-DTSI",
-      "image": "/2 wheeler/plug cap/RP601 Bajaj pulsar dtsi discover dtsi avenger dtsi.png",
-      "thumbnail": "/2 wheeler/plug cap/RP601 Bajaj pulsar dtsi discover dtsi avenger dtsi.png"
+      "image": "/2 wheeler/plug cap/RP601 Bajaj pulsar dtsi discover dtsi avenger dtsi.webp",
+      "thumbnail": "/2 wheeler/plug cap/RP601 Bajaj pulsar dtsi discover dtsi avenger dtsi.webp"
     },
     {
       "partNumber": "RP602",
@@ -7301,8 +7301,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Plug Cap",
       "vehicle": "PULSAR-DTSI/DISCOVER-DTSI/AVENGER-DTSI WITH DUST SEAL",
       "description": "PULSAR-DTSI/DISCOVER-DTSI/AVENGER-DTSI WITH DUST SEAL",
-      "image": "/2 wheeler/plug cap/RP602 Pulsar dtsi discover dtsi avenger dtsi dust seal.png",
-      "thumbnail": "/2 wheeler/plug cap/RP602 Pulsar dtsi discover dtsi avenger dtsi dust seal.png"
+      "image": "/2 wheeler/plug cap/RP602 Pulsar dtsi discover dtsi avenger dtsi dust seal.webp",
+      "thumbnail": "/2 wheeler/plug cap/RP602 Pulsar dtsi discover dtsi avenger dtsi dust seal.webp"
     },
     {
       "partNumber": "RP603",
@@ -7319,8 +7319,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Plug Cap",
       "vehicle": "TVS VICTOR/CENTRA/FIERO/ACCESS-125/SUZUKI HAYATE",
       "description": "TVS VICTOR/CENTRA/FIERO/ACCESS-125/SUZUKI HAYATE",
-      "image": "/2 wheeler/plug cap/RP604 Tvs victor centra fiero access 125 Suzuki hayate.png",
-      "thumbnail": "/2 wheeler/plug cap/RP604 Tvs victor centra fiero access 125 Suzuki hayate.png"
+      "image": "/2 wheeler/plug cap/RP604 Tvs victor centra fiero access 125 Suzuki hayate.webp",
+      "thumbnail": "/2 wheeler/plug cap/RP604 Tvs victor centra fiero access 125 Suzuki hayate.webp"
     },
     {
       "partNumber": "RP605",
@@ -7328,8 +7328,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Plug Cap",
       "vehicle": "TVS STAR/STAR CITY/MAX-100 DLX/XL-SUPER",
       "description": "TVS STAR/STAR CITY/MAX-100 DLX/XL-SUPER",
-      "image": "/2 wheeler/plug cap/RP605 Tvs star city max 100 dlx xl super.png",
-      "thumbnail": "/2 wheeler/plug cap/RP605 Tvs star city max 100 dlx xl super.png"
+      "image": "/2 wheeler/plug cap/RP605 Tvs star city max 100 dlx xl super.webp",
+      "thumbnail": "/2 wheeler/plug cap/RP605 Tvs star city max 100 dlx xl super.webp"
     },
     {
       "partNumber": "RP606",
@@ -7364,8 +7364,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Plug Cap",
       "vehicle": "YAMAHA RX-100/RX-135/CRUX/CRUX-R/LIBERO/YBX",
       "description": "YAMAHA RX-100/RX-135/CRUX/CRUX-R/LIBERO/YBX",
-      "image": "/2 wheeler/plug cap/RP609 Yamaha rx 100 rx 135 crux r libero ybx.png",
-      "thumbnail": "/2 wheeler/plug cap/RP609 Yamaha rx 100 rx 135 crux r libero ybx.png"
+      "image": "/2 wheeler/plug cap/RP609 Yamaha rx 100 rx 135 crux r libero ybx.webp",
+      "thumbnail": "/2 wheeler/plug cap/RP609 Yamaha rx 100 rx 135 crux r libero ybx.webp"
     },
     {
       "partNumber": "RP610",
@@ -7373,8 +7373,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Plug Cap",
       "vehicle": "YAMAHA FZ/FZS/FAZER/YZF R-15/SZR",
       "description": "YAMAHA FZ/FZS/FAZER/YZF R-15/SZR",
-      "image": "/2 wheeler/plug cap/RP610 Yamaha fz fzs fazer yzf r 15 szr.png",
-      "thumbnail": "/2 wheeler/plug cap/RP610 Yamaha fz fzs fazer yzf r 15 szr.png"
+      "image": "/2 wheeler/plug cap/RP610 Yamaha fz fzs fazer yzf r 15 szr.webp",
+      "thumbnail": "/2 wheeler/plug cap/RP610 Yamaha fz fzs fazer yzf r 15 szr.webp"
     },
     {
       "partNumber": "RP611",
@@ -7411,8 +7411,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "DC Horn",
       "vehicle": "DC Horn product",
       "description": "DC Horn product",
-      "image": "/2 wheeler/dc horn product/RP614 Dc Horn For Horn 74mm 12v universal active type.png",
-      "thumbnail": "/2 wheeler/dc horn product/RP614 Dc Horn For Horn 74mm 12v universal active type.png"
+      "image": "/2 wheeler/dc horn product/RP614 Dc Horn For Horn 74mm 12v universal active type.webp",
+      "thumbnail": "/2 wheeler/dc horn product/RP614 Dc Horn For Horn 74mm 12v universal active type.webp"
     },
     {
       "partNumber": "RP614FB",
@@ -7429,8 +7429,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "DC Horn",
       "vehicle": "DC Horn product",
       "description": "DC Horn product",
-      "image": "/2 wheeler/dc horn product/RP614 Dc Horn For Horn 74mm 12v universal active type.png",
-      "thumbnail": "/2 wheeler/dc horn product/RP614 Dc Horn For Horn 74mm 12v universal active type.png"
+      "image": "/2 wheeler/dc horn product/RP614 Dc Horn For Horn 74mm 12v universal active type.webp",
+      "thumbnail": "/2 wheeler/dc horn product/RP614 Dc Horn For Horn 74mm 12v universal active type.webp"
     }
   ],
   "2-wheeler-parts-plug-wire-assembly": [
@@ -7440,8 +7440,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Plug Wire Assembly",
       "vehicle": "HERO HONDA CD-100/ SPLENDOR/PASSION/CBZ/CD DLX",
       "description": "HERO HONDA CD-100/ SPLENDOR/PASSION/CBZ/CD DLX",
-      "image": "/2 wheeler/plug wire assembly/RP616 Hero Honda cd 100 splendor passion cbz cd dlx.png",
-      "thumbnail": "/2 wheeler/plug wire assembly/RP616 Hero Honda cd 100 splendor passion cbz cd dlx.png"
+      "image": "/2 wheeler/plug wire assembly/RP616 Hero Honda cd 100 splendor passion cbz cd dlx.webp",
+      "thumbnail": "/2 wheeler/plug wire assembly/RP616 Hero Honda cd 100 splendor passion cbz cd dlx.webp"
     },
     {
       "partNumber": "RP617",
@@ -7449,8 +7449,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Plug Wire Assembly",
       "vehicle": "HERO HONDA CBZ X-TREME",
       "description": "HERO HONDA CBZ X-TREME",
-      "image": "/2 wheeler/plug wire assembly/RP617 Hero Honda cbz Extreme.png",
-      "thumbnail": "/2 wheeler/plug wire assembly/RP617 Hero Honda cbz Extreme.png"
+      "image": "/2 wheeler/plug wire assembly/RP617 Hero Honda cbz Extreme.webp",
+      "thumbnail": "/2 wheeler/plug wire assembly/RP617 Hero Honda cbz Extreme.webp"
     },
     {
       "partNumber": "RP618",
@@ -7458,8 +7458,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Plug Wire Assembly",
       "vehicle": "HERO HONDA SUPER SPLENDOR/GLAMOUR",
       "description": "HERO HONDA SUPER SPLENDOR/GLAMOUR",
-      "image": "/2 wheeler/plug wire assembly/RP618 Hero Honda Super Splendor Glamour.png",
-      "thumbnail": "/2 wheeler/plug wire assembly/RP618 Hero Honda Super Splendor Glamour.png"
+      "image": "/2 wheeler/plug wire assembly/RP618 Hero Honda Super Splendor Glamour.webp",
+      "thumbnail": "/2 wheeler/plug wire assembly/RP618 Hero Honda Super Splendor Glamour.webp"
     },
     {
       "partNumber": "RP619",
@@ -7467,8 +7467,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Plug Wire Assembly",
       "vehicle": "TVS VICTOR/GL/GX/GLX/CENTRA",
       "description": "TVS VICTOR/GL/GX/GLX/CENTRA",
-      "image": "/2 wheeler/plug wire assembly/RP619 Tvs Victor gl gx glx Centra.png",
-      "thumbnail": "/2 wheeler/plug wire assembly/RP619 Tvs Victor gl gx glx Centra.png"
+      "image": "/2 wheeler/plug wire assembly/RP619 Tvs Victor gl gx glx Centra.webp",
+      "thumbnail": "/2 wheeler/plug wire assembly/RP619 Tvs Victor gl gx glx Centra.webp"
     },
     {
       "partNumber": "RP620",
@@ -7494,8 +7494,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Plug Wire Assembly",
       "vehicle": "BAJAJ KB-4S",
       "description": "BAJAJ KB-4S",
-      "image": "/2 wheeler/plug wire assembly/RP622 Plug Wire Assembly fit for Bajaj Kb 4s.png",
-      "thumbnail": "/2 wheeler/plug wire assembly/RP622 Plug Wire Assembly fit for Bajaj Kb 4s.png"
+      "image": "/2 wheeler/plug wire assembly/RP622 Plug Wire Assembly fit for Bajaj Kb 4s.webp",
+      "thumbnail": "/2 wheeler/plug wire assembly/RP622 Plug Wire Assembly fit for Bajaj Kb 4s.webp"
     },
     {
       "partNumber": "RP623",
@@ -7503,8 +7503,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Plug Wire Assembly",
       "vehicle": "BAJAJ CT-100",
       "description": "BAJAJ CT-100",
-      "image": "/2 wheeler/plug wire assembly/RP623 Plug wire For Bajaj ct 100.png",
-      "thumbnail": "/2 wheeler/plug wire assembly/RP623 Plug wire For Bajaj ct 100.png"
+      "image": "/2 wheeler/plug wire assembly/RP623 Plug wire For Bajaj ct 100.webp",
+      "thumbnail": "/2 wheeler/plug wire assembly/RP623 Plug wire For Bajaj ct 100.webp"
     },
     {
       "partNumber": "RP624",
@@ -7521,8 +7521,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Plug Wire Assembly",
       "vehicle": "BAJAJ PULSAR DTSI LEFT",
       "description": "BAJAJ PULSAR DTSI LEFT",
-      "image": "/2 wheeler/plug wire assembly/RP623 Plug wire For Bajaj ct 100.png",
-      "thumbnail": "/2 wheeler/plug wire assembly/RP623 Plug wire For Bajaj ct 100.png"
+      "image": "/2 wheeler/plug wire assembly/RP623 Plug wire For Bajaj ct 100.webp",
+      "thumbnail": "/2 wheeler/plug wire assembly/RP623 Plug wire For Bajaj ct 100.webp"
     },
     {
       "partNumber": "RP626",
@@ -7530,8 +7530,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Plug Wire Assembly",
       "vehicle": "BAJAJ PULSAR DTSI RIGHT",
       "description": "BAJAJ PULSAR DTSI RIGHT",
-      "image": "/2 wheeler/plug wire assembly/RP626 Bajaj Pulsar dtsi right.png",
-      "thumbnail": "/2 wheeler/plug wire assembly/RP626 Bajaj Pulsar dtsi right.png"
+      "image": "/2 wheeler/plug wire assembly/RP626 Bajaj Pulsar dtsi right.webp",
+      "thumbnail": "/2 wheeler/plug wire assembly/RP626 Bajaj Pulsar dtsi right.webp"
     },
     {
       "partNumber": "RP627",
@@ -7539,8 +7539,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Plug Wire Assembly",
       "vehicle": "BAJAJ CHETAK CLASSIC SL/99",
       "description": "BAJAJ CHETAK CLASSIC SL/99",
-      "image": "/2 wheeler/plug wire assembly/RP627 Bajaj Chetak Classic sl 99.png",
-      "thumbnail": "/2 wheeler/plug wire assembly/RP627 Bajaj Chetak Classic sl 99.png"
+      "image": "/2 wheeler/plug wire assembly/RP627 Bajaj Chetak Classic sl 99.webp",
+      "thumbnail": "/2 wheeler/plug wire assembly/RP627 Bajaj Chetak Classic sl 99.webp"
     },
     {
       "partNumber": "RP628",
@@ -7548,8 +7548,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Plug Wire Assembly",
       "vehicle": "BAJAJ CHETAK 12V / VESPA ALL MODEL",
       "description": "BAJAJ CHETAK 12V / VESPA ALL MODEL",
-      "image": "/2 wheeler/plug wire assembly/RP628 Bajaj Chetak 12 v Vespa all model.png",
-      "thumbnail": "/2 wheeler/plug wire assembly/RP628 Bajaj Chetak 12 v Vespa all model.png"
+      "image": "/2 wheeler/plug wire assembly/RP628 Bajaj Chetak 12 v Vespa all model.webp",
+      "thumbnail": "/2 wheeler/plug wire assembly/RP628 Bajaj Chetak 12 v Vespa all model.webp"
     },
     {
       "partNumber": "RP629",
@@ -7557,8 +7557,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Plug Wire Assembly",
       "vehicle": "HONDA UNICORN",
       "description": "HONDA UNICORN",
-      "image": "/2 wheeler/plug wire assembly/RP629 Plug Wire Assembly fit for Hnd Unicorn.png",
-      "thumbnail": "/2 wheeler/plug wire assembly/RP629 Plug Wire Assembly fit for Hnd Unicorn.png"
+      "image": "/2 wheeler/plug wire assembly/RP629 Plug Wire Assembly fit for Hnd Unicorn.webp",
+      "thumbnail": "/2 wheeler/plug wire assembly/RP629 Plug Wire Assembly fit for Hnd Unicorn.webp"
     },
     {
       "partNumber": "RP630",
@@ -7566,8 +7566,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Plug Wire Assembly",
       "vehicle": "HONDA ACTIVA O/M",
       "description": "HONDA ACTIVA O/M",
-      "image": "/2 wheeler/plug wire assembly/RP630 Plug Wire Assembly fit for Hnd Activa Old Model.png",
-      "thumbnail": "/2 wheeler/plug wire assembly/RP630 Plug Wire Assembly fit for Hnd Activa Old Model.png"
+      "image": "/2 wheeler/plug wire assembly/RP630 Plug Wire Assembly fit for Hnd Activa Old Model.webp",
+      "thumbnail": "/2 wheeler/plug wire assembly/RP630 Plug Wire Assembly fit for Hnd Activa Old Model.webp"
     },
     {
       "partNumber": "RP631",
@@ -7584,8 +7584,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Plug Wire Assembly",
       "vehicle": "HONDA ACTIVA N/M",
       "description": "HONDA ACTIVA N/M",
-      "image": "/2 wheeler/plug wire assembly/RP632 Honda Activa n m.png",
-      "thumbnail": "/2 wheeler/plug wire assembly/RP632 Honda Activa n m.png"
+      "image": "/2 wheeler/plug wire assembly/RP632 Honda Activa n m.webp",
+      "thumbnail": "/2 wheeler/plug wire assembly/RP632 Honda Activa n m.webp"
     },
     {
       "partNumber": "RP633",
@@ -7613,8 +7613,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Front Stop Switch",
       "vehicle": "HERO HONDA SPLENDOR /PASSION/SUPER SPLENDOR/NXGKS/SHINE KS/HERO PLEASURE/ HONDA AVIATOR(2006 TO 2012 MODEL)/HONDA AVIATOR HET",
       "description": "HERO HONDA SPLENDOR /PASSION/SUPER SPLENDOR/NXGKS/SHINE KS/HERO PLEASURE/ HONDA AVIATOR(2006 TO 2012 MODEL)/HONDA AVIATOR HET",
-      "image": "/2 wheeler/front stop switch/RP635 Hero Honda Splendor Passion Super Splendor nxg ks Shine ks Hero Pleasure Honda Aviator Het.png",
-      "thumbnail": "/2 wheeler/front stop switch/RP635 Hero Honda Splendor Passion Super Splendor nxg ks Shine ks Hero Pleasure Honda Aviator Het.png"
+      "image": "/2 wheeler/front stop switch/RP635 Hero Honda Splendor Passion Super Splendor nxg ks Shine ks Hero Pleasure Honda Aviator Het.webp",
+      "thumbnail": "/2 wheeler/front stop switch/RP635 Hero Honda Splendor Passion Super Splendor nxg ks Shine ks Hero Pleasure Honda Aviator Het.webp"
     },
     {
       "partNumber": "RP636",
@@ -7622,8 +7622,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Front Stop Switch",
       "vehicle": "HERO HONDA GLAMOUR/HONDA UNICORN/ HONDA SHINE/HONDA STUNNER/HUNK/KARIZMA/CBZ X- TREME/ PASSION X-PRO",
       "description": "HERO HONDA GLAMOUR/HONDA UNICORN/ HONDA SHINE/HONDA STUNNER/HUNK/KARIZMA/CBZ X- TREME/ PASSION X-PRO",
-      "image": "/2 wheeler/front stop switch/RP636 Hero Honda Glamour Honda Unicorn Honda Shine Honda Stunner Hunk Karizma cbz xtreme Passion x pro.png",
-      "thumbnail": "/2 wheeler/front stop switch/RP636 Hero Honda Glamour Honda Unicorn Honda Shine Honda Stunner Hunk Karizma cbz xtreme Passion x pro.png"
+      "image": "/2 wheeler/front stop switch/RP636 Hero Honda Glamour Honda Unicorn Honda Shine Honda Stunner Hunk Karizma cbz xtreme Passion x pro.webp",
+      "thumbnail": "/2 wheeler/front stop switch/RP636 Hero Honda Glamour Honda Unicorn Honda Shine Honda Stunner Hunk Karizma cbz xtreme Passion x pro.webp"
     },
     {
       "partNumber": "RP637",
@@ -7649,8 +7649,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Front Stop Switch",
       "vehicle": "HONDA ACTIVA (LH) HONDA ETERNO",
       "description": "HONDA ACTIVA (LH) HONDA ETERNO",
-      "image": "/2 wheeler/front stop switch/RP638 Honda Activa lh Honda eterno.png",
-      "thumbnail": "/2 wheeler/front stop switch/RP638 Honda Activa lh Honda eterno.png"
+      "image": "/2 wheeler/front stop switch/RP638 Honda Activa lh Honda eterno.webp",
+      "thumbnail": "/2 wheeler/front stop switch/RP638 Honda Activa lh Honda eterno.webp"
     },
     {
       "partNumber": "RP639",
@@ -7741,8 +7741,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Rear Stop Switch",
       "vehicle": "HERO HONDA CD-100 / SLEEK / SS",
       "description": "HERO HONDA CD-100 / SLEEK / SS",
-      "image": "/2 wheeler/rear stop switch/RP648 Hero Honda Cd 100 Sleek ss.png",
-      "thumbnail": "/2 wheeler/rear stop switch/RP648 Hero Honda Cd 100 Sleek ss.png"
+      "image": "/2 wheeler/rear stop switch/RP648 Hero Honda Cd 100 Sleek ss.webp",
+      "thumbnail": "/2 wheeler/rear stop switch/RP648 Hero Honda Cd 100 Sleek ss.webp"
     },
     {
       "partNumber": "RP649",
@@ -7750,8 +7750,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Rear Stop Switch",
       "vehicle": "HERO HONDA SPLENDOR P-17/ NXG/STREET/PASSION KS",
       "description": "HERO HONDA SPLENDOR P-17/ NXG/STREET/PASSION KS",
-      "image": "/2 wheeler/rear stop switch/RP649 Hero Honda Splendor passion ks.png",
-      "thumbnail": "/2 wheeler/rear stop switch/RP649 Hero Honda Splendor passion ks.png"
+      "image": "/2 wheeler/rear stop switch/RP649 Hero Honda Splendor passion ks.webp",
+      "thumbnail": "/2 wheeler/rear stop switch/RP649 Hero Honda Splendor passion ks.webp"
     },
     {
       "partNumber": "RP650",
@@ -7768,8 +7768,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Rear Stop Switch",
       "vehicle": "HERO HONDA SUPER SPLENDOR/HERO PASSION X-PRO",
       "description": "HERO HONDA SUPER SPLENDOR/HERO PASSION X-PRO",
-      "image": "/2 wheeler/rear stop switch/RP651 Hero Honda Super Splendor Passion x pro.png",
-      "thumbnail": "/2 wheeler/rear stop switch/RP651 Hero Honda Super Splendor Passion x pro.png"
+      "image": "/2 wheeler/rear stop switch/RP651 Hero Honda Super Splendor Passion x pro.webp",
+      "thumbnail": "/2 wheeler/rear stop switch/RP651 Hero Honda Super Splendor Passion x pro.webp"
     },
     {
       "partNumber": "RP652",
@@ -7804,8 +7804,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Rear Stop Switch",
       "vehicle": "HERO HF DLX /HF DLX ECO/CD DLX/SPLENDOR I-SMART ES",
       "description": "HERO HF DLX /HF DLX ECO/CD DLX/SPLENDOR I-SMART ES",
-      "image": "/2 wheeler/rear stop switch/RP655 Hero Heor Hf Dlx Eco Cd Dlx Splendor I Smart Es.png",
-      "thumbnail": "/2 wheeler/rear stop switch/RP655 Hero Heor Hf Dlx Eco Cd Dlx Splendor I Smart Es.png"
+      "image": "/2 wheeler/rear stop switch/RP655 Hero Heor Hf Dlx Eco Cd Dlx Splendor I Smart Es.webp",
+      "thumbnail": "/2 wheeler/rear stop switch/RP655 Hero Heor Hf Dlx Eco Cd Dlx Splendor I Smart Es.webp"
     },
     {
       "partNumber": "RP656",
@@ -7813,8 +7813,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Rear Stop Switch",
       "vehicle": "HERO KARIZMA(2005 TO 2007 M0DEL)KARIZMA-R(2007 TO 2009 MODEL) KARIZMA ZMR(2010 TO 2012 MODEL)KARIZMA- R(2010 TO 2013 MODEL) KARIZMA ZMR (2012 TO 2013 MODEL) CBZ X-TREME NON DIGITAL KS(2006 TO2010 MODEL) CBA X- TREME NON DIGITAL ES(2006 TO 2010 MODEL)CBX X-TREME DIGITAL ES (2011 TO 2012 MODEL)HERO HUNK ES(2007 TO 2008 MODEL)HUNK NON DIGITAL ES(2008 TO 2010 MODEL)HUNK NON DIGITAL ES(2010 TO 2011 MODEL) HUNK DIGITAL ES(2011 TO 2013 MODEL)",
       "description": "HERO KARIZMA(2005 TO 2007 M0DEL)KARIZMA-R(2007 TO 2009 MODEL) KARIZMA ZMR(2010 TO 2012 MODEL)KARIZMA- R(2010 TO 2013 MODEL) KARIZMA ZMR (2012 TO 2013 MODEL) CBZ X-TREME NON DIGITAL KS(2006 TO2010 MODEL) CBA X- TREME NON DIGITAL ES(2006 TO 2010 MODEL)CBX X-TREME DIGITAL ES (2011 TO 2012 MODEL)HERO HUNK ES(2007 TO 2008 MODEL)HUNK NON DIGITAL ES(2008 TO 2010 MODEL)HUNK NON DIGITAL ES(2010 TO 2011 MODEL) HUNK DIGITAL ES(2011 TO 2013 MODEL)",
-      "image": "/2 wheeler/rear stop switch/RP656 Hero Karizma 2005-2007 model Karizma r Cbz xtreme non digital ks cba xtreme digital es hunk non digital es 2010-2011.png",
-      "thumbnail": "/2 wheeler/rear stop switch/RP656 Hero Karizma 2005-2007 model Karizma r Cbz xtreme non digital ks cba xtreme digital es hunk non digital es 2010-2011.png"
+      "image": "/2 wheeler/rear stop switch/RP656 Hero Karizma 2005-2007 model Karizma r Cbz xtreme non digital ks cba xtreme digital es hunk non digital es 2010-2011.webp",
+      "thumbnail": "/2 wheeler/rear stop switch/RP656 Hero Karizma 2005-2007 model Karizma r Cbz xtreme non digital ks cba xtreme digital es hunk non digital es 2010-2011.webp"
     },
     {
       "partNumber": "RP656",
@@ -7849,8 +7849,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Rear Stop Switch",
       "vehicle": "BAJAJ PULSAR 135/PULSAR 150/PULSAR 150 DTSI /PULSAR 150 UG3/PULSAR 150 UG4.5/ PULSAR 180 DTSI /PULSAR 180 UG3/PULSAR 200 NS/PULSAR 220 DTSI /PULSAR 220 DTSI /DISCOVER 100M/DISCOVER 100T/DISCOVER 125M/DISCOVER 125 ST/DISCOVER 125-T/DISCOVER 150 F/DISCOVER 150 S/AVENGER 180/AVENGER 200/AVENGER 220",
       "description": "BAJAJ PULSAR 135/PULSAR 150/PULSAR 150 DTSI /PULSAR 150 UG3/PULSAR 150 UG4.5/ PULSAR 180 DTSI /PULSAR 180 UG3/PULSAR 200 NS/PULSAR 220 DTSI /PULSAR 220 DTSI /DISCOVER 100M/DISCOVER 100T/DISCOVER 125M/DISCOVER 125 ST/DISCOVER 125-T/DISCOVER 150 F/DISCOVER 150 S/AVENGER 180/AVENGER 200/AVENGER 220",
-      "image": "/2 wheeler/rear stop switch/RP659 Bajaj Pulsar 135 150 Pulsar 150 ug3 ug4 ug5 Pulsar 180 Dtsi Pulsar 200 ns Pulsar 220 dtsi Discover 125 Discover 150 Avenger 180 200.png",
-      "thumbnail": "/2 wheeler/rear stop switch/RP659 Bajaj Pulsar 135 150 Pulsar 150 ug3 ug4 ug5 Pulsar 180 Dtsi Pulsar 200 ns Pulsar 220 dtsi Discover 125 Discover 150 Avenger 180 200.png"
+      "image": "/2 wheeler/rear stop switch/RP659 Bajaj Pulsar 135 150 Pulsar 150 ug3 ug4 ug5 Pulsar 180 Dtsi Pulsar 200 ns Pulsar 220 dtsi Discover 125 Discover 150 Avenger 180 200.webp",
+      "thumbnail": "/2 wheeler/rear stop switch/RP659 Bajaj Pulsar 135 150 Pulsar 150 ug3 ug4 ug5 Pulsar 180 Dtsi Pulsar 200 ns Pulsar 220 dtsi Discover 125 Discover 150 Avenger 180 200.webp"
     },
     {
       "partNumber": "RP660",
@@ -8004,8 +8004,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Fuse Wire",
       "vehicle": "BAJAJ PULSAR 150/180 ES/PULSAR 180 DTSI ES/ DISCOVER KS/BAJAJ CT-100 DLX KS(WITH TWO FUSE)",
       "description": "BAJAJ PULSAR 150/180 ES/PULSAR 180 DTSI ES/ DISCOVER KS/BAJAJ CT-100 DLX KS(WITH TWO FUSE)",
-      "image": "/2 wheeler/fuse wire/RP676 Bajaj Pulsar 150.png",
-      "thumbnail": "/2 wheeler/fuse wire/RP676 Bajaj Pulsar 150.png"
+      "image": "/2 wheeler/fuse wire/RP676 Bajaj Pulsar 150.webp",
+      "thumbnail": "/2 wheeler/fuse wire/RP676 Bajaj Pulsar 150.webp"
     },
     {
       "partNumber": "RP677",
@@ -8013,8 +8013,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Fuse Wire",
       "vehicle": "BAJAJ PLATINA KS/BAJAJ CT-100 KS/BAJAJ CT-100 DLX N/M/BAJAJ CALIBER 115 KS/BAJAJ BOXER AR KS/BAJAJ CT DLX KS(WITH TWO FUSE)",
       "description": "BAJAJ PLATINA KS/BAJAJ CT-100 KS/BAJAJ CT-100 DLX N/M/BAJAJ CALIBER 115 KS/BAJAJ BOXER AR KS/BAJAJ CT DLX KS(WITH TWO FUSE)",
-      "image": "/2 wheeler/fuse wire/RP677 Bajaj Platina Ks Bajaj Ct 100 Ks.png",
-      "thumbnail": "/2 wheeler/fuse wire/RP677 Bajaj Platina Ks Bajaj Ct 100 Ks.png"
+      "image": "/2 wheeler/fuse wire/RP677 Bajaj Platina Ks Bajaj Ct 100 Ks.webp",
+      "thumbnail": "/2 wheeler/fuse wire/RP677 Bajaj Platina Ks Bajaj Ct 100 Ks.webp"
     },
     {
       "partNumber": "RP678",
@@ -8031,8 +8031,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Fuse Wire",
       "vehicle": "PULSAR 150 DTSI ES UG-4/PULSAR 180 DTSI ES UG4(WITH TWO FUSE 5 AMP)",
       "description": "PULSAR 150 DTSI ES UG-4/PULSAR 180 DTSI ES UG4(WITH TWO FUSE 5 AMP)",
-      "image": "/2 wheeler/fuse wire/RP679  Pulsar 150 Dtsi Es ug4 pulsar 180 Dtsi.png",
-      "thumbnail": "/2 wheeler/fuse wire/RP679  Pulsar 150 Dtsi Es ug4 pulsar 180 Dtsi.png"
+      "image": "/2 wheeler/fuse wire/RP679  Pulsar 150 Dtsi Es ug4 pulsar 180 Dtsi.webp",
+      "thumbnail": "/2 wheeler/fuse wire/RP679  Pulsar 150 Dtsi Es ug4 pulsar 180 Dtsi.webp"
     },
     {
       "partNumber": "RP680",
@@ -8058,8 +8058,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Fuse Wire",
       "vehicle": "HERO HONDA CD-100(FUSE 7 AMP)",
       "description": "HERO HONDA CD-100(FUSE 7 AMP)",
-      "image": "/2 wheeler/fuse wire/RP682 Hero Honda cd 100 fuse 7 with amp.png",
-      "thumbnail": "/2 wheeler/fuse wire/RP682 Hero Honda cd 100 fuse 7 with amp.png"
+      "image": "/2 wheeler/fuse wire/RP682 Hero Honda cd 100 fuse 7 with amp.webp",
+      "thumbnail": "/2 wheeler/fuse wire/RP682 Hero Honda cd 100 fuse 7 with amp.webp"
     },
     {
       "partNumber": "RP683",
@@ -8067,8 +8067,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Fuse Wire",
       "vehicle": "HERO HONDA SPLENDOR KS/SPL + KS/PASSION KS/PASSION + KS/CD DAWN / CD DELUXE (TWO FUSE 7 AMP)",
       "description": "HERO HONDA SPLENDOR KS/SPL + KS/PASSION KS/PASSION + KS/CD DAWN / CD DELUXE (TWO FUSE 7 AMP)",
-      "image": "/2 wheeler/fuse wire/RP683 Hero Honda splendor ks.png",
-      "thumbnail": "/2 wheeler/fuse wire/RP683 Hero Honda splendor ks.png"
+      "image": "/2 wheeler/fuse wire/RP683 Hero Honda splendor ks.webp",
+      "thumbnail": "/2 wheeler/fuse wire/RP683 Hero Honda splendor ks.webp"
     },
     {
       "partNumber": "RP684",
@@ -8351,8 +8351,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "BAJAJ 3W RE (WHITE) / CHETAK 99",
       "description": "BAJAJ 3W RE (WHITE) / CHETAK 99",
-      "image": "/2 wheeler/pickup coil/RP188%20Bajaj%2099%203w%20Rear%20Engine%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP188%20Bajaj%2099%203w%20Rear%20Engine%20.png"
+      "image": "/2 wheeler/pickup coil/RP188%20Bajaj%2099%203w%20Rear%20Engine%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP188%20Bajaj%2099%203w%20Rear%20Engine%20.webp"
     },
     {
       "partNumber": "RP188A",
@@ -8387,8 +8387,8 @@ export const catalogueProductsByCategory: Record<string, CatalogueProduct[]> = {
       "name": "Pick Up Coil (Pulsar)",
       "vehicle": "BAJAJ 3W CNG / LPG COMPACT / MAXIMA BS3 / BS4",
       "description": "BAJAJ 3W CNG / LPG COMPACT / MAXIMA BS3 / BS4",
-      "image": "/2 wheeler/pickup coil/RP188%20Bajaj%2099%203w%20Rear%20Engine%20.png",
-      "thumbnail": "/2 wheeler/pickup coil/RP188%20Bajaj%2099%203w%20Rear%20Engine%20.png"
+      "image": "/2 wheeler/pickup coil/RP188%20Bajaj%2099%203w%20Rear%20Engine%20.webp",
+      "thumbnail": "/2 wheeler/pickup coil/RP188%20Bajaj%2099%203w%20Rear%20Engine%20.webp"
     },
     {
       "partNumber": "RP188CA",

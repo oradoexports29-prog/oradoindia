@@ -1,5 +1,5 @@
 
-import { useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import {
   ArrowRight,
   Bike,
@@ -378,8 +378,10 @@ function ProductsPage() {
 
   const query = normalize(search.trim());
 
-  const matchesSearch = (value: string) =>
-    !query || normalize(value).includes(query);
+  const matchesSearch = useCallback(
+    (value: string) => !query || normalize(value).includes(query),
+    [query]
+  );
 
   // ------------------------------------------------
   // FILTER PRODUCTS
@@ -412,7 +414,7 @@ function ProductsPage() {
           matchesSearch(searchableText)
         );
       }),
-    [query, selectedFamily, selectedCategory]
+    [matchesSearch, selectedFamily, selectedCategory]
   );
 
   // ------------------------------------------------
@@ -493,7 +495,7 @@ function ProductsPage() {
           (!query || !categoryHasProductData)
         );
       }),
-    [catalogue, query, selectedCategory, selectedFamily]
+    [catalogue, matchesSearch, query, selectedCategory, selectedFamily]
   );
 
   // ------------------------------------------------

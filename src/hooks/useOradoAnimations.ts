@@ -44,7 +44,14 @@ export default function useOradoAnimations(routeKey: string) {
       )
     ).filter((card) => !card.querySelector('iframe'));
 
-    sections.forEach((section, index) => {
+    // Keep content already visible in the first viewport immediately visible.
+    // Hiding the hero until IntersectionObserver runs can delay perceived loading
+    // and negatively affect Largest Contentful Paint on slower mobile devices.
+    const animatedSections = sections.filter(
+      (section) => section.getBoundingClientRect().top >= window.innerHeight
+    );
+
+    animatedSections.forEach((section, index) => {
       section.classList.add('orado-reveal');
       section.style.setProperty(
         '--orado-reveal-delay',
@@ -71,14 +78,14 @@ export default function useOradoAnimations(routeKey: string) {
       }
     );
 
-    sections.forEach((section) => {
+    animatedSections.forEach((section) => {
       observer.observe(section);
     });
 
     return () => {
       observer.disconnect();
 
-      sections.forEach((section) => {
+      animatedSections.forEach((section) => {
         section.classList.remove('orado-reveal', 'orado-visible');
         section.style.removeProperty('--orado-reveal-delay');
       });

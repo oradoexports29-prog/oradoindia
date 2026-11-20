@@ -20,8 +20,6 @@ import {
 
   ShieldCheck,
 
-  Wrench,
-
 } from 'lucide-react';
 
 import {
@@ -113,25 +111,29 @@ function encodeImagePath(path: string): string {
    ========================================================= */
 
 function handleImageError(
-
   event: React.SyntheticEvent<HTMLImageElement>
-
 ) {
-
   const image = event.currentTarget;
 
+  // Try the converted WebP file before falling back to the ORADO logo.
+  // This keeps older .png/.jpg references working after bulk conversion.
+  if (image.dataset.webpTried !== 'true') {
+    image.dataset.webpTried = 'true';
+    const webpSrc = image.src.replace(/\.(png|jpe?g)(?=([?#]|$))/i, '.webp');
+
+    if (webpSrc !== image.src) {
+      image.src = webpSrc;
+      return;
+    }
+  }
+
   if (image.dataset.fallbackApplied === 'true') {
-
     image.style.visibility = 'hidden';
-
     return;
-
   }
 
   image.dataset.fallbackApplied = 'true';
-
   image.src = FALLBACK_IMAGE;
-
 }
 
 /* =========================================================
