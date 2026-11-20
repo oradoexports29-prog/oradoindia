@@ -1,4 +1,5 @@
 
+import { useEffect, useRef } from 'react';
 import {
   ArrowRight,
   FileText,
@@ -14,6 +15,12 @@ const heroImageLarge = '/home%20image1.png.1024.webp';
 const heroImageSecondary = '/home%20image2.320.webp';
 
 export default function HeroSection() {
+  const heroImageRef = useRef<HTMLImageElement>(null);
+
+  useEffect(() => {
+    heroImageRef.current?.setAttribute('fetchpriority', 'high');
+  }, []);
+
   return (
     <section
       id="home"
@@ -34,14 +41,9 @@ export default function HeroSection() {
       </div>
 
       <div className="container-max relative px-4 pb-16 pt-8 sm:px-6 sm:pt-10 lg:px-8 lg:pb-16 lg:pt-12">
-
-        {/* Main Hero Layout */}
         <div className="grid min-w-0 items-center gap-8 lg:grid-cols-2 lg:gap-12">
-
           {/* Text Column */}
           <div className="min-w-0 text-white">
-
-            {/* Establishment Badge */}
             <div className="mb-6 inline-flex max-w-full items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1.5 sm:px-4">
               <Zap className="h-3.5 w-3.5 shrink-0 text-brand-yellow" />
 
@@ -50,7 +52,6 @@ export default function HeroSection() {
               </span>
             </div>
 
-            {/* Main Heading */}
             <h1 className="mb-5 text-3xl font-extrabold leading-[1.12] tracking-tight sm:text-4xl md:text-5xl lg:mb-6 lg:text-6xl">
               Precision Electrical
               <br />
@@ -61,7 +62,6 @@ export default function HeroSection() {
               </span>
             </h1>
 
-            {/* Main Description */}
             <p className="mb-4 max-w-xl text-base leading-relaxed text-white/80 sm:text-lg">
               Manufacturer and Exporter of Two-Wheeler and Three-Wheeler Electrical Spare Parts.
             </p>
@@ -93,19 +93,17 @@ export default function HeroSection() {
             </div>
           </div>
 
-          {/* Responsive Hero Image Column */}
+          {/* Responsive Hero Image */}
           <div className="relative mx-auto w-full min-w-0 max-w-2xl lg:mt-0 lg:max-w-none">
-
-            {/* Main Image */}
             <div className="relative overflow-hidden rounded-xl border border-white/10 bg-white shadow-2xl sm:rounded-2xl">
               <img
+                ref={heroImageRef}
                 src={heroImage}
                 srcSet={`${heroImageSmall} 640w, ${heroImageMedium} 768w, ${heroImageLarge} 1024w, ${heroImage} 1280w`}
                 sizes="(max-width: 639px) calc(100vw - 2rem), (max-width: 1023px) calc(100vw - 3rem), 50vw"
                 width={1280}
                 height={853}
                 alt="ORADO automotive electrical components"
-                fetchPriority="high"
                 decoding="async"
                 loading="eager"
                 className="block aspect-[3/2] h-auto max-h-[420px] w-full object-contain lg:aspect-auto lg:h-[420px] lg:object-cover"
@@ -117,7 +115,7 @@ export default function HeroSection() {
               />
             </div>
 
-            {/* Floating Secondary Image */}
+            {/* Secondary Image */}
             <div className="absolute -bottom-5 left-3 hidden w-32 overflow-hidden rounded-xl border-4 border-navy-900 shadow-2xl sm:block sm:left-5 sm:w-40 lg:-bottom-6 lg:-left-6 lg:w-48">
               <img
                 src={heroImageSecondary}
@@ -130,7 +128,7 @@ export default function HeroSection() {
               />
             </div>
 
-            {/* Floating Experience Badge */}
+            {/* Experience Badge */}
             <div className="absolute -right-2 -top-3 rounded-lg bg-brand-yellow px-3 py-2 text-navy-900 shadow-xl sm:-right-3 sm:-top-4 sm:px-4 sm:py-3">
               <div className="text-xl font-extrabold leading-none sm:text-2xl">
                 30+

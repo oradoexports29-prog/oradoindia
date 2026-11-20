@@ -1,4 +1,3 @@
-
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { ArrowLeft, ArrowRight, ArrowUpRight } from 'lucide-react';
 import { NavSubItem } from '@/data/navigation';
@@ -11,21 +10,35 @@ interface CategoryCarouselProps {
 }
 
 function getResponsiveImageProps(src: string) {
-  if (!src.includes('images.pexels.com')) {
-    return { src };
+  // Pexels images: request appropriately sized versions from the image CDN.
+  if (src.includes('images.pexels.com')) {
+    const makeUrl = (width: number) => {
+      const url = new URL(src);
+      url.searchParams.set('w', String(width));
+      url.searchParams.set('h', String(Math.round(width * 0.6)));
+      url.searchParams.set('auto', 'compress');
+      return url.toString();
+    };
+
+    return {
+      src: makeUrl(640),
+      srcSet: `${makeUrl(480)} 480w, ${makeUrl(640)} 640w`,
+    };
   }
 
-  const makeUrl = (width: number) => {
-    const url = new URL(src);
-    url.searchParams.set('w', String(width));
-    url.searchParams.set('h', String(Math.round(width * 0.6)));
-    return url.toString();
-  };
+  // Local ORADO WebP images: use generated 480px and 720px variants.
+  // Keep the original file as the fallback for browsers that ignore srcSet.
+  if (src.startsWith('/2 wheeler/') && src.toLowerCase().endsWith('.webp')) {
+    const encodedPath = (path: string) => path.replace(/ /g, '%20');
+    const basePath = src.slice(0, -5);
 
-  return {
-    src: makeUrl(640),
-    srcSet: `${makeUrl(480)} 480w, ${makeUrl(640)} 640w`,
-  };
+    return {
+      src,
+      srcSet: `${encodedPath(`${basePath}-480w.webp`)} 480w, ${encodedPath(`${basePath}-720w.webp`)} 720w`,
+    };
+  }
+
+  return { src };
 }
 
 function chunkArray<T>(arr: T[], size: number): T[][] {
