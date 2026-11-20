@@ -10,7 +10,10 @@ interface CategoryCarouselProps {
 }
 
 function getResponsiveImageProps(src: string) {
-  // Pexels images: request appropriately sized versions from the image CDN.
+  // Keep homepage image URLs aligned with files that remain in public/.
+  // Do not request generated -480w/-720w files: those variants may have
+  // been removed during Public-folder cleanup. The original image is the
+  // reliable fallback and prevents broken category cards.
   if (src.includes('images.pexels.com')) {
     const makeUrl = (width: number) => {
       const url = new URL(src);
@@ -26,18 +29,8 @@ function getResponsiveImageProps(src: string) {
     };
   }
 
-  // Local ORADO WebP images: use generated 480px and 720px variants.
-  // Keep the original file as the fallback for browsers that ignore srcSet.
-  if (src.startsWith('/2 wheeler/') && src.toLowerCase().endsWith('.webp')) {
-    const encodedPath = (path: string) => path.replace(/ /g, '%20');
-    const basePath = src.slice(0, -5);
-
-    return {
-      src,
-      srcSet: `${encodedPath(`${basePath}-480w.webp`)} 480w, ${encodedPath(`${basePath}-720w.webp`)} 720w`,
-    };
-  }
-
+  // Local ORADO product images: use the exact original path from productImages.ts.
+  // No srcSet is generated, so the browser never requests deleted thumbnail files.
   return { src };
 }
 
