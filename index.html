@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>ORADO | Automotive Electrical Spare Parts Manufacturer & Exporter</title>
+    <title>ORADO | Automotive Electrical Spare Parts Manufacturer &amp; Exporter</title>
 
     <meta
       name="description"
@@ -20,6 +20,16 @@
     <link
       rel="canonical"
       href="https://oradoindia1.vercel.app/"
+    />
+
+    <!-- Homepage hero image preload -->
+    <link
+      rel="preload"
+      as="image"
+      href="/home%20image1.png.640.webp"
+      imagesrcset="/home%20image1.png.640.webp 640w, /home%20image1.png.webp 1600w"
+      imagesizes="(max-width: 639px) calc(100vw - 2rem), 640px"
+      fetchpriority="high"
     />
 
     <!-- Font connections -->
@@ -56,13 +66,17 @@
     />
 
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://oradoindia1.vercel.app/" />
+    <meta
+      property="og:url"
+      content="https://oradoindia1.vercel.app/"
+    />
 
     <meta name="twitter:card" content="summary" />
   </head>
 
   <body>
     <div id="root"></div>
+
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
